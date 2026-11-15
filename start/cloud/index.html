@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cloud Xolution brief — Xolve</title>
+<meta name="description" content="Tell Xolve about your website, app or cloud problem. Every problem has a xolution.">
+<link rel="icon" href="/favicon.ico" sizes="48x48">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
+<meta name="theme-color" content="#0A0A0A">
+<meta property="og:title" content="Cloud Xolution brief — Xolve">
+<meta property="og:image" content="https://xolve-it.github.io/og-image-1200x630.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/style.css">
+<link rel="stylesheet" href="/css/brief.css">
+</head>
+<body class="brief-page">
+
+<header class="top">
+  <div class="wrap top__inner">
+    <a class="top__logo" href="/" aria-label="Xolve home">
+      <img src="/assets/brand/xolve-wordmark-reversed.svg" alt="Xolve" width="120" height="40">
+    </a>
+    <span class="top__title">Cloud Xolution</span>
+    <a class="top__back" href="/#xolutions">← All xolutions</a>
+  </div>
+</header>
+
+<main class="wrap brief" id="main">
+  <div class="brief__intro">
+    <p class="kicker">Cloud Xolution brief</p>
+    <h1>Tell us the problem. We'll xolve it.</h1>
+    <p class="section__lead">A few minutes is enough. Answer what you know and skip what you don't. Your answers are kept in this browser until you send them.</p>
+  </div>
+
+  <form class="bform" id="cloudForm" novalidate>
+    <!-- 1 -->
+    <fieldset class="bcard">
+      <legend><span class="bcard__n">1</span> About you</legend>
+      <div class="grid2">
+        <label class="field">Your name <b class="req" aria-hidden="true">*</b>
+          <input name="name" autocomplete="name" required>
+        </label>
+        <label class="field">Email <b class="req" aria-hidden="true">*</b>
+          <input name="email" type="email" autocomplete="email" required>
+        </label>
+        <label class="field">Company or project
+          <input name="company" autocomplete="organization">
+        </label>
+        <label class="field">Phone or WhatsApp <span class="opt">optional</span>
+          <input name="phone" type="tel" autocomplete="tel">
+        </label>
+        <label class="field">Country
+          <input name="country" autocomplete="country-name">
+        </label>
+        <label class="field">Website, if you have one
+          <input name="website" type="url" inputmode="url" placeholder="https://">
+        </label>
+      </div>
+    </fieldset>
+
+    <!-- 2 -->
+    <fieldset class="bcard" id="needsSet">
+      <legend><span class="bcard__n">2</span> What do you need? <b class="req" aria-hidden="true">*</b></legend>
+      <p class="help">Pick everything that applies.</p>
+      <div class="chips">
+        <label class="chipbox"><input type="checkbox" name="needs" value="A new website or web hosting"><span>New website or hosting</span></label>
+        <label class="chipbox"><input type="checkbox" name="needs" value="Connect my own domain"><span>Connect my domain</span></label>
+        <label class="chipbox"><input type="checkbox" name="needs" value="Move to the cloud"><span>Move to the cloud</span></label>
+        <label class="chipbox"><input type="checkbox" name="needs" value="An API or backend"><span>API or backend</span></label>
+        <label class="chipbox"><input type="checkbox" name="needs" value="Contact, booking or lead forms"><span>Contact or lead forms</span></label>
+        <label class="chipbox"><input type="checkbox" name="needs" value="Automated deploys (CI/CD)"><span>Automated deploys (CI/CD)</span></label>
+        <label class="chipbox"><input type="checkbox" name="needs" value="Docker / containers"><span>Docker &amp; containers</span></label>
+        <label class="chipbox"><input type="checkbox" name="needs" value="Backup or failover (stay online)"><span>Backup &amp; failover</span></label>
+        <label class="chipbox"><input type="checkbox" name="needs" value="Monitoring and alerts"><span>Monitoring &amp; alerts</span></label>
+        <label class="chipbox"><input type="checkbox" name="needs" value="Lower my cloud bill"><span>Lower my cloud bill</span></label>
+        <label class="chipbox"><input type="checkbox" name="needs" value="Security review"><span>Security review</span></label>
+        <label class="chipbox"><input type="checkbox" name="needs" value="Something else"><span>Something else</span></label>
+      </div>
+    </fieldset>
+
+    <!-- 3 -->
+    <fieldset class="bcard">
+      <legend><span class="bcard__n">3</span> Where are you now?</legend>
+      <p class="help">Where does your website or system run today?</p>
+      <div class="chips">
+        <label class="chipbox"><input type="radio" name="current" value="Nothing set up yet"><span>Nothing yet</span></label>
+        <label class="chipbox"><input type="radio" name="current" value="Website builder or shared hosting"><span>Website builder / shared hosting</span></label>
+        <label class="chipbox"><input type="radio" name="current" value="AWS"><span>AWS</span></label>
+        <label class="chipbox"><input type="radio" name="current" value="Microsoft Azure"><span>Azure</span></label>
+        <label class="chipbox"><input type="radio" name="current" value="Google Cloud"><span>Google Cloud</span></label>
+        <label class="chipbox"><input type="radio" name="current" value="Other or not sure"><span>Other / not sure</span></label>
+      </div>
+      <p class="help help--gap">Do you have a domain name (e.g. yourcompany.com)?</p>
+      <div class="chips">
+        <label class="chipbox"><input type="radio" name="domain" value="Yes"><span>Yes</span></label>
+        <label class="chipbox"><input type="radio" name="domain" value="No, I need one"><span>No, I need one</span></label>
+        <label class="chipbox"><input type="radio" name="domain" value="Not sure"><span>Not sure</span></label>
+      </div>
+      <label class="field field--gap">Anything we should know about your current setup?
+        <textarea name="setup" rows="3" placeholder="Tools you use, who built it, what's not working…"></textarea>
+      </label>
+    </fieldset>
+
+    <!-- 4 -->
+    <fieldset class="bcard">
+      <legend><span class="bcard__n">4</span> The problem</legend>
+      <label class="field">What problem are you trying to solve? <b class="req" aria-hidden="true">*</b>
+        <textarea name="problem" rows="5" required placeholder="e.g. Our site goes down when traffic spikes, and we don't know until customers tell us."></textarea>
+      </label>
+      <label class="field field--gap">What would success look like?
+        <textarea name="success" rows="3" placeholder="e.g. The site stays up, we get an alert if anything breaks, and hosting costs under $20 a month."></textarea>
+      </label>
+    </fieldset>
+
+    <!-- 5 -->
+    <fieldset class="bcard">
+      <legend><span class="bcard__n">5</span> Timing and budget</legend>
+      <div class="grid2">
+        <label class="field">When do you need it?
+          <select name="timeline">
+            <option value="">Choose…</option>
+            <option>As soon as possible</option>
+            <option>Within a month</option>
+            <option>In 1–3 months</option>
+            <option>Flexible</option>
+          </select>
+        </label>
+        <label class="field">Rough budget
+          <select name="budget">
+            <option value="">Choose…</option>
+            <option>Not sure yet</option>
+            <option>Under $500</option>
+            <option>$500 – $2,000</option>
+            <option>$2,000 – $5,000</option>
+            <option>Over $5,000</option>
+          </select>
+          <span class="help">In US dollars or the equivalent in your currency.</span>
+        </label>
+      </div>
+    </fieldset>
+
+    <p class="berror" id="cloudError" role="alert" hidden></p>
+    <div class="bactions">
+      <button class="btn btn--neon" type="submit">Xolve it <span aria-hidden="true">→</span></button>
+      <button class="btn btn--outline" type="button" id="cloudReset">Start again</button>
+      <span class="bsaved" id="cloudSaved" aria-live="polite"></span>
+    </div>
+  </form>
+
+  <!-- shown after a valid submit -->
+  <section class="bdone" id="cloudDone" hidden aria-labelledby="doneTitle" tabindex="-1">
+    <p class="kicker">Brief ready</p>
+    <h2 id="doneTitle">One last step: send it to us.</h2>
+    <p>Your email app should open with the brief filled in, addressed to <a class="link" href="mailto:get.xolutions@gmail.com">get.xolutions@gmail.com</a>. Press send and we'll reply by email. If nothing opened, copy or download the brief and email it to us.</p>
+    <div class="bactions">
+      <a class="btn btn--neon" id="doneMail" href="mailto:get.xolutions@gmail.com">Open email again</a>
+      <button class="btn btn--outline" type="button" id="doneCopy">Copy brief</button>
+      <button class="btn btn--outline" type="button" id="doneDownload">Download (.txt)</button>
+      <button class="btn btn--outline" type="button" id="doneEdit">Edit answers</button>
+    </div>
+    <pre class="bpreview" id="donePreview"></pre>
+  </section>
+</main>
+
+<footer class="foot foot--slim">
+  <div class="wrap foot__base">
+    <span>Xolve · Every problem has a xolution.</span>
+    <a href="mailto:get.xolutions@gmail.com">get.xolutions@gmail.com</a>
+  </div>
+</footer>
+
+<script src="/js/cloud-brief.js"></script>
+</body>
+</html>

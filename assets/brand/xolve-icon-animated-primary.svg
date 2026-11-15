@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="xlv xlv-play" viewBox="10 6 82 86" width="328" height="344" role="img" aria-label="Xolve" style="overflow:hidden"><style>.xlv .xlv-blade,.xlv .xlv-nd,.xlv .xlv-cut,.xlv .xlv-bar,.xlv .xlv-glow{animation-duration:3.2s;animation-fill-mode:both}
+.xlv .xlv-bar,.xlv .xlv-glow{transform-box:fill-box;transform-origin:center}
+.xlv.xlv-play .xlv-blade{animation-name:xlvBlade;animation-timing-function:linear}
+.xlv.xlv-play .xlv-nd{animation-name:xlvNeedle;animation-timing-function:cubic-bezier(.7,0,.25,1)}
+.xlv.xlv-play .xlv-cut{animation-name:xlvCut;animation-timing-function:cubic-bezier(.7,0,.25,1)}
+.xlv.xlv-play .xlv-bar{animation-name:xlvBar;animation-timing-function:cubic-bezier(.33,0,.2,1)}
+.xlv.xlv-play .xlv-glow{animation-name:xlvGlow;animation-timing-function:cubic-bezier(.33,0,.2,1)}
+@keyframes xlvBlade{0%{opacity:0}8%,100%{opacity:1}}
+@keyframes xlvNeedle{0%,8%{transform:translate(-60px,-53px);opacity:0}12%{opacity:1}30%,100%{transform:translate(0,0);opacity:1}}
+@keyframes xlvCut{0%,8%{transform:translate(-60px,-53px)}30%,100%{transform:translate(0,0)}}
+@keyframes xlvBar{0%,30%{fill:#2B2E33;transform:scale(.5,.72)}74%,100%{fill:#00F07A;transform:scale(1,1)}}
+@keyframes xlvGlow{0%,30%{opacity:0;transform:scale(.5,.72)}74%,100%{opacity:.75;transform:scale(1,1)}}
+@media (prefers-reduced-motion:reduce){.xlv.xlv-play *{animation:none}}</style><defs><mask id="xlv-cut" maskUnits="userSpaceOnUse" x="-80" y="-80" width="260" height="260"><rect x="-80" y="-80" width="260" height="260" fill="#fff"/><polygon class="xlv-cut" points="16,12 55.95,35.25 84,72 44.05,48.75" fill="#000" stroke="#000" stroke-width="7" stroke-linejoin="miter"/></mask><filter id="xlv-blur" x="-50%" y="-200%" width="200%" height="500%"><feGaussianBlur stdDeviation="2.6"/></filter></defs><g class="xlv-blade"><polygon points="72,12 86,12 16,72" fill="#0A0A0A" mask="url(#xlv-cut)"/></g><g class="xlv-nd"><polygon points="16,12 55.95,35.25 84,72 44.05,48.75" fill="#0A0A0A"/></g><rect class="xlv-glow" x="32" y="80" width="36" height="6" rx="3" fill="#00F07A" opacity=".75" filter="url(#xlv-blur)"/><rect class="xlv-bar" x="32" y="80" width="36" height="6" rx="3" fill="#00F07A"/></svg>

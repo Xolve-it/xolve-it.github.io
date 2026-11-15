@@ -1,0 +1,760 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Financial Modelling Xolution brief — Xolve</title>
+<meta name="description" content="Tell Xolve what your financial model needs to do. Every problem has a xolution.">
+<link rel="icon" href="/favicon.ico" sizes="48x48">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
+<meta name="theme-color" content="#0A0A0A">
+<meta property="og:title" content="Financial Modelling Xolution brief — Xolve">
+<meta property="og:image" content="https://xolve-it.github.io/og-image-1200x630.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+<!--
+  SETTINGS: edit these values, nothing else needs changing.
+  endpoint      URL that receives submissions (Formspree, Make, Zapier, Google Apps Script or your own server).
+                Leave empty and clients download their answers instead.
+  submitFormat  "multipart" sends answers and uploaded files; "json" sends answers only (file names listed).
+  brandName     Your business name, shown in the header and on buttons.
+  brandColor    Your main colour (buttons, progress).
+  contactEmail  Shown to clients for questions, and if sending fails.
+-->
+<script>
+window.FMI_CONFIG = {
+  endpoint: "",
+  submitFormat: "multipart",
+  brandName: "Xolve",
+  brandColor: "#0A0A0A",
+  contactEmail: "get.xolutions@gmail.com",
+  successMessage: "We'll review your brief and contact you to arrange a call. Every problem has a xolution.",
+  redirectUrl: "",
+  maxFileMB: 25,
+  storageKey: "fmi-draft-v1"
+};
+</script>
+
+<style>
+#fmi{
+  --fmi-brand:#14604F; --fmi-brand-ink:#FFFFFF;
+  --fmi-ink:#1D2433; --fmi-muted:#5B6472; --fmi-soft:#8A93A0;
+  --fmi-paper:#FFFFFF; --fmi-surface:#F3F5F7; --fmi-rule:#D8DDE4; --fmi-rule-strong:#B9C1CC;
+  --fmi-input:#1B4FD1; --fmi-input-bg:#F6F8FE; --fmi-error:#B42318; --fmi-error-bg:#FEF3F2;
+  --fmi-radius:6px;
+  font-family:"Manrope",system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;
+  color:var(--fmi-ink); background:var(--fmi-surface); font-size:16px; line-height:1.5;
+  -webkit-font-smoothing:antialiased; min-height:100vh;
+}
+#fmi *,#fmi *::before,#fmi *::after{box-sizing:border-box}
+#fmi button,#fmi input,#fmi select,#fmi textarea{font:inherit;color:inherit}
+#fmi :focus-visible{outline:2px solid var(--fmi-input);outline-offset:2px}
+
+/* header */
+#fmi .fmi-top{position:sticky;top:0;z-index:5;background:var(--fmi-paper);border-bottom:1px solid var(--fmi-rule)}
+#fmi .fmi-top-inner{max-width:1180px;margin:0 auto;padding:14px 24px;display:flex;align-items:baseline;gap:16px}
+#fmi .fmi-brand{font-weight:700;font-size:17px;letter-spacing:-.01em}
+#fmi .fmi-formname{color:var(--fmi-muted);font-size:15px}
+#fmi .fmi-saved{margin-left:auto;color:var(--fmi-muted);font-size:13.5px;white-space:nowrap}
+#fmi .fmi-bar{height:3px;background:var(--fmi-rule)}
+#fmi .fmi-bar span{display:block;height:100%;width:0;background:var(--fmi-brand);transition:width .4s ease}
+
+/* Xolve branding: black header with the reversed wordmark, neon progress bar */
+#fmi .fmi-top{background:#0A0A0A;border-bottom:0;color:#FFFFFF}
+#fmi .fmi-top-inner{align-items:center}
+#fmi .fmi-brand{display:inline-flex;line-height:0}
+#fmi .fmi-brand img{height:30px;width:auto}
+#fmi .fmi-formname{color:#C9CDD2;padding-left:16px;border-left:1px solid rgba(255,255,255,.2)}
+#fmi .fmi-saved{color:#A4A9B0}
+#fmi .fmi-home{color:#FFFFFF;font-weight:700;font-size:14.5px;text-decoration:none;white-space:nowrap}
+#fmi .fmi-home:hover{text-decoration:underline;text-decoration-color:#00F07A;text-decoration-thickness:3px;text-underline-offset:6px}
+#fmi .fmi-bar{height:4px;background:#24272C}
+#fmi .fmi-bar span{background:#00F07A}
+#fmi .fmi-btn{border-radius:999px;font-weight:700}
+#fmi .fmi-btn-primary:hover{filter:none;background:#24272C}
+
+/* layout */
+#fmi .fmi-body{max-width:1180px;margin:0 auto;padding:32px 24px 80px;display:grid;grid-template-columns:250px minmax(0,1fr);gap:40px}
+#fmi .fmi-rail{position:sticky;top:84px;align-self:start}
+#fmi .fmi-rail ol{list-style:none;margin:0;padding:0}
+#fmi .fmi-rail button{all:unset;box-sizing:border-box;cursor:pointer;display:grid;grid-template-columns:28px 1fr;gap:10px;align-items:center;width:100%;padding:7px 8px;border-radius:var(--fmi-radius);font-size:14.5px}
+#fmi .fmi-rail button:hover{background:var(--fmi-paper)}
+#fmi .fmi-rail button:focus-visible{outline:2px solid var(--fmi-input)}
+#fmi .fmi-rail .is-current{background:var(--fmi-paper);box-shadow:inset 3px 0 0 var(--fmi-brand);font-weight:600}
+#fmi .fmi-rail .fmi-count{display:block;font-size:12.5px;color:var(--fmi-soft);font-weight:400;font-variant-numeric:tabular-nums}
+#fmi .fmi-col{display:inline-flex;align-items:center;justify-content:center;width:28px;height:24px;border:1px solid var(--fmi-rule-strong);background:var(--fmi-surface);color:var(--fmi-muted);font-size:12.5px;font-weight:600;border-radius:3px;font-variant-numeric:tabular-nums}
+#fmi .is-current .fmi-col{border-color:var(--fmi-brand);color:var(--fmi-brand);background:var(--fmi-paper)}
+#fmi .is-complete .fmi-col{background:var(--fmi-brand);border-color:var(--fmi-brand);color:var(--fmi-brand-ink)}
+#fmi .fmi-mobile-nav{display:none}
+
+/* main */
+#fmi .fmi-main{min-width:0}
+#fmi .fmi-card{background:var(--fmi-paper);border:1px solid var(--fmi-rule);border-radius:10px;padding:36px 40px}
+#fmi .fmi-sechead{display:flex;gap:14px;align-items:flex-start;margin-bottom:6px}
+#fmi .fmi-sechead .fmi-col{width:36px;height:32px;font-size:15px;margin-top:3px;border-color:var(--fmi-brand);color:var(--fmi-brand);background:var(--fmi-paper)}
+#fmi h1,#fmi h2,#fmi h3{margin:0;letter-spacing:-.015em;line-height:1.2}
+#fmi h1{font-size:34px;font-weight:700;max-width:22ch}
+#fmi h2{font-size:26px;font-weight:700}
+#fmi h3{font-size:18px;font-weight:650;margin-top:40px;padding-top:20px;border-top:1px solid var(--fmi-rule)}
+#fmi .fmi-lead{color:var(--fmi-muted);font-size:16.5px;max-width:62ch;margin:6px 0 28px}
+#fmi .fmi-intro p{max-width:62ch}
+#fmi .fmi-notes{margin:24px 0 32px;padding:0;list-style:none;display:grid;gap:10px;max-width:64ch}
+#fmi .fmi-notes li{padding-left:18px;position:relative;color:var(--fmi-ink)}
+#fmi .fmi-notes li::before{content:"";position:absolute;left:0;top:.62em;width:7px;height:7px;background:var(--fmi-input);border-radius:1px}
+#fmi .fmi-sample{display:inline-flex;align-items:center;gap:8px;font-size:14px;color:var(--fmi-muted);margin-top:4px}
+#fmi .fmi-sample b{color:var(--fmi-input);font-weight:600;font-variant-numeric:tabular-nums;padding:1px 8px;background:var(--fmi-input-bg);border:1px solid var(--fmi-rule);border-radius:3px}
+
+/* fields */
+#fmi .fmi-field{margin:0 0 24px;max-width:640px}
+#fmi .fmi-field.is-wide{max-width:none}
+#fmi .fmi-label{display:block;font-weight:600;font-size:15px;margin-bottom:6px}
+#fmi .fmi-req{color:var(--fmi-error);margin-left:3px}
+#fmi .fmi-help{display:block;color:var(--fmi-muted);font-size:13.5px;margin:-2px 0 8px}
+#fmi .fmi-input,#fmi .fmi-select,#fmi .fmi-textarea{width:100%;padding:10px 12px;border:1px solid var(--fmi-rule-strong);border-radius:var(--fmi-radius);background:var(--fmi-paper);color:var(--fmi-input);font-variant-numeric:tabular-nums}
+#fmi .fmi-select{color:var(--fmi-ink)}
+#fmi .fmi-select.has-value{color:var(--fmi-input)}
+#fmi .fmi-textarea{min-height:92px;resize:vertical}
+#fmi .fmi-input::placeholder,#fmi .fmi-textarea::placeholder{color:var(--fmi-soft)}
+#fmi .fmi-input:focus,#fmi .fmi-select:focus,#fmi .fmi-textarea:focus{border-color:var(--fmi-input);outline:none;box-shadow:0 0 0 3px rgba(27,79,209,.15)}
+#fmi .fmi-affix{display:flex;align-items:stretch;max-width:280px}
+#fmi .fmi-affix .fmi-input{border-radius:0 var(--fmi-radius) var(--fmi-radius) 0}
+#fmi .fmi-affix.is-suffix .fmi-input{border-radius:var(--fmi-radius) 0 0 var(--fmi-radius)}
+#fmi .fmi-affix span{display:flex;align-items:center;padding:0 10px;background:var(--fmi-surface);border:1px solid var(--fmi-rule-strong);color:var(--fmi-muted);font-size:13.5px;font-weight:600}
+#fmi .fmi-affix:not(.is-suffix) span{border-right:0;border-radius:var(--fmi-radius) 0 0 var(--fmi-radius)}
+#fmi .fmi-affix.is-suffix span{border-left:0;border-radius:0 var(--fmi-radius) var(--fmi-radius) 0}
+#fmi .fmi-choices{display:grid;gap:8px;border:0;padding:0;margin:0}
+#fmi .fmi-choice{display:flex;gap:10px;align-items:flex-start;padding:10px 12px;border:1px solid var(--fmi-rule);border-radius:var(--fmi-radius);cursor:pointer;background:var(--fmi-paper)}
+#fmi .fmi-choice:hover{border-color:var(--fmi-rule-strong)}
+#fmi .fmi-choice input{margin:3px 0 0;accent-color:var(--fmi-input);width:17px;height:17px;flex:none}
+#fmi .fmi-choice.is-on{border-color:var(--fmi-input);background:var(--fmi-input-bg)}
+#fmi .fmi-choice.is-on span{color:var(--fmi-input);font-weight:500}
+#fmi .fmi-field.has-error .fmi-input,#fmi .fmi-field.has-error .fmi-select,#fmi .fmi-field.has-error .fmi-textarea,#fmi .fmi-field.has-error .fmi-choice{border-color:var(--fmi-error)}
+#fmi .fmi-error{color:var(--fmi-error);font-size:13.5px;margin-top:6px;font-weight:500}
+#fmi .fmi-sub{margin-top:44px;padding-top:22px;border-top:1px solid var(--fmi-rule)}
+#fmi .fmi-sub h3{margin:0;padding:0;border:0}
+#fmi .fmi-sub p{color:var(--fmi-muted);font-size:14.5px;margin:4px 0 0}
+#fmi .fmi-sub + .fmi-field{margin-top:18px}
+
+/* model-style input grid */
+#fmi .fmi-gridwrap{overflow-x:auto;border:1px solid var(--fmi-rule-strong);border-radius:var(--fmi-radius);background:var(--fmi-paper)}
+#fmi table.fmi-grid{border-collapse:collapse;width:100%;min-width:560px;font-size:14px}
+#fmi .fmi-grid th{background:var(--fmi-surface);color:var(--fmi-muted);font-weight:600;text-align:left;vertical-align:bottom;padding:8px 10px;border-bottom:1px solid var(--fmi-rule-strong);border-right:1px solid var(--fmi-rule);font-size:13px;line-height:1.3;min-width:110px}
+#fmi .fmi-grid th.is-num{text-align:right}
+#fmi .fmi-grid th:last-child,#fmi .fmi-grid td:last-child{border-right:0}
+#fmi .fmi-grid td{border-bottom:1px solid var(--fmi-rule);border-right:1px solid var(--fmi-rule);padding:0;height:40px}
+#fmi .fmi-grid tr:last-child td{border-bottom:0}
+#fmi .fmi-grid td.fmi-rowhead{padding:8px 10px;color:var(--fmi-ink);background:#FAFBFC;font-size:13.5px;min-width:210px}
+#fmi .fmi-grid input,#fmi .fmi-grid select{width:100%;height:100%;min-height:40px;border:0;background:transparent;padding:8px 10px;color:var(--fmi-input);font-variant-numeric:tabular-nums;border-radius:0}
+#fmi .fmi-grid input.is-num{text-align:right}
+#fmi .fmi-grid input::placeholder{color:#AAB2BD}
+#fmi .fmi-grid input:focus,#fmi .fmi-grid select:focus{outline:2px solid var(--fmi-input);outline-offset:-2px;background:var(--fmi-input-bg)}
+#fmi .fmi-grid td.fmi-x{width:40px;text-align:center}
+#fmi .fmi-grid td.fmi-x button{all:unset;cursor:pointer;color:var(--fmi-soft);width:32px;height:32px;line-height:32px;border-radius:4px;font-size:18px}
+#fmi .fmi-grid td.fmi-x button:hover{color:var(--fmi-error);background:var(--fmi-error-bg)}
+#fmi .fmi-grid td.fmi-x button:focus-visible{outline:2px solid var(--fmi-input)}
+#fmi .fmi-addrow{margin-top:8px}
+
+/* files */
+#fmi .fmi-drop{display:block;border:1.5px dashed var(--fmi-rule-strong);border-radius:var(--fmi-radius);padding:22px;text-align:center;color:var(--fmi-muted);background:var(--fmi-paper);cursor:pointer}
+#fmi .fmi-drop:hover,#fmi .fmi-drop.is-over{border-color:var(--fmi-input);background:var(--fmi-input-bg)}
+#fmi .fmi-drop input{position:absolute;width:1px;height:1px;opacity:0}
+#fmi .fmi-drop strong{color:var(--fmi-input)}
+#fmi .fmi-files{list-style:none;margin:10px 0 0;padding:0;display:grid;gap:6px}
+#fmi .fmi-files li{display:flex;gap:10px;align-items:center;font-size:14px;padding:6px 10px;border:1px solid var(--fmi-rule);border-radius:var(--fmi-radius);background:var(--fmi-paper)}
+#fmi .fmi-files li span:first-child{flex:1;color:var(--fmi-input);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+#fmi .fmi-files li span.fmi-size{color:var(--fmi-soft);font-variant-numeric:tabular-nums}
+
+/* buttons */
+#fmi .fmi-btn{cursor:pointer;border-radius:var(--fmi-radius);padding:11px 20px;font-weight:600;font-size:15px;border:1px solid transparent;display:inline-flex;align-items:center;gap:8px}
+#fmi .fmi-btn-primary{background:var(--fmi-brand);color:var(--fmi-brand-ink)}
+#fmi .fmi-btn-primary:hover{filter:brightness(1.08)}
+#fmi .fmi-btn-primary[disabled]{opacity:.6;cursor:wait}
+#fmi .fmi-btn-quiet{background:var(--fmi-paper);border-color:var(--fmi-rule-strong);color:var(--fmi-ink)}
+#fmi .fmi-btn-quiet:hover{border-color:var(--fmi-ink)}
+#fmi .fmi-btn-link{background:none;border:0;padding:6px 0;color:var(--fmi-input);font-weight:600}
+#fmi .fmi-nav{display:flex;gap:12px;align-items:center;margin-top:36px;padding-top:24px;border-top:1px solid var(--fmi-rule)}
+#fmi .fmi-nav .fmi-spacer{flex:1}
+#fmi .fmi-nav .fmi-pos{color:var(--fmi-soft);font-size:14px;font-variant-numeric:tabular-nums}
+
+/* messages, review */
+#fmi .fmi-alert{border:1px solid var(--fmi-error);background:var(--fmi-error-bg);color:var(--fmi-error);padding:12px 16px;border-radius:var(--fmi-radius);margin-bottom:24px;font-size:14.5px}
+#fmi .fmi-alert ul{margin:6px 0 0;padding-left:18px}
+#fmi .fmi-alert button{color:var(--fmi-error);text-decoration:underline}
+#fmi .fmi-ok{border:1px solid var(--fmi-rule);background:var(--fmi-surface);padding:14px 16px;border-radius:var(--fmi-radius);margin:18px 0}
+#fmi .fmi-review section{border-top:1px solid var(--fmi-rule);padding:20px 0}
+#fmi .fmi-review header{display:flex;align-items:center;gap:12px;margin-bottom:10px}
+#fmi .fmi-review header h3{margin:0;padding:0;border:0;font-size:17px}
+#fmi .fmi-review header .fmi-btn-link{margin-left:auto;font-size:14px}
+#fmi .fmi-review dl{display:grid;grid-template-columns:minmax(180px,38%) 1fr;gap:6px 20px;margin:0;font-size:14.5px}
+#fmi .fmi-review dt{color:var(--fmi-muted)}
+#fmi .fmi-review dd{margin:0;color:var(--fmi-input);white-space:pre-wrap;overflow-wrap:anywhere}
+#fmi .fmi-review .fmi-empty{color:var(--fmi-soft);font-size:14px}
+#fmi .fmi-review dt.is-table,#fmi .fmi-review dd.is-table{grid-column:1/-1}
+#fmi .fmi-review dd.is-table{overflow-x:auto;overflow-wrap:normal;white-space:normal;margin-bottom:6px}
+#fmi .fmi-review table{border-collapse:collapse;font-size:13px;margin:2px 0;min-width:60%}
+#fmi .fmi-review td,#fmi .fmi-review th{border:1px solid var(--fmi-rule);padding:3px 8px;text-align:left}
+#fmi .fmi-review th{background:var(--fmi-surface);color:var(--fmi-muted);font-weight:600}
+#fmi .fmi-review tbody th{background:#FAFBFC;color:var(--fmi-ink);font-weight:400}
+#fmi .fmi-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}
+#fmi .fmi-ref{font-variant-numeric:tabular-nums;font-weight:700;color:var(--fmi-input)}
+
+@media (max-width:900px){
+  #fmi .fmi-body{grid-template-columns:1fr;padding:16px 12px 64px;gap:16px}
+  #fmi .fmi-rail{display:none}
+  #fmi .fmi-mobile-nav{display:flex;gap:10px;align-items:center}
+  #fmi .fmi-mobile-nav select{flex:1;padding:9px 10px;border:1px solid var(--fmi-rule-strong);border-radius:var(--fmi-radius);background:var(--fmi-paper)}
+  #fmi .fmi-card{padding:24px 18px;border-radius:8px}
+  #fmi h1{font-size:28px}
+  #fmi h2{font-size:22px}
+  #fmi .fmi-top-inner{padding:12px 14px;flex-wrap:wrap;gap:4px 12px}
+  #fmi .fmi-formname{display:none}
+  #fmi .fmi-review dl{grid-template-columns:1fr}
+  #fmi .fmi-review dd{margin-bottom:8px}
+}
+@media (prefers-reduced-motion:reduce){#fmi .fmi-bar span{transition:none}}
+@media print{
+  #fmi{background:#fff}
+  #fmi .fmi-top,#fmi .fmi-rail,#fmi .fmi-mobile-nav,#fmi .fmi-nav,#fmi .fmi-actions,#fmi .fmi-review header button{display:none!important}
+  #fmi .fmi-body{display:block;padding:0}
+  #fmi .fmi-card{border:0;padding:0}
+}
+</style>
+</head>
+<body style="margin:0">
+<div id="fmi" aria-live="polite"></div>
+
+<script type="application/json" id="fmi-schema">
+{"form":"financial-model-intake","version":"1.0","title":"Financial Modelling Xolution","intro":"Your answers become your financial model: a forecast P&L, balance sheet and cash flow, with a valuation if you need one.","notes":["Most founders finish in 60 to 90 minutes. Your answers save in this browser as you go.","Estimates are fine. Leave a question blank if you don't know; we will cover gaps on a call.","Give amounts in one currency, excluding VAT or sales tax. Percentages as numbers: 15 means 15%."],"sections":[{"id":"A","title":"You and the engagement","intro":"Who to work with, and what decision the model must support.","fields":[{"id":"a_company_name","label":"Company name (legal and trading)","type":"text","required":true,"placeholder":"e.g. Ada Threads Ltd, trading as Ada"},{"id":"a_contact_name","label":"Your name","type":"text","required":true},{"id":"a_role","label":"Your role","type":"text","placeholder":"e.g. Founder and creative director"},{"id":"a_email","label":"Email","type":"email","required":true},{"id":"a_phone","label":"Phone or WhatsApp","type":"tel"},{"id":"a_other_contacts","label":"Others we should speak to","type":"textarea","placeholder":"Co-founder, accountant or finance lead, with contact details"},{"id":"a_objectives","label":"What is the model for?","type":"multi","required":true,"help":"Pick every objective that applies. Your choices decide which sections appear.","options":[{"value":"equity","label":"Raise equity"},{"value":"debt","label":"Bank loan or other debt"},{"value":"budget","label":"Budget and cash-flow plan"},{"value":"pricing","label":"Pricing and unit economics"},{"value":"expansion","label":"Expansion: new store, market, channel or product"},{"value":"valuation","label":"Valuation: sale, buy-in, share issue or exit"},{"value":"scenarios","label":"Scenario or break-even analysis"},{"value":"other","label":"Something else"}]},{"id":"a_objective_detail","label":"Tell us more about the objective","type":"textarea","placeholder":"e.g. Raising $400,000 seed by June 2027 to fund stock and marketing"},{"id":"a_audience","label":"Who will read the model?","type":"multi","options":["Investors","Bank or lender","Board","Internal team","Buyer of the business","Other"]},{"id":"a_deadline","label":"When do you need the model?","type":"date"},{"id":"a_deadline_note","label":"Meeting or event it is for","type":"text","placeholder":"e.g. Investor meetings from 15 January"},{"id":"a_currency","label":"Reporting currency","type":"select","options":["NGN","USD","GBP","EUR","KES","GHS","ZAR","CAD","AUD","Other"]},{"id":"a_horizon","label":"Forecast length","type":"select","options":["3 years","5 years (recommended)","10 years","Not sure"]},{"id":"a_granularity","label":"Level of detail","type":"select","options":["Monthly for year 1, then annual (recommended)","Monthly throughout","Quarterly","Annual"]},{"id":"a_fy_end","label":"Financial year end","type":"text","placeholder":"e.g. 31 December"}]},{"id":"B","title":"Company profile","intro":"What kind of business we are modelling, so we pick the right drivers.","fields":[{"id":"b_stage","label":"Stage","type":"select","required":true,"help":"Pre-revenue businesses skip the historical figures.","options":[{"value":"idea","label":"Idea"},{"value":"pre_revenue","label":"Pre-revenue: building, not yet selling"},{"value":"early","label":"Early revenue: under 2 years of sales"},{"value":"growing","label":"Growing: 2 to 3 years of sales"},{"value":"established","label":"Established: over 3 years of sales"}]},{"id":"b_founded","label":"Date founded, and date of first sale","type":"text","placeholder":"e.g. Founded June 2024, first sale March 2025"},{"id":"b_legal_form","label":"Legal form","type":"select","options":["Sole trader","Partnership","Limited company","Other"]},{"id":"b_country","label":"Country of registration","type":"text"},{"id":"b_markets","label":"Where you operate and sell","type":"text","placeholder":"e.g. Lagos and Abuja; ships across Nigeria, UK and US"},{"id":"b_industry","label":"Industry, in one line","type":"text","placeholder":"e.g. Womenswear brand"},{"id":"b_offer","label":"What you sell, and the price range","type":"textarea","placeholder":"e.g. Dresses $90 to $160, tops $45 to $65, accessories $25 to $40"},{"id":"b_customers","label":"Who buys","type":"multi","options":["Consumers","Shops and retailers","Businesses","Government"]},{"id":"b_channels","label":"How you sell","type":"multi","options":["Own website","Social media or WhatsApp orders","Own physical store","Marketplaces (e.g. Amazon, ASOS, Jumia)","Wholesale to shops","Distributors or agents","Direct sales team"]},{"id":"b_channel_mix","label":"Share of last year's sales by channel (%)","type":"text","placeholder":"e.g. Website 60%, social 15%, boutiques 25%"},{"id":"b_production","label":"How the product is made","type":"select","options":["In-house","Contract manufacturer","Dropship","Print-on-demand","Bought in and resold","Not applicable: services only"]},{"id":"b_seasonality","label":"Strongest and weakest months, and why","type":"textarea","placeholder":"e.g. Strongest November to December and March; weakest January and July"},{"id":"b_team_now","label":"Team today","type":"text","placeholder":"e.g. 3 full-time, 2 part-time, 1 freelance photographer"},{"id":"b_founders_paid","label":"Are founders full-time and paid a salary?","type":"text"},{"id":"b_changes","label":"The three biggest changes you plan in the next 2 years","type":"textarea"},{"id":"b_unusual","label":"Anything unusual we should know","type":"textarea","placeholder":"e.g. A pending legal matter, one customer over 30% of sales, a licence"}]},{"id":"C","title":"Historical figures","intro":"Past results anchor the forecast. Rough figures are fine.","when":{"field":"b_stage","noneOf":["idea","pre_revenue"]},"fields":[{"id":"c_has_accounts","label":"Do you have formal accounts?","type":"select","options":[{"value":"formal","label":"Yes: income statements and balance sheets"},{"value":"partial","label":"Partly: bookkeeping or management accounts only"},{"value":"none","label":"No: bank statements and sales records only"}]},{"id":"c_accounts_files","label":"Upload the last 3 years of accounts, and this year's management accounts","type":"file","multiple":true,"when":{"field":"c_has_accounts","anyOf":["formal"]}},{"id":"c_summary","label":"Summary of past results","type":"table","when":{"field":"c_has_accounts","anyOf":["partial","none"]},"help":"Fill from bank statements, your sales platform and your bookkeeping.","rowsFixed":["Sales, before refunds","Refunds and returns","Discounts given","Cost of products sold (making, buying, freight, duties)","Marketing and advertising","Salaries, including founders","Rent and utilities","Platform, payment and delivery fees","All other costs","Interest paid on loans","Tax paid","Equipment and other assets bought","Cash in the bank at period end","Stock on hand at period end, at cost","Owed to you by customers at period end","Owed by you to suppliers at period end","Loans outstanding at period end"],"rowHeader":"Item","columns":[{"id":"y_minus2","label":"Year before last","type":"money"},{"id":"y_minus1","label":"Last full year","type":"money"},{"id":"ytd","label":"This year to date","type":"money"}]},{"id":"c_ytd_months","label":"Months covered by 'this year to date'","type":"text","when":{"field":"c_has_accounts","anyOf":["partial","none"]},"placeholder":"e.g. January to October 2026"},{"id":"c_one_offs","label":"One-off items in these figures","type":"textarea","placeholder":"e.g. A launch event, a lawsuit, a large one-time order"},{"id":"c_personal_costs","label":"Costs paid personally by founders that the business should carry","type":"textarea"},{"id":"c_export","label":"Can you export sales by month, product and channel?","type":"select","options":["Yes","No","Not sure"],"help":"For example from Shopify, WooCommerce, Square or your POS."}]},{"id":"D","title":"How you make money","intro":"Revenue is forecast from its drivers: how many customers, how often they buy, and at what price.","fields":[{"id":"d_streams","label":"Which revenue streams do you have or plan?","type":"multi","required":true,"help":"Each choice opens a short set of questions below.","options":[{"value":"dtc_online","label":"Selling products online direct to customers"},{"value":"store","label":"Own physical store or pop-ups"},{"value":"marketplace","label":"Marketplaces or department stores on commission"},{"value":"wholesale","label":"Wholesale to shops, distributors or retailers"},{"value":"subscription","label":"Subscriptions, memberships or retainers"},{"value":"services","label":"Services or projects billed by time or job"},{"value":"other_income","label":"Other income: licensing, collaborations, sponsorship, rental, grants"}]},{"type":"subheading","label":"Online direct sales","when":{"field":"d_streams","anyOf":["dtc_online"]}},{"id":"d1_online","label":"Online sales drivers","type":"table","rowHeader":"Driver","rowsFixed":["Website or shop visits per month","Conversion rate (orders ÷ visits, %)","Orders per month","Average order value, after discounts","Share of orders from returning customers (%)","Average orders per customer per year","Email or SMS subscribers, and social followers"],"columns":[{"id":"ltm","label":"Last 12 months, monthly average","type":"text"},{"id":"target","label":"Target in 12 months","type":"text"}],"example":{"Website or shop visits per month":{"ltm":"22,000"},"Conversion rate (orders ÷ visits, %)":{"ltm":"1.6"}},"when":{"field":"d_streams","anyOf":["dtc_online"]}},{"type":"subheading","label":"Products and prices","help":"List main products or categories. A fashion brand can list by category or by collection.","when":{"field":"d_streams","anyOf":["dtc_online","store","marketplace","wholesale"]}},{"id":"d2_products","label":"Products or categories","type":"table","minRows":3,"columns":[{"id":"product","label":"Product or category","type":"text"},{"id":"price","label":"Selling price","type":"money"},{"id":"units_ltm","label":"Units sold, last 12 months","type":"number"},{"id":"units_next","label":"Units planned, next 12 months","type":"number"},{"id":"markdown_pct","label":"Average discount or markdown (%)","type":"percent"},{"id":"returns_pct","label":"Returns (%)","type":"percent"}],"placeholderRow":{"product":"e.g. Dresses","price":"120","units_ltm":"1,500","units_next":"2,600","markdown_pct":"15","returns_pct":"10"},"when":{"field":"d_streams","anyOf":["dtc_online","store","marketplace","wholesale"]}},{"id":"d2_collections","label":"Collections or launches per year, and their months","type":"text","placeholder":"e.g. Two main collections (March, September) and two capsule drops","when":{"field":"d_streams","anyOf":["dtc_online","store","marketplace","wholesale"]}},{"id":"d2_styles","label":"Styles per collection, and units bought per style","type":"text","placeholder":"e.g. 12 styles, 150 to 300 units each","when":{"field":"d_streams","anyOf":["dtc_online","store","marketplace","wholesale"]}},{"id":"d2_sellthrough","label":"Share of stock sold at full price (sell-through %)","type":"percent","placeholder":"e.g. 70","when":{"field":"d_streams","anyOf":["dtc_online","store","marketplace","wholesale"]}},{"id":"d2_price_changes","label":"Planned price changes, and when","type":"textarea","when":{"field":"d_streams","anyOf":["dtc_online","store","marketplace","wholesale"]}},{"id":"d2_new_products","label":"New products or categories planned","type":"textarea","placeholder":"Launch month and expected price","when":{"field":"d_streams","anyOf":["dtc_online","store","marketplace","wholesale"]}},{"id":"d2_preorders","label":"Pre-orders or made-to-order: share of sales (%)","type":"percent","when":{"field":"d_streams","anyOf":["dtc_online","store","marketplace","wholesale"]}},{"type":"subheading","label":"Own stores and pop-ups","when":{"field":"d_streams","anyOf":["store"]}},{"id":"d3_stores","label":"Stores now, and openings planned","type":"text","placeholder":"e.g. 1 store; second in Abuja, March 2028","when":{"field":"d_streams","anyOf":["store"]}},{"id":"d3_sales_per_store","label":"Sales per store per month, now or expected","type":"money","when":{"field":"d_streams","anyOf":["store"]}},{"id":"d3_ramp","label":"Months for a new store to reach normal sales","type":"number","when":{"field":"d_streams","anyOf":["store"]}},{"id":"d3_popups","label":"Pop-up events per year, with typical sales and cost per event","type":"textarea","when":{"field":"d_streams","anyOf":["store"]}},{"type":"subheading","label":"Wholesale, marketplaces and retail partners","when":{"field":"d_streams","anyOf":["marketplace","wholesale"]}},{"id":"d4_partners","label":"Partners and channels","type":"table","minRows":2,"columns":[{"id":"partner","label":"Partner or channel","type":"text"},{"id":"price_or_commission","label":"Price to partner (% of retail) or commission (%)","type":"text"},{"id":"orders","label":"Orders per year and typical size","type":"text"},{"id":"terms_days","label":"Payment terms (days)","type":"number"},{"id":"growth","label":"Expected growth","type":"text"}],"placeholderRow":{"partner":"e.g. Four boutiques","price_or_commission":"50% of retail","orders":"2 a year, about $6,000","terms_days":"60","growth":"Add 3 boutiques in 2027"},"when":{"field":"d_streams","anyOf":["marketplace","wholesale"]}},{"type":"subheading","label":"Subscriptions and recurring revenue","when":{"field":"d_streams","anyOf":["subscription"]}},{"id":"d5_subscriptions","label":"Subscription drivers","type":"table","rowHeader":"Driver","rowsFixed":["Paying subscribers or members","Price per month or year, by plan","New subscribers per month","Monthly cancellation rate (%)","Free trial length, and trial-to-paid rate (%)"],"columns":[{"id":"now","label":"Now","type":"text"},{"id":"target","label":"Target in 12 months","type":"text"}],"when":{"field":"d_streams","anyOf":["subscription"]}},{"type":"subheading","label":"Services and projects","when":{"field":"d_streams","anyOf":["services"]}},{"id":"d6_services","label":"Service drivers","type":"table","rowHeader":"Driver","rowsFixed":["Staff who bill clients","Rate per hour, day or project","Share of paid hours billed (%)","Projects or clients per month, and average value","Signed or likely work not yet delivered"],"columns":[{"id":"now","label":"Now","type":"text"},{"id":"target","label":"Target in 12 months","type":"text"}],"when":{"field":"d_streams","anyOf":["services"]}},{"type":"subheading","label":"Other income","when":{"field":"d_streams","anyOf":["other_income"]}},{"id":"d7_other","label":"Other income sources","type":"table","minRows":1,"columns":[{"id":"source","label":"Source","type":"text"},{"id":"amount_per_year","label":"Amount per year","type":"money"},{"id":"recurring","label":"Recurring or one-off","type":"select","options":["Recurring","One-off"]},{"id":"notes","label":"Notes","type":"text"}],"when":{"field":"d_streams","anyOf":["other_income"]}}]},{"id":"E","title":"Cost of sales and unit economics","intro":"These answers set your gross margin: what each unit and each order costs before overheads.","fields":[{"id":"e_unit_costs","label":"Cost per unit","type":"table","minRows":3,"help":"Use the same products or categories as in Section D.","columns":[{"id":"product","label":"Product or category","type":"text"},{"id":"making_cost","label":"Making or buying cost","type":"money"},{"id":"freight","label":"Freight in","type":"money"},{"id":"duty","label":"Import duty and clearing","type":"money"},{"id":"packaging","label":"Packaging and labels","type":"money"},{"id":"moq","label":"Supplier minimum order (units)","type":"number"},{"id":"lead_weeks","label":"Lead time, order to stock (weeks)","type":"number"}],"placeholderRow":{"product":"e.g. Dresses","making_cost":"26","freight":"3","duty":"5","packaging":"1.50","moq":"100","lead_weeks":"10"},"when":{"field":"d_streams","anyOf":["dtc_online","store","marketplace","wholesale"]}},{"id":"e_order_costs","label":"Costs per order, by channel","type":"table","rowHeader":"Cost","help":"Percentages or amounts, whichever you know.","rowsFixed":["Payment processing fee","Platform or marketplace commission (%)","Pick, pack and warehouse fee per order","Delivery cost you pay per order","Cost of handling a return"],"columns":[{"id":"website","label":"Own website","type":"text"},{"id":"marketplaces","label":"Marketplaces","type":"text"},{"id":"wholesale","label":"Wholesale","type":"text"},{"id":"store","label":"Store","type":"text"}],"when":{"field":"d_streams","anyOf":["dtc_online","store","marketplace","wholesale"]}},{"id":"e_samples","label":"Samples and prototypes per collection or launch, and their cost","type":"text","when":{"field":"d_streams","anyOf":["dtc_online","store","marketplace","wholesale"]}},{"id":"e_writeoff","label":"Stock you expect to write off or sell below cost (%)","type":"percent","when":{"field":"d_streams","anyOf":["dtc_online","store","marketplace","wholesale"]}},{"id":"e_suppliers","label":"Main suppliers, their country, and how long you have used them","type":"textarea","when":{"field":"d_streams","anyOf":["dtc_online","store","marketplace","wholesale"]}},{"id":"e_supplier_prices","label":"Supplier price rises expected, or volume discounts available","type":"textarea","when":{"field":"d_streams","anyOf":["dtc_online","store","marketplace","wholesale"]}},{"id":"e_service_costs","label":"Direct costs of delivering your service","type":"textarea","when":{"field":"d_streams","anyOf":["subscription","services"]},"placeholder":"Subcontractors, materials, hosting or software per client"},{"id":"e_own_production","label":"Is the cost of your own production staff or studio included above?","type":"select","options":["Yes","No","Not sure"]}]},{"id":"F","title":"Team and operating costs","intro":"Overheads and hiring usually decide how much cash a young business needs. Include the founders.","fields":[{"id":"f_team","label":"Team, now and planned","type":"table","minRows":3,"help":"One row per role, including founders, part-timers and regular contractors.","columns":[{"id":"role","label":"Role","type":"text"},{"id":"people_now","label":"People now","type":"number"},{"id":"monthly_cost","label":"Monthly cost per person, including employer taxes","type":"money"},{"id":"type","label":"Employee or contractor","type":"select","options":["Employee","Contractor"]},{"id":"hires","label":"New hires planned (number, start month)","type":"text"},{"id":"pay_rise_pct","label":"Annual pay rise (%)","type":"percent"}],"placeholderRow":{"role":"e.g. Founder","people_now":"2","monthly_cost":"2,500","type":"","hires":"e.g. 1 in March 2027","pay_rise_pct":"5"}},{"id":"f_marketing","label":"Marketing spend","type":"table","rowHeader":"Channel","help":"Customer acquisition cost (CAC) is marketing spend divided by new customers won.","rowsFixed":["Paid social (Instagram, TikTok, Facebook)","Search and shopping ads","Influencers, gifting and affiliates","Photo and video shoots, content","Events, trade shows, fashion weeks","PR, print and other"],"columns":[{"id":"now","label":"Spend per month now","type":"money"},{"id":"planned","label":"Planned spend per month","type":"money"},{"id":"new_customers","label":"New customers per month it brings","type":"number"}]},{"id":"f_cac","label":"Customer acquisition cost, if you track it","type":"money"},{"id":"f_other_costs","label":"Other running costs","type":"table","rowHeader":"Cost","rowsFixed":["Rent: office, studio, warehouse, store","Utilities and internet","Software and subscriptions","Accounting, legal and other professional fees","Insurance","Travel","Bank charges","Research, development and design","Other"],"columns":[{"id":"amount","label":"Amount","type":"money"},{"id":"period","label":"Per","type":"select","options":["Month","Year"]},{"id":"behaviour","label":"Fixed or rises with sales","type":"select","options":["Fixed","Rises with sales"]},{"id":"changes","label":"Planned changes","type":"text"}]}]},{"id":"G","title":"Cash timing","intro":"A profitable business can still run out of cash if it pays suppliers long before customers pay it.","fields":[{"id":"g_customer_terms","label":"When customers pay, by channel","type":"text","placeholder":"e.g. Website at checkout; boutiques 60 days after invoice"},{"id":"g_payout_days","label":"Days from a sale to cash in your bank, for platforms and payment providers","type":"number","placeholder":"e.g. 2"},{"id":"g_supplier_deposit","label":"Deposit paid to suppliers when ordering (%)","type":"percent","placeholder":"e.g. 50"},{"id":"g_supplier_balance","label":"When the supplier balance is due","type":"text","placeholder":"e.g. Before shipping"},{"id":"g_stock_weeks","label":"Stock you aim to hold, in weeks of sales","type":"number","placeholder":"e.g. 16"},{"id":"g_order_ahead_weeks","label":"How far ahead of a season or launch you order stock (weeks)","type":"number"},{"id":"g_customer_deposits","label":"Customer deposits or pre-order payments (% of order value)","type":"percent"},{"id":"g_tax_frequency","label":"How often you pay VAT or sales tax","type":"select","options":["Monthly","Quarterly","Annually","Not registered","Not sure"]},{"id":"g_bad_debts","label":"Customer invoices you never collect (% of credit sales)","type":"percent"},{"id":"g_lumpy_payments","label":"Other large payments due at set times","type":"textarea","placeholder":"e.g. Annual rent in advance each January"}]},{"id":"H","title":"Equipment and long-term spending","intro":"One-off purchases that last over a year are paid in cash up front but spread over their life in the P&L.","when":{"field":"a_objectives","anyOf":["equity","debt","budget","expansion","valuation","other"]},"fields":[{"id":"h_existing","label":"What you already own","type":"table","minRows":2,"columns":[{"id":"asset","label":"Asset","type":"text"},{"id":"cost","label":"Original cost","type":"money"},{"id":"year","label":"Year bought","type":"number"},{"id":"life_years","label":"Expected years of use","type":"number"}]},{"id":"h_planned","label":"Planned purchases","type":"table","minRows":2,"columns":[{"id":"item","label":"Item","type":"text"},{"id":"cost","label":"Cost","type":"money"},{"id":"when","label":"Month and year","type":"text"},{"id":"life_years","label":"Expected years of use","type":"number"},{"id":"financing","label":"Paid by","type":"select","options":["Cash","Loan","Lease"]}],"placeholderRow":{"item":"e.g. Website rebuild","cost":"15,000","when":"Feb 2027","life_years":"3","financing":""}},{"id":"h_maintenance","label":"Yearly spend to maintain or replace what you have","type":"money"},{"id":"h_leases","label":"Leases on premises or equipment: monthly payment and years left","type":"textarea"},{"id":"h_ip","label":"Trademarks, patents or software bought or planned, and their cost","type":"textarea"}]},{"id":"I","title":"Funding and ownership","intro":"Your starting cash, what you owe, who owns the business, and any new money you need.","when":{"field":"a_objectives","anyOf":["equity","debt","budget","expansion","valuation","other"]},"fields":[{"id":"i_cash_today","label":"Cash in the bank today","type":"money"},{"id":"i_cash_date","label":"Date of that balance","type":"date"},{"id":"i_overdraft","label":"Overdraft or credit line: limit and amount used","type":"text"},{"id":"i_founder_funds","label":"Money put in by founders so far, and whether as shares or loans","type":"textarea"},{"id":"i_drawings","label":"Dividends or owner drawings taken, and planned","type":"text"},{"id":"i_loans","label":"Loans and other debt","type":"table","minRows":1,"help":"Bank loans, founder loans, asset finance, revenue-based financing.","columns":[{"id":"lender","label":"Lender","type":"text"},{"id":"outstanding","label":"Amount outstanding","type":"money"},{"id":"rate_pct","label":"Interest rate (%)","type":"percent"},{"id":"monthly_repayment","label":"Monthly repayment","type":"money"},{"id":"final_date","label":"Final repayment date","type":"text"},{"id":"conditions","label":"Security or conditions","type":"text"}]},{"id":"i_cap_table","label":"Who owns the business","type":"table","minRows":2,"columns":[{"id":"shareholder","label":"Shareholder","type":"text"},{"id":"shares","label":"Shares held","type":"number"},{"id":"ownership_pct","label":"Ownership (%)","type":"percent"},{"id":"how_when","label":"How and when they invested","type":"text"}]},{"id":"i_rounds","label":"Earlier funding rounds: date, amount, instrument and valuation","type":"textarea"},{"id":"i_options","label":"Employee share options or promised equity: number, price, vesting","type":"textarea"},{"id":"i_grants","label":"Grants received or applied for, and their conditions","type":"textarea"},{"type":"subheading","label":"New funding you want"},{"id":"i_raise_amount","label":"Amount","type":"money"},{"id":"i_raise_timing","label":"When you need it","type":"text"},{"id":"i_raise_type","label":"Type","type":"select","options":["Shares","SAFE or convertible note","Bank loan","Grant","Other","Not sure"]},{"id":"i_raise_terms","label":"Valuation or loan terms you expect, if known","type":"text"},{"id":"i_use_of_funds","label":"How you will spend it","type":"textarea","placeholder":"e.g. 40% stock, 35% marketing, 15% hires, 10% website"},{"id":"i_runway","label":"Months of runway the money should give you","type":"number"}]},{"id":"J","title":"Tax and regulation","intro":"If you are unsure of a rate, leave it blank and we will look it up for your country.","when":{"field":"a_objectives","anyOf":["debt","budget","valuation","other"]},"fields":[{"id":"j_tax_country","label":"Country and state or province where the company pays tax","type":"text"},{"id":"j_income_tax","label":"Income tax rate on company profits (%)","type":"percent","help":"Or note below if profits are taxed as the owner's income."},{"id":"j_vat","label":"Registered for VAT, GST or sales tax?","type":"select","options":["Yes","No","Not sure"]},{"id":"j_vat_rate","label":"Rate on your sales (%)","type":"percent"},{"id":"j_duties","label":"Import duty on your main products, and countries you import from","type":"text"},{"id":"j_payroll","label":"Employer payroll taxes and pension contributions (% of pay)","type":"percent"},{"id":"j_losses","label":"Tax losses carried forward","type":"money"},{"id":"j_incentives","label":"Tax reliefs or incentives you use","type":"textarea"},{"id":"j_licences","label":"Licences, permits or rules that limit how fast you can grow","type":"textarea"}]},{"id":"K","title":"Market, plans and scenarios","intro":"The model has a best, base and worst case. Your views set the range; we test them against comparable businesses.","when":{"field":"a_objectives","anyOf":["equity","debt","pricing","expansion","valuation","scenarios","other"]},"fields":[{"id":"k_target_market","label":"Your target market and customer","type":"textarea"},{"id":"k_market_size","label":"Market size or growth figures you rely on, with the source","type":"textarea"},{"id":"k_competitors","label":"Main competitors, their prices, and how you differ","type":"textarea"},{"id":"k_comparables","label":"Businesses you measure yourself against","type":"textarea"},{"id":"k_milestones","label":"Milestones in the next 3 years, with dates","type":"textarea","placeholder":"Launches, stores, new countries, big contracts"},{"id":"k_revenue_view","label":"Revenue you expect in each of the next 3 years","type":"text","placeholder":"e.g. $650k, $1.1m, $1.8m"},{"id":"k_mature_margin","label":"Profit margin a business like yours can reach when mature (%)","type":"percent"},{"id":"k_targets","label":"Targets set by investors, lenders or your board","type":"textarea"},{"id":"k_scenarios","label":"Your range of outcomes","type":"table","rowHeader":"Driver","help":"Fill the rows that apply. Pre-revenue businesses can use launch plans.","rowsFixed":["Sales growth, year 1 (%)","Sales growth, years 2 to 3 (% a year)","Orders, customers or units per month at end of year 1","Average price or order value","Gross margin (%)","Customer acquisition cost","Months to open a new store or market"],"columns":[{"id":"worst","label":"Worst case","type":"text"},{"id":"base","label":"Base case","type":"text"},{"id":"best","label":"Best case","type":"text"}]},{"id":"k_risks","label":"The three biggest risks to the plan","type":"textarea"},{"id":"k_cuts","label":"What you would cut first if sales fell 30%","type":"textarea"}]},{"id":"L","title":"Valuation","intro":"We set the discount rate from market data, so you do not need to supply one.","when":{"field":"a_objectives","anyOf":["equity","valuation","other"]},"fields":[{"id":"l_reason","label":"Why you need a valuation","type":"select","options":["Fundraise","Sale of the business","Buying out a partner","Employee share scheme","Tax or legal","Other"]},{"id":"l_date","label":"Valuation date to use","type":"date"},{"id":"l_shares","label":"Total shares in issue, including any promised but not yet issued","type":"number"},{"id":"l_instruments","label":"Options, warrants, SAFEs or convertible notes outstanding, with key terms","type":"textarea","placeholder":"Cap, discount, conversion price"},{"id":"l_last_round","label":"Price per share or valuation in the latest round, and its date","type":"text"},{"id":"l_offers","label":"Offers received for the business or its shares","type":"textarea"},{"id":"l_comparables","label":"Listed companies or recent deals you see as comparable","type":"textarea"},{"id":"l_non_core","label":"Assets outside the core business","type":"textarea","placeholder":"Property, stakes in other companies, spare cash"},{"id":"l_exit","label":"Expected exit, if any, and rough timing","type":"text","placeholder":"Sale, listing or long-term hold"}]},{"id":"M","title":"Documents and sign-off","intro":"Attach what you have. Spreadsheet and platform exports save the most time.","fields":[{"id":"m_documents","label":"Document status","type":"table","rowHeader":"Document","rowsFixed":["Income statements and balance sheets, last 3 years","Management accounts, this year to date","Bank statements, last 12 months","Sales export by month, product and channel","Stock list with quantities and unit costs","Supplier quotes or invoices showing unit costs","Payroll summary or staff list with salaries","Loan and lease agreements","Cap table, and terms of SAFEs, notes or options","Business plan or pitch deck","Price list or wholesale line sheet","Latest tax returns"],"columns":[{"id":"status","label":"Status","type":"select","options":["Attached","To follow","Not available","Not applicable"]},{"id":"notes","label":"Notes","type":"text"}]},{"id":"m_files","label":"Upload documents","type":"file","multiple":true,"help":"Up to 25 MB per file. PDF, Excel, CSV, Word or images."},{"id":"m_confirm","label":"I confirm this information is accurate to the best of my knowledge","type":"checkbox","required":true},{"id":"m_signer_name","label":"Name","type":"text","required":true},{"id":"m_signer_role","label":"Role","type":"text"}]}]}
+</script>
+
+<script>
+(function () {
+  "use strict";
+  var CFG = Object.assign({endpoint: "", submitFormat: "multipart", brandName: "", brandColor: "", contactEmail: "",
+    successMessage: "", redirectUrl: "", maxFileMB: 25, storageKey: "fmi-draft-v1", schemaUrl: ""}, window.FMI_CONFIG || {});
+  var root = document.getElementById("fmi");
+  if (CFG.brandColor) root.style.setProperty("--fmi-brand", CFG.brandColor);
+
+  var S = null;                 // schema
+  var answers = {};             // raw answers as typed
+  var files = {};               // fieldId -> [File]
+  var stepIndex = 0;            // index into steps()
+  var attempted = {};           // section ids where Continue was pressed with errors
+  var submitState = null;       // null | {status:'sending'|'sent'|'downloaded'|'failed', payload, error}
+  var savedAt = null, draftFound = null, saveTimer = null;
+  var drivers = {};             // field ids that other fields depend on
+
+  // ---------- helpers ----------
+  function h(tag, attrs) {
+    var el = document.createElement(tag);
+    if (attrs) for (var k in attrs) {
+      var v = attrs[k];
+      if (v == null || v === false) continue;
+      if (k === "class") el.className = v;
+      else if (k === "text") el.textContent = v;
+      else if (k.slice(0, 2) === "on") el.addEventListener(k.slice(2), v);
+      else if (k === "value") el.value = v;
+      else if (k === "checked") el.checked = !!v;
+      else el.setAttribute(k, v === true ? "" : v);
+    }
+    for (var i = 2; i < arguments.length; i++) {
+      var c = arguments[i];
+      if (c == null || c === false) continue;
+      if (Array.isArray(c)) c.forEach(function (x) { if (x != null && x !== false) el.appendChild(typeof x === "string" ? document.createTextNode(x) : x); });
+      else el.appendChild(typeof c === "string" ? document.createTextNode(c) : c);
+    }
+    return el;
+  }
+  function opts(f) { return (f.options || []).map(function (o) { return typeof o === "string" ? {value: o, label: o} : o; }); }
+  function optLabel(f, v) { var o = opts(f).filter(function (x) { return x.value === v; })[0]; return o ? o.label : v; }
+  function isNum(t) { return t === "number" || t === "money" || t === "percent"; }
+  function blank(v) {
+    if (v == null) return true;
+    if (typeof v === "string") return v.trim() === "";
+    if (typeof v === "boolean") return !v;
+    if (Array.isArray(v)) return v.every(function (x) { return blank(x); });
+    if (typeof v === "object") { for (var k in v) if (!blank(v[k])) return false; return true; }
+    return false;
+  }
+  function fileSize(n) { return n < 1048576 ? Math.max(1, Math.round(n / 1024)) + " KB" : (n / 1048576).toFixed(1) + " MB"; }
+  function parseNum(s) {
+    if (typeof s !== "string") return s;
+    var t = s.replace(/[,\s]/g, "").replace(/^[^\d\-.]+/, "").replace(/%$/, "");
+    return /^-?\d+(\.\d+)?$/.test(t) ? Number(t) : s.trim();
+  }
+  function currency() { var c = answers.a_currency; return c && c !== "Other" ? c : ""; }
+
+  // ---------- conditions ----------
+  function evalWhen(w) {
+    if (!w) return true;
+    if (w.all) return w.all.every(evalWhen);
+    if (w.any) return w.any.some(evalWhen);
+    var v = answers[w.field];
+    var arr = Array.isArray(v) ? v : (blank(v) ? [] : [v]);
+    if (w.anyOf) return arr.some(function (x) { return w.anyOf.indexOf(x) >= 0; });
+    if (w.noneOf) return !arr.some(function (x) { return w.noneOf.indexOf(x) >= 0; });
+    if (w.equals !== undefined) return arr.indexOf(w.equals) >= 0;
+    return true;
+  }
+  function collectDrivers(w) {
+    if (!w) return;
+    if (w.all) w.all.forEach(collectDrivers); else if (w.any) w.any.forEach(collectDrivers); else if (w.field) drivers[w.field] = true;
+  }
+  function sections() { return S.sections.filter(function (s) { return evalWhen(s.when); }); }
+  function fieldsOf(sec) { return sec.fields.filter(function (f) { return evalWhen(f.when); }); }
+  function questions(sec) { return fieldsOf(sec).filter(function (f) { return f.type !== "subheading"; }); }
+  function steps() { return ["intro"].concat(sections().map(function (s) { return s.id; }), ["review"]); }
+  function sectionById(id) { return S.sections.filter(function (s) { return s.id === id; })[0]; }
+  function answered(f) { return f.type === "file" ? (files[f.id] || []).length > 0 : !blank(answers[f.id]); }
+
+  // ---------- validation ----------
+  function fieldError(f) {
+    var v = answers[f.id];
+    if (f.required && !answered(f)) return f.type === "checkbox" ? "Tick this box to confirm." : (f.type === "multi" ? "Pick at least one." : "This answer is needed.");
+    if (f.type === "email" && !blank(v) && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v)) return "Enter an email address like name@company.com.";
+    return null;
+  }
+  function sectionErrors(sec) { return questions(sec).map(function (f) { return {f: f, msg: fieldError(f)}; }).filter(function (x) { return x.msg; }); }
+  function allErrors() { var out = []; sections().forEach(function (s) { sectionErrors(s).forEach(function (e) { out.push({sec: s, f: e.f, msg: e.msg}); }); }); return out; }
+
+  // ---------- storage ----------
+  function save() {
+    clearTimeout(saveTimer);
+    saveTimer = setTimeout(function () {
+      try {
+        localStorage.setItem(CFG.storageKey, JSON.stringify({answers: answers, step: steps()[stepIndex], savedAt: new Date().toISOString()}));
+        savedAt = new Date(); updateSaved();
+      } catch (e) { /* storage unavailable: the form still works, it just won't remember answers */ }
+    }, 350);
+  }
+  function loadDraft() {
+    try { var raw = localStorage.getItem(CFG.storageKey); if (raw) draftFound = JSON.parse(raw); } catch (e) { draftFound = null; }
+  }
+  function clearDraft() { try { localStorage.removeItem(CFG.storageKey); } catch (e) {} }
+  function updateSaved() {
+    var el = root.querySelector(".fmi-saved");
+    if (el && savedAt) el.textContent = "Saved in this browser at " + savedAt.toLocaleTimeString([], {hour: "2-digit", minute: "2-digit"});
+  }
+
+  // ---------- progress ----------
+  function progress(sec) {
+    var q = questions(sec); var a = q.filter(answered).length;
+    return {answered: a, total: q.length, complete: a > 0 && sectionErrors(sec).length === 0 && (a / q.length >= 0.5 || q.length <= 3)};
+  }
+  function overall() {
+    var a = 0, t = 0; sections().forEach(function (s) { var p = progress(s); a += p.answered; t += p.total; });
+    return t ? a / t : 0;
+  }
+
+  // ---------- change handling ----------
+  function setAnswer(id, value) {
+    answers[id] = value;
+    save();
+    if (drivers[id]) { render(); return; }
+    refreshChrome();
+    var sec = currentSection();
+    if (sec && attempted[sec.id]) {   // live-clear errors once the client fixes them
+      var f = questions(sec).filter(function (x) { return x.id === id; })[0];
+      var box = root.querySelector('[data-field="' + id + '"]');
+      if (f && box && !fieldError(f)) { box.classList.remove("has-error"); var m = box.querySelector(".fmi-error"); if (m) m.remove(); }
+    }
+  }
+  function currentSection() { var s = steps()[stepIndex]; return s !== "intro" && s !== "review" ? sectionById(s) : null; }
+
+  // ---------- field renderers ----------
+  function inputFor(f, value, onchange, extra) {
+    var numeric = isNum(f.type);
+    var type = f.type === "email" ? "email" : f.type === "tel" ? "tel" : f.type === "date" ? "date" : "text";
+    var inp = h("input", Object.assign({class: "fmi-input" + (numeric ? " is-num" : ""), type: type, value: value || "",
+      placeholder: f.placeholder || "", inputmode: numeric ? "decimal" : (f.type === "tel" ? "tel" : null),
+      autocomplete: f.type === "email" ? "email" : f.type === "tel" ? "tel" : "off",
+      oninput: function (e) { onchange(e.target.value); }}, extra || {}));
+    return inp;
+  }
+  function renderField(f, sec) {
+    if (f.type === "subheading") return h("div", {class: "fmi-sub"}, h("h3", {text: f.label}), f.help ? h("p", {text: f.help}) : null);
+    var id = "fmi-" + f.id, helpId = f.help ? id + "-help" : null;
+    var showErr = attempted[sec.id] ? fieldError(f) : null;
+    var wrap = h("div", {class: "fmi-field" + (f.type === "table" ? " is-wide" : "") + (showErr ? " has-error" : ""), "data-field": f.id});
+    var label = f.type === "multi" || f.type === "table" || f.type === "checkbox"
+      ? h("span", {class: "fmi-label", id: id + "-label"}, f.label, f.required ? h("span", {class: "fmi-req", "aria-hidden": "true", text: "*"}) : null)
+      : h("label", {class: "fmi-label", for: id}, f.label, f.required ? h("span", {class: "fmi-req", "aria-hidden": "true", text: "*"}) : null);
+    if (f.type !== "checkbox") wrap.appendChild(label);
+    if (f.help) wrap.appendChild(h("span", {class: "fmi-help", id: helpId, text: f.help}));
+    var v = answers[f.id];
+    var aria = {id: id, "aria-describedby": helpId, "aria-invalid": showErr ? "true" : null, "aria-required": f.required ? "true" : null};
+    var ctrl;
+    switch (f.type) {
+      case "textarea":
+        ctrl = h("textarea", Object.assign({class: "fmi-textarea", placeholder: f.placeholder || "", oninput: function (e) { setAnswer(f.id, e.target.value); }}, aria));
+        ctrl.value = v || ""; break;
+      case "select":
+        ctrl = h("select", Object.assign({class: "fmi-select" + (v ? " has-value" : ""), onchange: function (e) { e.target.classList.toggle("has-value", !!e.target.value); setAnswer(f.id, e.target.value); }}, aria),
+          h("option", {value: "", text: "Choose an answer"}),
+          opts(f).map(function (o) { var op = h("option", {value: o.value, text: o.label}); if (o.value === v) op.selected = true; return op; }));
+        break;
+      case "multi":
+        var cur = Array.isArray(v) ? v : [];
+        ctrl = h("div", {class: "fmi-choices", role: "group", "aria-labelledby": id + "-label", "aria-describedby": helpId},
+          opts(f).map(function (o) {
+            var on = cur.indexOf(o.value) >= 0;
+            var cb = h("input", {type: "checkbox", value: o.value, checked: on, onchange: function (e) {
+              var now = (Array.isArray(answers[f.id]) ? answers[f.id] : []).filter(function (x) { return x !== o.value; });
+              if (e.target.checked) now.push(o.value);
+              e.target.parentNode.classList.toggle("is-on", e.target.checked);
+              setAnswer(f.id, now);
+            }});
+            return h("label", {class: "fmi-choice" + (on ? " is-on" : "")}, cb, h("span", {text: o.label}));
+          }));
+        break;
+      case "checkbox":
+        ctrl = h("label", {class: "fmi-choice" + (v ? " is-on" : "")},
+          h("input", Object.assign({type: "checkbox", checked: !!v, onchange: function (e) { e.target.parentNode.classList.toggle("is-on", e.target.checked); setAnswer(f.id, e.target.checked); }}, aria)),
+          h("span", null, f.label, f.required ? h("span", {class: "fmi-req", "aria-hidden": "true", text: "*"}) : null));
+        break;
+      case "table": ctrl = renderTable(f); break;
+      case "file": ctrl = renderFiles(f, id); break;
+      default:
+        var inp = inputFor(f, v, function (val) { setAnswer(f.id, val); }, aria);
+        if (f.type === "percent") ctrl = h("div", {class: "fmi-affix is-suffix"}, inp, h("span", {text: "%"}));
+        else if (f.type === "money" && currency()) ctrl = h("div", {class: "fmi-affix"}, h("span", {text: currency()}), inp);
+        else if (isNum(f.type)) ctrl = h("div", {class: "fmi-affix", style: "max-width:280px"}, inp);
+        else ctrl = inp;
+    }
+    wrap.appendChild(ctrl);
+    if (showErr) wrap.appendChild(h("div", {class: "fmi-error", text: showErr}));
+    return wrap;
+  }
+
+  function renderTable(f) {
+    var fixed = !!f.rowsFixed;
+    var rows = Array.isArray(answers[f.id]) ? answers[f.id] : [];
+    if (fixed) { while (rows.length < f.rowsFixed.length) rows.push({}); }
+    else { var min = f.minRows || 1; while (rows.length < min) rows.push({}); }
+    answers[f.id] = rows;
+    var cur = currency();
+    var head = h("tr", null,
+      fixed ? h("th", {scope: "col", text: f.rowHeader || ""}) : null,
+      f.columns.map(function (c) {
+        var lab = c.label + (c.type === "money" && cur ? " (" + cur + ")" : "");
+        return h("th", {scope: "col", class: isNum(c.type) ? "is-num" : null, text: lab});
+      }),
+      fixed ? null : h("th", {scope: "col", "aria-label": "Remove row"}));
+    var body = h("tbody");
+    rows.forEach(function (row, ri) {
+      var tr = h("tr", null, fixed ? h("td", {class: "fmi-rowhead", text: f.rowsFixed[ri]}) : null);
+      f.columns.forEach(function (c) {
+        var rowName = fixed ? f.rowsFixed[ri] : "row " + (ri + 1);
+        var aria = c.label + ", " + rowName;
+        var cell;
+        if (c.type === "select") {
+          cell = h("select", {"aria-label": aria, onchange: function (e) { rows[ri][c.id] = e.target.value; setAnswer(f.id, rows); }},
+            h("option", {value: "", text: ""}),
+            (c.options || []).map(function (o) { var op = h("option", {value: o, text: o}); if (row[c.id] === o) op.selected = true; return op; }));
+        } else {
+          var ph = !fixed && ri === 0 && f.placeholderRow ? (f.placeholderRow[c.id] || "") : "";
+          cell = h("input", {type: "text", class: isNum(c.type) ? "is-num" : null, value: row[c.id] || "", placeholder: ph,
+            inputmode: isNum(c.type) ? "decimal" : null, "aria-label": aria,
+            oninput: function (e) { rows[ri][c.id] = e.target.value; setAnswer(f.id, rows); }});
+        }
+        tr.appendChild(h("td", null, cell));
+      });
+      if (!fixed) tr.appendChild(h("td", {class: "fmi-x"}, h("button", {type: "button", "aria-label": "Remove row " + (ri + 1), title: "Remove row", text: "×",
+        onclick: function () { rows.splice(ri, 1); setAnswer(f.id, rows); render(); }})));
+      body.appendChild(tr);
+    });
+    var out = h("div", null,
+      h("div", {class: "fmi-gridwrap"}, h("table", {class: "fmi-grid", "aria-labelledby": "fmi-" + f.id + "-label"}, h("thead", null, head), body)));
+    if (!fixed) out.appendChild(h("button", {type: "button", class: "fmi-btn fmi-btn-link fmi-addrow", text: "Add a row",
+      onclick: function () { rows.push({}); setAnswer(f.id, rows); render(); var ins = root.querySelectorAll('[data-field="' + f.id + '"] tbody tr:last-child input'); if (ins[0]) ins[0].focus(); }}));
+    return out;
+  }
+
+  function renderFiles(f, id) {
+    var list = files[f.id] || [];
+    var err = h("div", {class: "fmi-error", role: "alert"});
+    function add(fl) {
+      var tooBig = [];
+      Array.prototype.forEach.call(fl, function (file) {
+        if (file.size > CFG.maxFileMB * 1048576) tooBig.push(file.name); else list.push(file);
+      });
+      files[f.id] = list; render();
+      if (tooBig.length) { var e = root.querySelector('[data-field="' + f.id + '"] .fmi-error'); if (e) e.textContent = tooBig.join(", ") + " is over " + CFG.maxFileMB + " MB. Email it to us instead."; }
+    }
+    var input = h("input", {type: "file", id: id, multiple: f.multiple ? true : null, onchange: function (e) { add(e.target.files); }});
+    var drop = h("label", {class: "fmi-drop", for: id,
+      ondragover: function (e) { e.preventDefault(); drop.classList.add("is-over"); },
+      ondragleave: function () { drop.classList.remove("is-over"); },
+      ondrop: function (e) { e.preventDefault(); drop.classList.remove("is-over"); add(e.dataTransfer.files); }},
+      input, h("strong", {text: "Choose files"}), " or drag them here");
+    var ul = h("ul", {class: "fmi-files"}, list.map(function (file, i) {
+      return h("li", null, h("span", {text: file.name}), h("span", {class: "fmi-size", text: fileSize(file.size)}),
+        h("button", {type: "button", class: "fmi-btn fmi-btn-link", text: "Remove", "aria-label": "Remove " + file.name,
+          onclick: function () { list.splice(i, 1); render(); }}));
+    }));
+    if (!CFG.endpoint) return h("div", null, drop, ul, h("p", {class: "fmi-help", style: "margin-top:8px", text: "Files are not included in a download. Email them to us with your answers" + (CFG.contactEmail ? " at " + CFG.contactEmail + "." : ".")}), err);
+    return h("div", null, drop, ul, err);
+  }
+
+  // ---------- screens ----------
+  function renderIntro() {
+    var hasDraft = draftFound && draftFound.answers && !blank(draftFound.answers);
+    var card = h("div", {class: "fmi-card fmi-intro"},
+      h("h1", {text: "Tell us about your business"}),
+      h("p", {class: "fmi-lead", text: S.intro}),
+      h("ul", {class: "fmi-notes"}, S.notes.map(function (n) { return h("li", {text: n}); })),
+      h("p", {class: "fmi-sample"}, "Your answers appear in blue, like the input cells of a financial model:", h("b", {text: "1,500"})),
+      h("div", {class: "fmi-actions"},
+        hasDraft ? h("button", {type: "button", class: "fmi-btn fmi-btn-primary", text: "Continue where you left off",
+          onclick: function () { answers = draftFound.answers; var st = steps(); var i = st.indexOf(draftFound.step); go(i > 0 ? i : 1); }}) : null,
+        h("button", {type: "button", class: "fmi-btn " + (hasDraft ? "fmi-btn-quiet" : "fmi-btn-primary"), text: hasDraft ? "Start again" : "Start",
+          onclick: function () { if (hasDraft) { answers = {}; clearDraft(); draftFound = null; } go(1); }})),
+      hasDraft ? h("p", {class: "fmi-help", style: "margin-top:12px", text: "You have answers saved in this browser from " + new Date(draftFound.savedAt).toLocaleString() + ". Starting again deletes them."}) : null,
+      CFG.contactEmail ? h("p", {class: "fmi-help", style: "margin-top:20px"}, "Questions? Email ", h("a", {href: "mailto:" + CFG.contactEmail, text: CFG.contactEmail}), ".") : null);
+    return card;
+  }
+
+  function renderSection(sec) {
+    var st = steps();
+    var errs = attempted[sec.id] ? sectionErrors(sec) : [];
+    var card = h("div", {class: "fmi-card"},
+      h("div", {class: "fmi-sechead"}, h("span", {class: "fmi-col", "aria-hidden": "true", text: sec.id}), h("h2", {tabindex: "-1", id: "fmi-sec-title", text: sec.title})),
+      h("p", {class: "fmi-lead", text: sec.intro}));
+    if (errs.length) card.appendChild(h("div", {class: "fmi-alert", role: "alert"},
+      (errs.length === 1 ? "One answer is needed" : errs.length + " answers are needed") + " before you continue:",
+      h("ul", null, errs.map(function (e) { return h("li", null, h("button", {type: "button", class: "fmi-btn-link", style: "padding:0;border:0;background:none;cursor:pointer;font:inherit", text: e.f.label,
+        onclick: function () { var el = root.querySelector('[data-field="' + e.f.id + '"] input, [data-field="' + e.f.id + '"] select, [data-field="' + e.f.id + '"] textarea'); if (el) el.focus(); }})); }))));
+    fieldsOf(sec).forEach(function (f) { card.appendChild(renderField(f, sec)); });
+    var pos = st.indexOf(sec.id);
+    card.appendChild(h("div", {class: "fmi-nav"},
+      h("button", {type: "button", class: "fmi-btn fmi-btn-quiet", text: "Back", onclick: function () { go(pos - 1); }}),
+      h("span", {class: "fmi-spacer"}),
+      h("span", {class: "fmi-pos", text: "Section " + pos + " of " + (st.length - 2)}),
+      h("button", {type: "button", class: "fmi-btn fmi-btn-primary", text: pos === st.length - 2 ? "Review answers" : "Continue",
+        onclick: function () {
+          if (sectionErrors(sec).length) { attempted[sec.id] = true; render(); var a = root.querySelector(".fmi-alert"); if (a) a.scrollIntoView({block: "center"}); return; }
+          go(pos + 1);
+        }})));
+    return card;
+  }
+
+  function fmtValue(f, v) {
+    if (f.type === "multi") return (v || []).map(function (x) { return optLabel(f, x); }).join(", ");
+    if (f.type === "select") return optLabel(f, v);
+    if (f.type === "checkbox") return v ? "Yes" : "";
+    if (f.type === "percent" && !blank(v)) return String(v).replace(/%$/, "") + "%";
+    if (f.type === "money" && !blank(v) && currency()) return currency() + " " + v;
+    return v;
+  }
+  function renderReview() {
+    var errs = allErrors();
+    var card = h("div", {class: "fmi-card fmi-review"},
+      h("h2", {tabindex: "-1", id: "fmi-sec-title", text: "Check your answers"}),
+      h("p", {class: "fmi-lead", text: "Blank questions are fine; we will cover them on a call. " + (CFG.endpoint ? "When you are ready, send your answers." : "When you are ready, download your answers and email them to us.")}));
+    if (errs.length) card.appendChild(h("div", {class: "fmi-alert", role: "alert"},
+      "Before you can send, " + (errs.length === 1 ? "one answer is needed" : errs.length + " answers are needed") + ":",
+      h("ul", null, errs.map(function (e) { return h("li", null, h("button", {type: "button", style: "padding:0;border:0;background:none;cursor:pointer;font:inherit", text: e.sec.id + ". " + e.sec.title + ": " + e.f.label,
+        onclick: function () { attempted[e.sec.id] = true; go(steps().indexOf(e.sec.id)); }})); }))));
+    sections().forEach(function (sec) {
+      var p = progress(sec);
+      var dl = h("dl");
+      questions(sec).forEach(function (f) {
+        if (!answered(f)) return;
+        var v = answers[f.id], dd;
+        if (f.type === "table") {
+          var rows = (v || []).map(function (r, i) { return {r: r, label: f.rowsFixed ? f.rowsFixed[i] : null}; }).filter(function (x) { return !blank(x.r); });
+          dd = h("dd", {class: "is-table"}, h("table", null,
+            h("thead", null, h("tr", null, f.rowsFixed ? h("th", {text: f.rowHeader || ""}) : null, f.columns.map(function (c) { return h("th", {text: c.label}); }))),
+            h("tbody", null, rows.map(function (x) { return h("tr", null, x.label ? h("th", {scope: "row", text: x.label}) : null, f.columns.map(function (c) { return h("td", {text: x.r[c.id] || ""}); })); }))));
+        } else if (f.type === "file") dd = h("dd", {text: files[f.id].map(function (x) { return x.name; }).join("\n")});
+        else dd = h("dd", {text: fmtValue(f, v)});
+        dl.appendChild(h("dt", {class: f.type === "table" ? "is-table" : null, text: f.label})); dl.appendChild(dd);
+      });
+      card.appendChild(h("section", null,
+        h("header", null, h("span", {class: "fmi-col", "aria-hidden": "true", text: sec.id}), h("h3", {text: sec.title}),
+          h("span", {class: "fmi-help", style: "margin:0", text: p.answered + " of " + p.total + " answered"}),
+          h("button", {type: "button", class: "fmi-btn fmi-btn-link", text: "Edit", "aria-label": "Edit " + sec.title, onclick: function () { go(steps().indexOf(sec.id)); }})),
+        p.answered ? dl : h("p", {class: "fmi-empty", text: "No answers yet."})));
+    });
+    var lostFiles = draftFound && !Object.keys(files).some(function (k) { return files[k].length; }) && sections().some(function (s) { return questions(s).some(function (f) { return f.type === "file"; }); });
+    if (CFG.endpoint && lostFiles) card.appendChild(h("p", {class: "fmi-help", text: "Uploaded files are not kept between visits. If you attached files earlier, attach them again before sending."}));
+    var sending = submitState && submitState.status === "sending";
+    if (submitState && submitState.status === "failed") card.appendChild(h("div", {class: "fmi-alert", role: "alert"},
+      "Your answers were not sent (" + submitState.error + "). They are still saved in this browser. Try again, or download them" + (CFG.contactEmail ? " and email them to " + CFG.contactEmail : "") + "."));
+    card.appendChild(h("div", {class: "fmi-actions"},
+      CFG.endpoint
+        ? h("button", {type: "button", class: "fmi-btn fmi-btn-primary", disabled: sending || errs.length ? true : null, text: sending ? "Sending" : "Xolve it: send to " + (CFG.brandName || "us"), onclick: submit})
+        : h("button", {type: "button", class: "fmi-btn fmi-btn-primary", disabled: errs.length ? true : null, text: "Download answers", onclick: submit}),
+      h("button", {type: "button", class: "fmi-btn fmi-btn-quiet", text: "Download as spreadsheet (CSV)", onclick: function () { download(toCSV(buildPayload()), "csv"); }}),
+      h("button", {type: "button", class: "fmi-btn fmi-btn-quiet", text: "Print or save as PDF", onclick: function () { window.print(); }})));
+    card.appendChild(h("div", {class: "fmi-nav"}, h("button", {type: "button", class: "fmi-btn fmi-btn-quiet", text: "Back", onclick: function () { go(steps().length - 2); }})));
+    return card;
+  }
+
+  function renderDone() {
+    var p = submitState.payload;
+    var sent = submitState.status === "sent";
+    return h("div", {class: "fmi-card"},
+      h("h1", {tabindex: "-1", id: "fmi-sec-title", text: sent ? "Your answers have been sent" : "Your answers are downloaded"}),
+      h("p", {class: "fmi-lead"}, sent ? (CFG.successMessage || "") : ("Email the file to us" + (CFG.contactEmail ? " at " + CFG.contactEmail : "") + ", with any documents you want to share.")),
+      h("div", {class: "fmi-ok"}, "Your reference: ", h("span", {class: "fmi-ref", text: p.reference})),
+      h("div", {class: "fmi-actions"},
+        h("button", {type: "button", class: "fmi-btn fmi-btn-quiet", text: "Download a copy (JSON)", onclick: function () { download(JSON.stringify(p, null, 2), "json", p.reference); }}),
+        h("button", {type: "button", class: "fmi-btn fmi-btn-quiet", text: "Download as spreadsheet (CSV)", onclick: function () { download(toCSV(p), "csv", p.reference); }}),
+        CFG.contactEmail && !sent ? h("a", {class: "fmi-btn fmi-btn-primary", href: "mailto:" + CFG.contactEmail + "?subject=" + encodeURIComponent("Financial Modelling Xolution request " + p.reference + " " + (p.client.company || "")), text: "Open an email to " + CFG.contactEmail}) : null));
+  }
+
+  // ---------- shell ----------
+  function render() {
+    var st = steps();
+    if (stepIndex >= st.length) stepIndex = st.length - 1;
+    var key = st[stepIndex];
+    root.textContent = "";
+    var top = h("div", {class: "fmi-top"},
+      h("div", {class: "fmi-top-inner"}, h("a", {class: "fmi-brand", href: "/", "aria-label": "Xolve home"}, h("img", {src: "/assets/brand/xolve-wordmark-reversed.svg", alt: "Xolve", width: "120", height: "40"})), h("span", {class: "fmi-formname", text: S.title}), h("span", {class: "fmi-saved"}), h("a", {class: "fmi-home", href: "/#xolutions", text: "← All xolutions"})),
+      h("div", {class: "fmi-bar", role: "progressbar", "aria-label": "Questions answered", "aria-valuemin": "0", "aria-valuemax": "100", "aria-valuenow": String(Math.round(overall() * 100))}, h("span")));
+    root.appendChild(top);
+    var rail = h("nav", {class: "fmi-rail", "aria-label": "Form sections"}, h("ol", null, sections().map(function (s) {
+      var p = progress(s), i = st.indexOf(s.id);
+      return h("li", null, h("button", {type: "button", class: (i === stepIndex ? "is-current " : "") + (p.complete ? "is-complete" : ""), "aria-current": i === stepIndex ? "step" : null,
+        onclick: function () { go(i); }},
+        h("span", {class: "fmi-col", text: s.id}), h("span", null, s.title, h("span", {class: "fmi-count", text: p.answered + " of " + p.total + " answered"}))));
+    }).concat([h("li", null, h("button", {type: "button", class: key === "review" ? "is-current" : "", "aria-current": key === "review" ? "step" : null, onclick: function () { go(st.length - 1); }},
+      h("span", {class: "fmi-col", text: "✓"}), h("span", {text: "Check and send"})))])));
+    var mobile = h("div", {class: "fmi-mobile-nav"}, h("label", {for: "fmi-jump", class: "fmi-help", style: "margin:0", text: "Go to"}),
+      h("select", {id: "fmi-jump", onchange: function (e) { go(Number(e.target.value)); }},
+        st.map(function (k, i) {
+          var label = k === "intro" ? "Start" : k === "review" ? "Check and send" : k + ". " + sectionById(k).title;
+          var o = h("option", {value: String(i), text: label}); if (i === stepIndex) o.selected = true; return o;
+        })));
+    var main = h("main", {class: "fmi-main"}, mobile);
+    if (submitState && (submitState.status === "sent" || submitState.status === "downloaded")) main.appendChild(renderDone());
+    else if (key === "intro") main.appendChild(renderIntro());
+    else if (key === "review") main.appendChild(renderReview());
+    else main.appendChild(renderSection(sectionById(key)));
+    root.appendChild(h("div", {class: "fmi-body"}, rail, main));
+    refreshChrome(); updateSaved(); postHeight();
+  }
+  function refreshChrome() {
+    var bar = root.querySelector(".fmi-bar span"); var pct = Math.round(overall() * 100);
+    if (bar) { bar.style.width = pct + "%"; bar.parentNode.setAttribute("aria-valuenow", String(pct)); }
+    var st = steps();
+    root.querySelectorAll(".fmi-rail li").forEach(function (li, i) {
+      var s = sections()[i]; if (!s) return;
+      var p = progress(s), c = li.querySelector(".fmi-count"), b = li.querySelector("button");
+      if (c) c.textContent = p.answered + " of " + p.total + " answered";
+      if (b) b.classList.toggle("is-complete", p.complete);
+    });
+  }
+  function go(i) {
+    var st = steps(); stepIndex = Math.max(0, Math.min(i, st.length - 1));
+    if (submitState && submitState.status !== "sending" && submitState.status !== "failed") submitState = null;
+    render(); save();
+    var t = root.querySelector("#fmi-sec-title"); if (t) t.focus({preventScroll: true});
+    try { root.scrollIntoView({block: "start"}); } catch (e) {}
+  }
+
+  // ---------- output ----------
+  function normalise(f, v) {
+    if (f.type === "table") {
+      return (v || []).map(function (r, i) {
+        if (blank(r)) return null;
+        var o = f.rowsFixed ? {row: f.rowsFixed[i]} : {};
+        f.columns.forEach(function (c) { if (!blank(r[c.id])) o[c.id] = isNum(c.type) ? parseNum(r[c.id]) : r[c.id]; });
+        return o;
+      }).filter(Boolean);
+    }
+    if (isNum(f.type)) return parseNum(v);
+    if (typeof v === "string") return v.trim();
+    return v;
+  }
+  function ref() {
+    var d = new Date(), p = function (n) { return (n < 10 ? "0" : "") + n; };
+    return "FMI-" + String(d.getFullYear()).slice(2) + p(d.getMonth() + 1) + p(d.getDate()) + "-" + Math.random().toString(36).slice(2, 6).toUpperCase();
+  }
+  function buildPayload() {
+    var out = {form: S.form, version: S.version, reference: (submitState && submitState.payload && submitState.payload.reference) || ref(),
+      submittedAt: new Date().toISOString(), currency: currency() || answers.a_currency || null,
+      client: {company: answers.a_company_name || "", contact: answers.a_contact_name || "", email: answers.a_email || "", phone: answers.a_phone || ""},
+      objectives: answers.a_objectives || [], stage: answers.b_stage || null, revenueStreams: answers.d_streams || [],
+      sections: [], answers: {}, files: []};
+    sections().forEach(function (s) {
+      out.sections.push({id: s.id, title: s.title});
+      questions(s).forEach(function (f) {
+        if (f.type === "file") { (files[f.id] || []).forEach(function (x) { out.files.push({field: f.id, name: x.name, size: x.size, type: x.type}); }); return; }
+        if (!answered(f)) return;
+        out.answers[f.id] = normalise(f, answers[f.id]);
+      });
+    });
+    return out;
+  }
+  function csvCell(x) { var s = x == null ? "" : String(x); return /[",\n]/.test(s) ? '"' + s.replace(/"/g, '""') + '"' : s; }
+  function toCSV(p) {
+    var lines = [["Section", "Question", "Row", "Column", "Answer", "Field ID"]];
+    S.sections.forEach(function (s) {
+      s.fields.forEach(function (f) {
+        if (!(f.id in p.answers)) return;
+        var v = p.answers[f.id];
+        if (f.type === "table") v.forEach(function (r, i) { f.columns.forEach(function (c) { if (c.id in r) lines.push([s.id + ". " + s.title, f.label, r.row || "Row " + (i + 1), c.label, r[c.id], f.id + "." + c.id]); }); });
+        else lines.push([s.id + ". " + s.title, f.label, "", "", Array.isArray(v) ? v.map(function (x) { return optLabel(f, x); }).join("; ") : (f.type === "select" ? optLabel(f, v) : v), f.id]);
+      });
+    });
+    p.files.forEach(function (x) { lines.push(["Files", "Uploaded file", "", "", x.name, x.field]); });
+    return "﻿" + lines.map(function (l) { return l.map(csvCell).join(","); }).join("\r\n");
+  }
+  function download(text, ext, reference) {
+    var name = "financial-model-intake-" + ((answers.a_company_name || "answers").replace(/[^a-z0-9]+/gi, "-").replace(/^-|-$/g, "").toLowerCase() || "answers") + (reference ? "-" + reference : "") + "." + ext;
+    var blob = new Blob([text], {type: ext === "json" ? "application/json" : "text/csv;charset=utf-8"});
+    var a = h("a", {href: URL.createObjectURL(blob), download: name}); document.body.appendChild(a); a.click();
+    setTimeout(function () { URL.revokeObjectURL(a.href); a.remove(); }, 1000);
+  }
+  function notifyParent(msg) { try { if (window.parent && window.parent !== window) window.parent.postMessage(msg, "*"); } catch (e) {} }
+  function postHeight() { notifyParent({type: "fmi:height", height: document.documentElement.scrollHeight}); }
+
+  function submit() {
+    if (allErrors().length) { render(); return; }
+    var payload = buildPayload();
+    if (!CFG.endpoint) {
+      download(JSON.stringify(payload, null, 2), "json", payload.reference);
+      submitState = {status: "downloaded", payload: payload}; render(); return;
+    }
+    submitState = {status: "sending", payload: payload}; render();
+    var init = {method: "POST", headers: {"Accept": "application/json"}};
+    if (CFG.submitFormat === "json") {
+      init.headers["Content-Type"] = "application/json"; init.body = JSON.stringify(payload);
+    } else {
+      var fd = new FormData();
+      fd.append("reference", payload.reference); fd.append("company", payload.client.company);
+      fd.append("email", payload.client.email); fd.append("payload", JSON.stringify(payload));
+      Object.keys(files).forEach(function (k) { files[k].forEach(function (file) { fd.append(k, file, file.name); }); });
+      init.body = fd;
+    }
+    fetch(CFG.endpoint, init).then(function (res) {
+      if (!res.ok) throw new Error("the server answered " + res.status);
+      submitState = {status: "sent", payload: payload}; clearDraft(); draftFound = null;
+      notifyParent({type: "fmi:submitted", reference: payload.reference});
+      if (CFG.redirectUrl) { window.location.href = CFG.redirectUrl; return; }
+      render(); var t = root.querySelector("#fmi-sec-title"); if (t) t.focus();
+    }).catch(function (e) {
+      submitState = {status: "failed", payload: payload, error: e && e.message ? e.message : "network error"}; render();
+    });
+  }
+
+  // ---------- start ----------
+  function start(schema) {
+    S = schema;
+    S.sections.forEach(function (s) { collectDrivers(s.when); s.fields.forEach(function (f) { collectDrivers(f.when); }); });
+    loadDraft(); render();
+    if (window.ResizeObserver) new ResizeObserver(postHeight).observe(root);
+    window.FMI = {getPayload: buildPayload, getAnswers: function () { return answers; }, setAnswers: function (a) { answers = a || {}; render(); }, go: go, steps: steps};
+  }
+  if (CFG.schemaUrl) fetch(CFG.schemaUrl).then(function (r) { return r.json(); }).then(start);
+  else start(JSON.parse(document.getElementById("fmi-schema").textContent));
+})();
+</script>
+</body>
+</html>
