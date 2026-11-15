@@ -208,6 +208,10 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
   background: linear-gradient(var(--neon), var(--neon)) 0 100% / 100% 4px no-repeat; padding-bottom: 4px;
   overflow-wrap: anywhere;
 }
+.support { margin-top: 28px; padding: 18px 20px; border: 1px solid rgba(255, 255, 255, .14); border-left: 5px solid var(--neon); border-radius: var(--radius-sm); max-width: 34em; }
+.support h3 { font-size: 17px; font-weight: 800; }
+.support p { color: #D2D5D9; font-size: 15.5px; margin-top: 6px; }
+.support a { color: var(--paper); font-weight: 700; text-decoration-color: var(--neon); text-decoration-thickness: 2px; text-underline-offset: 3px; overflow-wrap: anywhere; }
 .contact__ctas { display: flex; flex-wrap: wrap; gap: 14px; margin-top: 34px; }
 .qform { background: var(--ink-2); border: 1px solid rgba(255, 255, 255, .1); border-radius: var(--radius); padding: 30px; display: grid; gap: 16px; }
 .qform h3 { font-size: 22px; font-weight: 800; }
