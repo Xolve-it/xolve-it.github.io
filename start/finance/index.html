@@ -5,8 +5,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Financial Modelling Xolution brief — Xolve</title>
 <meta name="description" content="Tell Xolve what your financial model needs to do. Every problem has a Xolution.">
-<link rel="icon" href="/favicon.ico" sizes="48x48">
-<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/favicon.ico?v=2" sizes="48x48">
+<link rel="icon" href="/favicon.svg?v=2" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="manifest" href="/site.webmanifest">
 <meta name="theme-color" content="#0A0A0A">
@@ -756,5 +756,7 @@ window.FMI_CONFIG = {
   else start(JSON.parse(document.getElementById("fmi-schema").textContent));
 })();
 </script>
+<script>/* interactive lattice on the black header */ (function () { var t = document.querySelector("#fmi .fmi-top"); if (t) t.setAttribute("data-xfield", "compact"); })();</script>
+<script src="/js/xfield.js"></script>
 </body>
 </html>

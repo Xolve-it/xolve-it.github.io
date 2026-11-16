@@ -299,3 +299,6 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
   .founder { padding: 28px 22px; }
   .founder::after { left: 22px; }
 }
+
+/* ---------- interactive "circuit lattice" behind black areas (js/xfield.js) ---------- */
+.xfield { position: absolute; inset: 0; width: 100%; height: 100%; display: block; z-index: -1; pointer-events: none; }
