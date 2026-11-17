@@ -275,3 +275,50 @@
   .tick__track { flex-wrap: wrap; row-gap: 8px; padding: 0 24px; }
   .tick__track[aria-hidden="true"] { display: none; }
 }
+
+/* =====================================================================
+   INTRO: the logo kit's animation, with the green bar flickering on
+   like a light. Shown once per visit; skipped with reduced motion.
+   Timing is set in the <head> script of index.html.
+   ===================================================================== */
+.intro { display: none; }
+.intro-on .intro {
+  position: fixed; inset: 0; z-index: 200; display: grid; place-items: center; align-content: center; gap: 28px;
+  background: var(--ink); cursor: pointer;
+  animation: intro-out .55s 2.75s cubic-bezier(.6, 0, .2, 1) forwards;
+}
+.intro.is-skip { animation: intro-out .35s ease-out forwards; }
+.intro__mark { width: min(36vw, 180px); height: auto; overflow: visible; }
+.intro-on .intro__mark { animation: intro-zoom .55s 2.75s cubic-bezier(.6, 0, .2, 1) forwards; }
+.intro__motto {
+  font-size: 12.5px; font-weight: 700; letter-spacing: .18em; text-transform: uppercase; color: var(--muted-dark);
+  opacity: 0;
+}
+.intro-on .intro__motto { animation: hx-fade .6s 1.95s forwards; }
+@keyframes intro-out { to { opacity: 0; visibility: hidden; } }
+@keyframes intro-zoom { to { transform: scale(1.12); } }
+
+/* the kit's animation (2.4s here), plus a light-bulb flicker as the bar comes on */
+.xlv .xlv-blade, .xlv .xlv-nd, .xlv .xlv-cut, .xlv .xlv-bar, .xlv .xlv-glow { animation-duration: 2.4s; animation-fill-mode: both; }
+.xlv .xlv-bar, .xlv .xlv-glow { transform-box: fill-box; transform-origin: center; }
+.intro-on .xlv .xlv-blade { animation-name: xlvBlade; animation-timing-function: linear; }
+.intro-on .xlv .xlv-nd { animation-name: xlvNeedle; animation-timing-function: cubic-bezier(.7, 0, .25, 1); }
+.intro-on .xlv .xlv-cut { animation-name: xlvCut; animation-timing-function: cubic-bezier(.7, 0, .25, 1); }
+.intro-on .xlv .xlv-bar { animation-name: xlvBar; animation-timing-function: linear; }
+.intro-on .xlv .xlv-glow { animation-name: xlvGlow; animation-timing-function: linear; }
+@keyframes xlvBlade { 0% { opacity: 0; } 8%, 100% { opacity: 1; } }
+@keyframes xlvNeedle { 0%, 8% { transform: translate(-60px, -53px); opacity: 0; } 12% { opacity: 1; } 30%, 100% { transform: translate(0, 0); opacity: 1; } }
+@keyframes xlvCut { 0%, 8% { transform: translate(-60px, -53px); } 30%, 100% { transform: translate(0, 0); } }
+@keyframes xlvBar {
+  0%, 30% { fill: #2B2E33; transform: scale(.5, .72); }
+  55% { fill: #2B2E33; transform: scale(1, 1); }
+  60% { fill: #00F07A; } 64% { fill: #2B2E33; } 69% { fill: #00F07A; } 73% { fill: #1F8F55; }
+  78%, 100% { fill: #00F07A; transform: scale(1, 1); }
+}
+@keyframes xlvGlow {
+  0%, 55% { opacity: 0; } 60% { opacity: .8; } 64% { opacity: 0; } 69% { opacity: .8; } 73% { opacity: .25; }
+  78%, 100% { opacity: .9; }
+}
+
+/* the hero waits for the intro, then plays its own entrance */
+.intro-wait .hx__kicker, .intro-wait .hx__lead, .intro-wait .hx__ctas, .intro-wait .hx__scroll { animation-play-state: paused; }

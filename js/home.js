@@ -40,6 +40,13 @@
     return n;
   }
 
+  /* ---------- 0. the intro can be skipped with a click, tap or key ---------- */
+  const intro = $("#intro");
+  if (intro && window.xolveSkipIntro) {
+    intro.addEventListener("pointerdown", () => window.xolveSkipIntro());
+    window.addEventListener("keydown", () => window.xolveSkipIntro(), { once: true });
+  }
+
   /* ---------- 1. header state + scroll progress ---------- */
   const top = $(".top");
   const hero = $(".hx");
@@ -70,8 +77,13 @@
       return w;
     }));
     if (hasIO) {
+      const root = document.documentElement;
       const io = new IntersectionObserver((entries) => entries.forEach((en) => {
-        if (en.isIntersecting) { en.target.classList.add("is-in"); io.unobserve(en.target); }
+        if (!en.isIntersecting) return;
+        io.unobserve(en.target);
+        const show = () => en.target.classList.add("is-in");
+        // the hero headline waits for the intro to finish
+        if (root.classList.contains("intro-wait")) window.addEventListener("xolve:lit", show, { once: true }); else show();
       }), { rootMargin: "0px 0px -10% 0px" });
       splits.forEach((el) => io.observe(el));
     } else {

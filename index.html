@@ -30,8 +30,41 @@
 <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/css/style.css">
 <link rel="stylesheet" href="/css/home.css">
+<link rel="stylesheet" href="/css/bulb.css">
+<!-- Intro: the logo "switches on" once per visit (skipped with reduced motion). The class is set here so nothing flashes first. -->
+<script>
+(function () {
+  /* Intro timing lives here (not in a separate file) so the intro always clears, even if a script fails to load.
+     intro-on   = the intro screen is showing
+     intro-wait = the hero waits; when it's removed, "xolve:lit" fires and the hero starts */
+  var d = document.documentElement, seen = false;
+  try { seen = !!sessionStorage.getItem("xolveIntro"); sessionStorage.setItem("xolveIntro", "1"); } catch (e) {}
+  if (seen || (window.matchMedia && matchMedia("(prefers-reduced-motion: reduce)").matches)) return;
+  d.classList.add("intro-on", "intro-wait");
+  var lit = false, done = false;
+  function light() { if (lit) return; lit = true; d.classList.remove("intro-wait"); try { window.dispatchEvent(new Event("xolve:lit")); } catch (e) {} }
+  function end() { if (done) return; done = true; light(); d.classList.remove("intro-on"); }
+  window.xolveSkipIntro = function () { var el = document.getElementById("intro"); if (el) el.classList.add("is-skip"); light(); setTimeout(end, 350); };
+  setTimeout(light, 2750);
+  setTimeout(end, 3300);
+})();
+</script>
 </head>
 <body class="home">
+<!-- ================= INTRO: the Xolve mark assembles and its green bar flickers on like a light ================= -->
+<div class="intro" id="intro" aria-hidden="true">
+  <svg class="intro__mark xlv" viewBox="10 6 82 86">
+    <defs>
+      <mask id="xlv-cut" maskUnits="userSpaceOnUse" x="-80" y="-80" width="260" height="260"><rect x="-80" y="-80" width="260" height="260" fill="#fff"/><polygon class="xlv-cut" points="16,12 55.95,35.25 84,72 44.05,48.75" fill="#000" stroke="#000" stroke-width="7" stroke-linejoin="miter"/></mask>
+      <filter id="xlv-blur" x="-50%" y="-200%" width="200%" height="500%"><feGaussianBlur stdDeviation="2.6"/></filter>
+    </defs>
+    <g class="xlv-blade"><polygon points="72,12 86,12 16,72" fill="#FFFFFF" mask="url(#xlv-cut)"/></g>
+    <g class="xlv-nd"><polygon points="16,12 55.95,35.25 84,72 44.05,48.75" fill="#FFFFFF"/></g>
+    <rect class="xlv-glow" x="32" y="80" width="36" height="6" rx="3" fill="#00F07A" filter="url(#xlv-blur)"/>
+    <rect class="xlv-bar" x="32" y="80" width="36" height="6" rx="3" fill="#00F07A"/>
+  </svg>
+  <p class="intro__motto">Every problem has a Xolution.</p>
+</div>
 <a class="skip" href="#main">Skip to content</a>
 
 <!-- ================= HEADER (transparent over the hero, solid once you scroll) ================= -->
@@ -438,6 +471,7 @@
 
 <script src="/js/main.js"></script>
 <script src="/js/xfield.js"></script>
+<script src="/js/bulb.js"></script>
 <script src="/js/xhero.js"></script>
 <script src="/js/home.js"></script>
 </body>

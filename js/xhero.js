@@ -26,6 +26,22 @@
 
   let w = 0, h = 0, dpr = 1, parts = [], dust = [], visible = true, raf = 0, t0 = performance.now();
   const ptr = { x: -9999, y: -9999, on: false };
+  const root = document.documentElement;
+  // on the home page's first visit, wait for the intro to finish before assembling
+  let started = !root.classList.contains("intro-wait");
+  let barBox = null, glowNow = 0;
+
+  /* the bar "switches on" like a light once the X has formed: off, on, off, on, dim, on */
+  function barLight(now) {
+    if (reduceMotion) return 1;
+    const a = (now - t0) / 1000 - 1.45;
+    if (a < 0) return 0;
+    if (a < 0.07) return 1;
+    if (a < 0.13) return 0;
+    if (a < 0.21) return 1;
+    if (a < 0.27) return 0.35;
+    return 1;
+  }
 
   /* ---------- turn the logo into a list of points ---------- */
   function sampleMark(markH) {
@@ -86,6 +102,13 @@
       };
     });
 
+    const bp = parts.filter((p) => p.bar);
+    if (bp.length) {
+      const xs = bp.map((p) => p.hx), ys = bp.map((p) => p.hy);
+      const x0 = Math.min(...xs), x1 = Math.max(...xs), y0 = Math.min(...ys), y1 = Math.max(...ys);
+      barBox = { cx: (x0 + x1) / 2, cy: (y0 + y1) / 2, w: x1 - x0 };
+    }
+
     dust = Array.from({ length: Math.round(Math.min(90, (w * h) / 16000)) }, () => ({
       x: Math.random() * w, y: Math.random() * h, z: 0.3 + Math.random() * 0.7, s: Math.random() * 1.2 + 0.4,
     }));
@@ -135,6 +158,23 @@
     }
 
     const fade = 1 - scroll * 0.75;
+    const lit = barLight(now);
+
+    // soft glow behind the bar once it's on; brighter while a "Xolve it" button is lit
+    const target = lit >= 1 ? (root.classList.contains("bulb-hover") ? 1.8 : 1) : 0;
+    glowNow = reduceMotion ? target : glowNow + (target - glowNow) * (target > glowNow ? 0.25 : 0.08);
+    if (barBox && glowNow > 0.01) {
+      ctx.save();
+      ctx.translate(barBox.cx, barBox.cy);
+      ctx.scale(1, 0.32);
+      const r = barBox.w * 0.9;
+      const g = ctx.createRadialGradient(0, 0, 0, 0, 0, r);
+      g.addColorStop(0, `rgba(0,240,122,${Math.min(0.6, 0.3 * glowNow) * fade})`);
+      g.addColorStop(1, "rgba(0,240,122,0)");
+      ctx.fillStyle = g;
+      ctx.beginPath(); ctx.arc(0, 0, r, 0, Math.PI * 2); ctx.fill();
+      ctx.restore();
+    }
     // white particles that are home; green ones that are displaced (or are the bar)
     ctx.fillStyle = `rgba(255,255,255,${0.88 * fade})`;
     for (const p of parts) {
@@ -145,19 +185,24 @@
     }
     ctx.fillStyle = `rgba(0,240,122,${0.95 * fade})`;
     for (const p of parts) {
+      if (p.bar) continue;
       const off = Math.abs(p.x - p.hx) + Math.abs(p.y - p.hy);
-      if (p.bar || (off > 16 && scroll < 0.05)) ctx.fillRect(p.x, p.y, p.size, p.size);
+      if (off > 16 && scroll < 0.05) ctx.fillRect(p.x, p.y, p.size, p.size);
     }
+    // the bar: grey ("off") until it switches on, then green
+    ctx.fillStyle = lit > 0.5 ? `rgba(0,240,122,${0.95 * fade})` : `rgba(110,116,124,${0.85 * fade})`;
+    for (const p of parts) if (p.bar) ctx.fillRect(p.x, p.y, p.size, p.size);
   }
 
   /* ---------- loop, only while the hero is on screen ---------- */
   function frame(now) {
     raf = 0;
-    if (!visible || document.hidden) return;
+    if (!visible || document.hidden || !started) return;
     step(now);
     raf = requestAnimationFrame(frame);
   }
-  const kick = () => { if (!raf && !reduceMotion) raf = requestAnimationFrame(frame); };
+  const kick = () => { if (!raf && !reduceMotion && started) raf = requestAnimationFrame(frame); };
+  if (!started) window.addEventListener("xolve:lit", () => { started = true; t0 = performance.now(); kick(); }, { once: true });
 
   /* ---------- input ---------- */
   function local(e) {
