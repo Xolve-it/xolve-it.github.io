@@ -2,7 +2,7 @@
 
 **Every problem has a xolution.**
 
-Static site (HTML, CSS, JavaScript) hosted on GitHub Pages at https://xolve-it.github.io.
+Static site (HTML, CSS, JavaScript). Main address: https://xolve-at8.pages.dev (Cloudflare Pages, redeploys on every push to `main`). Backup: https://xolve-it.github.io (GitHub Pages; some mobile carriers block GitHub Pages, which is why Cloudflare is the main address).
 
 | Path | What it is |
 | --- | --- |
@@ -19,7 +19,7 @@ Static site (HTML, CSS, JavaScript) hosted on GitHub Pages at https://xolve-it.g
 ## Common edits
 
 - **Contact email:** search for `get.xolutions@gmail.com` (in `index.html`, both brief pages and both JS files).
-- **Founder link:** the "About me" button in the About section points to https://jaegarp.github.io.
+- **Founder link:** the "About me" button in the About section points to https://jaegarp.pages.dev.
 - **Receiving finance briefs automatically:** set `endpoint` in the `window.FMI_CONFIG` block near the top of
   `start/finance/index.html` to a form service or webhook. While it is `""`, clients download their answers
   and email them to you.
