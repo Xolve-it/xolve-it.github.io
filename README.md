@@ -2,7 +2,7 @@
 
 **Every problem has a xolution.**
 
-Static site (HTML, CSS, JavaScript). Main address: https://xolve-at8.pages.dev (Cloudflare Pages, redeploys on every push to `main`). Backup: https://xolve-it.github.io (GitHub Pages; some mobile carriers block GitHub Pages, which is why Cloudflare is the main address).
+Static site (HTML, CSS, JavaScript). Main address: https://xolve-it.pages.dev (Cloudflare Pages, redeploys on every push to `main`). Backup: https://xolve-it.github.io (GitHub Pages; some mobile carriers block GitHub Pages, which is why Cloudflare is the main address).
 
 | Path | What it is |
 | --- | --- |
