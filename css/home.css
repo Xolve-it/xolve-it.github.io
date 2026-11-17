@@ -95,13 +95,9 @@
   display: flex; align-items: center; gap: 14px; padding-right: 28px; white-space: nowrap;
   font-size: clamp(21px, 2.4vw, 32px); font-weight: 500; letter-spacing: -0.025em; color: var(--ink);
 }
-/* icon chip beside each service: ink square, neon line icon (same style as the Xolution icons) */
-.tick__ic {
-  width: 1.45em; height: 1.45em; flex: none; display: grid; place-items: center;
-  border-radius: .36em; background: var(--ink);
-}
-.tick__ic svg { width: 62%; height: 62%; fill: none; stroke: var(--neon); stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
-.tick__row[data-dir="right"] .tick__ic { background: #2A2E33; }
+/* icon beside each service: a line icon on a transparent background, in the same colour as its text */
+.tick__ic { width: 1.05em; height: 1.05em; flex: none; display: grid; place-items: center; }
+.tick__ic svg { width: 100%; height: 100%; fill: none; stroke: currentColor; stroke-width: 1.9; stroke-linecap: round; stroke-linejoin: round; }
 .tick__track li::after { margin-left: 14px; }
 .tick__row[data-dir="right"] li { color: #8A9097; }
 .tick__track li::after { content: ""; width: 22px; height: 6px; border-radius: 3px; background: var(--neon); flex: none; }
