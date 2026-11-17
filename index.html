@@ -27,14 +27,16 @@
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/css/style.css">
+<link rel="stylesheet" href="/css/home.css">
 </head>
-<body>
+<body class="home">
 <a class="skip" href="#main">Skip to content</a>
 
-<!-- ================= HEADER ================= -->
-<header class="top" id="top" data-xfield="compact">
+<!-- ================= HEADER (transparent over the hero, solid once you scroll) ================= -->
+<header class="top" id="top">
+  <span class="top__progress" aria-hidden="true"></span>
   <div class="wrap top__inner">
     <a class="top__logo" href="/" aria-label="Xolve home">
       <img src="/assets/brand/xolve-wordmark-reversed.svg" alt="Xolve" width="120" height="40">
@@ -55,27 +57,39 @@
 
 <main id="main">
 
-<!-- ================= HERO ================= -->
-<section class="hero" data-xfield="hero">
-  <div class="wrap hero__grid">
-    <div class="hero__text">
-      <p class="kicker kicker--dark">Financial modelling · Cloud engineering</p>
-      <h1>Every problem has a <span class="hl">Xolution.</span></h1>
-      <p class="lead">Xolve builds investor-ready financial models and secure, low-cost cloud systems for founders and growing businesses. Bring us the problem. We'll Xolve it.</p>
-      <div class="hero__ctas">
-        <a class="btn btn--neon" href="#xolutions">Xolve it <span aria-hidden="true">→</span></a>
-        <a class="btn btn--ghost" href="#about">Meet the founder</a>
-      </div>
-    </div>
-    <div class="hero__mark" aria-hidden="true">
-      <img src="/assets/brand/xolve-icon-animated-reversed.svg" alt="" width="328" height="344">
+<!-- ================= HERO: particles that assemble into the Xolve mark (js/xhero.js) ================= -->
+<section class="hx" aria-labelledby="hx-title">
+  <canvas class="hx__canvas" id="hxCanvas" aria-hidden="true"></canvas>
+  <div class="hx__glow" aria-hidden="true"></div>
+  <div class="wrap hx__inner">
+    <p class="kicker kicker--dark hx__kicker">Financial modelling · Cloud engineering</p>
+    <h1 class="hx__title" id="hx-title" data-split>Every problem has a <span class="hl">Xolution.</span></h1>
+    <p class="hx__lead">Xolve builds investor-ready financial models and secure, low-cost cloud systems for founders and growing businesses. Bring us the problem. We'll Xolve it.</p>
+    <div class="hx__ctas">
+      <a class="btn btn--neon" href="#xolutions">Xolve it <span aria-hidden="true">→</span></a>
+      <a class="btn btn--ghost" href="#about">Meet the founder</a>
     </div>
   </div>
+  <a class="hx__scroll" href="#statement"><span>Scroll to explore</span><i aria-hidden="true"></i></a>
+</section>
+
+<!-- ================= STATEMENT: words light up as you scroll ================= -->
+<section class="stmt" id="statement" aria-label="What Xolve does">
   <div class="wrap">
-    <ul class="hero__facts">
-      <li><b>Models you can audit</b><span>Built in Excel, traceable cell by cell. No black boxes.</span></li>
-      <li><b>Cloud that stays up</b><span>Built on AWS, Azure and GitHub, with cost guardrails from day one.</span></li>
-      <li><b>Founder-led</b><span>You work directly with the person building your Xolution.</span></li>
+    <p class="stmt__text" data-scrub>Most growing businesses hire two kinds of help: one for the numbers and another for the technology. Xolve brings both together, with finance that stands up to investors and cloud systems that keep running without a large bill.</p>
+  </div>
+</section>
+
+<!-- ================= TICKER: what we build ================= -->
+<section class="tick" aria-label="What we build">
+  <div class="tick__row" data-dir="left">
+    <ul class="tick__track">
+      <li>Three-statement models</li><li>DCF valuation</li><li>Budgets &amp; forecasts</li><li>Loan &amp; project finance</li><li>Unit economics</li><li>Scenario analysis</li><li>Cash-runway plans</li><li>Board reporting</li>
+    </ul>
+  </div>
+  <div class="tick__row" data-dir="right">
+    <ul class="tick__track">
+      <li>Microsoft Azure</li><li>Amazon Web Services</li><li>Serverless APIs</li><li>Docker</li><li>GitHub Actions CI/CD</li><li>Multi-cloud failover</li><li>Monitoring &amp; alerts</li><li>Cost guardrails</li>
     </ul>
   </div>
 </section>
@@ -83,70 +97,102 @@
 <!-- ================= XOLUTIONS ================= -->
 <section class="section" id="xolutions">
   <div class="wrap">
-    <p class="kicker">Our Xolutions</p>
-    <h2>Pick a problem. We'll Xolve it.</h2>
-    <p class="section__lead">Two core Xolutions, each started with a short guided brief. Tell us where you are and what you need, and we'll come back with a plan and a quote.</p>
+    <div class="sec-head">
+      <p class="kicker">Our Xolutions</p>
+      <h2 data-split>Pick a problem. We'll Xolve it.</h2>
+      <p class="section__lead">Two core Xolutions, each started with a short guided brief. Tell us where you are and what you need, and we'll come back with a plan and a quote.</p>
+    </div>
 
     <div class="xols">
       <!-- Financial Modelling Xolution -->
-      <article class="xol" id="finance">
-        <div class="xol__head">
-          <span class="xol__icon" aria-hidden="true">
-            <svg viewBox="0 0 24 24"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg>
-          </span>
-          <div>
-            <p class="xol__tag">Finance</p>
-            <h3>Financial Modelling Xolution</h3>
+      <article class="xol xol--v" id="finance" data-spot>
+        <div class="xol__viz xol__viz--fin" aria-hidden="true">
+          <svg viewBox="0 0 320 150" preserveAspectRatio="none">
+            <g class="viz-bars">
+              <rect x="22"  y="98" width="26" height="40" rx="3"/>
+              <rect x="64"  y="84" width="26" height="54" rx="3"/>
+              <rect x="106" y="90" width="26" height="48" rx="3"/>
+              <rect x="148" y="66" width="26" height="72" rx="3"/>
+              <rect x="190" y="54" width="26" height="84" rx="3"/>
+              <rect x="232" y="38" width="26" height="100" rx="3"/>
+              <rect x="274" y="22" width="26" height="116" rx="3"/>
+            </g>
+            <path class="viz-line" d="M35 92 L77 78 L119 84 L161 58 L203 46 L245 30 L287 14"/>
+          </svg>
+        </div>
+        <div class="xol__body">
+          <div class="xol__head">
+            <span class="xol__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg>
+            </span>
+            <div>
+              <p class="xol__tag">Finance</p>
+              <h3>Financial Modelling Xolution</h3>
+            </div>
           </div>
+          <p class="xol__problem">You need numbers that investors, lenders or your board will trust.</p>
+          <ul class="ticks">
+            <li>Three-statement models: P&amp;L, balance sheet and cash flow</li>
+            <li>Fundraising and valuation: DCF and trading multiples</li>
+            <li>Loan and project-finance models</li>
+            <li>Budgets, forecasts and cash-runway plans</li>
+            <li>Pricing and unit economics</li>
+            <li>Scenario and sensitivity analysis</li>
+          </ul>
+          <p class="xol__who"><b>Built for</b> startups raising money, businesses applying for loans, and established companies planning budgets or expansion.</p>
+          <div class="xol__ctas">
+            <a class="btn btn--ink" href="/start/finance/">Xolve my numbers <span aria-hidden="true">→</span></a>
+            <a class="link" href="https://jaegarp.pages.dev/#lab" target="_blank" rel="noopener">See sample models</a>
+          </div>
+          <p class="xol__note">The brief saves as you go, so you can stop and come back.</p>
         </div>
-        <p class="xol__problem">You need numbers that investors, lenders or your board will trust.</p>
-        <ul class="ticks">
-          <li>Three-statement models: P&amp;L, balance sheet and cash flow</li>
-          <li>Fundraising and valuation: DCF and trading multiples</li>
-          <li>Loan and project-finance models</li>
-          <li>Budgets, forecasts and cash-runway plans</li>
-          <li>Pricing and unit economics</li>
-          <li>Scenario and sensitivity analysis</li>
-        </ul>
-        <p class="xol__who"><b>Built for</b> startups raising money, businesses applying for loans, and established companies planning budgets or expansion.</p>
-        <div class="xol__ctas">
-          <a class="btn btn--ink" href="/start/finance/">Xolve my numbers <span aria-hidden="true">→</span></a>
-          <a class="link" href="https://jaegarp.pages.dev/#lab" target="_blank" rel="noopener">See sample models</a>
-        </div>
-        <p class="xol__note">The brief saves as you go, so you can stop and come back.</p>
       </article>
 
       <!-- Cloud Xolution -->
-      <article class="xol" id="cloud">
-        <div class="xol__head">
-          <span class="xol__icon" aria-hidden="true">
-            <svg viewBox="0 0 24 24"><path d="M7 18h10a4 4 0 0 0 .6-7.96A6 6 0 0 0 6.1 9.2 4.5 4.5 0 0 0 7 18Z"/></svg>
-          </span>
-          <div>
-            <p class="xol__tag">Cloud</p>
-            <h3>Cloud Xolution</h3>
+      <article class="xol xol--v" id="cloud" data-spot>
+        <div class="xol__viz xol__viz--cloud" aria-hidden="true">
+          <svg viewBox="0 0 320 150" preserveAspectRatio="xMidYMid meet">
+            <path class="viz-wire" d="M60 75 H160 M160 75 L260 38 M160 75 L260 112"/>
+            <path class="viz-flow" d="M60 75 H160 L260 38"/>
+            <path class="viz-flow viz-flow--b" d="M60 75 H160 L260 112"/>
+            <rect class="viz-node" x="36" y="51" width="48" height="48" rx="12"/>
+            <rect class="viz-node viz-node--hub" x="136" y="51" width="48" height="48" rx="12"/>
+            <rect class="viz-node" x="236" y="14" width="48" height="48" rx="12"/>
+            <rect class="viz-node" x="236" y="88" width="48" height="48" rx="12"/>
+            <text x="60" y="80">You</text><text x="160" y="80">API</text><text x="260" y="43">Azure</text><text x="260" y="117">AWS</text>
+          </svg>
+        </div>
+        <div class="xol__body">
+          <div class="xol__head">
+            <span class="xol__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M7 18h10a4 4 0 0 0 .6-7.96A6 6 0 0 0 6.1 9.2 4.5 4.5 0 0 0 7 18Z"/></svg>
+            </span>
+            <div>
+              <p class="xol__tag">Cloud</p>
+              <h3>Cloud Xolution</h3>
+            </div>
           </div>
+          <p class="xol__problem">You need a website, app or system that stays up, stays secure and doesn't burn cash.</p>
+          <ul class="ticks">
+            <li>Websites and hosting on your own domain</li>
+            <li>Serverless APIs, contact and lead forms</li>
+            <li>Multi-cloud failover across Azure and AWS</li>
+            <li>CI/CD pipelines with GitHub Actions</li>
+            <li>Docker containerisation</li>
+            <li>Monitoring, alerts and budget guardrails</li>
+          </ul>
+          <p class="xol__who"><b>Built for</b> small businesses, founders and teams moving to the cloud or tidying up what they already run.</p>
+          <div class="xol__ctas">
+            <a class="btn btn--ink" href="/start/cloud/">Xolve my cloud <span aria-hidden="true">→</span></a>
+            <a class="link" href="https://jaegarp.pages.dev/#cloud" target="_blank" rel="noopener">See cloud work</a>
+          </div>
+          <p class="xol__note">A one-page brief. It takes a few minutes.</p>
         </div>
-        <p class="xol__problem">You need a website, app or system that stays up, stays secure and doesn't burn cash.</p>
-        <ul class="ticks">
-          <li>Websites and hosting on your own domain</li>
-          <li>Serverless APIs, contact and lead forms</li>
-          <li>Multi-cloud failover across Azure and AWS</li>
-          <li>CI/CD pipelines with GitHub Actions</li>
-          <li>Docker containerisation</li>
-          <li>Monitoring, alerts and budget guardrails</li>
-        </ul>
-        <p class="xol__who"><b>Built for</b> small businesses, founders and teams moving to the cloud or tidying up what they already run.</p>
-        <div class="xol__ctas">
-          <a class="btn btn--ink" href="/start/cloud/">Xolve my cloud <span aria-hidden="true">→</span></a>
-          <a class="link" href="https://jaegarp.pages.dev/#cloud" target="_blank" rel="noopener">See cloud work</a>
-        </div>
-        <p class="xol__note">A one-page brief. It takes a few minutes.</p>
       </article>
     </div>
 
     <!-- Custom Xolution -->
-    <div class="xol-custom">
+    <div class="xol-custom" data-spot>
       <div>
         <h3>Custom Xolution</h3>
         <p>Got a problem that isn't on the list? Every problem has a Xolution. Tell us about it.</p>
@@ -156,29 +202,35 @@
   </div>
 </section>
 
-<!-- ================= PROCESS ================= -->
-<section class="section section--alt" id="process">
-  <div class="wrap">
-    <p class="kicker">How we Xolve it</p>
-    <h2>From problem to Xolution in four steps.</h2>
-    <ol class="steps">
-      <li class="step">
-        <span class="step__n">01</span>
+<!-- ================= PROCESS: the left side stays put while the steps scroll past ================= -->
+<section class="proc" id="process">
+  <div class="wrap proc__grid">
+    <div class="proc__side">
+      <p class="kicker kicker--dark">How we Xolve it</p>
+      <h2 data-split>From problem to Xolution in four steps.</h2>
+      <div class="proc__meter" aria-hidden="true">
+        <span class="proc__count"><b id="procNow">01</b> / 04</span>
+        <span class="proc__bar"><i id="procBar"></i></span>
+      </div>
+    </div>
+    <ol class="proc__steps">
+      <li class="pstep" data-step="1">
+        <span class="pstep__n">01</span>
         <h3>Brief</h3>
         <p>Tell us the problem through a guided brief. Answer what you know and skip the rest.</p>
       </li>
-      <li class="step">
-        <span class="step__n">02</span>
+      <li class="pstep" data-step="2">
+        <span class="pstep__n">02</span>
         <h3>Scope</h3>
         <p>We review it, talk it through with you on a short call and send a clear quote and timeline.</p>
       </li>
-      <li class="step">
-        <span class="step__n">03</span>
+      <li class="pstep" data-step="3">
+        <span class="pstep__n">03</span>
         <h3>Build</h3>
         <p>We build it, with check-ins along the way, so there are no surprises at the end.</p>
       </li>
-      <li class="step">
-        <span class="step__n">04</span>
+      <li class="pstep" data-step="4">
+        <span class="pstep__n">04</span>
         <h3>Handover</h3>
         <p>You get the files, the documentation and a walk-through. Your Xolution is yours to keep.</p>
       </li>
@@ -186,40 +238,89 @@
   </div>
 </section>
 
-<!-- ================= WORK ================= -->
-<section class="section" id="work">
-  <div class="wrap">
-    <p class="kicker">Proof of Xolutions</p>
-    <h2>See the work before you commit.</h2>
-    <p class="section__lead">Sample and personal projects built by our founder, shared so you can check the quality for yourself.</p>
-    <div class="work">
-      <article class="work__card">
-        <p class="xol__tag">Finance · Sample</p>
-        <h3>Equity research models: NVIDIA &amp; ExxonMobil</h3>
-        <p>Full DCF valuations in Excel: ten-year forecasts, WACC build-up, the bridge from enterprise value to value per share, and sensitivity tables.</p>
-        <div class="work__links">
-          <a class="link" href="https://jaegarp.pages.dev/assets/models/NVIDIA_DCF_model.xlsx" download target="_blank" rel="noopener">NVIDIA model (.xlsx)</a>
-          <a class="link" href="https://jaegarp.pages.dev/assets/models/ExxonMobil_DCF_model.xlsx" download target="_blank" rel="noopener">ExxonMobil model (.xlsx)</a>
-        </div>
-      </article>
-      <article class="work__card">
-        <p class="xol__tag">Cloud · Live</p>
-        <h3>Multi-cloud contact API</h3>
-        <p>A serverless API that runs on Azure Functions and fails over automatically to AWS Lambda. Written in C#, tested, and deployed as infrastructure as code.</p>
-        <div class="work__links">
-          <a class="link" href="https://jaegarp.pages.dev/#cloud" target="_blank" rel="noopener">How it works</a>
-          <a class="link" href="https://github.com/jaegarP/portfolio-contact-api" target="_blank" rel="noopener">Source code</a>
-        </div>
-      </article>
-      <article class="work__card">
-        <p class="xol__tag">Cloud · Team project</p>
-        <h3>Ballot: a voting app on AWS</h3>
-        <p>A five-service app on AWS EC2, delivered by a GitHub Actions pipeline with automated tests, security scans and health-checked deploys.</p>
-        <div class="work__links">
-          <a class="link" href="https://jaegarp.pages.dev/#capstone" target="_blank" rel="noopener">Case study</a>
-        </div>
-      </article>
+<!-- ================= WORK: drag, swipe or use the arrows ================= -->
+<section class="show" id="work">
+  <div class="wrap show__head">
+    <div>
+      <p class="kicker kicker--dark">Proof of Xolutions</p>
+      <h2 data-split>See the work before you commit.</h2>
+      <p class="show__lead">Sample and personal projects built by our founder, shared so you can check the quality for yourself.</p>
     </div>
+    <div class="show__ctrl">
+      <button class="show__btn" type="button" id="showPrev" aria-label="Previous project">←</button>
+      <button class="show__btn" type="button" id="showNext" aria-label="Next project">→</button>
+    </div>
+  </div>
+  <div class="show__track" id="showTrack" tabindex="0" aria-label="Projects. Scroll sideways to see more.">
+    <article class="scard" data-spot>
+      <p class="scard__tag">Finance · Sample model</p>
+      <h3 class="scard__title">Valuing NVIDIA with a ten-year DCF.</h3>
+      <p class="scard__text">Revenue build, WACC, the bridge from enterprise value to value per share, and sensitivity tables, all in Excel.</p>
+      <div class="scard__links">
+        <a class="link link--dark" href="https://jaegarp.pages.dev/assets/models/NVIDIA_DCF_model.xlsx" download target="_blank" rel="noopener">Download (.xlsx)</a>
+      </div>
+    </article>
+    <article class="scard" data-spot>
+      <p class="scard__tag">Finance · Sample model</p>
+      <h3 class="scard__title">Pricing ExxonMobil from cash flow to value per share.</h3>
+      <p class="scard__text">A full DCF with a ten-year forecast, WACC build-up and scenario tables you can trace cell by cell.</p>
+      <div class="scard__links">
+        <a class="link link--dark" href="https://jaegarp.pages.dev/assets/models/ExxonMobil_DCF_model.xlsx" download target="_blank" rel="noopener">Download (.xlsx)</a>
+      </div>
+    </article>
+    <article class="scard" data-spot>
+      <p class="scard__tag">Cloud · Live</p>
+      <h3 class="scard__title">A contact API that fails over from Azure to AWS on its own.</h3>
+      <p class="scard__text">Serverless, written in C#, tested, and deployed to both clouds as infrastructure as code.</p>
+      <div class="scard__links">
+        <a class="link link--dark" href="https://jaegarp.pages.dev/#cloud" target="_blank" rel="noopener">How it works</a>
+        <a class="link link--dark" href="https://github.com/jaegarP/portfolio-contact-api" target="_blank" rel="noopener">Source code</a>
+      </div>
+    </article>
+    <article class="scard" data-spot>
+      <p class="scard__tag">Cloud · Team project</p>
+      <h3 class="scard__title">Shipping a five-service voting app through an automated pipeline.</h3>
+      <p class="scard__text">AWS EC2, Docker and GitHub Actions, with automated tests, security scans and health-checked deploys.</p>
+      <div class="scard__links">
+        <a class="link link--dark" href="https://jaegarp.pages.dev/#capstone" target="_blank" rel="noopener">Case study</a>
+      </div>
+    </article>
+    <article class="scard" data-spot>
+      <p class="scard__tag">Founder's experience · Reporting</p>
+      <h3 class="scard__title">Cutting executive reporting delays by 40% across a multi-entity group.</h3>
+      <p class="scard__text">Excel operational databases and reporting systems that gave leadership one source of truth.</p>
+      <div class="scard__links">
+        <a class="link link--dark" href="https://jaegarp.pages.dev/#projects" target="_blank" rel="noopener">Read more</a>
+      </div>
+    </article>
+    <article class="scard" data-spot>
+      <p class="scard__tag">Cloud · Live</p>
+      <h3 class="scard__title">This website: on Cloudflare, with GitHub Pages as a backup.</h3>
+      <p class="scard__text">Static, fast and free to host. Every change is published to both automatically.</p>
+      <div class="scard__links">
+        <a class="link link--dark" href="https://github.com/Xolve-it/xolve-it.github.io" target="_blank" rel="noopener">Source code</a>
+      </div>
+    </article>
+  </div>
+  <div class="wrap">
+    <div class="show__progress" aria-hidden="true"><i id="showBar"></i></div>
+  </div>
+</section>
+
+<!-- ================= NUMBERS ================= -->
+<section class="section nums" aria-labelledby="nums-title">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="kicker">Track record</p>
+      <h2 id="nums-title" data-split>Numbers, not promises.</h2>
+      <p class="section__lead">From the work of our founder.</p>
+    </div>
+    <ul class="nums__grid">
+      <li class="num"><b><span data-count="50000">50,000</span>+</b><p>records analysed and reconciled across bank statements and multi-account books</p></li>
+      <li class="num"><b><span data-count="40">40</span>%</b><p>faster executive reporting after rebuilding Excel reporting systems</p></li>
+      <li class="num"><b>2 clouds</b><p>Azure and AWS, with automatic failover in our live contact API</p></li>
+      <li class="num"><b><span data-count="10">10</span>-year</b><p>forecast horizon in our sample DCF valuation models</p></li>
+    </ul>
   </div>
 </section>
 
@@ -228,13 +329,13 @@
   <div class="wrap about">
     <div class="about__text">
       <p class="kicker">About Xolve</p>
-      <h2>Built on one belief: every problem has a Xolution.</h2>
+      <h2 data-split>Built on one belief: every problem has a Xolution.</h2>
       <p>Most growing businesses have to hire two kinds of help separately: someone for the numbers, and someone for the technology. Xolve brings both together. We build finance that stands up to investors and auditors, and cloud systems that keep running without a large bill.</p>
       <p>We break each problem into parts you can see and check, and hand back something that works and that you understand.</p>
       <ul class="values">
-        <li><b>Traceable.</b> Every number and every system can be checked.</li>
-        <li><b>Lean.</b> We build for what you need now, with room to grow.</li>
-        <li><b>Yours.</b> You keep the files, the code and the know-how.</li>
+        <li data-spot><b>Traceable.</b> Every number and every system can be checked.</li>
+        <li data-spot><b>Lean.</b> We build for what you need now, with room to grow.</li>
+        <li data-spot><b>Yours.</b> You keep the files, the code and the know-how.</li>
       </ul>
     </div>
 
@@ -256,11 +357,13 @@
 </section>
 
 <!-- ================= CONTACT ================= -->
-<section class="section section--dark" id="contact" data-xfield>
+<section class="section section--dark cta" id="contact" data-xfield>
+  <div class="wrap">
+    <p class="kicker kicker--dark">Contact</p>
+    <h2 class="cta__title" data-split>Got a problem? Let's <span class="hl">Xolve it.</span></h2>
+  </div>
   <div class="wrap contact">
     <div class="contact__text">
-      <p class="kicker kicker--dark">Contact</p>
-      <h2>Got a problem? Let's Xolve it.</h2>
       <p class="lead">Start a brief, or send us a few lines about what you're stuck on. We'll reply by email.</p>
       <a class="contact__email" href="mailto:get.xolutions@gmail.com">get.xolutions@gmail.com</a>
       <div class="support">
@@ -294,7 +397,7 @@
 </main>
 
 <!-- ================= FOOTER ================= -->
-<footer class="foot" data-xfield>
+<footer class="foot foot--big" data-xfield>
   <div class="wrap foot__inner">
     <div>
       <img src="/assets/brand/xolve-wordmark-reversed.svg" alt="Xolve" width="108" height="36">
@@ -308,6 +411,7 @@
       <a href="mailto:get.xolutions@gmail.com">get.xolutions@gmail.com</a>
     </nav>
   </div>
+  <div class="wrap foot__giant" aria-hidden="true">Xolve it.</div>
   <div class="wrap foot__base">
     <span>© <span id="year">2026</span> Xolve. All rights reserved.</span>
     <a href="#top">Back to top ↑</a>
@@ -316,5 +420,7 @@
 
 <script src="/js/main.js"></script>
 <script src="/js/xfield.js"></script>
+<script src="/js/xhero.js"></script>
+<script src="/js/home.js"></script>
 </body>
 </html>

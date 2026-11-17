@@ -12,6 +12,10 @@ Static site (HTML, CSS, JavaScript). Main address: https://xolve-it.pages.dev (C
 | `css/style.css` | Site styles (brand colours at the top) |
 | `css/brief.css` | Extra styles for the Cloud brief page |
 | `js/main.js` | Mobile menu, scroll effects and the "Xolve something else" email form |
+| `css/home.css` | Home page layer: full-screen hero, ticker, sticky process, work showcase, counters |
+| `js/home.js` | Home page interactions: word-by-word headings, scroll-lit statement, process steps, showcase arrows/drag/autoplay, counters, card glow |
+| `js/xhero.js` | The hero animation: particles that assemble into the Xolve mark and react to the mouse, clicks and scrolling |
+| `js/xfield.js` | The interactive "circuit lattice" behind other black areas |
 | `js/cloud-brief.js` | Cloud brief: saves answers, checks them and composes the email |
 | `assets/brand/` | Logo files from the Xolve logo kit |
 | root `favicon*`, `*.png`, `site.webmanifest` | Browser-tab and home-screen icons, link-preview image |
