@@ -38,6 +38,10 @@
     const canvas = document.createElement("canvas");
     canvas.className = "xfield";
     canvas.setAttribute("aria-hidden", "true");
+    // pin the canvas behind the content here, not only in style.css: on a page without that
+    // stylesheet the canvas would push its box taller, the resize would redraw it taller again,
+    // and the page would grow without end (this froze the finance brief on phones)
+    canvas.style.cssText = "position:absolute;inset:0;width:100%;height:100%;display:block;z-index:-1;pointer-events:none";
     host.prepend(canvas);
     return {
       host, canvas, opt, ctx: canvas.getContext("2d"),
