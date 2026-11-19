@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-19T16:24:29Z",
- "next": "2026-11-20T00:24:29Z",
+ "updated": "2026-11-19T23:03:33Z",
+ "next": "2026-11-20T07:03:33Z",
  "socials": {
   "x": "",
   "instagram": "",
@@ -197,6 +197,17 @@
    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4704285005"
   },
   {
+   "id": "scale-4756303005",
+   "platform": "scale",
+   "title": "Account Executive, Defense Intelligence Agency (DIA)",
+   "team": "",
+   "location": "Washington, DC",
+   "remote": false,
+   "type": "job",
+   "posted": "2026-11-19",
+   "url": "https://job-boards.greenhouse.io/scaleai/jobs/4756303005"
+  },
+  {
    "id": "mercor-3980cf73-8af5-4bf7-a192-19d9aeb7e8bb",
    "platform": "mercor",
    "title": "Business Operations",
@@ -206,17 +217,6 @@
    "type": "job",
    "posted": "2026-11-18",
    "url": "https://jobs.ashbyhq.com/mercor/3980cf73-8af5-4bf7-a192-19d9aeb7e8bb"
-  },
-  {
-   "id": "mercor-c684bdad-93b0-4811-82e5-926457db2daa",
-   "platform": "mercor",
-   "title": "Member of Technical Staff, Annotation UI",
-   "team": "Engineering",
-   "location": "San Francisco",
-   "remote": false,
-   "type": "job",
-   "posted": "2026-11-18",
-   "url": "https://jobs.ashbyhq.com/mercor/c684bdad-93b0-4811-82e5-926457db2daa"
   },
   {
    "id": "scale-4755784005",
@@ -668,17 +668,6 @@
    "type": "job",
    "posted": "2026-11-10",
    "url": "https://jobs.ashbyhq.com/mercor/a63f7abc-6171-41d1-bf22-307cbeada334"
-  },
-  {
-   "id": "turing-6250265004",
-   "platform": "turing",
-   "title": "Research Engineering Manager, STEM",
-   "team": "",
-   "location": "United States",
-   "remote": false,
-   "type": "job",
-   "posted": "2026-11-10",
-   "url": "https://job-boards.greenhouse.io/turing/jobs/6250265004"
   },
   {
    "id": "turing-6241507004",
@@ -1352,17 +1341,6 @@
    "url": "https://job-boards.greenhouse.io/turing/jobs/6234874004"
   },
   {
-   "id": "turing-6234003004",
-   "platform": "turing",
-   "title": "Account Director, Enterprise AI - Consumer Packaged Goods",
-   "team": "",
-   "location": "Dallas, Texas, United States",
-   "remote": false,
-   "type": "job",
-   "posted": "2026-10-24",
-   "url": "https://job-boards.greenhouse.io/turing/jobs/6234003004"
-  },
-  {
    "id": "scale-4747295005",
    "platform": "scale",
    "title": "Creative Advisor - Human Frontier Collective",
@@ -1504,17 +1482,6 @@
    "type": "job",
    "posted": "2026-10-19",
    "url": "https://job-boards.greenhouse.io/turing/jobs/6227623004"
-  },
-  {
-   "id": "turing-6225409004",
-   "platform": "turing",
-   "title": "Senior Software Engineer, AI Evaluation Infrastructure",
-   "team": "",
-   "location": "United States",
-   "remote": false,
-   "type": "job",
-   "posted": "2026-10-19",
-   "url": "https://job-boards.greenhouse.io/turing/jobs/6225409004"
   },
   {
    "id": "scale-4745295005",
@@ -1761,7 +1728,7 @@
   {
    "id": "handshake-4870c024-f6b8-4c2d-a5cb-e94f6c8f94a9",
    "platform": "handshake",
-   "title": "Member of Technical Staff, AI Engineering (India)",
+   "title": "Member of Technical Staff, AI Engineering",
    "team": "HAI Research",
    "location": "India",
    "remote": false,
@@ -2001,17 +1968,6 @@
    "url": "https://jobs.ashbyhq.com/handshake/ca392442-69eb-46f5-b367-37e43c832094"
   },
   {
-   "id": "turing-6209780004",
-   "platform": "turing",
-   "title": "Senior Software Engineer",
-   "team": "",
-   "location": "São Paulo, Brazil",
-   "remote": false,
-   "type": "job",
-   "posted": "2026-09-28",
-   "url": "https://job-boards.greenhouse.io/turing/jobs/6209780004"
-  },
-  {
    "id": "afterquery-3e8161e3-52f1-403d-8742-a687fe1c1df8",
    "platform": "afterquery",
    "title": "Product Manager",
@@ -2245,7 +2201,7 @@
   {
    "id": "scale-4734728005",
    "platform": "scale",
-   "title": "US Payroll Analyst",
+   "title": "US Payroll Manager",
    "team": "",
    "location": "Mexico City, MX",
    "remote": false,
@@ -2397,17 +2353,6 @@
    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4730834005"
   },
   {
-   "id": "scale-4730862005",
-   "platform": "scale",
-   "title": "Software Engineer - New Grad",
-   "team": "",
-   "location": "London, UK",
-   "remote": false,
-   "type": "job",
-   "posted": "2026-09-14",
-   "url": "https://job-boards.greenhouse.io/scaleai/jobs/4730862005"
-  },
-  {
    "id": "scale-4730851005",
    "platform": "scale",
    "title": "Software Engineer - New Grad",
@@ -2417,6 +2362,17 @@
    "type": "job",
    "posted": "2026-09-14",
    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4730851005"
+  },
+  {
+   "id": "scale-4730862005",
+   "platform": "scale",
+   "title": "Software Engineer - New Grad",
+   "team": "",
+   "location": "London, UK",
+   "remote": false,
+   "type": "job",
+   "posted": "2026-09-14",
+   "url": "https://job-boards.greenhouse.io/scaleai/jobs/4730862005"
   },
   {
    "id": "handshake-03769630-780c-4b80-a148-6925f75f9dd9",
@@ -2791,17 +2747,6 @@
    "type": "job",
    "posted": "2026-08-27",
    "url": "https://jobs.ashbyhq.com/mercor/bebd78ce-5f12-46e9-a285-674e33838211"
-  },
-  {
-   "id": "afterquery-ae665a77-b88d-418e-941a-6c3da870f052",
-   "platform": "afterquery",
-   "title": "Research Engineer",
-   "team": "Research",
-   "location": "San Francisco",
-   "remote": false,
-   "type": "job",
-   "posted": "2026-08-27",
-   "url": "https://jobs.ashbyhq.com/AfterQuery/ae665a77-b88d-418e-941a-6c3da870f052"
   },
   {
    "id": "afterquery-7f03dc4a-748f-4611-ac21-ee02e0ded837",
@@ -3356,7 +3301,7 @@
   {
    "id": "handshake-c57961b2-fdfa-4537-84b0-6416c42de9e4",
    "platform": "handshake",
-   "title": "Senior Forward Deployed Engineer, India",
+   "title": "Senior Forward Deployed Engineer",
    "team": "Engineering",
    "location": "India",
    "remote": false,
@@ -4474,6 +4419,61 @@
    "type": "job",
    "posted": "2025-10-17",
    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4612329005"
+  },
+  {
+   "id": "scale-4620719005",
+   "platform": "scale",
+   "title": "STEM Fellow - Human Frontier Collective (UK)",
+   "team": "",
+   "location": "United Kingdom",
+   "remote": false,
+   "type": "job",
+   "posted": "2025-10-17",
+   "url": "https://job-boards.greenhouse.io/scaleai/jobs/4620719005"
+  },
+  {
+   "id": "scale-4612403005",
+   "platform": "scale",
+   "title": "Staff Product Manager, Agentic Platform",
+   "team": "",
+   "location": "New York, NY; San Francisco, CA; Washington, DC",
+   "remote": false,
+   "type": "job",
+   "posted": "2025-10-14",
+   "url": "https://job-boards.greenhouse.io/scaleai/jobs/4612403005"
+  },
+  {
+   "id": "scale-4618046005",
+   "platform": "scale",
+   "title": "Tech Lead Manager- MLRE, ML Systems",
+   "team": "",
+   "location": "San Francisco, CA; New York, NY",
+   "remote": false,
+   "type": "job",
+   "posted": "2025-10-10",
+   "url": "https://job-boards.greenhouse.io/scaleai/jobs/4618046005"
+  },
+  {
+   "id": "scale-4565834005",
+   "platform": "scale",
+   "title": "Legal Fellow - Human Frontier Collective (US)",
+   "team": "",
+   "location": "United States",
+   "remote": false,
+   "type": "job",
+   "posted": "2025-10-09",
+   "url": "https://job-boards.greenhouse.io/scaleai/jobs/4565834005"
+  },
+  {
+   "id": "mercor-4f4fc8c3-4056-47bb-9e00-1db6e5dd958f",
+   "platform": "mercor",
+   "title": "Software Engineer, Agents",
+   "team": "Engineering",
+   "location": "San Francisco",
+   "remote": false,
+   "type": "job",
+   "posted": "2025-09-18",
+   "url": "https://jobs.ashbyhq.com/mercor/4f4fc8c3-4056-47bb-9e00-1db6e5dd958f"
   }
  ],
  "errors": []
