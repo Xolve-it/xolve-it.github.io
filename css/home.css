@@ -90,7 +90,10 @@
 .tick__row { display: flex; width: max-content; }
 .tick__track { display: flex; flex: none; animation: tick 46s linear infinite; }
 .tick__row[data-dir="right"] .tick__track { animation-direction: reverse; animation-duration: 52s; }
-.tick:hover .tick__track { animation-play-state: paused; }
+/* mouse: pause while hovering. Touch: each tap toggles pause/play (js/home.js) */
+@media (hover: hover) and (pointer: fine) { .tick:hover .tick__track { animation-play-state: paused; } }
+.tick.is-paused .tick__track { animation-play-state: paused; }
+.tick { -webkit-tap-highlight-color: transparent; }
 .tick__track li {
   display: flex; align-items: center; gap: 14px; padding-right: 28px; white-space: nowrap;
   font-size: clamp(18px, 2vw, 26px); font-weight: 500; letter-spacing: -0.02em; color: var(--ink);

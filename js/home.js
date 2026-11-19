@@ -118,6 +118,14 @@
     copy.setAttribute("aria-hidden", "true");
     track.after(copy);
   });
+  // on touch screens a tap pauses the strip and the next tap starts it again
+  const tick = $(".tick");
+  if (tick) {
+    tick.addEventListener("pointerup", (e) => {
+      if (e.pointerType === "mouse") return;
+      tick.classList.toggle("is-paused");
+    });
+  }
 
   /* ---------- 5. spotlight follows the mouse ---------- */
   $$("[data-spot]").forEach((el) => {
