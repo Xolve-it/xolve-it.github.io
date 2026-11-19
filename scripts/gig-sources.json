@@ -1,0 +1,40 @@
+{
+  "_readme": "Edit this file to change the AI Gigs page. 'referral' = your referral link for that platform (leave empty to use 'site'). 'feeds' = public job boards the updater reads every 8 hours (types: ashby, greenhouse, lever). 'socials' = your accounts; empty ones are hidden on the page.",
+  "socials": {
+    "x": "",
+    "instagram": "",
+    "tiktok": "",
+    "linkedin": "",
+    "whatsapp": "",
+    "telegram": ""
+  },
+  "platforms": [
+    { "id": "mercor", "name": "Mercor", "site": "https://work.mercor.com", "referral": "",
+      "about": "Expert contract work for AI labs across coding, law, medicine, finance and more.",
+      "feeds": [{ "type": "ashby", "board": "mercor" }] },
+    { "id": "micro1", "name": "micro1", "site": "https://www.micro1.ai", "referral": "",
+      "about": "Vetted experts and engineers for AI training projects.",
+      "feeds": [] },
+    { "id": "turing", "name": "Turing", "site": "https://www.turing.com/jobs", "referral": "",
+      "about": "Remote engineering and AI training roles with leading AI labs.",
+      "feeds": [{ "type": "greenhouse", "board": "turing" }] },
+    { "id": "afterquery", "name": "AfterQuery", "site": "https://www.afterquery.com", "referral": "",
+      "about": "Expert data work for frontier AI research.",
+      "feeds": [{ "type": "ashby", "board": "afterquery" }] },
+    { "id": "outlier", "name": "Outlier", "site": "https://outlier.ai", "referral": "",
+      "about": "Flexible, remote AI training work for subject experts.",
+      "feeds": [] },
+    { "id": "scale", "name": "Scale AI", "site": "https://scale.com/careers", "referral": "",
+      "about": "Roles at one of the largest AI data companies.",
+      "feeds": [{ "type": "greenhouse", "board": "scaleai" }] },
+    { "id": "handshake", "name": "Handshake", "site": "https://joinhandshake.com", "referral": "",
+      "about": "Career network with AI training projects for students and experts.",
+      "feeds": [{ "type": "ashby", "board": "handshake" }] },
+    { "id": "dataannotation", "name": "DataAnnotation", "site": "https://www.dataannotation.tech", "referral": "",
+      "about": "Paid remote work training AI chatbots.",
+      "feeds": [] },
+    { "id": "alignerr", "name": "Alignerr", "site": "https://www.alignerr.com", "referral": "",
+      "about": "AI training work for domain experts.",
+      "feeds": [] }
+  ]
+}

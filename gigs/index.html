@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<script>if (location.hostname === "xolve-it.github.io") location.replace("https://xolve-it.pages.dev" + location.pathname + location.search + location.hash);</script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI Gigs by Xolve — the latest AI work, every 8 hours</title>
+<meta name="description" content="The latest AI training, evaluation and expert roles from Mercor, Turing, AfterQuery, Scale AI, Handshake and more, in one place. Refreshed every 8 hours.">
+<link rel="icon" href="/favicon.ico?v=4" sizes="48x48">
+<link rel="icon" href="/favicon.svg?v=4" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
+<meta name="theme-color" content="#0A0A0A">
+<meta property="og:type" content="website">
+<meta property="og:title" content="AI Gigs by Xolve — the latest AI work, every 8 hours">
+<meta property="og:description" content="AI training, evaluation and expert roles from the top AI platforms, in one place.">
+<meta property="og:url" content="https://xolve-it.pages.dev/gigs/">
+<meta property="og:image" content="https://xolve-it.pages.dev/og-image-1200x630.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/style.css">
+<link rel="stylesheet" href="/css/bulb.css">
+<link rel="stylesheet" href="/css/gigs.css?v=1">
+</head>
+<body class="gigs-page">
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="top" data-xfield="compact">
+  <div class="wrap top__inner">
+    <a class="top__logo" href="/" aria-label="Xolve home">
+      <img src="/assets/brand/xolve-wordmark-reversed.svg" alt="Xolve" width="120" height="40">
+    </a>
+    <span class="top__title">Tech Xolution · AI Gigs</span>
+    <a class="top__back" href="/#tech">← All Xolutions</a>
+  </div>
+</header>
+
+<main id="main">
+  <section class="gx" data-xfield>
+    <div class="wrap">
+      <p class="kicker kicker--dark">AI Gigs by Xolve</p>
+      <h1 class="gx__title">The latest AI work, in one place.</h1>
+      <p class="gx__lead">Training, evaluation and expert roles from the platforms building tomorrow's AI. We check their public job boards every 8 hours, so you don't have to.</p>
+      <p class="gx__meta" id="gxMeta" aria-live="polite">Loading the latest roles…</p>
+      <div class="gx__social" id="gxSocial" hidden>
+        <span>Get new gigs first:</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="gl" aria-labelledby="gl-title">
+    <div class="wrap">
+      <h2 class="gl__title" id="gl-title">Open roles</h2>
+      <div class="gl__filters" role="search">
+        <label class="gl__search"><span class="sr">Search roles</span>
+          <input id="glSearch" type="search" placeholder="Search: e.g. red teamer, finance, remote" autocomplete="off">
+        </label>
+        <div class="gl__toggles">
+          <div class="seg" role="group" aria-label="Type of role">
+            <button type="button" class="seg__b is-on" data-kind="gig" aria-pressed="true">Gigs &amp; contract</button>
+            <button type="button" class="seg__b" data-kind="all" aria-pressed="false">All roles</button>
+          </div>
+          <label class="gl__remote"><input type="checkbox" id="glRemote"> Remote only</label>
+        </div>
+        <div class="gl__plats" id="glPlats" role="group" aria-label="Platforms"></div>
+      </div>
+      <p class="gl__count" id="glCount" aria-live="polite"></p>
+      <ul class="gl__list" id="glList"></ul>
+      <button class="btn btn--outline gl__more" type="button" id="glMore" hidden>Show more</button>
+      <noscript><p>Turn on JavaScript to see the latest roles, or visit the platforms below.</p></noscript>
+    </div>
+  </section>
+
+  <section class="gp" aria-labelledby="gp-title">
+    <div class="wrap">
+      <p class="kicker">The platforms</p>
+      <h2 class="gp__title" id="gp-title">Where the AI work is.</h2>
+      <ul class="gp__grid" id="gpGrid"></ul>
+      <p class="gp__note">Xolve is not affiliated with these platforms. Roles come from their public job boards and are linked to the official page: always apply there, and never pay to get a job. Some platform links may be referral links that support this free service.</p>
+    </div>
+  </section>
+</main>
+
+<footer class="foot foot--slim" data-xfield>
+  <div class="wrap foot__base">
+    <span>AI Gigs by Xolve · Every problem has a Xolution.</span>
+    <a href="mailto:get.xolutions@gmail.com?subject=AI%20Gigs">Suggest a platform: get.xolutions@gmail.com</a>
+  </div>
+</footer>
+
+<script src="/js/gigs.js?v=1"></script>
+<script src="/js/xfield.js?v=3"></script>
+<script src="/js/bulb.js?v=2"></script>
+</body>
+</html>
