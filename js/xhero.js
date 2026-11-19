@@ -77,6 +77,8 @@
   function build() {
     const r = canvas.getBoundingClientRect();
     w = r.width; h = r.height;
+    // a hidden or not-yet-laid-out page has no size; wait for the resize observer to call again
+    if (w < 20 || h < 20) { parts = []; barBox = null; return; }
     dpr = Math.min(window.devicePixelRatio || 1, 2);
     canvas.width = Math.round(w * dpr); canvas.height = Math.round(h * dpr);
     ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
