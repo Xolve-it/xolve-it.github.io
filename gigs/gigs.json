@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-19T13:49:02Z",
- "next": "2026-11-19T21:49:02Z",
+ "updated": "2026-11-19T16:24:29Z",
+ "next": "2026-11-20T00:24:29Z",
  "socials": {
   "x": "",
   "instagram": "",
@@ -791,28 +791,6 @@
    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4752556005"
   },
   {
-   "id": "turing-6252155004",
-   "platform": "turing",
-   "title": "Growth Strategy and Operations",
-   "team": "",
-   "location": "Bengaluru, Karnataka, India",
-   "remote": false,
-   "type": "job",
-   "posted": "2026-11-07",
-   "url": "https://job-boards.greenhouse.io/turing/jobs/6252155004"
-  },
-  {
-   "id": "turing-6252156004",
-   "platform": "turing",
-   "title": "Performance Marketing Analyst, Paid Acquisition",
-   "team": "",
-   "location": "Bengaluru, Karnataka, India; Chennai, Tamil Nadu, India",
-   "remote": false,
-   "type": "job",
-   "posted": "2026-11-07",
-   "url": "https://job-boards.greenhouse.io/turing/jobs/6252156004"
-  },
-  {
    "id": "mercor-1a63b2be-1b21-4837-a3ef-2a88090c2db8",
    "platform": "mercor",
    "title": "Partnerships Lead, Consulting & SI Partners",
@@ -1354,7 +1332,7 @@
   {
    "id": "handshake-53a37e39-57d4-40d5-8f44-4d1afb93f0c9",
    "platform": "handshake",
-   "title": "Senior Recruiter, India",
+   "title": "Senior Recruiter",
    "team": "General & Administrative",
    "location": "India",
    "remote": false,
@@ -1750,7 +1728,7 @@
   {
    "id": "handshake-2b95294a-2c55-4216-96df-2db25f2b939d",
    "platform": "handshake",
-   "title": "HR, Manager - India",
+   "title": "HR Manager",
    "team": "General & Administrative",
    "location": "India",
    "remote": false,
@@ -2100,17 +2078,6 @@
    "url": "https://jobs.ashbyhq.com/mercor/374cd009-516f-4a1f-abbf-bcca5287daae"
   },
   {
-   "id": "turing-6192725004",
-   "platform": "turing",
-   "title": "Forward-Deployed AI Engineer",
-   "team": "",
-   "location": "Bengaluru, Karnataka, India",
-   "remote": false,
-   "type": "job",
-   "posted": "2026-09-24",
-   "url": "https://job-boards.greenhouse.io/turing/jobs/6192725004"
-  },
-  {
    "id": "turing-6192729004",
    "platform": "turing",
    "title": "Forward-Deployed AI Engineer",
@@ -2120,6 +2087,17 @@
    "type": "job",
    "posted": "2026-09-24",
    "url": "https://job-boards.greenhouse.io/turing/jobs/6192729004"
+  },
+  {
+   "id": "turing-6192725004",
+   "platform": "turing",
+   "title": "Forward-Deployed AI Engineer",
+   "team": "",
+   "location": "Bengaluru, Karnataka, India",
+   "remote": false,
+   "type": "job",
+   "posted": "2026-09-24",
+   "url": "https://job-boards.greenhouse.io/turing/jobs/6192725004"
   },
   {
    "id": "turing-6187283004",
@@ -2509,7 +2487,7 @@
   {
    "id": "handshake-d01f67e7-5658-4b75-a296-9765c708fbab",
    "platform": "handshake",
-   "title": "Lead Recruiter, India",
+   "title": "Lead Recruiter",
    "team": "General & Administrative",
    "location": "India",
    "remote": false,
@@ -2586,7 +2564,7 @@
   {
    "id": "handshake-ba86755b-c182-41a5-91de-497988a395b3",
    "platform": "handshake",
-   "title": "Growth Operations Lead (India)",
+   "title": "Growth Operations Lead",
    "team": "Product",
    "location": "India",
    "remote": false,
@@ -4474,6 +4452,28 @@
    "type": "job",
    "posted": "2025-10-17",
    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4613327005"
+  },
+  {
+   "id": "scale-4613333005",
+   "platform": "scale",
+   "title": "Legal Fellow - Human Frontier Collective (UK)",
+   "team": "",
+   "location": "United Kingdom",
+   "remote": false,
+   "type": "job",
+   "posted": "2025-10-17",
+   "url": "https://job-boards.greenhouse.io/scaleai/jobs/4613333005"
+  },
+  {
+   "id": "scale-4612329005",
+   "platform": "scale",
+   "title": "Medical Fellow - Human Frontier Collective (UK)",
+   "team": "",
+   "location": "United Kingdom",
+   "remote": false,
+   "type": "job",
+   "posted": "2025-10-17",
+   "url": "https://job-boards.greenhouse.io/scaleai/jobs/4612329005"
   }
  ],
  "errors": []
