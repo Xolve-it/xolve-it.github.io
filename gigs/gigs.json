@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-19T23:03:33Z",
- "next": "2026-11-20T07:03:33Z",
+ "updated": "2026-11-20T07:14:53Z",
+ "next": "2026-11-20T15:14:53Z",
  "socials": {
   "x": "",
   "instagram": "",
@@ -195,6 +195,39 @@
    "type": "gig",
    "posted": "2026-06-09",
    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4704285005"
+  },
+  {
+   "id": "mercor-03662092-4f6b-4c82-8d6d-5e7e839c31d7",
+   "platform": "mercor",
+   "title": "Product Engineer, Talent Experience",
+   "team": "Engineering",
+   "location": "San Francisco",
+   "remote": false,
+   "type": "job",
+   "posted": "2026-11-20",
+   "url": "https://jobs.ashbyhq.com/mercor/03662092-4f6b-4c82-8d6d-5e7e839c31d7"
+  },
+  {
+   "id": "afterquery-df6785c8-17ed-43cd-bee7-3d7fe750361b",
+   "platform": "afterquery",
+   "title": "Social Media & Community Manager",
+   "team": "Growth",
+   "location": "San Francisco",
+   "remote": false,
+   "type": "job",
+   "posted": "2026-11-20",
+   "url": "https://jobs.ashbyhq.com/AfterQuery/df6785c8-17ed-43cd-bee7-3d7fe750361b"
+  },
+  {
+   "id": "mercor-c684bdad-93b0-4811-82e5-926457db2daa",
+   "platform": "mercor",
+   "title": "Member of Technical Staff, Annotation UI",
+   "team": "Engineering",
+   "location": "San Francisco",
+   "remote": false,
+   "type": "job",
+   "posted": "2026-11-19",
+   "url": "https://jobs.ashbyhq.com/mercor/c684bdad-93b0-4811-82e5-926457db2daa"
   },
   {
    "id": "scale-4756303005",
@@ -1990,17 +2023,6 @@
    "url": "https://jobs.ashbyhq.com/handshake/08651bf1-c977-49d4-9a82-e8a770bb9970"
   },
   {
-   "id": "handshake-6354c156-220b-4323-baaf-143c2b8ab149",
-   "platform": "handshake",
-   "title": "Senior Software Engineer, Data Platform",
-   "team": "Engineering",
-   "location": "San Francisco, CA",
-   "remote": false,
-   "type": "job",
-   "posted": "2026-09-28",
-   "url": "https://jobs.ashbyhq.com/handshake/6354c156-220b-4323-baaf-143c2b8ab149"
-  },
-  {
    "id": "handshake-a94b9f88-8916-4dc4-967f-33b08e33bf3a",
    "platform": "handshake",
    "title": "Enterprise Account Manager",
@@ -2353,17 +2375,6 @@
    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4730834005"
   },
   {
-   "id": "scale-4730851005",
-   "platform": "scale",
-   "title": "Software Engineer - New Grad",
-   "team": "",
-   "location": "Doha, Qatar ",
-   "remote": false,
-   "type": "job",
-   "posted": "2026-09-14",
-   "url": "https://job-boards.greenhouse.io/scaleai/jobs/4730851005"
-  },
-  {
    "id": "scale-4730862005",
    "platform": "scale",
    "title": "Software Engineer - New Grad",
@@ -2373,6 +2384,17 @@
    "type": "job",
    "posted": "2026-09-14",
    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4730862005"
+  },
+  {
+   "id": "scale-4730851005",
+   "platform": "scale",
+   "title": "Software Engineer - New Grad",
+   "team": "",
+   "location": "Doha, Qatar ",
+   "remote": false,
+   "type": "job",
+   "posted": "2026-09-14",
+   "url": "https://job-boards.greenhouse.io/scaleai/jobs/4730851005"
   },
   {
    "id": "handshake-03769630-780c-4b80-a148-6925f75f9dd9",
@@ -4452,28 +4474,6 @@
    "type": "job",
    "posted": "2025-10-10",
    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4618046005"
-  },
-  {
-   "id": "scale-4565834005",
-   "platform": "scale",
-   "title": "Legal Fellow - Human Frontier Collective (US)",
-   "team": "",
-   "location": "United States",
-   "remote": false,
-   "type": "job",
-   "posted": "2025-10-09",
-   "url": "https://job-boards.greenhouse.io/scaleai/jobs/4565834005"
-  },
-  {
-   "id": "mercor-4f4fc8c3-4056-47bb-9e00-1db6e5dd958f",
-   "platform": "mercor",
-   "title": "Software Engineer, Agents",
-   "team": "Engineering",
-   "location": "San Francisco",
-   "remote": false,
-   "type": "job",
-   "posted": "2025-09-18",
-   "url": "https://jobs.ashbyhq.com/mercor/4f4fc8c3-4056-47bb-9e00-1db6e5dd958f"
   }
  ],
  "errors": []
