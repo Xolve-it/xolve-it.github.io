@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-20T07:14:53Z",
- "next": "2026-11-20T15:14:53Z",
+ "updated": "2026-11-20T16:58:03Z",
+ "next": "2026-11-21T00:58:03Z",
  "socials": {
   "x": "",
   "instagram": "",
@@ -1242,17 +1242,6 @@
    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4748330005"
   },
   {
-   "id": "scale-4748372005",
-   "platform": "scale",
-   "title": "Expansion Specialist, Bids & Business Development",
-   "team": "",
-   "location": "London, UK",
-   "remote": false,
-   "type": "job",
-   "posted": "2026-10-28",
-   "url": "https://job-boards.greenhouse.io/scaleai/jobs/4748372005"
-  },
-  {
    "id": "scale-4748328005",
    "platform": "scale",
    "title": "Product Marketing Lead, Enterprise",
@@ -1361,17 +1350,6 @@
    "type": "job",
    "posted": "2026-10-27",
    "url": "https://jobs.ashbyhq.com/handshake/53a37e39-57d4-40d5-8f44-4d1afb93f0c9"
-  },
-  {
-   "id": "turing-6234874004",
-   "platform": "turing",
-   "title": "Platform Engineer - Enterprise AI",
-   "team": "",
-   "location": "New York, New York, United States",
-   "remote": false,
-   "type": "job",
-   "posted": "2026-10-26",
-   "url": "https://job-boards.greenhouse.io/turing/jobs/6234874004"
   },
   {
    "id": "scale-4747295005",
@@ -2353,17 +2331,6 @@
    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4733702005"
   },
   {
-   "id": "scale-4730846005",
-   "platform": "scale",
-   "title": "Software Engineering Intern (Summer 2027)",
-   "team": "",
-   "location": "London, UK",
-   "remote": false,
-   "type": "job",
-   "posted": "2026-09-14",
-   "url": "https://job-boards.greenhouse.io/scaleai/jobs/4730846005"
-  },
-  {
    "id": "scale-4730834005",
    "platform": "scale",
    "title": "Software Engineering Intern (Summer 2027)",
@@ -2375,15 +2342,15 @@
    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4730834005"
   },
   {
-   "id": "scale-4730862005",
+   "id": "scale-4730846005",
    "platform": "scale",
-   "title": "Software Engineer - New Grad",
+   "title": "Software Engineering Intern (Summer 2027)",
    "team": "",
    "location": "London, UK",
    "remote": false,
    "type": "job",
    "posted": "2026-09-14",
-   "url": "https://job-boards.greenhouse.io/scaleai/jobs/4730862005"
+   "url": "https://job-boards.greenhouse.io/scaleai/jobs/4730846005"
   },
   {
    "id": "scale-4730851005",
@@ -2395,6 +2362,17 @@
    "type": "job",
    "posted": "2026-09-14",
    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4730851005"
+  },
+  {
+   "id": "scale-4730862005",
+   "platform": "scale",
+   "title": "Software Engineer - New Grad",
+   "team": "",
+   "location": "London, UK",
+   "remote": false,
+   "type": "job",
+   "posted": "2026-09-14",
+   "url": "https://job-boards.greenhouse.io/scaleai/jobs/4730862005"
   },
   {
    "id": "handshake-03769630-780c-4b80-a148-6925f75f9dd9",
@@ -4474,6 +4452,28 @@
    "type": "job",
    "posted": "2025-10-10",
    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4618046005"
+  },
+  {
+   "id": "scale-4565834005",
+   "platform": "scale",
+   "title": "Legal Fellow - Human Frontier Collective (US)",
+   "team": "",
+   "location": "United States",
+   "remote": false,
+   "type": "job",
+   "posted": "2025-10-09",
+   "url": "https://job-boards.greenhouse.io/scaleai/jobs/4565834005"
+  },
+  {
+   "id": "mercor-4f4fc8c3-4056-47bb-9e00-1db6e5dd958f",
+   "platform": "mercor",
+   "title": "Software Engineer, Agents",
+   "team": "Engineering",
+   "location": "San Francisco",
+   "remote": false,
+   "type": "job",
+   "posted": "2025-09-18",
+   "url": "https://jobs.ashbyhq.com/mercor/4f4fc8c3-4056-47bb-9e00-1db6e5dd958f"
   }
  ],
  "errors": []
