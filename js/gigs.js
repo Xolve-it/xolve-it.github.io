@@ -23,10 +23,15 @@
     const days = Math.floor((Date.now() - new Date(iso + "T00:00:00Z")) / 864e5);
     if (days <= 0) return "today";
     if (days === 1) return "yesterday";
-    if (days < 30) return `${days} days ago`;
+    if (days < 60) return `${days} days ago`;
     const m = Math.round(days / 30);
     return m <= 1 ? "a month ago" : `${m} months ago`;
   };
+  // the listing's first-posted date, e.g. "22 Oct" (or "22 Oct 2025" with the year)
+  const day = (iso, withYear) => new Date(iso + "T00:00:00Z").toLocaleDateString("en-GB", {
+    day: "numeric", month: "short", timeZone: "UTC",
+    ...(withYear || iso.slice(0, 4) !== String(new Date().getUTCFullYear()) ? { year: "numeric" } : {}),
+  });
   const when = (iso) => new Date(iso).toLocaleString(undefined, { day: "numeric", month: "short", hour: "numeric", minute: "2-digit" });
   const KIND_LABEL = { gig: "Gig / contract", job: "Full-time", internship: "Internship" };
 
@@ -66,7 +71,7 @@
             ${g.team ? `<span>${esc(g.team)}</span>` : ""}
             ${g.remote ? '<span class="gc__tag">Remote</span>' : ""}
             ${g.location && !(g.remote && /^remote$/i.test(g.location.trim())) ? `<span>${esc(g.location)}</span>` : ""}
-            ${g.posted ? `<span>Posted ${esc(ago(g.posted))}</span>` : ""}
+            ${g.posted ? `<span title="First posted ${esc(day(g.posted, true))}">Posted ${esc(ago(g.posted))} · ${esc(day(g.posted))}</span>` : ""}
           </p>
         </div>
         <a class="btn btn--ink btn--sm gc__go" href="${esc(safeUrl(g.url))}" target="_blank" rel="noopener nofollow">View &amp; apply <span aria-hidden="true">→</span></a>

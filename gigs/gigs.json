@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-21T21:27:56Z",
- "next": "2026-11-22T05:27:56Z",
+ "updated": "2026-11-21T21:35:09Z",
+ "next": "2026-11-22T05:35:09Z",
  "socials": {
   "x": "https://x.com/get_xolutions",
   "instagram": "https://www.instagram.com/get.xolutions/",
@@ -234,20 +234,6 @@
    "exclude": []
   },
   {
-   "id": "micro1-9701abf9-febd-4f13-9183-80257478f22a",
-   "platform": "micro1",
-   "title": "Mathematics Expert",
-   "team": "Sciences Research",
-   "location": "Remote",
-   "remote": true,
-   "type": "gig",
-   "posted": "2026-11-20",
-   "pay": "$60–$120/hr",
-   "url": "https://jobs.micro1.ai/post/9701abf9-febd-4f13-9183-80257478f22a?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
-   "countries": [],
-   "exclude": []
-  },
-  {
    "id": "micro1-32f53086-51ef-4e17-8865-0b8f0bf8a6fa",
    "platform": "micro1",
    "title": "GPU Programming Software Engineer",
@@ -332,20 +318,6 @@
    "exclude": []
   },
   {
-   "id": "micro1-09891468-1722-465f-b47e-f420c9f1e154",
-   "platform": "micro1",
-   "title": "Research Marketing Lead",
-   "team": "Sales Marketing",
-   "location": "Remote",
-   "remote": true,
-   "type": "gig",
-   "posted": "2026-11-20",
-   "pay": "$7–$8/hr",
-   "url": "https://jobs.micro1.ai/post/09891468-1722-465f-b47e-f420c9f1e154?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
-   "countries": [],
-   "exclude": []
-  },
-  {
    "countries": [
     "DE",
     "ES",
@@ -364,20 +336,6 @@
    "posted": "2026-11-19",
    "pay": "$120–$150/hr",
    "url": "https://work.mercor.com/explore?listingId=list_AAABofHGD07UlwjpJg5AyIFY&referralCode=3e69e7cf-edba-25be-5027-25cc33b23a52&utm_source=referral&utm_medium=direct&utm_campaign=platform"
-  },
-  {
-   "id": "micro1-f6225bb8-4009-4135-8c21-8ae5db9b9324",
-   "platform": "micro1",
-   "title": "Veterans Combat and Defense Expert",
-   "team": "Other",
-   "location": "Remote",
-   "remote": true,
-   "type": "gig",
-   "posted": "2026-11-19",
-   "pay": "$50–$100/hr",
-   "url": "https://jobs.micro1.ai/post/f6225bb8-4009-4135-8c21-8ae5db9b9324?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
-   "countries": [],
-   "exclude": []
   },
   {
    "id": "micro1-3eb00a85-16d4-41c8-abc8-5e3b26658f4f",
@@ -404,48 +362,6 @@
    "posted": "2026-11-19",
    "pay": "$220–$250/hr",
    "url": "https://jobs.micro1.ai/post/06614178-bc75-4fd3-ad14-4a2c1e09bbd5?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
-   "countries": [],
-   "exclude": []
-  },
-  {
-   "id": "micro1-24119d95-0db7-463e-9137-ee958c847c6e",
-   "platform": "micro1",
-   "title": "Professional Photographer – Sony A1 II (Remote, Project-Based)",
-   "team": "Arts Design",
-   "location": "Remote",
-   "remote": true,
-   "type": "gig",
-   "posted": "2026-11-19",
-   "pay": "",
-   "url": "https://jobs.micro1.ai/post/24119d95-0db7-463e-9137-ee958c847c6e?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
-   "countries": [],
-   "exclude": []
-  },
-  {
-   "id": "micro1-de83ff2f-bdd2-4862-aff9-7158cd327038",
-   "platform": "micro1",
-   "title": "At-Home Video Recorder (U.S)",
-   "team": "Robotics",
-   "location": "Remote",
-   "remote": true,
-   "type": "gig",
-   "posted": "2026-11-19",
-   "pay": "$10–$15/hr",
-   "url": "https://jobs.micro1.ai/post/de83ff2f-bdd2-4862-aff9-7158cd327038?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
-   "countries": [],
-   "exclude": []
-  },
-  {
-   "id": "micro1-82310fe1-2ad6-4b48-9434-57f2ea679bac",
-   "platform": "micro1",
-   "title": "At-Home Video Recorder (LATAM)",
-   "team": "Generalist",
-   "location": "Remote",
-   "remote": true,
-   "type": "gig",
-   "posted": "2026-11-19",
-   "pay": "$6/hr",
-   "url": "https://jobs.micro1.ai/post/82310fe1-2ad6-4b48-9434-57f2ea679bac?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
    "countries": [],
    "exclude": []
   },
@@ -494,20 +410,6 @@
    "exclude": []
   },
   {
-   "id": "micro1-7827dcd2-17d7-46a7-8d58-3ef6ff3930f4",
-   "platform": "micro1",
-   "title": "At-Home Video Recorder",
-   "team": "Generalist",
-   "location": "Remote",
-   "remote": true,
-   "type": "gig",
-   "posted": "2026-11-19",
-   "pay": "$15/hr",
-   "url": "https://jobs.micro1.ai/post/7827dcd2-17d7-46a7-8d58-3ef6ff3930f4?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
-   "countries": [],
-   "exclude": []
-  },
-  {
    "countries": [],
    "exclude": [],
    "id": "mercor-list_AAABoe5-EDcz8NJf_69EcIgl",
@@ -522,34 +424,6 @@
    "url": "https://work.mercor.com/explore?listingId=list_AAABoe5-EDcz8NJf_69EcIgl&referralCode=3e69e7cf-edba-25be-5027-25cc33b23a52&utm_source=referral&utm_medium=direct&utm_campaign=platform"
   },
   {
-   "id": "micro1-c37ac96c-2116-4c5e-92c7-180da9b502db",
-   "platform": "micro1",
-   "title": "Software Engineer (Electron.js)",
-   "team": "Software Engineering",
-   "location": "Remote",
-   "remote": true,
-   "type": "gig",
-   "posted": "2026-11-18",
-   "pay": "$6–$7/hr",
-   "url": "https://jobs.micro1.ai/post/c37ac96c-2116-4c5e-92c7-180da9b502db?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
-   "countries": [],
-   "exclude": []
-  },
-  {
-   "id": "micro1-4e0beed7-fd35-4d80-8392-0d3531784fc2",
-   "platform": "micro1",
-   "title": "Emerging Technology Threat / Strategic Competition Advisor",
-   "team": "Other",
-   "location": "Remote",
-   "remote": true,
-   "type": "gig",
-   "posted": "2026-11-18",
-   "pay": "$35–$85/hr",
-   "url": "https://jobs.micro1.ai/post/4e0beed7-fd35-4d80-8392-0d3531784fc2?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
-   "countries": [],
-   "exclude": []
-  },
-  {
    "id": "micro1-33e8cb50-49fd-4fb9-996c-0b2d1744e069",
    "platform": "micro1",
    "title": "Travel Operations Specialist",
@@ -560,20 +434,6 @@
    "posted": "2026-11-18",
    "pay": "$20–$44/hr",
    "url": "https://jobs.micro1.ai/post/33e8cb50-49fd-4fb9-996c-0b2d1744e069?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
-   "countries": [],
-   "exclude": []
-  },
-  {
-   "id": "micro1-69ce4f10-b0cc-4ca0-93d4-ad306254e0cc",
-   "platform": "micro1",
-   "title": "Counterintelligence Technology & Program SME — AI Evaluation (Contract)",
-   "team": "Ai Machine Learning",
-   "location": "Remote",
-   "remote": true,
-   "type": "gig",
-   "posted": "2026-11-18",
-   "pay": "$90–$140/hr",
-   "url": "https://jobs.micro1.ai/post/69ce4f10-b0cc-4ca0-93d4-ad306254e0cc?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
    "countries": [],
    "exclude": []
   },
@@ -648,50 +508,6 @@
    "exclude": []
   },
   {
-   "id": "micro1-0f435bd2-e7f0-4d24-9e32-de34b71c2a97",
-   "platform": "micro1",
-   "title": "At-Home Video Recorder",
-   "team": "Robotics",
-   "location": "Remote",
-   "remote": true,
-   "type": "gig",
-   "posted": "2026-11-18",
-   "pay": "$13–$15/hr",
-   "url": "https://jobs.micro1.ai/post/0f435bd2-e7f0-4d24-9e32-de34b71c2a97?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
-   "countries": [],
-   "exclude": []
-  },
-  {
-   "id": "micro1-204600bf-1abe-4ab0-a474-cd2264999149",
-   "platform": "micro1",
-   "title": "Data-Video Generalist (US-based)",
-   "team": "Robotics",
-   "location": "Remote",
-   "remote": true,
-   "type": "gig",
-   "posted": "2026-11-18",
-   "pay": "$13–$15/hr",
-   "url": "https://jobs.micro1.ai/post/204600bf-1abe-4ab0-a474-cd2264999149?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
-   "countries": [
-    "US"
-   ],
-   "exclude": []
-  },
-  {
-   "id": "micro1-8944ed79-063d-43e2-a244-bd3185fbfb43",
-   "platform": "micro1",
-   "title": "Smartphone Video Recorder",
-   "team": "Robotics",
-   "location": "Remote",
-   "remote": true,
-   "type": "gig",
-   "posted": "2026-11-18",
-   "pay": "$14–$15/hr",
-   "url": "https://jobs.micro1.ai/post/8944ed79-063d-43e2-a244-bd3185fbfb43?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
-   "countries": [],
-   "exclude": []
-  },
-  {
    "id": "micro1-094f341c-e550-41cf-b489-e75d35e7d90e",
    "platform": "micro1",
    "title": "UI/UX Designer",
@@ -702,48 +518,6 @@
    "posted": "2026-11-18",
    "pay": "$7–$8/hr",
    "url": "https://jobs.micro1.ai/post/094f341c-e550-41cf-b489-e75d35e7d90e?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
-   "countries": [],
-   "exclude": []
-  },
-  {
-   "id": "micro1-25977272-dca9-4b3a-a676-51bdfeae0a3d",
-   "platform": "micro1",
-   "title": "Video Data Entry Specialist (LATAM)",
-   "team": "Robotics",
-   "location": "Remote",
-   "remote": true,
-   "type": "gig",
-   "posted": "2026-11-18",
-   "pay": "$6/hr",
-   "url": "https://jobs.micro1.ai/post/25977272-dca9-4b3a-a676-51bdfeae0a3d?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
-   "countries": [],
-   "exclude": []
-  },
-  {
-   "id": "micro1-a1ecbac3-a024-4732-bce7-7ac2e447571d",
-   "platform": "micro1",
-   "title": "At-Home Video Recorder (LATAM)",
-   "team": "Robotics",
-   "location": "Remote",
-   "remote": true,
-   "type": "gig",
-   "posted": "2026-11-18",
-   "pay": "$6/hr",
-   "url": "https://jobs.micro1.ai/post/a1ecbac3-a024-4732-bce7-7ac2e447571d?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
-   "countries": [],
-   "exclude": []
-  },
-  {
-   "id": "micro1-15313f3d-5600-4d96-b45f-b8dfafbee976",
-   "platform": "micro1",
-   "title": "Gravador(a) de Vídeos com Smartphone",
-   "team": "Robotics",
-   "location": "Remote",
-   "remote": true,
-   "type": "gig",
-   "posted": "2026-11-18",
-   "pay": "$6/hr",
-   "url": "https://jobs.micro1.ai/post/15313f3d-5600-4d96-b45f-b8dfafbee976?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
    "countries": [],
    "exclude": []
   },
@@ -786,34 +560,6 @@
    "posted": "2026-11-18",
    "pay": "$20–$44/hr",
    "url": "https://jobs.micro1.ai/post/9a74b7b0-b1c3-4aae-b673-b821f7731daa?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
-   "countries": [],
-   "exclude": []
-  },
-  {
-   "id": "micro1-64592ac1-f184-4c0f-9e5d-796cccdd499b",
-   "platform": "micro1",
-   "title": "Data Partnerships Manager",
-   "team": "Sales Marketing",
-   "location": "Remote",
-   "remote": true,
-   "type": "gig",
-   "posted": "2026-11-18",
-   "pay": "$20–$30/hr",
-   "url": "https://jobs.micro1.ai/post/64592ac1-f184-4c0f-9e5d-796cccdd499b?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
-   "countries": [],
-   "exclude": []
-  },
-  {
-   "id": "micro1-01f86047-2c74-46bb-a6fc-a00e1be3dd5b",
-   "platform": "micro1",
-   "title": "Product Owner",
-   "team": "Software Engineering",
-   "location": "Remote",
-   "remote": true,
-   "type": "gig",
-   "posted": "2026-11-18",
-   "pay": "$7–$9/hr",
-   "url": "https://jobs.micro1.ai/post/01f86047-2c74-46bb-a6fc-a00e1be3dd5b?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
    "countries": [],
    "exclude": []
   },
@@ -1006,30 +752,30 @@
    "url": "https://work.mercor.com/explore?listingId=list_AAABoeb5OZKJV5XRwMBNPbUW&referralCode=3e69e7cf-edba-25be-5027-25cc33b23a52&utm_source=referral&utm_medium=direct&utm_campaign=platform"
   },
   {
-   "id": "micro1-c8cdec0c-76b7-40ae-9764-fb170200408a",
+   "id": "micro1-f6225bb8-4009-4135-8c21-8ae5db9b9324",
    "platform": "micro1",
-   "title": "Quantitative Rates Researcher",
-   "team": "Finance",
+   "title": "Veterans Combat and Defense Expert",
+   "team": "Other",
    "location": "Remote",
    "remote": true,
    "type": "gig",
    "posted": "2026-11-17",
-   "pay": "$80–$150/hr",
-   "url": "https://jobs.micro1.ai/post/c8cdec0c-76b7-40ae-9764-fb170200408a?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
+   "pay": "$50–$100/hr",
+   "url": "https://jobs.micro1.ai/post/f6225bb8-4009-4135-8c21-8ae5db9b9324?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
    "countries": [],
    "exclude": []
   },
   {
-   "id": "micro1-3fee8e97-5dce-42bd-a8a1-68133f04449a",
+   "id": "micro1-24119d95-0db7-463e-9137-ee958c847c6e",
    "platform": "micro1",
-   "title": "Rates trader",
-   "team": "Finance",
+   "title": "Professional Photographer – Sony A1 II (Remote, Project-Based)",
+   "team": "Arts Design",
    "location": "Remote",
    "remote": true,
    "type": "gig",
    "posted": "2026-11-17",
-   "pay": "$80–$100/hr",
-   "url": "https://jobs.micro1.ai/post/3fee8e97-5dce-42bd-a8a1-68133f04449a?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
+   "pay": "",
+   "url": "https://jobs.micro1.ai/post/24119d95-0db7-463e-9137-ee958c847c6e?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
    "countries": [],
    "exclude": []
   },
@@ -1044,20 +790,6 @@
    "posted": "2026-11-17",
    "pay": "$21–$45/hr",
    "url": "https://jobs.micro1.ai/post/e4103061-f0e7-49a2-8fb2-e1a81e762cd0?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
-   "countries": [],
-   "exclude": []
-  },
-  {
-   "id": "micro1-b1316606-46fb-4c3d-a4f9-5a2368e88d70",
-   "platform": "micro1",
-   "title": "Associate Forward Deployed Engineer (aFDE)",
-   "team": "Software Engineering",
-   "location": "Remote",
-   "remote": true,
-   "type": "gig",
-   "posted": "2026-11-17",
-   "pay": "$40–$60/hr",
-   "url": "https://jobs.micro1.ai/post/b1316606-46fb-4c3d-a4f9-5a2368e88d70?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
    "countries": [],
    "exclude": []
   },
@@ -1130,20 +862,6 @@
    "posted": "2026-11-16",
    "pay": "$60–$85/hr",
    "url": "https://work.mercor.com/explore?listingId=list_AAABoeaZZ5aPp9cXNF9DVrUb&referralCode=3e69e7cf-edba-25be-5027-25cc33b23a52&utm_source=referral&utm_medium=direct&utm_campaign=platform"
-  },
-  {
-   "id": "micro1-479e1aa8-2d92-42b7-a77c-aa83369cece8",
-   "platform": "micro1",
-   "title": "Referral Partnerships Manager",
-   "team": "Sales Marketing",
-   "location": "Remote",
-   "remote": true,
-   "type": "gig",
-   "posted": "2026-11-16",
-   "pay": "$20–$40/hr",
-   "url": "https://jobs.micro1.ai/post/479e1aa8-2d92-42b7-a77c-aa83369cece8?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
-   "countries": [],
-   "exclude": []
   },
   {
    "id": "micro1-366e3893-3656-4be7-8c6b-c236447b45b3",
@@ -1260,36 +978,6 @@
    "exclude": []
   },
   {
-   "id": "micro1-01c797e9-0eab-4a2f-988b-a0206e84f21d",
-   "platform": "micro1",
-   "title": "Bankruptcy Attorney",
-   "team": "Law",
-   "location": "Remote",
-   "remote": true,
-   "type": "gig",
-   "posted": "2026-11-16",
-   "pay": "$100–$170/hr",
-   "url": "https://jobs.micro1.ai/post/01c797e9-0eab-4a2f-988b-a0206e84f21d?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
-   "countries": [],
-   "exclude": []
-  },
-  {
-   "id": "micro1-50d0cd3d-0d16-4c70-9094-8a66bbc9dffb",
-   "platform": "micro1",
-   "title": "Litigator / Practicing Attorney (US)",
-   "team": "Law",
-   "location": "Remote",
-   "remote": true,
-   "type": "gig",
-   "posted": "2026-11-16",
-   "pay": "$100–$160/hr",
-   "url": "https://jobs.micro1.ai/post/50d0cd3d-0d16-4c70-9094-8a66bbc9dffb?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
-   "countries": [
-    "US"
-   ],
-   "exclude": []
-  },
-  {
    "id": "micro1-bf94339a-4c13-4562-a645-bf7e47e6ed99",
    "platform": "micro1",
    "title": "French Language Expert (Belgium and Switzerland)",
@@ -1304,104 +992,6 @@
     "BE",
     "CH"
    ],
-   "exclude": []
-  },
-  {
-   "id": "micro1-0c6952e3-b783-407c-a451-b92996992038",
-   "platform": "micro1",
-   "title": "Litigation Attorney",
-   "team": "Law",
-   "location": "Remote",
-   "remote": true,
-   "type": "gig",
-   "posted": "2026-11-16",
-   "pay": "$80–$170/hr",
-   "url": "https://jobs.micro1.ai/post/0c6952e3-b783-407c-a451-b92996992038?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
-   "countries": [],
-   "exclude": []
-  },
-  {
-   "id": "micro1-f5b76e03-411a-4648-8f5f-10ff604317ef",
-   "platform": "micro1",
-   "title": "Attorney",
-   "team": "Law",
-   "location": "Remote",
-   "remote": true,
-   "type": "gig",
-   "posted": "2026-11-16",
-   "pay": "$80–$150/hr",
-   "url": "https://jobs.micro1.ai/post/f5b76e03-411a-4648-8f5f-10ff604317ef?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
-   "countries": [],
-   "exclude": []
-  },
-  {
-   "id": "micro1-dac3063b-48c0-43ec-ae6d-98dfc4363350",
-   "platform": "micro1",
-   "title": "Legal Counsel",
-   "team": "Law",
-   "location": "Remote",
-   "remote": true,
-   "type": "gig",
-   "posted": "2026-11-16",
-   "pay": "$80–$150/hr",
-   "url": "https://jobs.micro1.ai/post/dac3063b-48c0-43ec-ae6d-98dfc4363350?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
-   "countries": [],
-   "exclude": []
-  },
-  {
-   "id": "micro1-47ae77fa-cc3b-40f5-bdc6-eca4d11cc73e",
-   "platform": "micro1",
-   "title": "Personal Injury Lawyer",
-   "team": "Law",
-   "location": "Remote",
-   "remote": true,
-   "type": "gig",
-   "posted": "2026-11-16",
-   "pay": "$100–$170/hr",
-   "url": "https://jobs.micro1.ai/post/47ae77fa-cc3b-40f5-bdc6-eca4d11cc73e?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
-   "countries": [],
-   "exclude": []
-  },
-  {
-   "id": "micro1-68d31799-41cb-4899-987b-527eba2ef40a",
-   "platform": "micro1",
-   "title": "Employment Lawyer",
-   "team": "Law",
-   "location": "Remote",
-   "remote": true,
-   "type": "gig",
-   "posted": "2026-11-16",
-   "pay": "$100–$170/hr",
-   "url": "https://jobs.micro1.ai/post/68d31799-41cb-4899-987b-527eba2ef40a?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
-   "countries": [],
-   "exclude": []
-  },
-  {
-   "id": "micro1-abdb5807-b650-4eb8-b4e4-20a5a834301d",
-   "platform": "micro1",
-   "title": "Tax Attorney",
-   "team": "Law",
-   "location": "Remote",
-   "remote": true,
-   "type": "gig",
-   "posted": "2026-11-16",
-   "pay": "$100–$170/hr",
-   "url": "https://jobs.micro1.ai/post/abdb5807-b650-4eb8-b4e4-20a5a834301d?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
-   "countries": [],
-   "exclude": []
-  },
-  {
-   "id": "micro1-d484ab8c-eb8b-4b2f-b742-3d00719ca143",
-   "platform": "micro1",
-   "title": "Lawyer",
-   "team": "Law",
-   "location": "Remote",
-   "remote": true,
-   "type": "gig",
-   "posted": "2026-11-16",
-   "pay": "$100–$170/hr",
-   "url": "https://jobs.micro1.ai/post/d484ab8c-eb8b-4b2f-b742-3d00719ca143?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
-   "countries": [],
    "exclude": []
   },
   {
@@ -1450,20 +1040,6 @@
    "countries": [
     "PT"
    ],
-   "exclude": []
-  },
-  {
-   "id": "micro1-6c5c8f87-fcbd-4535-b954-44d66eaff075",
-   "platform": "micro1",
-   "title": "Unreal Engine Developer",
-   "team": "Software Engineering",
-   "location": "Remote",
-   "remote": true,
-   "type": "gig",
-   "posted": "2026-11-16",
-   "pay": "$50–$100/hr",
-   "url": "https://jobs.micro1.ai/post/6c5c8f87-fcbd-4535-b954-44d66eaff075?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
-   "countries": [],
    "exclude": []
   },
   {
@@ -1568,34 +1144,6 @@
    "countries": [
     "ES"
    ],
-   "exclude": []
-  },
-  {
-   "id": "micro1-ad04ab64-b3b2-45ba-9d89-508f8e77dc5a",
-   "platform": "micro1",
-   "title": "E-commerce Simulation Expert",
-   "team": "Other",
-   "location": "Remote",
-   "remote": true,
-   "type": "gig",
-   "posted": "2026-11-16",
-   "pay": "$40–$50/hr",
-   "url": "https://jobs.micro1.ai/post/ad04ab64-b3b2-45ba-9d89-508f8e77dc5a?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
-   "countries": [],
-   "exclude": []
-  },
-  {
-   "id": "micro1-66e153bc-1c52-439e-8fcb-38d35c4eae67",
-   "platform": "micro1",
-   "title": "E-commerce Data & Catalog Specialist",
-   "team": "Software Engineering",
-   "location": "Remote",
-   "remote": true,
-   "type": "gig",
-   "posted": "2026-11-16",
-   "pay": "$40–$50/hr",
-   "url": "https://jobs.micro1.ai/post/66e153bc-1c52-439e-8fcb-38d35c4eae67?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
-   "countries": [],
    "exclude": []
   },
   {
@@ -1709,6 +1257,20 @@
    "url": "https://work.mercor.com/explore?listingId=list_AAABod-XpCFXW1KhVe9F8pnR&referralCode=3e69e7cf-edba-25be-5027-25cc33b23a52&utm_source=referral&utm_medium=direct&utm_campaign=platform"
   },
   {
+   "id": "micro1-6c5c8f87-fcbd-4535-b954-44d66eaff075",
+   "platform": "micro1",
+   "title": "Unreal Engine Developer",
+   "team": "Software Engineering",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-11-15",
+   "pay": "$50–$100/hr",
+   "url": "https://jobs.micro1.ai/post/6c5c8f87-fcbd-4535-b954-44d66eaff075?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
+   "countries": [],
+   "exclude": []
+  },
+  {
    "id": "micro1-2777ffe8-a4d3-42bd-9e88-567557742387",
    "platform": "micro1",
    "title": "Legal Research Attorney",
@@ -1719,34 +1281,6 @@
    "posted": "2026-11-15",
    "pay": "$50–$140/hr",
    "url": "https://jobs.micro1.ai/post/2777ffe8-a4d3-42bd-9e88-567557742387?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
-   "countries": [],
-   "exclude": []
-  },
-  {
-   "id": "micro1-190225df-d67a-402d-bd7f-d9c7c40bb693",
-   "platform": "micro1",
-   "title": "Game Developer",
-   "team": "Software Engineering",
-   "location": "Remote",
-   "remote": true,
-   "type": "gig",
-   "posted": "2026-11-15",
-   "pay": "$25–$60/hr",
-   "url": "https://jobs.micro1.ai/post/190225df-d67a-402d-bd7f-d9c7c40bb693?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
-   "countries": [],
-   "exclude": []
-  },
-  {
-   "id": "micro1-7c09cefc-fd08-4ee4-b792-48e3a4753e9c",
-   "platform": "micro1",
-   "title": "AI/ML Engineer, Internal Platforms",
-   "team": "Ai Machine Learning",
-   "location": "Remote",
-   "remote": true,
-   "type": "gig",
-   "posted": "2026-11-15",
-   "pay": "$160–$300/hr",
-   "url": "https://jobs.micro1.ai/post/7c09cefc-fd08-4ee4-b792-48e3a4753e9c?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
    "countries": [],
    "exclude": []
   },
@@ -1915,34 +1449,6 @@
    "posted": "2026-11-14",
    "pay": "$100–$170/hr",
    "url": "https://jobs.micro1.ai/post/94cc73a6-b8fe-496a-a8ad-4a3466db76f4?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
-   "countries": [],
-   "exclude": []
-  },
-  {
-   "id": "micro1-9d57fd44-b189-41ca-a0d4-2fe3903eec41",
-   "platform": "micro1",
-   "title": "360° Video Recorder (Insta360 / GoPro MAX)",
-   "team": "Robotics",
-   "location": "Remote",
-   "remote": true,
-   "type": "gig",
-   "posted": "2026-11-14",
-   "pay": "$15–$30/hr",
-   "url": "https://jobs.micro1.ai/post/9d57fd44-b189-41ca-a0d4-2fe3903eec41?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
-   "countries": [],
-   "exclude": []
-  },
-  {
-   "id": "micro1-36e1b1f6-b8bf-4273-a09a-94116a1f4b39",
-   "platform": "micro1",
-   "title": "Car-Mounted 360° Video Recorder",
-   "team": "Robotics",
-   "location": "Remote",
-   "remote": true,
-   "type": "gig",
-   "posted": "2026-11-14",
-   "pay": "$15–$30/hr",
-   "url": "https://jobs.micro1.ai/post/36e1b1f6-b8bf-4273-a09a-94116a1f4b39?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
    "countries": [],
    "exclude": []
   },
@@ -2787,120 +2293,6 @@
    "exclude": []
   },
   {
-   "id": "micro1-c4289f4e-1884-4dd0-bdae-af3757d84daf",
-   "platform": "micro1",
-   "title": "Member of Technical Staff, Forward Deployed (US Gov)",
-   "team": "Ai Machine Learning",
-   "location": "Hybrid",
-   "remote": false,
-   "type": "gig",
-   "posted": "2026-11-13",
-   "pay": "$40–$60/hr",
-   "url": "https://jobs.micro1.ai/post/c4289f4e-1884-4dd0-bdae-af3757d84daf?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
-   "countries": [
-    "US"
-   ],
-   "exclude": []
-  },
-  {
-   "id": "micro1-c3c2db93-38c2-4a62-8f9f-81b65cdb5c10",
-   "platform": "micro1",
-   "title": "Passport Acceptance Agent",
-   "team": "Other",
-   "location": "Remote",
-   "remote": true,
-   "type": "gig",
-   "posted": "2026-11-13",
-   "pay": "$30–$40/hr",
-   "url": "https://jobs.micro1.ai/post/c3c2db93-38c2-4a62-8f9f-81b65cdb5c10?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
-   "countries": [],
-   "exclude": []
-  },
-  {
-   "id": "micro1-a6091fe2-e1e0-4460-b9db-6a513ceead46",
-   "platform": "micro1",
-   "title": "Medicare Enrollment Specialist",
-   "team": "Medicine",
-   "location": "Remote",
-   "remote": true,
-   "type": "gig",
-   "posted": "2026-11-13",
-   "pay": "$40–$60/hr",
-   "url": "https://jobs.micro1.ai/post/a6091fe2-e1e0-4460-b9db-6a513ceead46?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
-   "countries": [],
-   "exclude": []
-  },
-  {
-   "id": "micro1-10b91117-cedd-42c0-a468-b056ad004ec3",
-   "platform": "micro1",
-   "title": "SHIP Medicare Counselor",
-   "team": "Medicine",
-   "location": "Remote",
-   "remote": true,
-   "type": "gig",
-   "posted": "2026-11-13",
-   "pay": "$30–$60/hr",
-   "url": "https://jobs.micro1.ai/post/10b91117-cedd-42c0-a468-b056ad004ec3?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
-   "countries": [],
-   "exclude": []
-  },
-  {
-   "id": "micro1-cf02a995-bac4-4503-b872-cb8cdbc536de",
-   "platform": "micro1",
-   "title": "Passport Specialist",
-   "team": "Law",
-   "location": "Remote",
-   "remote": true,
-   "type": "gig",
-   "posted": "2026-11-13",
-   "pay": "$50–$70/hr",
-   "url": "https://jobs.micro1.ai/post/cf02a995-bac4-4503-b872-cb8cdbc536de?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
-   "countries": [],
-   "exclude": []
-  },
-  {
-   "id": "micro1-657dcfd9-f374-4371-bf9b-9ba13557fe6f",
-   "platform": "micro1",
-   "title": "VA Eligibility Specialist",
-   "team": "Other",
-   "location": "Remote",
-   "remote": true,
-   "type": "gig",
-   "posted": "2026-11-13",
-   "pay": "$30–$50/hr",
-   "url": "https://jobs.micro1.ai/post/657dcfd9-f374-4371-bf9b-9ba13557fe6f?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
-   "countries": [],
-   "exclude": []
-  },
-  {
-   "id": "micro1-2582f414-1be9-4ac0-9375-01d2f3187217",
-   "platform": "micro1",
-   "title": "Veterans Service Officer",
-   "team": "Other",
-   "location": "Remote",
-   "remote": true,
-   "type": "gig",
-   "posted": "2026-11-13",
-   "pay": "$40–$60/hr",
-   "url": "https://jobs.micro1.ai/post/2582f414-1be9-4ac0-9375-01d2f3187217?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
-   "countries": [],
-   "exclude": []
-  },
-  {
-   "id": "micro1-bb117da1-3d6d-41d7-9bb5-69beff1f1104",
-   "platform": "micro1",
-   "title": "Financial Aid Advisor",
-   "team": "Other",
-   "location": "Remote",
-   "remote": true,
-   "type": "gig",
-   "posted": "2026-11-13",
-   "pay": "$30–$60/hr",
-   "url": "https://jobs.micro1.ai/post/bb117da1-3d6d-41d7-9bb5-69beff1f1104?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
-   "countries": [],
-   "exclude": []
-  },
-  {
    "id": "micro1-92adefba-ef8c-4d8f-8eee-ed78c1c663b8",
    "platform": "micro1",
    "title": "Software Engineer (Staff), Financial Platform & Infra",
@@ -2911,34 +2303,6 @@
    "posted": "2026-11-13",
    "pay": "$7–$8/hr",
    "url": "https://jobs.micro1.ai/post/92adefba-ef8c-4d8f-8eee-ed78c1c663b8?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
-   "countries": [],
-   "exclude": []
-  },
-  {
-   "id": "micro1-1372af5c-e0d5-482d-ae96-72b845194268",
-   "platform": "micro1",
-   "title": "Equity & Credit Research Expert",
-   "team": "Finance",
-   "location": "Remote",
-   "remote": true,
-   "type": "gig",
-   "posted": "2026-11-13",
-   "pay": "$90–$120/hr",
-   "url": "https://jobs.micro1.ai/post/1372af5c-e0d5-482d-ae96-72b845194268?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
-   "countries": [],
-   "exclude": []
-  },
-  {
-   "id": "micro1-f3648a6f-d267-445f-b861-b1be29ae322f",
-   "platform": "micro1",
-   "title": "Investment Banking Associate",
-   "team": "Finance",
-   "location": "Remote",
-   "remote": true,
-   "type": "gig",
-   "posted": "2026-11-13",
-   "pay": "$90–$120/hr",
-   "url": "https://jobs.micro1.ai/post/f3648a6f-d267-445f-b861-b1be29ae322f?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
    "countries": [],
    "exclude": []
   },
@@ -3141,6 +2505,20 @@
    "url": "https://work.mercor.com/explore?listingId=list_AAABocs4xIYqLBlbNtRKf6Mm&referralCode=3e69e7cf-edba-25be-5027-25cc33b23a52&utm_source=referral&utm_medium=direct&utm_campaign=platform"
   },
   {
+   "id": "micro1-1372af5c-e0d5-482d-ae96-72b845194268",
+   "platform": "micro1",
+   "title": "Equity & Credit Research Expert",
+   "team": "Finance",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-11-11",
+   "pay": "$90–$120/hr",
+   "url": "https://jobs.micro1.ai/post/1372af5c-e0d5-482d-ae96-72b845194268?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
+   "countries": [],
+   "exclude": []
+  },
+  {
    "id": "micro1-b381f79f-a396-4815-97ad-141191db9d25",
    "platform": "micro1",
    "title": "Paralegal",
@@ -3323,20 +2701,6 @@
    "exclude": []
   },
   {
-   "id": "micro1-ea0f5010-c2e8-4102-b715-72d1a368a19f",
-   "platform": "micro1",
-   "title": "Federal Equal Employment Specialist",
-   "team": "Other",
-   "location": "Remote",
-   "remote": true,
-   "type": "gig",
-   "posted": "2026-11-11",
-   "pay": "$60–$90/hr",
-   "url": "https://jobs.micro1.ai/post/ea0f5010-c2e8-4102-b715-72d1a368a19f?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
-   "countries": [],
-   "exclude": []
-  },
-  {
    "countries": [
     "US"
    ],
@@ -3383,6 +2747,34 @@
    "posted": "2026-11-10",
    "pay": "$110–$130/hr",
    "url": "https://work.mercor.com/explore?listingId=list_AAABocQXRHSLD4MqX_hGVZVy&referralCode=3e69e7cf-edba-25be-5027-25cc33b23a52&utm_source=referral&utm_medium=direct&utm_campaign=platform"
+  },
+  {
+   "id": "micro1-69ce4f10-b0cc-4ca0-93d4-ad306254e0cc",
+   "platform": "micro1",
+   "title": "Counterintelligence Technology & Program SME — AI Evaluation (Contract)",
+   "team": "Ai Machine Learning",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-11-10",
+   "pay": "$90–$140/hr",
+   "url": "https://jobs.micro1.ai/post/69ce4f10-b0cc-4ca0-93d4-ad306254e0cc?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "micro1-ea0f5010-c2e8-4102-b715-72d1a368a19f",
+   "platform": "micro1",
+   "title": "Federal Equal Employment Specialist",
+   "team": "Other",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-11-10",
+   "pay": "$60–$90/hr",
+   "url": "https://jobs.micro1.ai/post/ea0f5010-c2e8-4102-b715-72d1a368a19f?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
+   "countries": [],
+   "exclude": []
   },
   {
    "id": "micro1-f773a48d-1b5f-4bb6-8b56-a6d72f3fb9c5",
@@ -3553,20 +2945,6 @@
    "exclude": []
   },
   {
-   "id": "micro1-6afa96e2-251a-4c87-b4a7-ad5142b87a8a",
-   "platform": "micro1",
-   "title": "Senior MBSE Engineer - SysML v2",
-   "team": "Other",
-   "location": "Remote",
-   "remote": true,
-   "type": "gig",
-   "posted": "2026-11-10",
-   "pay": "$55–$120/hr",
-   "url": "https://jobs.micro1.ai/post/6afa96e2-251a-4c87-b4a7-ad5142b87a8a?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
-   "countries": [],
-   "exclude": []
-  },
-  {
    "id": "micro1-fa54d567-3111-4f8d-aa13-5454144ede77",
    "platform": "micro1",
    "title": "Paralegal (General)",
@@ -3661,20 +3039,6 @@
    "posted": "2026-11-10",
    "pay": "$150–$180/hr",
    "url": "https://jobs.micro1.ai/post/172b81f5-b398-4f2a-8949-15b2dae8bd5c?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
-   "countries": [],
-   "exclude": []
-  },
-  {
-   "id": "micro1-39b344d9-4774-4c9e-8220-620084da3df5",
-   "platform": "micro1",
-   "title": "AI Video Editor (Premiere Pro & After Effects)",
-   "team": "Generalist",
-   "location": "Remote",
-   "remote": true,
-   "type": "gig",
-   "posted": "2026-11-10",
-   "pay": "$20–$40/hr",
-   "url": "https://jobs.micro1.ai/post/39b344d9-4774-4c9e-8220-620084da3df5?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
    "countries": [],
    "exclude": []
   },
@@ -3883,6 +3247,34 @@
    "url": "https://work.mercor.com/explore?listingId=list_AAABocH7WsSchpN0-_lM7qeZ&referralCode=3e69e7cf-edba-25be-5027-25cc33b23a52&utm_source=referral&utm_medium=direct&utm_campaign=platform"
   },
   {
+   "id": "micro1-4e0beed7-fd35-4d80-8392-0d3531784fc2",
+   "platform": "micro1",
+   "title": "Emerging Technology Threat / Strategic Competition Advisor",
+   "team": "Other",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-11-09",
+   "pay": "$35–$85/hr",
+   "url": "https://jobs.micro1.ai/post/4e0beed7-fd35-4d80-8392-0d3531784fc2?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "micro1-39b344d9-4774-4c9e-8220-620084da3df5",
+   "platform": "micro1",
+   "title": "AI Video Editor (Premiere Pro & After Effects)",
+   "team": "Generalist",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-11-09",
+   "pay": "$20–$40/hr",
+   "url": "https://jobs.micro1.ai/post/39b344d9-4774-4c9e-8220-620084da3df5?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
+   "countries": [],
+   "exclude": []
+  },
+  {
    "id": "micro1-f6804ec4-4927-4cf7-a08d-fa49b327ed7e",
    "platform": "micro1",
    "title": "Senior AI Trainer (US Based)",
@@ -3993,20 +3385,6 @@
    "posted": "2026-11-09",
    "pay": "$60–$120/hr",
    "url": "https://jobs.micro1.ai/post/1f738cfe-c245-4f5c-991e-eb3bedc55705?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
-   "countries": [],
-   "exclude": []
-  },
-  {
-   "id": "micro1-2739201f-5d2b-4cec-ac30-62f232196b6f",
-   "platform": "micro1",
-   "title": "Open Source Contributor",
-   "team": "Ai Machine Learning",
-   "location": "Remote",
-   "remote": true,
-   "type": "gig",
-   "posted": "2026-11-09",
-   "pay": "$60–$120/hr",
-   "url": "https://jobs.micro1.ai/post/2739201f-5d2b-4cec-ac30-62f232196b6f?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
    "countries": [],
    "exclude": []
   },
@@ -4137,16 +3515,16 @@
    "exclude": []
   },
   {
-   "id": "micro1-333fddbb-5e71-406c-aa0c-e88d0a33b538",
+   "id": "micro1-2739201f-5d2b-4cec-ac30-62f232196b6f",
    "platform": "micro1",
-   "title": "Simulation Expert — Real-to-Sim 3D Environments & Assets",
-   "team": "Applied Engineering",
+   "title": "Open Source Contributor",
+   "team": "Ai Machine Learning",
    "location": "Remote",
    "remote": true,
    "type": "gig",
-   "posted": "2026-11-09",
-   "pay": "$60–$100/hr",
-   "url": "https://jobs.micro1.ai/post/333fddbb-5e71-406c-aa0c-e88d0a33b538?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
+   "posted": "2026-11-08",
+   "pay": "$60–$120/hr",
+   "url": "https://jobs.micro1.ai/post/2739201f-5d2b-4cec-ac30-62f232196b6f?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
    "countries": [],
    "exclude": []
   },
@@ -4771,34 +4149,6 @@
    "exclude": []
   },
   {
-   "id": "micro1-448f7fb3-a4cf-44e8-9a13-de2de0f257a1",
-   "platform": "micro1",
-   "title": "Imagery Analyst —AI/ML Training Data",
-   "team": "Generalist",
-   "location": "Remote",
-   "remote": true,
-   "type": "gig",
-   "posted": "2026-11-05",
-   "pay": "$35–$80/hr",
-   "url": "https://jobs.micro1.ai/post/448f7fb3-a4cf-44e8-9a13-de2de0f257a1?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
-   "countries": [],
-   "exclude": []
-  },
-  {
-   "id": "micro1-2623e26a-77a6-4e1f-891e-eff91cf455f1",
-   "platform": "micro1",
-   "title": "Personal Financial Advisor",
-   "team": "Finance",
-   "location": "Remote",
-   "remote": true,
-   "type": "gig",
-   "posted": "2026-11-05",
-   "pay": "$90–$110/hr",
-   "url": "https://jobs.micro1.ai/post/2623e26a-77a6-4e1f-891e-eff91cf455f1?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
-   "countries": [],
-   "exclude": []
-  },
-  {
    "id": "micro1-23e1f9ab-ca69-46a4-95a0-f780a96d6cf0",
    "platform": "micro1",
    "title": "Tax Preparer, Individual Income Tax (Form 1040), TY2025 (EA/CPA)",
@@ -5167,6 +4517,20 @@
    "posted": "2026-11-03",
    "pay": "$50/hr",
    "url": "https://work.mercor.com/explore?listingId=list_AAABoaOWz1A9HHs5C2VDcas_&referralCode=3e69e7cf-edba-25be-5027-25cc33b23a52&utm_source=referral&utm_medium=direct&utm_campaign=platform"
+  },
+  {
+   "id": "micro1-6afa96e2-251a-4c87-b4a7-ad5142b87a8a",
+   "platform": "micro1",
+   "title": "Senior MBSE Engineer - SysML v2",
+   "team": "Other",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-11-03",
+   "pay": "$55–$120/hr",
+   "url": "https://jobs.micro1.ai/post/6afa96e2-251a-4c87-b4a7-ad5142b87a8a?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
+   "countries": [],
+   "exclude": []
   },
   {
    "id": "micro1-ab7c2d1d-bee1-4e0d-9735-e9f86f054fde",
@@ -5542,34 +4906,6 @@
    "exclude": []
   },
   {
-   "id": "micro1-84921e4c-7944-46ae-bbc2-c49c7d3ab642",
-   "platform": "micro1",
-   "title": "Vietnamese Bilingual Expert",
-   "team": "Language Audio",
-   "location": "Remote",
-   "remote": true,
-   "type": "gig",
-   "posted": "2026-10-31",
-   "pay": "$30–$65/hr",
-   "url": "https://jobs.micro1.ai/post/84921e4c-7944-46ae-bbc2-c49c7d3ab642?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
-   "countries": [],
-   "exclude": []
-  },
-  {
-   "id": "micro1-5707c314-da3f-4736-ac12-dfe66421dc45",
-   "platform": "micro1",
-   "title": "Indonesian Bilingual Expert",
-   "team": "Language Audio",
-   "location": "Remote",
-   "remote": true,
-   "type": "gig",
-   "posted": "2026-10-31",
-   "pay": "$30–$65/hr",
-   "url": "https://jobs.micro1.ai/post/5707c314-da3f-4736-ac12-dfe66421dc45?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
-   "countries": [],
-   "exclude": []
-  },
-  {
    "id": "micro1-6b363545-5010-4e20-8209-b50e93b3c50f",
    "platform": "micro1",
    "title": "Portuguese Bilingual Expert (Brazil)",
@@ -5638,20 +4974,6 @@
    "posted": "2026-10-31",
    "pay": "$30–$65/hr",
    "url": "https://jobs.micro1.ai/post/a07dcffa-e3c1-4b8f-887f-26d55c2bb1b7?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
-   "countries": [],
-   "exclude": []
-  },
-  {
-   "id": "micro1-b8ed43ea-dc5c-4da1-80f4-633cb15d94a9",
-   "platform": "micro1",
-   "title": "British English Voice Expert",
-   "team": "Language Audio",
-   "location": "Remote",
-   "remote": true,
-   "type": "gig",
-   "posted": "2026-10-31",
-   "pay": "$40–$65/hr",
-   "url": "https://jobs.micro1.ai/post/b8ed43ea-dc5c-4da1-80f4-633cb15d94a9?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
    "countries": [],
    "exclude": []
   },
@@ -5804,148 +5126,6 @@
    "url": "https://work.mercor.com/explore?listingId=list_AAABoYr3SG3-4yi5ct9Bgp3k&referralCode=3e69e7cf-edba-25be-5027-25cc33b23a52&utm_source=referral&utm_medium=direct&utm_campaign=platform"
   },
   {
-   "id": "micro1-c6094969-6b8c-47ca-a40b-0bb5b53d0885",
-   "platform": "micro1",
-   "title": "Arabic Voice Actor (Saudi dialect)",
-   "team": "Language Audio",
-   "location": "Remote",
-   "remote": true,
-   "type": "gig",
-   "posted": "2026-10-30",
-   "pay": "$30–$65/hr",
-   "url": "https://jobs.micro1.ai/post/c6094969-6b8c-47ca-a40b-0bb5b53d0885?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
-   "countries": [],
-   "exclude": []
-  },
-  {
-   "id": "micro1-0e76b5a5-9305-47cc-8c1a-86f03e28f4f6",
-   "platform": "micro1",
-   "title": "Arabic Voice Actor (Egypt dialect)",
-   "team": "Language Audio",
-   "location": "Remote",
-   "remote": true,
-   "type": "gig",
-   "posted": "2026-10-30",
-   "pay": "$30–$65/hr",
-   "url": "https://jobs.micro1.ai/post/0e76b5a5-9305-47cc-8c1a-86f03e28f4f6?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
-   "countries": [
-    "EG"
-   ],
-   "exclude": []
-  },
-  {
-   "id": "micro1-6ae61a82-e891-46b2-ab5a-1496e25265b9",
-   "platform": "micro1",
-   "title": "Turkish Bilingual Expert",
-   "team": "Language Audio",
-   "location": "Remote",
-   "remote": true,
-   "type": "gig",
-   "posted": "2026-10-30",
-   "pay": "$30–$65/hr",
-   "url": "https://jobs.micro1.ai/post/6ae61a82-e891-46b2-ab5a-1496e25265b9?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
-   "countries": [],
-   "exclude": []
-  },
-  {
-   "id": "micro1-28d9685a-7802-4179-933e-ad510bc60938",
-   "platform": "micro1",
-   "title": "Bengali Bilingual Expert",
-   "team": "Language Audio",
-   "location": "Remote",
-   "remote": true,
-   "type": "gig",
-   "posted": "2026-10-30",
-   "pay": "$30–$65/hr",
-   "url": "https://jobs.micro1.ai/post/28d9685a-7802-4179-933e-ad510bc60938?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
-   "countries": [],
-   "exclude": []
-  },
-  {
-   "id": "micro1-c732f04d-3d0e-410f-ba42-781cd9f09915",
-   "platform": "micro1",
-   "title": "Russian Bilingual Expert",
-   "team": "Language Audio",
-   "location": "Remote",
-   "remote": true,
-   "type": "gig",
-   "posted": "2026-10-30",
-   "pay": "$30–$65/hr",
-   "url": "https://jobs.micro1.ai/post/c732f04d-3d0e-410f-ba42-781cd9f09915?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
-   "countries": [],
-   "exclude": []
-  },
-  {
-   "id": "micro1-f8f1211f-ba15-4718-96a1-591ddf115111",
-   "platform": "micro1",
-   "title": "Thai Bilingual Expert",
-   "team": "Language Audio",
-   "location": "Remote",
-   "remote": true,
-   "type": "gig",
-   "posted": "2026-10-30",
-   "pay": "$30–$65/hr",
-   "url": "https://jobs.micro1.ai/post/f8f1211f-ba15-4718-96a1-591ddf115111?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
-   "countries": [],
-   "exclude": []
-  },
-  {
-   "id": "micro1-382cf385-16da-4536-8a32-95947e0197a7",
-   "platform": "micro1",
-   "title": "Dutch Bilingual Expert",
-   "team": "Language Audio",
-   "location": "Remote",
-   "remote": true,
-   "type": "gig",
-   "posted": "2026-10-30",
-   "pay": "$30–$65/hr",
-   "url": "https://jobs.micro1.ai/post/382cf385-16da-4536-8a32-95947e0197a7?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
-   "countries": [],
-   "exclude": []
-  },
-  {
-   "id": "micro1-961df5fb-620c-4443-a3af-86bc225da2cd",
-   "platform": "micro1",
-   "title": "Hebrew Bilingual Expert",
-   "team": "Language Audio",
-   "location": "Remote",
-   "remote": true,
-   "type": "gig",
-   "posted": "2026-10-30",
-   "pay": "$30–$65/hr",
-   "url": "https://jobs.micro1.ai/post/961df5fb-620c-4443-a3af-86bc225da2cd?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
-   "countries": [],
-   "exclude": []
-  },
-  {
-   "id": "micro1-5c02f61b-b2b2-46a6-a058-26a1f6e64cf7",
-   "platform": "micro1",
-   "title": "Polish Bilingual Expert",
-   "team": "Language Audio",
-   "location": "Remote",
-   "remote": true,
-   "type": "gig",
-   "posted": "2026-10-30",
-   "pay": "$30–$65/hr",
-   "url": "https://jobs.micro1.ai/post/5c02f61b-b2b2-46a6-a058-26a1f6e64cf7?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
-   "countries": [],
-   "exclude": []
-  },
-  {
-   "id": "micro1-eff6f38f-dfab-4333-9e4c-a5610de93e84",
-   "platform": "micro1",
-   "title": "Italian Bilingual Expert",
-   "team": "Language Audio",
-   "location": "Remote",
-   "remote": true,
-   "type": "gig",
-   "posted": "2026-10-30",
-   "pay": "$30–$65/hr",
-   "url": "https://jobs.micro1.ai/post/eff6f38f-dfab-4333-9e4c-a5610de93e84?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
-   "countries": [],
-   "exclude": []
-  },
-  {
    "id": "micro1-04f3b6cc-9b3e-4ccc-8867-04f23af12b3c",
    "platform": "micro1",
    "title": "Chinese Voice Coach (Mandarin)",
@@ -5970,20 +5150,6 @@
    "posted": "2026-10-30",
    "pay": "$50–$70/hr",
    "url": "https://jobs.micro1.ai/post/01569fb2-dd8c-47e7-b410-342f5f7c92d9?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
-   "countries": [],
-   "exclude": []
-  },
-  {
-   "id": "micro1-7feee246-52db-48df-880c-58a87bbc9c65",
-   "platform": "micro1",
-   "title": "Defense Analyst",
-   "team": "Other",
-   "location": "Remote",
-   "remote": true,
-   "type": "gig",
-   "posted": "2026-10-30",
-   "pay": "$80–$170/hr",
-   "url": "https://jobs.micro1.ai/post/7feee246-52db-48df-880c-58a87bbc9c65?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
    "countries": [],
    "exclude": []
   },
@@ -6040,6 +5206,20 @@
    "posted": "2026-10-30",
    "pay": "$60–$90/hr",
    "url": "https://jobs.micro1.ai/post/51b59eaf-48a6-427c-94d0-7a125b25425c?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "micro1-448f7fb3-a4cf-44e8-9a13-de2de0f257a1",
+   "platform": "micro1",
+   "title": "Imagery Analyst —AI/ML Training Data",
+   "team": "Generalist",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-10-29",
+   "pay": "$35–$80/hr",
+   "url": "https://jobs.micro1.ai/post/448f7fb3-a4cf-44e8-9a13-de2de0f257a1?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
    "countries": [],
    "exclude": []
   },
@@ -6496,20 +5676,6 @@
    "exclude": []
   },
   {
-   "id": "micro1-dc341efb-fab5-4d87-8916-e0f6fdb283fa",
-   "platform": "micro1",
-   "title": "Senior Marine Cargo and Draft Surveyor",
-   "team": "Other",
-   "location": "Remote",
-   "remote": true,
-   "type": "gig",
-   "posted": "2026-10-28",
-   "pay": "$20–$60/hr",
-   "url": "https://jobs.micro1.ai/post/dc341efb-fab5-4d87-8916-e0f6fdb283fa?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
-   "countries": [],
-   "exclude": []
-  },
-  {
    "id": "micro1-913e51e8-97d0-4a4c-a432-4b4357c327aa",
    "platform": "micro1",
    "title": "Legal Specialist (Microsoft Office User)",
@@ -6535,22 +5701,6 @@
    "pay": "$25–$40/hr",
    "url": "https://jobs.micro1.ai/post/cbb3f0f3-22f8-439c-8bc2-013be484b836?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
    "countries": [],
-   "exclude": []
-  },
-  {
-   "id": "micro1-83b89d5d-866e-46ab-b1ae-7c87fbcd1c75",
-   "platform": "micro1",
-   "title": "Spanish Bilingual Expert (Mexico)",
-   "team": "Language Audio",
-   "location": "Remote",
-   "remote": true,
-   "type": "gig",
-   "posted": "2026-10-28",
-   "pay": "$30–$65/hr",
-   "url": "https://jobs.micro1.ai/post/83b89d5d-866e-46ab-b1ae-7c87fbcd1c75?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
-   "countries": [
-    "MX"
-   ],
    "exclude": []
   },
   {
@@ -6620,20 +5770,6 @@
    "posted": "2026-10-28",
    "pay": "$60–$120/hr",
    "url": "https://jobs.micro1.ai/post/644f3f12-c2a2-4fb9-8652-57263a807c5e?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
-   "countries": [],
-   "exclude": []
-  },
-  {
-   "id": "micro1-ab040b63-3e78-47d4-87b5-319193171cc2",
-   "platform": "micro1",
-   "title": "Member of Technical Staff, Model Training (infra & platform)",
-   "team": "Sciences Research",
-   "location": "Remote",
-   "remote": true,
-   "type": "gig",
-   "posted": "2026-10-28",
-   "pay": "$7–$8/hr",
-   "url": "https://jobs.micro1.ai/post/ab040b63-3e78-47d4-87b5-319193171cc2?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
    "countries": [],
    "exclude": []
   },
@@ -6808,6 +5944,20 @@
    "posted": "2026-10-27",
    "pay": "$70/hr",
    "url": "https://work.mercor.com/explore?listingId=list_AAABoXuE96XzQVNYx-VDPpQa&referralCode=3e69e7cf-edba-25be-5027-25cc33b23a52&utm_source=referral&utm_medium=direct&utm_campaign=platform"
+  },
+  {
+   "id": "micro1-ab040b63-3e78-47d4-87b5-319193171cc2",
+   "platform": "micro1",
+   "title": "Member of Technical Staff, Model Training (infra & platform)",
+   "team": "Sciences Research",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-10-27",
+   "pay": "$7–$8/hr",
+   "url": "https://jobs.micro1.ai/post/ab040b63-3e78-47d4-87b5-319193171cc2?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
+   "countries": [],
+   "exclude": []
   },
   {
    "id": "micro1-cfaf2d70-673a-4edb-aeba-558fcf33eb9a",
@@ -7385,6 +6535,20 @@
    "url": "https://work.mercor.com/explore?listingId=list_AAABoWtv330pzH8496dGyKTt&referralCode=3e69e7cf-edba-25be-5027-25cc33b23a52&utm_source=referral&utm_medium=direct&utm_campaign=platform"
   },
   {
+   "id": "micro1-7feee246-52db-48df-880c-58a87bbc9c65",
+   "platform": "micro1",
+   "title": "Defense Analyst",
+   "team": "Other",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-10-24",
+   "pay": "$80–$170/hr",
+   "url": "https://jobs.micro1.ai/post/7feee246-52db-48df-880c-58a87bbc9c65?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
+   "countries": [],
+   "exclude": []
+  },
+  {
    "id": "micro1-0e5cfd61-fe27-4955-ad5c-952e6e5d8198",
    "platform": "micro1",
    "title": "Member of Technical Staff, Data Engineering",
@@ -7850,6 +7014,34 @@
    "url": "https://work.mercor.com/explore?listingId=list_AAABoWTgIFc6PljFQHhBDpYR&referralCode=3e69e7cf-edba-25be-5027-25cc33b23a52&utm_source=referral&utm_medium=direct&utm_campaign=platform"
   },
   {
+   "id": "micro1-9701abf9-febd-4f13-9183-80257478f22a",
+   "platform": "micro1",
+   "title": "Mathematics Expert",
+   "team": "Sciences Research",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-10-22",
+   "pay": "$60–$120/hr",
+   "url": "https://jobs.micro1.ai/post/9701abf9-febd-4f13-9183-80257478f22a?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "micro1-dc341efb-fab5-4d87-8916-e0f6fdb283fa",
+   "platform": "micro1",
+   "title": "Senior Marine Cargo and Draft Surveyor",
+   "team": "Other",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-10-22",
+   "pay": "$20–$60/hr",
+   "url": "https://jobs.micro1.ai/post/dc341efb-fab5-4d87-8916-e0f6fdb283fa?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
+   "countries": [],
+   "exclude": []
+  },
+  {
    "countries": [],
    "exclude": [],
    "id": "mercor-list_AAABoVXp4Fza5Tp6BWFOiZkF",
@@ -7892,6 +7084,34 @@
    "countries": [
     "US"
    ],
+   "exclude": []
+  },
+  {
+   "id": "micro1-82310fe1-2ad6-4b48-9434-57f2ea679bac",
+   "platform": "micro1",
+   "title": "At-Home Video Recorder (LATAM)",
+   "team": "Generalist",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-10-19",
+   "pay": "$6/hr",
+   "url": "https://jobs.micro1.ai/post/82310fe1-2ad6-4b48-9434-57f2ea679bac?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "micro1-7827dcd2-17d7-46a7-8d58-3ef6ff3930f4",
+   "platform": "micro1",
+   "title": "At-Home Video Recorder",
+   "team": "Generalist",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-10-19",
+   "pay": "$15/hr",
+   "url": "https://jobs.micro1.ai/post/7827dcd2-17d7-46a7-8d58-3ef6ff3930f4?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
+   "countries": [],
    "exclude": []
   },
   {
@@ -8035,6 +7255,20 @@
    "url": "https://work.mercor.com/explore?listingId=list_AAABoVBl9Qiee5DoU-hGapwb&referralCode=3e69e7cf-edba-25be-5027-25cc33b23a52&utm_source=referral&utm_medium=direct&utm_campaign=platform"
   },
   {
+   "id": "micro1-f3648a6f-d267-445f-b861-b1be29ae322f",
+   "platform": "micro1",
+   "title": "Investment Banking Associate",
+   "team": "Finance",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-10-18",
+   "pay": "$90–$120/hr",
+   "url": "https://jobs.micro1.ai/post/f3648a6f-d267-445f-b861-b1be29ae322f?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
+   "countries": [],
+   "exclude": []
+  },
+  {
    "countries": [],
    "exclude": [],
    "id": "mercor-list_AAABoUYJgC6FFGQLBmRFJZvf",
@@ -8113,6 +7347,76 @@
    "url": "https://work.mercor.com/explore?listingId=list_AAABoTw2X50MatW_D09FdpXK&referralCode=3e69e7cf-edba-25be-5027-25cc33b23a52&utm_source=referral&utm_medium=direct&utm_campaign=platform"
   },
   {
+   "id": "micro1-47ae77fa-cc3b-40f5-bdc6-eca4d11cc73e",
+   "platform": "micro1",
+   "title": "Personal Injury Lawyer",
+   "team": "Law",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-10-14",
+   "pay": "$100–$170/hr",
+   "url": "https://jobs.micro1.ai/post/47ae77fa-cc3b-40f5-bdc6-eca4d11cc73e?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "micro1-68d31799-41cb-4899-987b-527eba2ef40a",
+   "platform": "micro1",
+   "title": "Employment Lawyer",
+   "team": "Law",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-10-14",
+   "pay": "$100–$170/hr",
+   "url": "https://jobs.micro1.ai/post/68d31799-41cb-4899-987b-527eba2ef40a?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "micro1-abdb5807-b650-4eb8-b4e4-20a5a834301d",
+   "platform": "micro1",
+   "title": "Tax Attorney",
+   "team": "Law",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-10-14",
+   "pay": "$100–$170/hr",
+   "url": "https://jobs.micro1.ai/post/abdb5807-b650-4eb8-b4e4-20a5a834301d?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "micro1-d484ab8c-eb8b-4b2f-b742-3d00719ca143",
+   "platform": "micro1",
+   "title": "Lawyer",
+   "team": "Law",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-10-14",
+   "pay": "$100–$170/hr",
+   "url": "https://jobs.micro1.ai/post/d484ab8c-eb8b-4b2f-b742-3d00719ca143?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "micro1-2623e26a-77a6-4e1f-891e-eff91cf455f1",
+   "platform": "micro1",
+   "title": "Personal Financial Advisor",
+   "team": "Finance",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-10-14",
+   "pay": "$90–$110/hr",
+   "url": "https://jobs.micro1.ai/post/2623e26a-77a6-4e1f-891e-eff91cf455f1?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
+   "countries": [],
+   "exclude": []
+  },
+  {
    "countries": [
     "US"
    ],
@@ -8143,6 +7447,174 @@
    "url": "https://work.mercor.com/explore?listingId=list_AAABoTSnXon2NKOaCWVFA6I-&referralCode=3e69e7cf-edba-25be-5027-25cc33b23a52&utm_source=referral&utm_medium=direct&utm_campaign=platform"
   },
   {
+   "id": "micro1-64592ac1-f184-4c0f-9e5d-796cccdd499b",
+   "platform": "micro1",
+   "title": "Data Partnerships Manager",
+   "team": "Sales Marketing",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-10-13",
+   "pay": "$20–$30/hr",
+   "url": "https://jobs.micro1.ai/post/64592ac1-f184-4c0f-9e5d-796cccdd499b?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "micro1-f5b76e03-411a-4648-8f5f-10ff604317ef",
+   "platform": "micro1",
+   "title": "Attorney",
+   "team": "Law",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-10-12",
+   "pay": "$80–$150/hr",
+   "url": "https://jobs.micro1.ai/post/f5b76e03-411a-4648-8f5f-10ff604317ef?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "micro1-dac3063b-48c0-43ec-ae6d-98dfc4363350",
+   "platform": "micro1",
+   "title": "Legal Counsel",
+   "team": "Law",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-10-12",
+   "pay": "$80–$150/hr",
+   "url": "https://jobs.micro1.ai/post/dac3063b-48c0-43ec-ae6d-98dfc4363350?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "micro1-c3c2db93-38c2-4a62-8f9f-81b65cdb5c10",
+   "platform": "micro1",
+   "title": "Passport Acceptance Agent",
+   "team": "Other",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-10-12",
+   "pay": "$30–$40/hr",
+   "url": "https://jobs.micro1.ai/post/c3c2db93-38c2-4a62-8f9f-81b65cdb5c10?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "micro1-a6091fe2-e1e0-4460-b9db-6a513ceead46",
+   "platform": "micro1",
+   "title": "Medicare Enrollment Specialist",
+   "team": "Medicine",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-10-12",
+   "pay": "$40–$60/hr",
+   "url": "https://jobs.micro1.ai/post/a6091fe2-e1e0-4460-b9db-6a513ceead46?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "micro1-10b91117-cedd-42c0-a468-b056ad004ec3",
+   "platform": "micro1",
+   "title": "SHIP Medicare Counselor",
+   "team": "Medicine",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-10-12",
+   "pay": "$30–$60/hr",
+   "url": "https://jobs.micro1.ai/post/10b91117-cedd-42c0-a468-b056ad004ec3?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "micro1-cf02a995-bac4-4503-b872-cb8cdbc536de",
+   "platform": "micro1",
+   "title": "Passport Specialist",
+   "team": "Law",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-10-12",
+   "pay": "$50–$70/hr",
+   "url": "https://jobs.micro1.ai/post/cf02a995-bac4-4503-b872-cb8cdbc536de?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "micro1-657dcfd9-f374-4371-bf9b-9ba13557fe6f",
+   "platform": "micro1",
+   "title": "VA Eligibility Specialist",
+   "team": "Other",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-10-12",
+   "pay": "$30–$50/hr",
+   "url": "https://jobs.micro1.ai/post/657dcfd9-f374-4371-bf9b-9ba13557fe6f?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "micro1-2582f414-1be9-4ac0-9375-01d2f3187217",
+   "platform": "micro1",
+   "title": "Veterans Service Officer",
+   "team": "Other",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-10-12",
+   "pay": "$40–$60/hr",
+   "url": "https://jobs.micro1.ai/post/2582f414-1be9-4ac0-9375-01d2f3187217?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "micro1-bb117da1-3d6d-41d7-9bb5-69beff1f1104",
+   "platform": "micro1",
+   "title": "Financial Aid Advisor",
+   "team": "Other",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-10-12",
+   "pay": "$30–$60/hr",
+   "url": "https://jobs.micro1.ai/post/bb117da1-3d6d-41d7-9bb5-69beff1f1104?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "micro1-c8cdec0c-76b7-40ae-9764-fb170200408a",
+   "platform": "micro1",
+   "title": "Quantitative Rates Researcher",
+   "team": "Finance",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-10-09",
+   "pay": "$80–$150/hr",
+   "url": "https://jobs.micro1.ai/post/c8cdec0c-76b7-40ae-9764-fb170200408a?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "micro1-3fee8e97-5dce-42bd-a8a1-68133f04449a",
+   "platform": "micro1",
+   "title": "Rates trader",
+   "team": "Finance",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-10-09",
+   "pay": "$80–$100/hr",
+   "url": "https://jobs.micro1.ai/post/3fee8e97-5dce-42bd-a8a1-68133f04449a?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
+   "countries": [],
+   "exclude": []
+  },
+  {
    "countries": [],
    "exclude": [],
    "id": "mercor-list_AAABoRnCSK6MhF7a8UVK85GA",
@@ -8157,6 +7629,20 @@
    "url": "https://work.mercor.com/explore?listingId=list_AAABoRnCSK6MhF7a8UVK85GA&referralCode=3e69e7cf-edba-25be-5027-25cc33b23a52&utm_source=referral&utm_medium=direct&utm_campaign=platform"
   },
   {
+   "id": "micro1-0c6952e3-b783-407c-a451-b92996992038",
+   "platform": "micro1",
+   "title": "Litigation Attorney",
+   "team": "Law",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-10-08",
+   "pay": "$80–$170/hr",
+   "url": "https://jobs.micro1.ai/post/0c6952e3-b783-407c-a451-b92996992038?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
+   "countries": [],
+   "exclude": []
+  },
+  {
    "countries": [],
    "exclude": [],
    "id": "mercor-list_AAABoRePE1qiY1-aJqFLRrSi",
@@ -8169,6 +7655,78 @@
    "posted": "2026-10-07",
    "pay": "$200/hr",
    "url": "https://work.mercor.com/explore?listingId=list_AAABoRePE1qiY1-aJqFLRrSi&referralCode=3e69e7cf-edba-25be-5027-25cc33b23a52&utm_source=referral&utm_medium=direct&utm_campaign=platform"
+  },
+  {
+   "id": "micro1-479e1aa8-2d92-42b7-a77c-aa83369cece8",
+   "platform": "micro1",
+   "title": "Referral Partnerships Manager",
+   "team": "Sales Marketing",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-10-07",
+   "pay": "$20–$40/hr",
+   "url": "https://jobs.micro1.ai/post/479e1aa8-2d92-42b7-a77c-aa83369cece8?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "micro1-190225df-d67a-402d-bd7f-d9c7c40bb693",
+   "platform": "micro1",
+   "title": "Game Developer",
+   "team": "Software Engineering",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-10-07",
+   "pay": "$25–$60/hr",
+   "url": "https://jobs.micro1.ai/post/190225df-d67a-402d-bd7f-d9c7c40bb693?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "micro1-7c09cefc-fd08-4ee4-b792-48e3a4753e9c",
+   "platform": "micro1",
+   "title": "AI/ML Engineer, Internal Platforms",
+   "team": "Ai Machine Learning",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-10-06",
+   "pay": "$160–$300/hr",
+   "url": "https://jobs.micro1.ai/post/7c09cefc-fd08-4ee4-b792-48e3a4753e9c?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "micro1-b8ed43ea-dc5c-4da1-80f4-633cb15d94a9",
+   "platform": "micro1",
+   "title": "British English Voice Expert",
+   "team": "Language Audio",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-10-06",
+   "pay": "$40–$65/hr",
+   "url": "https://jobs.micro1.ai/post/b8ed43ea-dc5c-4da1-80f4-633cb15d94a9?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "micro1-83b89d5d-866e-46ab-b1ae-7c87fbcd1c75",
+   "platform": "micro1",
+   "title": "Spanish Bilingual Expert (Mexico)",
+   "team": "Language Audio",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-10-06",
+   "pay": "$30–$65/hr",
+   "url": "https://jobs.micro1.ai/post/83b89d5d-866e-46ab-b1ae-7c87fbcd1c75?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
+   "countries": [
+    "MX"
+   ],
+   "exclude": []
   },
   {
    "id": "handshake-7788a34b-f112-467a-ba9a-b8245f8fccfb",
@@ -8186,6 +7744,34 @@
    "exclude": []
   },
   {
+   "id": "micro1-09891468-1722-465f-b47e-f420c9f1e154",
+   "platform": "micro1",
+   "title": "Research Marketing Lead",
+   "team": "Sales Marketing",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-10-04",
+   "pay": "$7–$8/hr",
+   "url": "https://jobs.micro1.ai/post/09891468-1722-465f-b47e-f420c9f1e154?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "micro1-333fddbb-5e71-406c-aa0c-e88d0a33b538",
+   "platform": "micro1",
+   "title": "Simulation Expert — Real-to-Sim 3D Environments & Assets",
+   "team": "Applied Engineering",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-10-03",
+   "pay": "$60–$100/hr",
+   "url": "https://jobs.micro1.ai/post/333fddbb-5e71-406c-aa0c-e88d0a33b538?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
+   "countries": [],
+   "exclude": []
+  },
+  {
    "countries": [
     "US"
    ],
@@ -8200,6 +7786,20 @@
    "posted": "2026-10-02",
    "pay": "$45–$70/hr",
    "url": "https://work.mercor.com/explore?listingId=list_AAABoP3B8SkA4VcfExhLrYa3&referralCode=3e69e7cf-edba-25be-5027-25cc33b23a52&utm_source=referral&utm_medium=direct&utm_campaign=platform"
+  },
+  {
+   "id": "micro1-36e1b1f6-b8bf-4273-a09a-94116a1f4b39",
+   "platform": "micro1",
+   "title": "Car-Mounted 360° Video Recorder",
+   "team": "Robotics",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-10-01",
+   "pay": "$15–$30/hr",
+   "url": "https://jobs.micro1.ai/post/36e1b1f6-b8bf-4273-a09a-94116a1f4b39?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
+   "countries": [],
+   "exclude": []
   },
   {
    "countries": [
@@ -8232,6 +7832,36 @@
    "posted": "2026-09-29",
    "pay": "$175/hr",
    "url": "https://work.mercor.com/explore?listingId=list_AAABoO94SrBCWFrRmM1A07Rq&referralCode=3e69e7cf-edba-25be-5027-25cc33b23a52&utm_source=referral&utm_medium=direct&utm_campaign=platform"
+  },
+  {
+   "id": "micro1-01c797e9-0eab-4a2f-988b-a0206e84f21d",
+   "platform": "micro1",
+   "title": "Bankruptcy Attorney",
+   "team": "Law",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-09-29",
+   "pay": "$100–$170/hr",
+   "url": "https://jobs.micro1.ai/post/01c797e9-0eab-4a2f-988b-a0206e84f21d?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "micro1-50d0cd3d-0d16-4c70-9094-8a66bbc9dffb",
+   "platform": "micro1",
+   "title": "Litigator / Practicing Attorney (US)",
+   "team": "Law",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-09-29",
+   "pay": "$100–$160/hr",
+   "url": "https://jobs.micro1.ai/post/50d0cd3d-0d16-4c70-9094-8a66bbc9dffb?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
+   "countries": [
+    "US"
+   ],
+   "exclude": []
   },
   {
    "countries": [],
@@ -8938,6 +8568,20 @@
    "url": "https://work.mercor.com/explore?listingId=list_AAABoKG68a2Ye1PiakdPq7FS&referralCode=3e69e7cf-edba-25be-5027-25cc33b23a52&utm_source=referral&utm_medium=direct&utm_campaign=platform"
   },
   {
+   "id": "micro1-b1316606-46fb-4c3d-a4f9-5a2368e88d70",
+   "platform": "micro1",
+   "title": "Associate Forward Deployed Engineer (aFDE)",
+   "team": "Software Engineering",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-09-14",
+   "pay": "$40–$60/hr",
+   "url": "https://jobs.micro1.ai/post/b1316606-46fb-4c3d-a4f9-5a2368e88d70?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
+   "countries": [],
+   "exclude": []
+  },
+  {
    "countries": [],
    "exclude": [],
    "id": "mercor-list_AAABoJgvqc1gDoK02dZJpq-m",
@@ -9334,6 +8978,20 @@
    "url": "https://work.mercor.com/explore?listingId=list_AAABoJf7our4yArt1RZFnIec&referralCode=3e69e7cf-edba-25be-5027-25cc33b23a52&utm_source=referral&utm_medium=direct&utm_campaign=platform"
   },
   {
+   "id": "micro1-c37ac96c-2116-4c5e-92c7-180da9b502db",
+   "platform": "micro1",
+   "title": "Software Engineer (Electron.js)",
+   "team": "Software Engineering",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-09-08",
+   "pay": "$6–$7/hr",
+   "url": "https://jobs.micro1.ai/post/c37ac96c-2116-4c5e-92c7-180da9b502db?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
+   "countries": [],
+   "exclude": []
+  },
+  {
    "id": "handshake-7f607c0b-291d-4c17-9897-6d8c5d35eb00",
    "platform": "handshake",
    "title": "AI Red Teamer, Cybersecurity (Remote)",
@@ -9434,6 +9092,20 @@
    "posted": "2026-09-03",
    "pay": "$45–$65/hr",
    "url": "https://work.mercor.com/explore?listingId=list_AAABoGYcR_Q8k7gMhOdC84s-&referralCode=3e69e7cf-edba-25be-5027-25cc33b23a52&utm_source=referral&utm_medium=direct&utm_campaign=platform"
+  },
+  {
+   "id": "micro1-9d57fd44-b189-41ca-a0d4-2fe3903eec41",
+   "platform": "micro1",
+   "title": "360° Video Recorder (Insta360 / GoPro MAX)",
+   "team": "Robotics",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-09-03",
+   "pay": "$15–$30/hr",
+   "url": "https://jobs.micro1.ai/post/9d57fd44-b189-41ca-a0d4-2fe3903eec41?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
+   "countries": [],
+   "exclude": []
   },
   {
    "countries": [
@@ -9670,6 +9342,36 @@
    "url": "https://work.mercor.com/explore?listingId=list_AAABoDrLTtVzOBh5_cNK5rFh&referralCode=3e69e7cf-edba-25be-5027-25cc33b23a52&utm_source=referral&utm_medium=direct&utm_campaign=platform"
   },
   {
+   "id": "micro1-01f86047-2c74-46bb-a6fc-a00e1be3dd5b",
+   "platform": "micro1",
+   "title": "Product Owner",
+   "team": "Software Engineering",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-08-25",
+   "pay": "$7–$9/hr",
+   "url": "https://jobs.micro1.ai/post/01f86047-2c74-46bb-a6fc-a00e1be3dd5b?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "micro1-c4289f4e-1884-4dd0-bdae-af3757d84daf",
+   "platform": "micro1",
+   "title": "Member of Technical Staff, Forward Deployed (US Gov)",
+   "team": "Ai Machine Learning",
+   "location": "Hybrid",
+   "remote": false,
+   "type": "gig",
+   "posted": "2026-08-25",
+   "pay": "$40–$60/hr",
+   "url": "https://jobs.micro1.ai/post/c4289f4e-1884-4dd0-bdae-af3757d84daf?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
+   "countries": [
+    "US"
+   ],
+   "exclude": []
+  },
+  {
    "countries": [],
    "exclude": [],
    "id": "mercor-list_AAABoCl905TW9jWTfs9Oh44S",
@@ -9762,6 +9464,34 @@
    "posted": "2026-08-21",
    "pay": "$70–$110/hr",
    "url": "https://work.mercor.com/explore?listingId=list_AAABoCVpVbx3Il0MJIpLTKHA&referralCode=3e69e7cf-edba-25be-5027-25cc33b23a52&utm_source=referral&utm_medium=direct&utm_campaign=platform"
+  },
+  {
+   "id": "micro1-8944ed79-063d-43e2-a244-bd3185fbfb43",
+   "platform": "micro1",
+   "title": "Smartphone Video Recorder",
+   "team": "Robotics",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-08-20",
+   "pay": "$14–$15/hr",
+   "url": "https://jobs.micro1.ai/post/8944ed79-063d-43e2-a244-bd3185fbfb43?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "micro1-15313f3d-5600-4d96-b45f-b8dfafbee976",
+   "platform": "micro1",
+   "title": "Gravador(a) de Vídeos com Smartphone",
+   "team": "Robotics",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-08-20",
+   "pay": "$6/hr",
+   "url": "https://jobs.micro1.ai/post/15313f3d-5600-4d96-b45f-b8dfafbee976?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
+   "countries": [],
+   "exclude": []
   },
   {
    "countries": [
@@ -9923,6 +9653,146 @@
    "url": "https://work.mercor.com/explore?listingId=list_AAABoAA0CcB7r_IpsvtENYja&referralCode=3e69e7cf-edba-25be-5027-25cc33b23a52&utm_source=referral&utm_medium=direct&utm_campaign=platform"
   },
   {
+   "id": "micro1-5707c314-da3f-4736-ac12-dfe66421dc45",
+   "platform": "micro1",
+   "title": "Indonesian Bilingual Expert",
+   "team": "Language Audio",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-08-14",
+   "pay": "$30–$65/hr",
+   "url": "https://jobs.micro1.ai/post/5707c314-da3f-4736-ac12-dfe66421dc45?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "micro1-382cf385-16da-4536-8a32-95947e0197a7",
+   "platform": "micro1",
+   "title": "Dutch Bilingual Expert",
+   "team": "Language Audio",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-08-14",
+   "pay": "$30–$65/hr",
+   "url": "https://jobs.micro1.ai/post/382cf385-16da-4536-8a32-95947e0197a7?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "micro1-84921e4c-7944-46ae-bbc2-c49c7d3ab642",
+   "platform": "micro1",
+   "title": "Vietnamese Bilingual Expert",
+   "team": "Language Audio",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-08-13",
+   "pay": "$30–$65/hr",
+   "url": "https://jobs.micro1.ai/post/84921e4c-7944-46ae-bbc2-c49c7d3ab642?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "micro1-6ae61a82-e891-46b2-ab5a-1496e25265b9",
+   "platform": "micro1",
+   "title": "Turkish Bilingual Expert",
+   "team": "Language Audio",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-08-13",
+   "pay": "$30–$65/hr",
+   "url": "https://jobs.micro1.ai/post/6ae61a82-e891-46b2-ab5a-1496e25265b9?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "micro1-28d9685a-7802-4179-933e-ad510bc60938",
+   "platform": "micro1",
+   "title": "Bengali Bilingual Expert",
+   "team": "Language Audio",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-08-13",
+   "pay": "$30–$65/hr",
+   "url": "https://jobs.micro1.ai/post/28d9685a-7802-4179-933e-ad510bc60938?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "micro1-c732f04d-3d0e-410f-ba42-781cd9f09915",
+   "platform": "micro1",
+   "title": "Russian Bilingual Expert",
+   "team": "Language Audio",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-08-13",
+   "pay": "$30–$65/hr",
+   "url": "https://jobs.micro1.ai/post/c732f04d-3d0e-410f-ba42-781cd9f09915?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "micro1-f8f1211f-ba15-4718-96a1-591ddf115111",
+   "platform": "micro1",
+   "title": "Thai Bilingual Expert",
+   "team": "Language Audio",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-08-13",
+   "pay": "$30–$65/hr",
+   "url": "https://jobs.micro1.ai/post/f8f1211f-ba15-4718-96a1-591ddf115111?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "micro1-961df5fb-620c-4443-a3af-86bc225da2cd",
+   "platform": "micro1",
+   "title": "Hebrew Bilingual Expert",
+   "team": "Language Audio",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-08-13",
+   "pay": "$30–$65/hr",
+   "url": "https://jobs.micro1.ai/post/961df5fb-620c-4443-a3af-86bc225da2cd?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "micro1-5c02f61b-b2b2-46a6-a058-26a1f6e64cf7",
+   "platform": "micro1",
+   "title": "Polish Bilingual Expert",
+   "team": "Language Audio",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-08-13",
+   "pay": "$30–$65/hr",
+   "url": "https://jobs.micro1.ai/post/5c02f61b-b2b2-46a6-a058-26a1f6e64cf7?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "micro1-eff6f38f-dfab-4333-9e4c-a5610de93e84",
+   "platform": "micro1",
+   "title": "Italian Bilingual Expert",
+   "team": "Language Audio",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-08-13",
+   "pay": "$30–$65/hr",
+   "url": "https://jobs.micro1.ai/post/eff6f38f-dfab-4333-9e4c-a5610de93e84?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
+   "countries": [],
+   "exclude": []
+  },
+  {
    "countries": [],
    "exclude": [],
    "id": "mercor-list_AAABn_hJu3e9hgqimAtByK05",
@@ -10045,6 +9915,34 @@
    "posted": "2026-08-11",
    "pay": "$60–$100/hr",
    "url": "https://work.mercor.com/explore?listingId=list_AAABn_IzT2flOAEpVdlGZ7p2&referralCode=3e69e7cf-edba-25be-5027-25cc33b23a52&utm_source=referral&utm_medium=direct&utm_campaign=platform"
+  },
+  {
+   "id": "micro1-de83ff2f-bdd2-4862-aff9-7158cd327038",
+   "platform": "micro1",
+   "title": "At-Home Video Recorder (U.S)",
+   "team": "Robotics",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-08-10",
+   "pay": "$10–$15/hr",
+   "url": "https://jobs.micro1.ai/post/de83ff2f-bdd2-4862-aff9-7158cd327038?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "micro1-a1ecbac3-a024-4732-bce7-7ac2e447571d",
+   "platform": "micro1",
+   "title": "At-Home Video Recorder (LATAM)",
+   "team": "Robotics",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-08-10",
+   "pay": "$6/hr",
+   "url": "https://jobs.micro1.ai/post/a1ecbac3-a024-4732-bce7-7ac2e447571d?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
+   "countries": [],
+   "exclude": []
   },
   {
    "countries": [
@@ -10337,6 +10235,50 @@
    "url": "https://work.mercor.com/explore?listingId=list_AAABn6TCgs826CBSyVRP6L2k&referralCode=3e69e7cf-edba-25be-5027-25cc33b23a52&utm_source=referral&utm_medium=direct&utm_campaign=platform"
   },
   {
+   "id": "micro1-c6094969-6b8c-47ca-a40b-0bb5b53d0885",
+   "platform": "micro1",
+   "title": "Arabic Voice Actor (Saudi dialect)",
+   "team": "Language Audio",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-07-25",
+   "pay": "$30–$65/hr",
+   "url": "https://jobs.micro1.ai/post/c6094969-6b8c-47ca-a40b-0bb5b53d0885?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "micro1-0e76b5a5-9305-47cc-8c1a-86f03e28f4f6",
+   "platform": "micro1",
+   "title": "Arabic Voice Actor (Egypt dialect)",
+   "team": "Language Audio",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-07-25",
+   "pay": "$30–$65/hr",
+   "url": "https://jobs.micro1.ai/post/0e76b5a5-9305-47cc-8c1a-86f03e28f4f6?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
+   "countries": [
+    "EG"
+   ],
+   "exclude": []
+  },
+  {
+   "id": "micro1-0f435bd2-e7f0-4d24-9e32-de34b71c2a97",
+   "platform": "micro1",
+   "title": "At-Home Video Recorder",
+   "team": "Robotics",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-07-22",
+   "pay": "$13–$15/hr",
+   "url": "https://jobs.micro1.ai/post/0f435bd2-e7f0-4d24-9e32-de34b71c2a97?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
+   "countries": [],
+   "exclude": []
+  },
+  {
    "countries": [],
    "exclude": [],
    "id": "mercor-list_AAABn4KNStkBMy2K25lN2ati",
@@ -10425,6 +10367,20 @@
    "posted": "2026-06-19",
    "pay": "$50–$100/hr",
    "url": "https://work.mercor.com/explore?listingId=list_AAABnt-8MlDeId9gbqBF77Ec&referralCode=3e69e7cf-edba-25be-5027-25cc33b23a52&utm_source=referral&utm_medium=direct&utm_campaign=platform"
+  },
+  {
+   "id": "micro1-25977272-dca9-4b3a-a676-51bdfeae0a3d",
+   "platform": "micro1",
+   "title": "Video Data Entry Specialist (LATAM)",
+   "team": "Robotics",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-06-10",
+   "pay": "$6/hr",
+   "url": "https://jobs.micro1.ai/post/25977272-dca9-4b3a-a676-51bdfeae0a3d?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
+   "countries": [],
+   "exclude": []
   },
   {
    "id": "scale-4704285005",
@@ -10570,6 +10526,20 @@
    "url": "https://work.mercor.com/explore?listingId=list_AAABnlNc5vKNKKMWYLxGQ7NX&referralCode=3e69e7cf-edba-25be-5027-25cc33b23a52&utm_source=referral&utm_medium=direct&utm_campaign=platform"
   },
   {
+   "id": "micro1-66e153bc-1c52-439e-8fcb-38d35c4eae67",
+   "platform": "micro1",
+   "title": "E-commerce Data & Catalog Specialist",
+   "team": "Software Engineering",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-05-19",
+   "pay": "$40–$50/hr",
+   "url": "https://jobs.micro1.ai/post/66e153bc-1c52-439e-8fcb-38d35c4eae67?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
+   "countries": [],
+   "exclude": []
+  },
+  {
    "countries": [
     "AR",
     "BO",
@@ -10598,6 +10568,36 @@
    "posted": "2026-05-05",
    "pay": "$35,000–$50,000/yr",
    "url": "https://work.mercor.com/explore?listingId=list_AAABnfiedfZUWZxgc0lLT79a&referralCode=3e69e7cf-edba-25be-5027-25cc33b23a52&utm_source=referral&utm_medium=direct&utm_campaign=platform"
+  },
+  {
+   "id": "micro1-204600bf-1abe-4ab0-a474-cd2264999149",
+   "platform": "micro1",
+   "title": "Data-Video Generalist (US-based)",
+   "team": "Robotics",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-04-21",
+   "pay": "$13–$15/hr",
+   "url": "https://jobs.micro1.ai/post/204600bf-1abe-4ab0-a474-cd2264999149?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
+   "countries": [
+    "US"
+   ],
+   "exclude": []
+  },
+  {
+   "id": "micro1-ad04ab64-b3b2-45ba-9d89-508f8e77dc5a",
+   "platform": "micro1",
+   "title": "E-commerce Simulation Expert",
+   "team": "Other",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-04-09",
+   "pay": "$40–$50/hr",
+   "url": "https://jobs.micro1.ai/post/ad04ab64-b3b2-45ba-9d89-508f8e77dc5a?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
+   "countries": [],
+   "exclude": []
   },
   {
    "countries": [

@@ -15,12 +15,15 @@ import json
 import re
 import sys
 import urllib.request
+from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 SOURCES = ROOT / "scripts" / "gig-sources.json"
 MANUAL = ROOT / "scripts" / "gigs-manual.json"
 OUT = ROOT / "gigs" / "gigs.json"
+# first-posted dates read from job pages, kept between runs (a job's creation date never changes)
+POSTED_CACHE = ROOT / "scripts" / "posted-dates.json"
 MAX_LISTINGS = 900
 REFRESH_HOURS = 8
 
@@ -136,7 +139,7 @@ def from_greenhouse(board, platform):
             "location": loc,
             "remote": "remote" in loc.lower(),
             "type": kind_of(j.get("title"), ""),
-            "posted": (j.get("first_published") or j.get("updated_at") or "")[:10],
+            "posted": (j.get("first_published") or "")[:10],  # updated_at changes on every edit, so it is not used
             "url": j.get("absolute_url") or "",
         })
     return out
@@ -230,14 +233,49 @@ def from_micro1_referral(code, platform):
                 "location": (j.get("location_type") or "Remote").replace("_", " ").title(),
                 "remote": (j.get("location_type") or "remote").lower() in ("remote", "", "global"),
                 "type": "gig",
-                "posted": (j.get("date_posted") or "")[:10],
+                # micro1's list feed re-stamps date_posted when a job is refreshed, so the real
+                # first-posted date is read from the job's own page (see micro1_first_posted)
+                "posted": "",
+                "job_id": j.get("job_id"),
                 "pay": money(rate.get("min"), rate.get("max")) if isinstance(rate, dict) else "",
                 "url": j.get("apply_url") or "",
             })
         if not jobs or len(out) >= total:
             break
         page += 1
+    micro1_first_posted(out)
     return out
+
+
+_CREATED = re.compile(r'create_datetime\\?"\s*:\s*\\?"(\d{4}-\d{2}-\d{2})')
+_LD_POSTED = re.compile(r'datePosted\\?"\s*:\s*\\?"(\d{4}-\d{2}-\d{2})')
+
+
+def micro1_first_posted(gigs):
+    """Fill "posted" from each job page's create_datetime, fetching only jobs not seen before."""
+    try:
+        cache = json.loads(POSTED_CACHE.read_text(encoding="utf-8"))
+    except Exception:
+        cache = {}
+
+    def fetch(job_id):
+        try:
+            req = urllib.request.Request(f"https://jobs.micro1.ai/post/{job_id}", headers={"User-Agent": "xolve-gigs-updater/1.0"})
+            with urllib.request.urlopen(req, timeout=30) as r:
+                html = r.read().decode("utf-8", "replace")
+            m = _CREATED.search(html) or _LD_POSTED.search(html)
+            return job_id, (m.group(1) if m else "")
+        except Exception:
+            return job_id, ""
+
+    todo = sorted({g["job_id"] for g in gigs if g.get("job_id") and f"micro1:{g['job_id']}" not in cache})
+    with ThreadPoolExecutor(max_workers=4) as pool:
+        for job_id, day in pool.map(fetch, todo):
+            if day:
+                cache[f"micro1:{job_id}"] = day
+    for g in gigs:
+        g["posted"] = cache.get(f"micro1:{g.pop('job_id', '')}", "")  # unknown stays blank rather than wrong
+    POSTED_CACHE.write_text(json.dumps(cache, indent=0, sort_keys=True) + "\n", encoding="utf-8")
 
 
 def from_feed(feed, platform):
