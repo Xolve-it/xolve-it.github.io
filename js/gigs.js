@@ -5,9 +5,9 @@
 (() => {
   const $ = (s) => document.querySelector(s);
   const list = $("#glList"), count = $("#glCount"), more = $("#glMore"), meta = $("#gxMeta");
-  const PAGE = 30, FOR_PAGE = 8;
+  const PAGE = 30;
   let data = null, kind = "gig", plat = "all", remoteOnly = false, q = "", shown = PAGE;
-  let cc = "", forScope = "all", forShown = FOR_PAGE;
+  let cc = "", scope = "all";
 
   const CODES = [...new Set(("AD AE AF AG AI AL AM AO AR AS AT AU AW AX AZ BA BB BD BE BF BG BH BI BJ BL BM BN BO BQ BR BS BT BW BY BZ CA CC CD CF CG CH CI CK CL CM CN CO CR CU CV CW CX CY CZ DE DJ DK DM DO DZ EC EE EG ER ES ET FI FJ FK FM FO FR GA GB GD GE GF GG GH GI GL GM GN GP GQ GR GT GU GW GY HK HN HR HT HU ID IE IL IM IN IO IQ IR IS IT JE JM JO JP KE KG KH KI KM KN KP KR KW KY KZ LA LB LC LI LK LR LS LT LU LV LY MA MC MD ME MF MG MH MK ML MM MN MO MP MQ MR MS MT MU MV MW MX MY MZ NA NC NE NF NG NI NL NO NP NR NU NZ OM PA PE PF PG PH PK PL PM PN PR PS PT PW PY QA RE RO RS RU RW SA SB SC SD SE SG SH SI SJ SK SL SM SN SO SR SS ST SV SX SY SZ TC TD TG TH TJ TK TL TM TN TO TR TT TV TW TZ UA UG UM US UY UZ VA VC VE VG VI VN VU WF WS XK YE YT ZA ZM ZW").split(" "))];
   let regionNames = null;
@@ -73,17 +73,53 @@
       </li>`;
   }
 
-  /* ---------- all roles ---------- */
+  /* ---------- the list: "country" tab (roles the visitor can apply for) or "all" tab ---------- */
   function filtered() {
     const words = q.toLowerCase().split(/\s+/).filter(Boolean);
-    return data.gigs.filter((g) =>
+    const rows = data.gigs.filter((g) =>
+      (scope !== "country" || openTo(g, cc)) &&
       (kind === "all" || g.type === kind) &&
       (plat === "all" || g.platform === plat) &&
       (!remoteOnly || g.remote) &&
       words.every((w) => `${g.title} ${g.team} ${g.location} ${platName(g.platform)} ${g.remote ? "remote" : ""} ${countriesOf(g).map(cname).join(" ")}`.toLowerCase().includes(w)));
+    // in the country tab, roles that name the country come first, then the ones open worldwide
+    return scope === "country" ? rows.filter((g) => specificTo(g, cc)).concat(rows.filter((g) => !specificTo(g, cc))) : rows;
+  }
+
+  function renderHead() {
+    const inCountry = scope === "country" && cc;
+    const name = cc ? cname(cc) : "";
+    const f = $("#gfFlag");
+    f.hidden = !inCountry;
+    if (inCountry) { f.src = `/assets/flags/${cc.toLowerCase()}.svg`; f.alt = `Flag of ${name}`; }
+    $("#glKicker").textContent = inCountry ? "For you" : "Open roles";
+    $("#gfHeading").textContent = inCountry ? `Openings for you in ${name}` : "All open roles";
+    if (cc) {
+      const open = data.gigs.filter((g) => openTo(g, cc));
+      const named = open.filter((g) => specificTo(g, cc)).length;
+      $("#gfLead").textContent = inCountry
+        ? `${open.length} roles you can apply for from ${name}: ${named} ${named === 1 ? "names" : "name"} ${name}, the rest are open worldwide.`
+        : `Every role on the boards, including ones limited to other countries.`;
+      $("#tabFlag").src = `/assets/flags/${cc.toLowerCase()}.svg`;
+      $("#tabCountryName").textContent = name;
+      $("#tabCountryN").textContent = open.length;
+      $("#gfCountry").value = cc;
+    } else {
+      $("#gfLead").textContent = "";
+    }
+    $("#tabAllN").textContent = data.gigs.length;
+    $("#tabCountry").hidden = !cc;
+    $("#gfPick").hidden = !cc;
+    $("#gfNote").hidden = !inCountry;
+    document.querySelectorAll(".tab").forEach((b) => { const on = b.dataset.scope === scope; b.classList.toggle("is-on", on); b.setAttribute("aria-selected", String(on)); });
   }
 
   function render() {
+    renderHead();
+    // platform chip counts follow the open tab
+    const per = {};
+    data.gigs.forEach((g) => { if (scope !== "country" || openTo(g, cc)) per[g.platform] = (per[g.platform] || 0) + 1; });
+    document.querySelectorAll(".pchip[data-plat] i").forEach((i) => { i.textContent = per[i.parentElement.dataset.plat] || 0; });
     const rows = filtered();
     count.textContent = rows.length
       ? `${rows.length} ${rows.length === 1 ? "role" : "roles"}${kind === "gig" ? " (gigs & contract)" : ""}`
@@ -91,43 +127,17 @@
     list.innerHTML = rows.slice(0, shown).map(card).join("");
     if (!rows.length) {
       list.innerHTML = `<li class="gl__empty">${kind === "gig"
-        ? 'No gig or contract roles match right now. Try <button type="button" class="linkbtn" data-show-all>all roles</button>, or check the platforms below.'
+        ? 'No gig or contract roles match right now. Try <button type="button" class="linkbtn" data-show-all>all types</button>, or check the platforms below.'
         : "No roles match your search. Try fewer words."}</li>`;
     }
     more.hidden = rows.length <= shown;
   }
 
-  /* ---------- for you ---------- */
-  function renderForYou() {
-    const box = $("#gf");
-    if (!cc) { box.hidden = true; return; }
-    const name = cname(cc);
-    const open = data.gigs.filter((g) => openTo(g, cc));
-    const only = open.filter((g) => specificTo(g, cc));
-    // openings named for this country first, then the ones open worldwide
-    const rows = forScope === "only" ? only : only.concat(open.filter((g) => !specificTo(g, cc)));
-    const f = $("#gfFlag");
-    f.src = `/assets/flags/${cc.toLowerCase()}.svg`; f.alt = `Flag of ${name}`; f.hidden = false;
-    $("#gfHeading").textContent = `Openings for you in ${name}`;
-    $("#gfLead").textContent = only.length
-      ? `${only.length} ${only.length === 1 ? "opening names" : "openings name"} ${name}, plus ${open.length - only.length} remote roles open worldwide.`
-      : `No openings are limited to ${name} right now, but ${open.length} remote roles are open to applicants worldwide.`;
-    $("#gfAllN").textContent = open.length;
-    $("#gfOnlyLabel").textContent = `Only for ${name}`;
-    $("#gfOnlyN").textContent = only.length;
-    $("#gfList").innerHTML = rows.length
-      ? rows.slice(0, forShown).map(card).join("")
-      : `<li class="gl__empty">No openings are limited to ${esc(name)} today. <button type="button" class="linkbtn" data-scope-all>See everything open to you</button>.</li>`;
-    $("#gfMore").hidden = rows.length <= forShown;
-    $("#gfCountry").value = cc;
-    box.hidden = false;
-  }
-
   function setCountry(c, remember) {
     cc = CODES.includes(c) ? c : "";
-    forShown = FOR_PAGE;
+    scope = cc ? "country" : "all"; shown = PAGE;
     if (remember) { try { localStorage.setItem("xolve.gigs.cc", cc); } catch (e) { /* private mode */ } }
-    renderForYou(); render();
+    render();
   }
 
   function buildCountryPicker() {
@@ -177,15 +187,9 @@
   }
 
   /* ---------- controls ---------- */
-  function setScope(s) {
-    forScope = s; forShown = FOR_PAGE;
-    document.querySelectorAll(".gfseg").forEach((b) => { const on = b.dataset.scope === s; b.classList.toggle("is-on", on); b.setAttribute("aria-pressed", String(on)); });
-    renderForYou();
-  }
   document.addEventListener("click", (e) => {
-    const fs = e.target.closest(".gfseg");
-    if (fs) { setScope(fs.dataset.scope); return; }
-    if (e.target.closest("[data-scope-all]")) { setScope("all"); return; }
+    const tab = e.target.closest(".tab");
+    if (tab) { scope = tab.dataset.scope; shown = PAGE; render(); return; }
     const seg = e.target.closest(".seg__b");
     if (seg) {
       kind = seg.dataset.kind; shown = PAGE;
@@ -204,7 +208,6 @@
   $("#glSearch").addEventListener("input", (e) => { clearTimeout(t); t = setTimeout(() => { q = e.target.value; shown = PAGE; render(); }, 150); });
   $("#glRemote").addEventListener("change", (e) => { remoteOnly = e.target.checked; shown = PAGE; render(); });
   more.addEventListener("click", () => { shown += PAGE; render(); });
-  $("#gfMore").addEventListener("click", () => { forShown += FOR_PAGE * 2; renderForYou(); });
   $("#gfCountry").addEventListener("change", (e) => setCountry(e.target.value, true));
 
   /* ---------- load ---------- */
@@ -214,7 +217,7 @@
     .then(async (d) => {
       data = d;
       const gigs = d.gigs.filter((g) => g.type === "gig").length;
-      meta.textContent = `${d.gigs.length} roles from ${new Set(d.gigs.map((g) => g.platform)).size} platforms · ${gigs} gigs & contract · updated ${when(d.updated)} · next check around ${when(d.next)}`;
+      meta.textContent = `${d.gigs.length} roles from ${new Set(d.gigs.map((g) => g.platform)).size} platforms · ${gigs} gigs & contract · updated ${when(d.updated)}`;
       if (!gigs) { kind = "all"; document.querySelector('.seg__b[data-kind="all"]').classList.add("is-on"); document.querySelector('.seg__b[data-kind="gig"]').classList.remove("is-on"); }
       buildPlatforms(); buildSocials(); buildCountryPicker();
       setCountry(await country, false);

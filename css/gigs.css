@@ -70,7 +70,6 @@
 .gc__tag--pay { background: #E9FBF1; color: #00592E; }
 
 /* For you: openings matched to the visitor's country */
-.gf { padding: 56px 0 8px; }
 .gf__head { display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: 16px 32px; }
 .gf__title { display: flex; align-items: center; gap: 14px; margin-top: 6px; }
 .gf__lead { color: var(--muted); font-size: 16px; margin-top: 8px; max-width: 40em; }
@@ -80,12 +79,17 @@
   border: 1px solid var(--rule); border-radius: 12px; background: var(--surface); cursor: pointer;
 }
 .gf__pick select:focus { outline: none; border-color: var(--ink); box-shadow: 0 0 0 3px rgba(0, 240, 122, .25); }
-.gf__seg { margin-top: 20px; flex-wrap: wrap; border-radius: 18px; }
-.gfseg { font: inherit; font-weight: 700; font-size: 14.5px; border: 0; background: none; padding: 8px 16px; border-radius: 999px; cursor: pointer; color: var(--muted); }
-.gfseg i { font-style: normal; font-weight: 600; opacity: .7; margin-left: 2px; }
-.gfseg.is-on { background: var(--ink); color: var(--paper); }
+.tabs { display: flex; gap: 0; margin-top: 24px; border-bottom: 1px solid var(--rule); }
+.tab {
+  display: inline-flex; align-items: center; gap: 8px; font: inherit; font-weight: 800; font-size: 16px; color: var(--muted);
+  background: none; border: 0; border-bottom: 3px solid transparent; margin-bottom: -1px; padding: 12px 18px 12px 4px; cursor: pointer;
+}
+.tab + .tab { padding-left: 18px; }
+.tab i { font-style: normal; font-weight: 700; font-size: 13px; padding: 2px 8px; border-radius: 999px; background: var(--surface); color: var(--muted); }
+.tab.is-on { color: var(--ink); border-bottom-color: var(--neon); }
+.tab.is-on i { background: var(--ink); color: var(--paper); }
+.tab[hidden] { display: none; }
 .gf__note { color: var(--muted); font-size: 13.5px; margin-top: 16px; }
-.gf .gl__list { margin-top: 16px; }
 
 .flag { display: inline-block; width: 20px; height: 15px; border-radius: 3px; object-fit: cover; vertical-align: -2px; box-shadow: 0 0 0 1px rgba(10, 10, 10, .12); }
 .flag + .flag { margin-left: 3px; }
@@ -96,7 +100,6 @@
 .gc__where--mine .flag { box-shadow: 0 0 0 1px rgba(255, 255, 255, .25); }
 
 @media (max-width: 600px) {
-  .gf { padding-top: 40px; }
   .gf__pick, .gf__pick select { width: 100%; }
   .gf__title { gap: 10px; }
   .flag--lg { width: 32px; height: 24px; }

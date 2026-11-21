@@ -22,7 +22,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/css/style.css">
 <link rel="stylesheet" href="/css/bulb.css">
-<link rel="stylesheet" href="/css/gigs.css?v=3">
+<link rel="stylesheet" href="/css/gigs.css?v=4">
 </head>
 <body class="gigs-page">
 <a class="skip" href="#main">Skip to content</a>
@@ -50,31 +50,22 @@
     </div>
   </section>
 
-  <section class="gf" id="gf" aria-labelledby="gf-title" hidden>
+  <section class="gl" aria-labelledby="gl-title">
     <div class="wrap">
       <div class="gf__head">
         <div>
-          <p class="kicker">For you</p>
-          <h2 class="gl__title gf__title" id="gf-title"><img class="flag flag--lg" id="gfFlag" src="data:," alt="" width="40" height="30" hidden> <span id="gfHeading">Openings you can apply for</span></h2>
+          <p class="kicker" id="glKicker">Open roles</p>
+          <h2 class="gl__title gf__title" id="gl-title"><img class="flag flag--lg" id="gfFlag" src="data:," alt="" width="40" height="30" hidden> <span id="gfHeading">All open roles</span></h2>
           <p class="gf__lead" id="gfLead"></p>
         </div>
-        <label class="gf__pick"><span>Not your country?</span>
+        <label class="gf__pick" id="gfPick" hidden><span>Not your country?</span>
           <select id="gfCountry" aria-label="Show openings for another country"></select>
         </label>
       </div>
-      <div class="seg gf__seg" role="group" aria-label="Which openings">
-        <button type="button" class="gfseg is-on" data-scope="all" aria-pressed="true">All open to you <i id="gfAllN"></i></button>
-        <button type="button" class="gfseg" data-scope="only" aria-pressed="false"><span id="gfOnlyLabel">Country-specific</span> <i id="gfOnlyN"></i></button>
+      <div class="tabs" role="tablist" aria-label="Which openings">
+        <button type="button" class="tab" role="tab" data-scope="country" aria-selected="false" id="tabCountry" hidden><img class="flag" id="tabFlag" src="data:," alt="" width="20" height="15"> <span id="tabCountryName">Your country</span> <i id="tabCountryN"></i></button>
+        <button type="button" class="tab is-on" role="tab" data-scope="all" aria-selected="true"><svg class="flag flag--globe" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M2.5 12h19M12 2.5c3 3.2 3 15.8 0 19M12 2.5c-3 3.2-3 15.8 0 19" fill="none" stroke="currentColor" stroke-width="1.6"/></svg> All roles <i id="tabAllN"></i></button>
       </div>
-      <ul class="gl__list" id="gfList"></ul>
-      <button class="btn btn--outline gl__more" type="button" id="gfMore" hidden>Show more</button>
-      <p class="gf__note">Matched to the country your connection comes from, using each platform's own location rules. Always check eligibility on the official page before you apply.</p>
-    </div>
-  </section>
-
-  <section class="gl" aria-labelledby="gl-title">
-    <div class="wrap">
-      <h2 class="gl__title" id="gl-title">All open roles</h2>
       <div class="gl__filters" role="search">
         <label class="gl__search"><span class="sr">Search roles</span>
           <input id="glSearch" type="search" placeholder="Search: e.g. red teamer, finance, remote" autocomplete="off">
@@ -82,7 +73,7 @@
         <div class="gl__toggles">
           <div class="seg" role="group" aria-label="Type of role">
             <button type="button" class="seg__b is-on" data-kind="gig" aria-pressed="true">Gigs &amp; contract</button>
-            <button type="button" class="seg__b" data-kind="all" aria-pressed="false">All roles</button>
+            <button type="button" class="seg__b" data-kind="all" aria-pressed="false">All types</button>
           </div>
           <label class="gl__remote"><input type="checkbox" id="glRemote"> Remote only</label>
         </div>
@@ -91,6 +82,7 @@
       <p class="gl__count" id="glCount" aria-live="polite"></p>
       <ul class="gl__list" id="glList"></ul>
       <button class="btn btn--outline gl__more" type="button" id="glMore" hidden>Show more</button>
+      <p class="gf__note" id="gfNote" hidden>Country matches use the country your connection comes from and each platform's own location rules. Roles limited to other countries are left out of this tab. Always check eligibility on the official page before you apply.</p>
       <noscript><p>Turn on JavaScript to see the latest roles, or visit the platforms below.</p></noscript>
     </div>
   </section>
@@ -112,7 +104,7 @@
   </div>
 </footer>
 
-<script src="/js/gigs.js?v=3"></script>
+<script src="/js/gigs.js?v=4"></script>
 <script src="/js/xfield.js?v=3"></script>
 <script src="/js/bulb.js?v=2"></script>
 </body>
