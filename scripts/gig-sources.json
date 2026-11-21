@@ -9,12 +9,12 @@
     "telegram": ""
   },
   "platforms": [
-    { "id": "mercor", "name": "Mercor", "site": "https://work.mercor.com", "referral": "",
+    { "id": "mercor", "name": "Mercor", "site": "https://work.mercor.com", "referral": "https://t.mercor.com/bms5p",
       "about": "Expert contract work for AI labs across coding, law, medicine, finance and more.",
-      "feeds": [{ "type": "ashby", "board": "mercor" }] },
+      "feeds": [{ "type": "mercor_market", "code": "3e69e7cf-edba-25be-5027-25cc33b23a52" }, { "type": "ashby", "board": "mercor" }] },
     { "id": "micro1", "name": "micro1", "site": "https://www.micro1.ai", "referral": "https://refer.micro1.ai/referral/jobs?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
       "about": "Vetted experts and engineers for AI training projects.",
-      "feeds": [] },
+      "feeds": [{ "type": "micro1_referral", "code": "b99257c6-5311-4c29-8b68-b8a22325cb6e" }] },
     { "id": "turing", "name": "Turing", "site": "https://www.turing.com/jobs", "referral": "",
       "about": "Remote engineering and AI training roles with leading AI labs.",
       "feeds": [{ "type": "greenhouse", "board": "turing" }] },

@@ -43,8 +43,10 @@
           <h3 class="gc__title">${esc(g.title)}</h3>
           <p class="gc__meta">
             <span class="gc__tag gc__tag--${esc(g.type)}">${esc(KIND_LABEL[g.type] || g.type)}</span>
+            ${g.pay ? `<span class="gc__tag gc__tag--pay">${esc(g.pay)}</span>` : ""}
+            ${g.team ? `<span>${esc(g.team)}</span>` : ""}
             ${g.remote ? '<span class="gc__tag">Remote</span>' : ""}
-            ${g.location ? `<span>${esc(g.location)}</span>` : ""}
+            ${g.location && !(g.remote && /^remote$/i.test(g.location.trim())) ? `<span>${esc(g.location)}</span>` : ""}
             ${g.posted ? `<span>Posted ${esc(ago(g.posted))}</span>` : ""}
           </p>
         </div>

@@ -21,7 +21,7 @@ ROOT = Path(__file__).resolve().parent.parent
 SOURCES = ROOT / "scripts" / "gig-sources.json"
 MANUAL = ROOT / "scripts" / "gigs-manual.json"
 OUT = ROOT / "gigs" / "gigs.json"
-MAX_LISTINGS = 400
+MAX_LISTINGS = 900
 REFRESH_HOURS = 8
 
 # a role counts as a "gig" when it is contract / part-time / hourly, or when its title names
@@ -112,6 +112,83 @@ def from_lever(board, platform):
     return out
 
 
+def money(lo, hi, unit="hr"):
+    try:
+        lo = float(lo) if lo not in (None, "") else None
+        hi = float(hi) if hi not in (None, "") else None
+    except (TypeError, ValueError):
+        return ""
+    if lo is None and hi is None:
+        return ""
+    f = lambda v: f"${v:,.0f}"
+    if lo is not None and hi is not None and lo != hi:
+        return f"{f(lo)}–{f(hi)}/{unit}"
+    return f"{f(lo if lo is not None else hi)}/{unit}"
+
+
+def from_mercor_market(code, platform):
+    """Mercor's public marketplace listings; each link carries the referral code."""
+    data = get_json("https://aws.api.mercor.com/work/listings-explore-page")
+    out = []
+    for j in data.get("listings", []):
+        if j.get("status") != "active" or j.get("isPrivate") or j.get("disableApplications"):
+            continue
+        lid = j.get("listingId")
+        unit = {"hourly": "hr", "weekly": "wk", "monthly": "mo", "yearly": "yr"}.get((j.get("payRateFrequency") or "hourly").lower(), "hr")
+        url = f"https://work.mercor.com/explore?listingId={lid}"
+        if code:
+            url += f"&referralCode={code}&utm_source=referral&utm_medium=direct&utm_campaign=platform"
+        out.append({
+            "id": f"{platform}-{lid}",
+            "platform": platform,
+            "title": (j.get("title") or "").strip(),
+            "team": j.get("listingDomain") or "",
+            "location": j.get("location") or "",
+            "remote": (j.get("workArrangement") or "").lower() == "remote" or "remote" in (j.get("location") or "").lower(),
+            "type": "gig",
+            "posted": (j.get("postedAt") or j.get("createdAt") or "")[:10],
+            "pay": money(j.get("rateMin"), j.get("rateMax"), unit),
+            "url": url,
+        })
+    return out
+
+
+def from_micro1_referral(code, platform):
+    """micro1's public referral job board; its apply links already carry the referral code."""
+    out, page, total = [], 1, None
+    while page <= 20:
+        data = get_json(f"https://prod-api.micro1.ai/api/v1/job/portal/referral/{code}/jobs?page={page}&limit=100")
+        jobs = data.get("data") or []
+        total = total or int(data.get("total") or 0)
+        for j in jobs:
+            rate = j.get("ideal_hourly_rate") or {}
+            out.append({
+                "id": f"{platform}-{j.get('job_id')}",
+                "platform": platform,
+                "title": (j.get("job_name") or "").strip(),
+                "team": (j.get("domain_slug") or j.get("role_type") or "").replace("-", " ").title(),
+                "location": (j.get("location_type") or "Remote").replace("_", " ").title(),
+                "remote": (j.get("location_type") or "remote").lower() in ("remote", "", "global"),
+                "type": "gig",
+                "posted": (j.get("date_posted") or "")[:10],
+                "pay": money(rate.get("min"), rate.get("max")) if isinstance(rate, dict) else "",
+                "url": j.get("apply_url") or "",
+            })
+        if not jobs or len(out) >= total:
+            break
+        page += 1
+    return out
+
+
+def from_feed(feed, platform):
+    t = feed["type"]
+    if t == "mercor_market":
+        return from_mercor_market(feed.get("code", ""), platform)
+    if t == "micro1_referral":
+        return from_micro1_referral(feed["code"], platform)
+    return READERS[t](feed["board"], platform)
+
+
 READERS = {"ashby": from_ashby, "greenhouse": from_greenhouse, "lever": from_lever}
 
 
@@ -121,9 +198,9 @@ def main():
     for p in src["platforms"]:
         for feed in p.get("feeds", []):
             try:
-                gigs += READERS[feed["type"]](feed["board"], p["id"])
+                gigs += from_feed(feed, p["id"])
             except Exception as e:  # one broken board must not stop the rest
-                errors.append(f"{p['name']} ({feed['type']}:{feed['board']}): {e}")
+                errors.append(f"{p['name']} ({feed['type']}:{feed.get('board') or 'referral'}): {e}")
 
     manual = []
     if MANUAL.exists():

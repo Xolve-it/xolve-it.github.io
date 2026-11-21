@@ -67,3 +67,4 @@
   .gp__grid { grid-template-columns: minmax(0, 1fr); }
   .gx { padding: 52px 0 48px; }
 }
+.gc__tag--pay { background: #E9FBF1; color: #00592E; }
