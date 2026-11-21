@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-21T08:11:46Z",
- "next": "2026-11-21T16:11:46Z",
+ "updated": "2026-11-21T16:08:52Z",
+ "next": "2026-11-22T00:08:52Z",
  "socials": {
   "x": "https://x.com/get_xolutions",
   "instagram": "https://www.instagram.com/get.xolutions/",
@@ -422,6 +422,18 @@
    "posted": "2026-11-19",
    "pay": "$15/hr",
    "url": "https://jobs.micro1.ai/post/7827dcd2-17d7-46a7-8d58-3ef6ff3930f4?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral"
+  },
+  {
+   "id": "mercor-list_AAABoe5-EDcz8NJf_69EcIgl",
+   "platform": "mercor",
+   "title": "Voice Actor: CX Agent Voice Cloning (Dutch)",
+   "team": "Language and Audio",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-11-18",
+   "pay": "$50/hr",
+   "url": "https://work.mercor.com/explore?listingId=list_AAABoe5-EDcz8NJf_69EcIgl&referralCode=3e69e7cf-edba-25be-5027-25cc33b23a52&utm_source=referral&utm_medium=direct&utm_campaign=platform"
   },
   {
    "id": "micro1-c37ac96c-2116-4c5e-92c7-180da9b502db",
@@ -10679,17 +10691,6 @@
    "type": "job",
    "posted": "2026-09-28",
    "url": "https://jobs.ashbyhq.com/handshake/a94b9f88-8916-4dc4-967f-33b08e33bf3a"
-  },
-  {
-   "id": "handshake-b884c592-8834-4776-a0cd-6718da9b54cc",
-   "platform": "handshake",
-   "title": "Mid-Market Customer Success Manager",
-   "team": "Employer Revenue",
-   "location": "New York, NY",
-   "remote": true,
-   "type": "job",
-   "posted": "2026-09-25",
-   "url": "https://jobs.ashbyhq.com/handshake/b884c592-8834-4776-a0cd-6718da9b54cc"
   }
  ],
  "errors": [
