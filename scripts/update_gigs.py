@@ -32,8 +32,11 @@ STAFF_WORDS = re.compile(r"\b(manager|director|head|lead|engineer|engineering|sc
 GIG_TYPES = {"contract", "parttime", "part-time", "temporary", "freelance"}
 
 
-def get_json(url):
-    req = urllib.request.Request(url, headers={"User-Agent": "xolve-gigs-updater/1.0", "Accept": "application/json"})
+def get_json(url, extra=None):
+    headers = {"User-Agent": "xolve-gigs-updater/1.0", "Accept": "application/json"}
+    if extra:
+        headers.update(extra)
+    req = urllib.request.Request(url, headers=headers)
     with urllib.request.urlopen(req, timeout=30) as r:
         return json.load(r)
 
@@ -157,6 +160,8 @@ def from_micro1_referral(code, platform):
     """micro1's public referral job board; its apply links already carry the referral code."""
     out, page, total = [], 1, None
     while page <= 20:
+        # micro1 refuses requests from some cloud networks (e.g. GitHub's); when it does, main()
+        # keeps the last good micro1 listings. Running this script from a normal connection refreshes them.
         data = get_json(f"https://prod-api.micro1.ai/api/v1/job/portal/referral/{code}/jobs?page={page}&limit=100")
         jobs = data.get("data") or []
         total = total or int(data.get("total") or 0)
@@ -194,13 +199,27 @@ READERS = {"ashby": from_ashby, "greenhouse": from_greenhouse, "lever": from_lev
 
 def main():
     src = json.loads(SOURCES.read_text(encoding="utf-8"))
-    gigs, errors = [], []
+    gigs, errors, failed = [], [], set()
     for p in src["platforms"]:
         for feed in p.get("feeds", []):
             try:
                 gigs += from_feed(feed, p["id"])
             except Exception as e:  # one broken board must not stop the rest
                 errors.append(f"{p['name']} ({feed['type']}:{feed.get('board') or 'referral'}): {e}")
+                failed.add((p["id"], feed["type"]))
+
+    # if a feed refused us this time, keep its listings from the last good run instead of dropping them
+    if failed and OUT.exists():
+        try:
+            prev = json.loads(OUT.read_text(encoding="utf-8")).get("gigs", [])
+            fresh_ids = {g["id"] for g in gigs}
+            failed_platforms = {pid for pid, _ in failed}
+            kept = [g for g in prev if g.get("platform") in failed_platforms and g["id"] not in fresh_ids and not g.get("featured")]
+            gigs += kept
+            if kept:
+                errors.append(f"kept {len(kept)} listings from the last good run for: {', '.join(sorted(failed_platforms))}")
+        except Exception as e:
+            errors.append(f"could not reuse previous listings: {e}")
 
     manual = []
     if MANUAL.exists():
