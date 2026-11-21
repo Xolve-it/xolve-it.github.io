@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-20T16:58:03Z",
- "next": "2026-11-21T00:58:03Z",
+ "updated": "2026-11-21T07:06:41Z",
+ "next": "2026-11-21T15:06:41Z",
  "socials": {
   "x": "",
   "instagram": "",
@@ -197,6 +197,28 @@
    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4704285005"
   },
   {
+   "id": "mercor-9431db0b-904e-4f91-8be7-87fad304db6d",
+   "platform": "mercor",
+   "title": "Backend Software Engineer, Infrastructure",
+   "team": "Engineering",
+   "location": "San Francisco",
+   "remote": false,
+   "type": "job",
+   "posted": "2026-11-21",
+   "url": "https://jobs.ashbyhq.com/mercor/9431db0b-904e-4f91-8be7-87fad304db6d"
+  },
+  {
+   "id": "mercor-7877c44b-6260-4a77-9fe6-eec58e00ac9b",
+   "platform": "mercor",
+   "title": "Engagement Manager, Cybersecurity",
+   "team": "Operations",
+   "location": "San Francisco",
+   "remote": false,
+   "type": "job",
+   "posted": "2026-11-21",
+   "url": "https://jobs.ashbyhq.com/mercor/7877c44b-6260-4a77-9fe6-eec58e00ac9b"
+  },
+  {
    "id": "mercor-03662092-4f6b-4c82-8d6d-5e7e839c31d7",
    "platform": "mercor",
    "title": "Product Engineer, Talent Experience",
@@ -208,6 +230,17 @@
    "url": "https://jobs.ashbyhq.com/mercor/03662092-4f6b-4c82-8d6d-5e7e839c31d7"
   },
   {
+   "id": "turing-6266941004",
+   "platform": "turing",
+   "title": "Research Engineer",
+   "team": "",
+   "location": "Bengaluru, Karnataka, India",
+   "remote": false,
+   "type": "job",
+   "posted": "2026-11-20",
+   "url": "https://job-boards.greenhouse.io/turing/jobs/6266941004"
+  },
+  {
    "id": "afterquery-df6785c8-17ed-43cd-bee7-3d7fe750361b",
    "platform": "afterquery",
    "title": "Social Media & Community Manager",
@@ -217,6 +250,72 @@
    "type": "job",
    "posted": "2026-11-20",
    "url": "https://jobs.ashbyhq.com/AfterQuery/df6785c8-17ed-43cd-bee7-3d7fe750361b"
+  },
+  {
+   "id": "scale-4757137005",
+   "platform": "scale",
+   "title": "Director & AGC, U.S. Public Sector",
+   "team": "",
+   "location": "Washington, DC",
+   "remote": false,
+   "type": "job",
+   "posted": "2026-11-20",
+   "url": "https://job-boards.greenhouse.io/scaleai/jobs/4757137005"
+  },
+  {
+   "id": "scale-4757344005",
+   "platform": "scale",
+   "title": "Director, Business Finance",
+   "team": "",
+   "location": "San Francisco, CA; New York, NY",
+   "remote": false,
+   "type": "job",
+   "posted": "2026-11-20",
+   "url": "https://job-boards.greenhouse.io/scaleai/jobs/4757344005"
+  },
+  {
+   "id": "handshake-52be2db3-794d-466e-b3be-cae5d1ab5232",
+   "platform": "handshake",
+   "title": "Forward Deployed Engineer",
+   "team": "Engineering",
+   "location": "San Francisco, CA",
+   "remote": false,
+   "type": "job",
+   "posted": "2026-11-20",
+   "url": "https://jobs.ashbyhq.com/handshake/52be2db3-794d-466e-b3be-cae5d1ab5232"
+  },
+  {
+   "id": "handshake-e268b973-f9b3-46b8-afe8-31254a430451",
+   "platform": "handshake",
+   "title": "Sr Manager, GTM Engineering",
+   "team": "Employer Revenue",
+   "location": "San Francisco, CA",
+   "remote": true,
+   "type": "job",
+   "posted": "2026-11-20",
+   "url": "https://jobs.ashbyhq.com/handshake/e268b973-f9b3-46b8-afe8-31254a430451"
+  },
+  {
+   "id": "handshake-56bb7e39-5346-4e79-b922-c7db18c7f72b",
+   "platform": "handshake",
+   "title": "GRC Manager",
+   "team": "Engineering",
+   "location": "San Francisco, CA",
+   "remote": false,
+   "type": "job",
+   "posted": "2026-11-20",
+   "url": "https://jobs.ashbyhq.com/handshake/56bb7e39-5346-4e79-b922-c7db18c7f72b"
+  },
+  {
+   "id": "handshake-577b66c6-16d5-43f7-b1c6-1cb0a1d3d218",
+   "platform": "handshake",
+   "title": "Senior Software Engineer, Consumer Experience",
+   "team": "Engineering",
+   "location": "San Francisco, CA",
+   "remote": false,
+   "type": "job",
+   "posted": "2026-11-20",
+   "url": "https://jobs.ashbyhq.com/handshake/577b66c6-16d5-43f7-b1c6-1cb0a1d3d218"
   },
   {
    "id": "mercor-c684bdad-93b0-4811-82e5-926457db2daa",
@@ -261,17 +360,6 @@
    "type": "job",
    "posted": "2026-11-18",
    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4755784005"
-  },
-  {
-   "id": "turing-6255566004",
-   "platform": "turing",
-   "title": "Research Engineering Manager, STEM",
-   "team": "",
-   "location": "Brazil; Colombia, Huila, Colombia; Global - Remote",
-   "remote": true,
-   "type": "job",
-   "posted": "2026-11-17",
-   "url": "https://job-boards.greenhouse.io/turing/jobs/6255566004"
   },
   {
    "id": "handshake-a1e2aef1-666c-4c0e-9cec-70bbd3392b6d",
@@ -1354,7 +1442,7 @@
   {
    "id": "scale-4747295005",
    "platform": "scale",
-   "title": "Creative Advisor - Human Frontier Collective",
+   "title": "Human Frontier Collective - Creative Advisor",
    "team": "",
    "location": "United States",
    "remote": false,
@@ -1902,17 +1990,6 @@
    "url": "https://jobs.ashbyhq.com/handshake/d0920e75-c872-4f73-87a2-c54ee84725bc"
   },
   {
-   "id": "handshake-fb7c8deb-fc87-425c-b446-33dcfc1247c5",
-   "platform": "handshake",
-   "title": "Revenue Enablement Manager",
-   "team": "Employer Revenue",
-   "location": "San Francisco, CA",
-   "remote": true,
-   "type": "job",
-   "posted": "2026-10-02",
-   "url": "https://jobs.ashbyhq.com/handshake/fb7c8deb-fc87-425c-b446-33dcfc1247c5"
-  },
-  {
    "id": "scale-4739727005",
    "platform": "scale",
    "title": "Account Based Marketing Lead",
@@ -2056,17 +2133,6 @@
    "url": "https://job-boards.greenhouse.io/turing/jobs/6192725004"
   },
   {
-   "id": "turing-6187283004",
-   "platform": "turing",
-   "title": "Research Scientist, STEM",
-   "team": "",
-   "location": "United States",
-   "remote": false,
-   "type": "job",
-   "posted": "2026-09-24",
-   "url": "https://job-boards.greenhouse.io/turing/jobs/6187283004"
-  },
-  {
    "id": "turing-6207732004",
    "platform": "turing",
    "title": "Senior Research Engineer",
@@ -2089,17 +2155,6 @@
    "url": "https://job-boards.greenhouse.io/turing/jobs/6198595004"
   },
   {
-   "id": "turing-6187281004",
-   "platform": "turing",
-   "title": "Senior Research Scientist, STEM",
-   "team": "",
-   "location": "United States",
-   "remote": false,
-   "type": "job",
-   "posted": "2026-09-24",
-   "url": "https://job-boards.greenhouse.io/turing/jobs/6187281004"
-  },
-  {
    "id": "turing-6198594004",
    "platform": "turing",
    "title": "Staff Research Engineer, Frontier Data",
@@ -2109,17 +2164,6 @@
    "type": "job",
    "posted": "2026-09-24",
    "url": "https://job-boards.greenhouse.io/turing/jobs/6198594004"
-  },
-  {
-   "id": "turing-6187280004",
-   "platform": "turing",
-   "title": "Staff Research Scientist",
-   "team": "",
-   "location": "United States",
-   "remote": false,
-   "type": "job",
-   "posted": "2026-09-24",
-   "url": "https://job-boards.greenhouse.io/turing/jobs/6187280004"
   },
   {
    "id": "scale-4735360005",
@@ -2331,17 +2375,6 @@
    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4733702005"
   },
   {
-   "id": "scale-4730834005",
-   "platform": "scale",
-   "title": "Software Engineering Intern (Summer 2027)",
-   "team": "",
-   "location": "Doha, Qatar ",
-   "remote": false,
-   "type": "job",
-   "posted": "2026-09-14",
-   "url": "https://job-boards.greenhouse.io/scaleai/jobs/4730834005"
-  },
-  {
    "id": "scale-4730846005",
    "platform": "scale",
    "title": "Software Engineering Intern (Summer 2027)",
@@ -2353,15 +2386,15 @@
    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4730846005"
   },
   {
-   "id": "scale-4730851005",
+   "id": "scale-4730834005",
    "platform": "scale",
-   "title": "Software Engineer - New Grad",
+   "title": "Software Engineering Intern (Summer 2027)",
    "team": "",
    "location": "Doha, Qatar ",
    "remote": false,
    "type": "job",
    "posted": "2026-09-14",
-   "url": "https://job-boards.greenhouse.io/scaleai/jobs/4730851005"
+   "url": "https://job-boards.greenhouse.io/scaleai/jobs/4730834005"
   },
   {
    "id": "scale-4730862005",
@@ -2373,6 +2406,17 @@
    "type": "job",
    "posted": "2026-09-14",
    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4730862005"
+  },
+  {
+   "id": "scale-4730851005",
+   "platform": "scale",
+   "title": "Software Engineer - New Grad",
+   "team": "",
+   "location": "Doha, Qatar ",
+   "remote": false,
+   "type": "job",
+   "posted": "2026-09-14",
+   "url": "https://job-boards.greenhouse.io/scaleai/jobs/4730851005"
   },
   {
    "id": "handshake-03769630-780c-4b80-a148-6925f75f9dd9",
@@ -3000,17 +3044,6 @@
    "type": "job",
    "posted": "2026-08-12",
    "url": "https://jobs.ashbyhq.com/AfterQuery/6ba4e31f-7df6-4109-992a-0c40fba806d8"
-  },
-  {
-   "id": "handshake-99956455-d4f7-4044-9ebd-d7f0d469d165",
-   "platform": "handshake",
-   "title": "Mid-Market Account Manager",
-   "team": "Employer Revenue",
-   "location": "San Francisco, CA",
-   "remote": true,
-   "type": "job",
-   "posted": "2026-08-12",
-   "url": "https://jobs.ashbyhq.com/handshake/99956455-d4f7-4044-9ebd-d7f0d469d165"
   },
   {
    "id": "mercor-0843acbc-3614-48a0-957d-1f8ed0497bf0",
@@ -4441,39 +4474,6 @@
    "type": "job",
    "posted": "2025-10-14",
    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4612403005"
-  },
-  {
-   "id": "scale-4618046005",
-   "platform": "scale",
-   "title": "Tech Lead Manager- MLRE, ML Systems",
-   "team": "",
-   "location": "San Francisco, CA; New York, NY",
-   "remote": false,
-   "type": "job",
-   "posted": "2025-10-10",
-   "url": "https://job-boards.greenhouse.io/scaleai/jobs/4618046005"
-  },
-  {
-   "id": "scale-4565834005",
-   "platform": "scale",
-   "title": "Legal Fellow - Human Frontier Collective (US)",
-   "team": "",
-   "location": "United States",
-   "remote": false,
-   "type": "job",
-   "posted": "2025-10-09",
-   "url": "https://job-boards.greenhouse.io/scaleai/jobs/4565834005"
-  },
-  {
-   "id": "mercor-4f4fc8c3-4056-47bb-9e00-1db6e5dd958f",
-   "platform": "mercor",
-   "title": "Software Engineer, Agents",
-   "team": "Engineering",
-   "location": "San Francisco",
-   "remote": false,
-   "type": "job",
-   "posted": "2025-09-18",
-   "url": "https://jobs.ashbyhq.com/mercor/4f4fc8c3-4056-47bb-9e00-1db6e5dd958f"
   }
  ],
  "errors": []
