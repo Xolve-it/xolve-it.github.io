@@ -101,9 +101,8 @@
     $("#gfHeading").textContent = inCountry ? `Openings for you in ${name}` : "All open roles";
     if (cc) {
       const open = data.gigs.filter((g) => openTo(g, cc));
-      const named = open.filter((g) => specificTo(g, cc)).length;
       $("#gfLead").textContent = inCountry
-        ? `${open.length} roles you can apply for from ${name}: ${named} ${named === 1 ? "names" : "name"} ${name}, the rest are open worldwide.`
+        ? `${open.length} roles you can apply for from ${name}.`
         : `Every role on the boards, including ones limited to other countries.`;
       $("#tabFlag").src = `/assets/flags/${cc.toLowerCase()}.svg`;
       $("#tabCountryName").textContent = name;
