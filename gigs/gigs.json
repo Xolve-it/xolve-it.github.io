@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-21T07:06:41Z",
- "next": "2026-11-21T15:06:41Z",
+ "updated": "2026-11-21T07:50:48Z",
+ "next": "2026-11-21T15:50:48Z",
  "socials": {
-  "x": "",
-  "instagram": "",
-  "tiktok": "",
+  "x": "https://x.com/get_xolutions",
+  "instagram": "https://www.instagram.com/get.xolutions/",
+  "tiktok": "https://www.tiktok.com/@get.xolutions",
   "linkedin": "",
   "whatsapp": "",
   "telegram": ""
@@ -21,7 +21,7 @@
    "id": "micro1",
    "name": "micro1",
    "site": "https://www.micro1.ai",
-   "referral": "",
+   "referral": "https://refer.micro1.ai/referral/jobs?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
    "about": "Vetted experts and engineers for AI training projects."
   },
   {

@@ -399,7 +399,7 @@
 .contact__briefs .contact__ctas { margin-top: 0; }
 
 /* footer columns */
-.foot__cols { display: grid; grid-template-columns: repeat(3, auto); gap: 24px 56px; }
+.foot__cols { display: grid; grid-template-columns: repeat(4, auto); gap: 24px 56px; }
 .foot__nav b { color: var(--paper); font-size: 14px; letter-spacing: .02em; margin-bottom: 4px; }
 
 @media (max-width: 860px) {
