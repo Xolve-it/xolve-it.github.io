@@ -22,7 +22,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/css/style.css">
 <link rel="stylesheet" href="/css/bulb.css">
-<link rel="stylesheet" href="/css/gigs.css?v=2">
+<link rel="stylesheet" href="/css/gigs.css?v=3">
 </head>
 <body class="gigs-page">
 <a class="skip" href="#main">Skip to content</a>
@@ -50,9 +50,31 @@
     </div>
   </section>
 
+  <section class="gf" id="gf" aria-labelledby="gf-title" hidden>
+    <div class="wrap">
+      <div class="gf__head">
+        <div>
+          <p class="kicker">For you</p>
+          <h2 class="gl__title gf__title" id="gf-title"><img class="flag flag--lg" id="gfFlag" src="data:," alt="" width="40" height="30" hidden> <span id="gfHeading">Openings you can apply for</span></h2>
+          <p class="gf__lead" id="gfLead"></p>
+        </div>
+        <label class="gf__pick"><span>Not your country?</span>
+          <select id="gfCountry" aria-label="Show openings for another country"></select>
+        </label>
+      </div>
+      <div class="seg gf__seg" role="group" aria-label="Which openings">
+        <button type="button" class="gfseg is-on" data-scope="all" aria-pressed="true">All open to you <i id="gfAllN"></i></button>
+        <button type="button" class="gfseg" data-scope="only" aria-pressed="false"><span id="gfOnlyLabel">Country-specific</span> <i id="gfOnlyN"></i></button>
+      </div>
+      <ul class="gl__list" id="gfList"></ul>
+      <button class="btn btn--outline gl__more" type="button" id="gfMore" hidden>Show more</button>
+      <p class="gf__note">Matched to the country your connection comes from, using each platform's own location rules. Always check eligibility on the official page before you apply.</p>
+    </div>
+  </section>
+
   <section class="gl" aria-labelledby="gl-title">
     <div class="wrap">
-      <h2 class="gl__title" id="gl-title">Open roles</h2>
+      <h2 class="gl__title" id="gl-title">All open roles</h2>
       <div class="gl__filters" role="search">
         <label class="gl__search"><span class="sr">Search roles</span>
           <input id="glSearch" type="search" placeholder="Search: e.g. red teamer, finance, remote" autocomplete="off">
@@ -90,7 +112,7 @@
   </div>
 </footer>
 
-<script src="/js/gigs.js?v=2"></script>
+<script src="/js/gigs.js?v=3"></script>
 <script src="/js/xfield.js?v=3"></script>
 <script src="/js/bulb.js?v=2"></script>
 </body>

@@ -31,6 +31,55 @@ EXPERT_WORDS = re.compile(r"\b(annotators?|evaluators?|raters?|tutors?|ai traine
 STAFF_WORDS = re.compile(r"\b(manager|director|head|lead|engineer|engineering|scientist|staff|recruit\w*|sales|account|operations|coordinator|counsel|analyst|designer|product)\b", re.I)
 GIG_TYPES = {"contract", "parttime", "part-time", "temporary", "freelance"}
 
+# ---------- where a role is open ----------
+# Each listing gets "countries" (ISO 3166 two-letter codes it is open to; empty = anywhere when remote)
+# and "exclude" (codes it is closed to). The AI Gigs page matches these against the visitor's country.
+COUNTRIES = json.loads((ROOT / "scripts" / "countries.json").read_text(encoding="utf-8"))  # ISO3 -> [ISO2, name]
+ISO2 = {k: v[0] for k, v in COUNTRIES.items()}
+EUROPE = set("AL AD AT BA BE BG BY CH CY CZ DE DK EE ES FI FR GB GR HR HU IE IS IT LI LT LU LV MC MD ME MK MT NL NO PL PT RO RS SE SI SK SM UA XK".split())
+US_STATES = "AL AK AZ AR CA CO CT DE FL GA HI ID IL IN IA KS KY LA ME MD MA MI MN MS MO MT NE NV NH NJ NM NY NC ND OH OK OR PA RI SC SD TN TX UT VT VA WA WV WI WY DC"
+_names = {v[1].lower(): v[0] for v in COUNTRIES.values()}
+_names.update({n.lower().replace(" sar", ""): c for n, c in list(_names.items()) if n.endswith(" sar")})
+_names.update({
+    "usa": "US", "us": "US", "u.s.": "US", "america": "US", "uk": "GB", "england": "GB", "scotland": "GB", "wales": "GB",
+    "britain": "GB", "great britain": "GB", "uae": "AE", "turkey": "TR", "south korea": "KR", "korea": "KR", "vietnam": "VN",
+    "ivory coast": "CI", "czech republic": "CZ", "russia": "RU", "mx": "MX",
+    # cities and states that appear on the boards
+    "san francisco": "US", "bay area": "US", "new york": "US", "nyc": "US", "washington, dc": "US", "seattle": "US",
+    "palo alto": "US", "los angeles": "US", "miami": "US", "nashville": "US", "detroit": "US", "fremont": "US",
+    "california": "US", "texas": "US", "london": "GB", "bengaluru": "IN", "bangalore": "IN", "sofia": "BG",
+    "kuwait city": "KW", "toronto": "CA", "berlin": "DE", "paris": "FR", "são paulo": "BR", "sao paulo": "BR",
+})
+_name_re = re.compile(r"(?<![\w.])(" + "|".join(sorted(map(re.escape, _names), key=len, reverse=True)) + r")(?![\w])", re.I)
+_state_re = re.compile(r",\s*(" + US_STATES.replace(" ", "|") + r")\b")
+
+
+def countries_from_text(text):
+    """Best-effort country codes from a free-text location ("San Francisco, CA; London, UK" -> US, GB)."""
+    text = (text or "").replace("�", " ")
+    low = text.lower()
+    # "preferred" / "worldwide" / "global" mean anyone can apply
+    if re.search(r"\b(prefer\w*|worldwide|global|anywhere)\b", low):
+        return []
+    found = {_names[m.group(1).lower()] for m in _name_re.finditer(text)}
+    if _state_re.search(text):
+        found.add("US")
+    if re.search(r"\beurope\b", low):
+        found |= EUROPE
+    return sorted(found)
+
+
+def countries_for(location, title):
+    """Location first; if it names no country, a bracketed country in the title ("English Expert (Nigeria)")."""
+    found = countries_from_text(location)
+    if found or re.search(r"\b(prefer\w*|worldwide|global|anywhere)\b", (location or "").lower()):
+        return found
+    return sorted({c for part in re.findall(r"\(([^)]*)\)", title or "") for c in countries_from_text(part)})
+
+
+def iso2_list(codes):
+    return sorted({ISO2[c] for c in (codes or []) if c in ISO2})
+
 
 def get_json(url, extra=None):
     headers = {"User-Agent": "xolve-gigs-updater/1.0", "Accept": "application/json"}
@@ -141,7 +190,13 @@ def from_mercor_market(code, platform):
         url = f"https://work.mercor.com/explore?listingId={lid}"
         if code:
             url += f"&referralCode={code}&utm_source=referral&utm_medium=direct&utm_campaign=platform"
+        # Mercor publishes who may apply: residence rules first, then work-location rules, then the text
+        allowed = iso2_list(j.get("eligibleResidenceLocation")) or iso2_list(j.get("eligibleLocation")) \
+            or countries_for(j.get("location"), j.get("title"))
+        blocked = sorted(set(iso2_list(j.get("ineligibleResidenceLocation")) + iso2_list(j.get("ineligibleLocation"))) - set(allowed))
         out.append({
+            "countries": allowed,
+            "exclude": blocked,
             "id": f"{platform}-{lid}",
             "platform": platform,
             "title": (j.get("title") or "").strip(),
@@ -231,6 +286,10 @@ def main():
             errors.append(f"gigs-manual.json: {e}")
 
     seen, unique = set(), []
+    for g in gigs + manual:
+        if "countries" not in g:
+            g["countries"] = countries_for(g.get("location"), g.get("title"))
+        g.setdefault("exclude", [])
     for g in gigs:
         if g["id"] in seen or not g["url"] or not g["title"]:
             continue
