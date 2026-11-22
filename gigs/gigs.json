@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-22T06:46:44Z",
- "next": "2026-11-22T14:46:44Z",
+ "updated": "2026-11-22T16:17:26Z",
+ "next": "2026-11-23T00:17:26Z",
  "socials": {
   "x": "https://x.com/get_xolutions",
   "instagram": "https://www.instagram.com/get.xolutions/",
@@ -4391,20 +4391,6 @@
    "exclude": []
   },
   {
-   "id": "micro1-c619b632-b151-492c-8bf5-02a7728f13d6",
-   "platform": "micro1",
-   "title": "Visual Content Evaluator",
-   "team": "Generalist",
-   "location": "Remote",
-   "remote": true,
-   "type": "gig",
-   "posted": "2026-11-04",
-   "pay": "$25–$45/hr",
-   "url": "https://jobs.micro1.ai/post/c619b632-b151-492c-8bf5-02a7728f13d6?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
-   "countries": [],
-   "exclude": []
-  },
-  {
    "id": "micro1-1388efaf-870e-4edb-8f4a-9ba283cee4ec",
    "platform": "micro1",
    "title": "Photography and Cinematography Expert",
@@ -6212,21 +6198,6 @@
    "url": "https://work.mercor.com/explore?listingId=list_AAABoXlvyUH1tzlT-IpJg6wm&referralCode=3e69e7cf-edba-25be-5027-25cc33b23a52&utm_source=referral&utm_medium=direct&utm_campaign=platform"
   },
   {
-   "id": "handshake-ce0e36f5-66b1-4ffe-8a89-47cd6ccc2c95",
-   "platform": "handshake",
-   "title": "Workplace Experience Coordinator, India (Contract)",
-   "team": "General & Administrative",
-   "location": "India",
-   "remote": false,
-   "type": "gig",
-   "posted": "2026-10-26",
-   "url": "https://jobs.ashbyhq.com/handshake/ce0e36f5-66b1-4ffe-8a89-47cd6ccc2c95",
-   "countries": [
-    "IN"
-   ],
-   "exclude": []
-  },
-  {
    "id": "micro1-6009f546-2ac3-4072-9f5a-1bd8094154ef",
    "platform": "micro1",
    "title": "Hospitality Worker (Toast POS User)",
@@ -6280,6 +6251,21 @@
    "pay": "$7–$8/hr",
    "url": "https://jobs.micro1.ai/post/73e0d113-91f0-40f4-94b0-67c02c31a3f1?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
    "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "handshake-ce0e36f5-66b1-4ffe-8a89-47cd6ccc2c95",
+   "platform": "handshake",
+   "title": "Workplace Experience Coordinator, India (Contract)",
+   "team": "General & Administrative",
+   "location": "India",
+   "remote": false,
+   "type": "gig",
+   "posted": "2026-10-26",
+   "url": "https://jobs.ashbyhq.com/handshake/ce0e36f5-66b1-4ffe-8a89-47cd6ccc2c95",
+   "countries": [
+    "IN"
+   ],
    "exclude": []
   },
   {
@@ -6813,62 +6799,6 @@
    "posted": "2026-10-23",
    "pay": "$100–$120/hr",
    "url": "https://work.mercor.com/explore?listingId=list_AAABoWa5lPEq7jlqhxZNLqEJ&referralCode=3e69e7cf-edba-25be-5027-25cc33b23a52&utm_source=referral&utm_medium=direct&utm_campaign=platform"
-  },
-  {
-   "id": "micro1-e9f8e23d-b13f-46d1-9e7c-01f56a2c0450",
-   "platform": "micro1",
-   "title": "Intelligence Analyst",
-   "team": "Other",
-   "location": "Remote",
-   "remote": true,
-   "type": "gig",
-   "posted": "2026-10-23",
-   "pay": "$80–$170/hr",
-   "url": "https://jobs.micro1.ai/post/e9f8e23d-b13f-46d1-9e7c-01f56a2c0450?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
-   "countries": [],
-   "exclude": []
-  },
-  {
-   "id": "micro1-36174963-012b-4a8d-b955-12d48aac7b6f",
-   "platform": "micro1",
-   "title": "Human Intelligence Collector (HUMINT)",
-   "team": "Other",
-   "location": "Remote",
-   "remote": true,
-   "type": "gig",
-   "posted": "2026-10-23",
-   "pay": "$80–$170/hr",
-   "url": "https://jobs.micro1.ai/post/36174963-012b-4a8d-b955-12d48aac7b6f?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
-   "countries": [],
-   "exclude": []
-  },
-  {
-   "id": "micro1-21bb587d-cd06-407b-95eb-44a44a5dc803",
-   "platform": "micro1",
-   "title": "Military Legal Advisor",
-   "team": "Law",
-   "location": "Remote",
-   "remote": true,
-   "type": "gig",
-   "posted": "2026-10-23",
-   "pay": "$80–$170/hr",
-   "url": "https://jobs.micro1.ai/post/21bb587d-cd06-407b-95eb-44a44a5dc803?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
-   "countries": [],
-   "exclude": []
-  },
-  {
-   "id": "micro1-6ea926f9-3711-40d7-ba08-6b53367ebbb5",
-   "platform": "micro1",
-   "title": "Humanitarian Aid Representative",
-   "team": "Humanities",
-   "location": "Remote",
-   "remote": true,
-   "type": "gig",
-   "posted": "2026-10-23",
-   "pay": "$80–$150/hr",
-   "url": "https://jobs.micro1.ai/post/6ea926f9-3711-40d7-ba08-6b53367ebbb5?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
-   "countries": [],
-   "exclude": []
   },
   {
    "countries": [
@@ -10149,20 +10079,6 @@
    "url": "https://work.mercor.com/explore?listingId=list_AAABn7y1ZuugFnqTDzVOOb7u&referralCode=3e69e7cf-edba-25be-5027-25cc33b23a52&utm_source=referral&utm_medium=direct&utm_campaign=platform"
   },
   {
-   "countries": [],
-   "exclude": [],
-   "id": "mercor-list_AAABn7sbKWVBevHeOepIpIpu",
-   "platform": "mercor",
-   "title": "Software Engineer — Agentic Search Systems",
-   "team": "Software Engineering",
-   "location": "Remote",
-   "remote": true,
-   "type": "gig",
-   "posted": "2026-08-01",
-   "pay": "$80–$150/hr",
-   "url": "https://work.mercor.com/explore?listingId=list_AAABn7sbKWVBevHeOepIpIpu&referralCode=3e69e7cf-edba-25be-5027-25cc33b23a52&utm_source=referral&utm_medium=direct&utm_campaign=platform"
-  },
-  {
    "countries": [
     "CH"
    ],
@@ -10542,36 +10458,6 @@
    "exclude": []
   },
   {
-   "countries": [
-    "AR",
-    "BO",
-    "BR",
-    "CL",
-    "CO",
-    "CR",
-    "EC",
-    "GT",
-    "GY",
-    "MX",
-    "PA",
-    "PE",
-    "PY",
-    "SV",
-    "UY"
-   ],
-   "exclude": [],
-   "id": "mercor-list_AAABnfiedfZUWZxgc0lLT79a",
-   "platform": "mercor",
-   "title": "Customer Success Engineer (LatAm)",
-   "team": "Software Engineering",
-   "location": "Remote",
-   "remote": true,
-   "type": "gig",
-   "posted": "2026-05-05",
-   "pay": "$35,000–$50,000/yr",
-   "url": "https://work.mercor.com/explore?listingId=list_AAABnfiedfZUWZxgc0lLT79a&referralCode=3e69e7cf-edba-25be-5027-25cc33b23a52&utm_source=referral&utm_medium=direct&utm_campaign=platform"
-  },
-  {
    "id": "micro1-204600bf-1abe-4ab0-a474-cd2264999149",
    "platform": "micro1",
    "title": "Data-Video Generalist (US-based)",
@@ -10600,22 +10486,6 @@
    "url": "https://jobs.micro1.ai/post/ad04ab64-b3b2-45ba-9d89-508f8e77dc5a?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
    "countries": [],
    "exclude": []
-  },
-  {
-   "countries": [
-    "IN"
-   ],
-   "exclude": [],
-   "id": "mercor-list_AAABnOP9NgGZSJmIf4dF5rx2",
-   "platform": "mercor",
-   "title": "Customer Success Engineer (India)",
-   "team": "Software Engineering",
-   "location": "Remote",
-   "remote": true,
-   "type": "gig",
-   "posted": "2026-03-12",
-   "pay": "$30,000–$45,000/yr",
-   "url": "https://work.mercor.com/explore?listingId=list_AAABnOP9NgGZSJmIf4dF5rx2&referralCode=3e69e7cf-edba-25be-5027-25cc33b23a52&utm_source=referral&utm_medium=direct&utm_campaign=platform"
   },
   {
    "countries": [],
@@ -13563,10 +13433,127 @@
     "US"
    ],
    "exclude": []
+  },
+  {
+   "id": "handshake-b884c592-8834-4776-a0cd-6718da9b54cc",
+   "platform": "handshake",
+   "title": "Mid-Market Customer Success Manager",
+   "team": "Employer Revenue",
+   "location": "New York, NY",
+   "remote": true,
+   "type": "job",
+   "posted": "2026-09-25",
+   "url": "https://jobs.ashbyhq.com/handshake/b884c592-8834-4776-a0cd-6718da9b54cc",
+   "countries": [
+    "US"
+   ],
+   "exclude": []
+  },
+  {
+   "id": "mercor-374cd009-516f-4a1f-abbf-bcca5287daae",
+   "platform": "mercor",
+   "title": "Software Engineer, Applied AI - Environments Platform",
+   "team": "Engineering",
+   "location": "San Francisco",
+   "remote": false,
+   "type": "job",
+   "posted": "2026-09-24",
+   "url": "https://jobs.ashbyhq.com/mercor/374cd009-516f-4a1f-abbf-bcca5287daae",
+   "countries": [
+    "US"
+   ],
+   "exclude": []
+  },
+  {
+   "id": "turing-6192729004",
+   "platform": "turing",
+   "title": "Forward-Deployed AI Engineer",
+   "team": "",
+   "location": "Hyderabad, Telangana, India",
+   "remote": false,
+   "type": "job",
+   "posted": "2026-09-24",
+   "url": "https://job-boards.greenhouse.io/turing/jobs/6192729004",
+   "countries": [
+    "IN"
+   ],
+   "exclude": []
+  },
+  {
+   "id": "turing-6192725004",
+   "platform": "turing",
+   "title": "Forward-Deployed AI Engineer",
+   "team": "",
+   "location": "Bengaluru, Karnataka, India",
+   "remote": false,
+   "type": "job",
+   "posted": "2026-09-24",
+   "url": "https://job-boards.greenhouse.io/turing/jobs/6192725004",
+   "countries": [
+    "IN"
+   ],
+   "exclude": []
+  },
+  {
+   "id": "turing-6207732004",
+   "platform": "turing",
+   "title": "Senior Research Engineer",
+   "team": "",
+   "location": "United States",
+   "remote": false,
+   "type": "job",
+   "posted": "2026-09-24",
+   "url": "https://job-boards.greenhouse.io/turing/jobs/6207732004",
+   "countries": [
+    "US"
+   ],
+   "exclude": []
+  },
+  {
+   "id": "turing-6198595004",
+   "platform": "turing",
+   "title": "Senior Research Engineer, Frontier Data",
+   "team": "",
+   "location": "United States",
+   "remote": false,
+   "type": "job",
+   "posted": "2026-09-24",
+   "url": "https://job-boards.greenhouse.io/turing/jobs/6198595004",
+   "countries": [
+    "US"
+   ],
+   "exclude": []
+  },
+  {
+   "id": "turing-6198594004",
+   "platform": "turing",
+   "title": "Staff Research Engineer, Frontier Data",
+   "team": "",
+   "location": "United States",
+   "remote": false,
+   "type": "job",
+   "posted": "2026-09-24",
+   "url": "https://job-boards.greenhouse.io/turing/jobs/6198594004",
+   "countries": [
+    "US"
+   ],
+   "exclude": []
+  },
+  {
+   "id": "scale-4735360005",
+   "platform": "scale",
+   "title": "Staff Product Designer, Enterprise",
+   "team": "",
+   "location": "London, UK",
+   "remote": false,
+   "type": "job",
+   "posted": "2026-09-24",
+   "url": "https://job-boards.greenhouse.io/scaleai/jobs/4735360005",
+   "countries": [
+    "GB"
+   ],
+   "exclude": []
   }
  ],
- "errors": [
-  "micro1 (micro1_referral:referral): HTTP Error 403: Forbidden",
-  "kept 352 listings from the last good run for: micro1"
- ]
+ "errors": []
 }
