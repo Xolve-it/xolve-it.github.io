@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-21T21:39:05Z",
- "next": "2026-11-22T05:39:05Z",
+ "updated": "2026-11-22T06:46:44Z",
+ "next": "2026-11-22T14:46:44Z",
  "socials": {
   "x": "https://x.com/get_xolutions",
   "instagram": "https://www.instagram.com/get.xolutions/",
@@ -2473,20 +2473,6 @@
    "url": "https://jobs.micro1.ai/post/9dd55f6b-f862-41a1-8412-4c3012507646?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
    "countries": [],
    "exclude": []
-  },
-  {
-   "countries": [],
-   "exclude": [],
-   "id": "mercor-list_AAABocvmQyKqYVaWnhNJlLpY",
-   "platform": "mercor",
-   "title": "Fab Safety and Emergency Response Expert",
-   "team": "Other Engineering",
-   "location": "Remote",
-   "remote": true,
-   "type": "gig",
-   "posted": "2026-11-11",
-   "pay": "$85/hr",
-   "url": "https://work.mercor.com/explore?listingId=list_AAABocvmQyKqYVaWnhNJlLpY&referralCode=3e69e7cf-edba-25be-5027-25cc33b23a52&utm_source=referral&utm_medium=direct&utm_campaign=platform"
   },
   {
    "countries": [
@@ -7585,6 +7571,22 @@
    "url": "https://jobs.micro1.ai/post/bb117da1-3d6d-41d7-9bb5-69beff1f1104?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
    "countries": [],
    "exclude": []
+  },
+  {
+   "countries": [
+    "US"
+   ],
+   "exclude": [],
+   "id": "mercor-list_AAABoSaogGy2NBr71LpJgrqO",
+   "platform": "mercor",
+   "title": "Primary Care Physician (MD) -  Clinical Documentation & AI Evaluation",
+   "team": "Medicine",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-10-10",
+   "pay": "$170/hr",
+   "url": "https://work.mercor.com/explore?listingId=list_AAABoSaogGy2NBr71LpJgrqO&referralCode=3e69e7cf-edba-25be-5027-25cc33b23a52&utm_source=referral&utm_medium=direct&utm_campaign=platform"
   },
   {
    "id": "micro1-c8cdec0c-76b7-40ae-9764-fb170200408a",
