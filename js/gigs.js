@@ -1,4 +1,4 @@
-/* AI Gigs by Xolve: reads /gigs/gigs.json (written every 8 hours by
+/* AI Gigs by Xolve: reads /gigs/gigs.json (written several times a day by
    scripts/update_gigs.py) and shows it with search and filters.
    "For you" matches each listing's countries/exclude lists against the visitor's
    country, which Cloudflare reports at /cdn-cgi/trace (no third-party lookup). */

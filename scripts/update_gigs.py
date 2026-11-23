@@ -24,7 +24,7 @@ MANUAL = ROOT / "scripts" / "gigs-manual.json"
 OUT = ROOT / "gigs" / "gigs.json"
 # first-posted dates read from job pages, kept between runs (a job's creation date never changes)
 POSTED_CACHE = ROOT / "scripts" / "posted-dates.json"
-MAX_LISTINGS = 900
+MAX_LISTINGS = 1500
 REFRESH_HOURS = 8
 
 # a role counts as a "gig" when it is contract / part-time / hourly, or when its title names
@@ -40,6 +40,10 @@ GIG_TYPES = {"contract", "parttime", "part-time", "temporary", "freelance"}
 COUNTRIES = json.loads((ROOT / "scripts" / "countries.json").read_text(encoding="utf-8"))  # ISO3 -> [ISO2, name]
 ISO2 = {k: v[0] for k, v in COUNTRIES.items()}
 EUROPE = set("AL AD AT BA BE BG BY CH CY CZ DE DK EE ES FI FR GB GR HR HU IE IS IT LI LT LU LV MC MD ME MK MT NL NO PL PT RO RS SE SI SK SM UA XK".split())
+LATAM = set("AR BO BR CL CO CR CU DO EC GT HN MX NI PA PE PR PY SV UY VE".split())
+EU = set("AT BE BG CY CZ DE DK EE ES FI FR GR HR HU IE IT LT LU LV MT NL PL PT RO SE SI SK".split())
+# region phrases are matched (and removed) before country names, so "Latin America" never reads as "America"
+REGIONS = [("european union", EU), ("latin america", LATAM), ("latam", LATAM), ("south america", LATAM), ("europe", EUROPE), ("eu", EU)]
 US_STATES = "AL AK AZ AR CA CO CT DE FL GA HI ID IL IN IA KS KY LA ME MD MA MI MN MS MO MT NE NV NH NJ NM NY NC ND OH OK OR PA RI SC SD TN TX UT VT VA WA WV WI WY DC"
 _names = {v[1].lower(): v[0] for v in COUNTRIES.values()}
 _names.update({n.lower().replace(" sar", ""): c for n, c in list(_names.items()) if n.endswith(" sar")})
@@ -52,6 +56,11 @@ _names.update({
     "palo alto": "US", "los angeles": "US", "miami": "US", "nashville": "US", "detroit": "US", "fremont": "US",
     "california": "US", "texas": "US", "london": "GB", "bengaluru": "IN", "bangalore": "IN", "sofia": "BG",
     "kuwait city": "KW", "toronto": "CA", "berlin": "DE", "paris": "FR", "são paulo": "BR", "sao paulo": "BR",
+    "dallas": "US", "houston": "US", "chicago": "US", "austin": "US", "boston": "US", "atlanta": "US", "denver": "US",
+    "phoenix": "US", "philadelphia": "US", "san diego": "US", "san jose": "US", "us-wide": "US", "us-based": "US",
+    "buenos aires": "AR", "madrid": "ES", "barcelona": "ES", "lisbon": "PT", "lagos": "NG", "abuja": "NG",
+    "nairobi": "KE", "accra": "GH", "johannesburg": "ZA", "cape town": "ZA", "manila": "PH", "dublin": "IE",
+    "amsterdam": "NL", "munich": "DE", "sydney": "AU", "melbourne": "AU", "vancouver": "CA", "montreal": "CA",
 })
 _name_re = re.compile(r"(?<![\w.])(" + "|".join(sorted(map(re.escape, _names), key=len, reverse=True)) + r")(?![\w])", re.I)
 _state_re = re.compile(r",\s*(" + US_STATES.replace(" ", "|") + r")\b")
@@ -64,11 +73,15 @@ def countries_from_text(text):
     # "preferred" / "worldwide" / "global" mean anyone can apply
     if re.search(r"\b(prefer\w*|worldwide|global|anywhere)\b", low):
         return []
-    found = {_names[m.group(1).lower()] for m in _name_re.finditer(text)}
+    found = set()
+    for phrase, codes in REGIONS:
+        pat = r"\b" + re.escape(phrase) + r"\b"
+        if re.search(pat, text, re.I):
+            found |= codes
+            text = re.sub(pat, " ", text, flags=re.I)
+    found |= {_names[m.group(1).lower()] for m in _name_re.finditer(text)}
     if _state_re.search(text):
         found.add("US")
-    if re.search(r"\beurope\b", low):
-        found |= EUROPE
     return sorted(found)
 
 
@@ -251,8 +264,15 @@ _CREATED = re.compile(r'create_datetime\\?"\s*:\s*\\?"(\d{4}-\d{2}-\d{2})')
 _LD_POSTED = re.compile(r'datePosted\\?"\s*:\s*\\?"(\d{4}-\d{2}-\d{2})')
 
 
-def micro1_first_posted(gigs):
-    """Fill "posted" from each job page's create_datetime, fetching only jobs not seen before."""
+_ALIGNERR_CREATED = re.compile(r'"createdAt"\s*:\s*"(\d{4}-\d{2}-\d{2})')
+
+
+def first_posted(gigs, prefix, page_url, patterns):
+    """Fill "posted" from each job's own page, fetching only jobs not seen before.
+
+    Some list feeds re-stamp their dates (micro1) or carry none (Alignerr); the job page holds
+    the real creation date. Dates are kept in scripts/posted-dates.json between runs, since a
+    job's creation date never changes. Unknown dates stay blank rather than wrong."""
     try:
         cache = json.loads(POSTED_CACHE.read_text(encoding="utf-8"))
     except Exception:
@@ -260,22 +280,61 @@ def micro1_first_posted(gigs):
 
     def fetch(job_id):
         try:
-            req = urllib.request.Request(f"https://jobs.micro1.ai/post/{job_id}", headers={"User-Agent": "xolve-gigs-updater/1.0"})
+            req = urllib.request.Request(page_url(job_id), headers={"User-Agent": "xolve-gigs-updater/1.0"})
             with urllib.request.urlopen(req, timeout=30) as r:
                 html = r.read().decode("utf-8", "replace")
-            m = _CREATED.search(html) or _LD_POSTED.search(html)
-            return job_id, (m.group(1) if m else "")
+            for pat in patterns:
+                m = pat.search(html)
+                if m:
+                    return job_id, m.group(1)
         except Exception:
-            return job_id, ""
+            pass
+        return job_id, ""
 
-    todo = sorted({g["job_id"] for g in gigs if g.get("job_id") and f"micro1:{g['job_id']}" not in cache})
+    todo = sorted({g["job_id"] for g in gigs if g.get("job_id") and f"{prefix}:{g['job_id']}" not in cache})
     with ThreadPoolExecutor(max_workers=4) as pool:
         for job_id, day in pool.map(fetch, todo):
             if day:
-                cache[f"micro1:{job_id}"] = day
+                cache[f"{prefix}:{job_id}"] = day
     for g in gigs:
-        g["posted"] = cache.get(f"micro1:{g.pop('job_id', '')}", "")  # unknown stays blank rather than wrong
+        g["posted"] = cache.get(f"{prefix}:{g.pop('job_id', '')}", "")
     POSTED_CACHE.write_text(json.dumps(cache, indent=0, sort_keys=True) + "\n", encoding="utf-8")
+
+
+def micro1_first_posted(gigs):
+    first_posted(gigs, "micro1", lambda jid: f"https://jobs.micro1.ai/post/{jid}", [_CREATED, _LD_POSTED])
+
+
+ALIGNERR_MAX = 720  # its public list runs roughly newest first; 5,000+ older roles are left out
+
+
+def from_alignerr(platform):
+    """Alignerr's public job list (the endpoint its own /jobs page uses), newest roles first."""
+    out = []
+    for offset in range(0, ALIGNERR_MAX, 120):
+        data = get_json(f"https://www.alignerr.com/api/jobs?limit=120&offset={offset}")
+        jobs = data.get("jobs") or []
+        for j in jobs:
+            title = (j.get("title") or "").strip()
+            pay = re.sub(r"^\$([\d,.]+)-\1(/\w+)$", r"$\1\2", (j.get("pay") or "").strip())  # "$20-20/hr" -> "$20/hr"
+            loc = (j.get("location") or "Remote").strip()
+            out.append({
+                "id": f"{platform}-{j.get('id')}",
+                "platform": platform,
+                "title": title,
+                "team": (j.get("category") or "").title(),
+                "location": loc,
+                "remote": "remote" in loc.lower(),
+                "type": "gig",
+                "posted": "",
+                "job_id": j.get("id"),
+                "pay": pay if pay.startswith("$") else "",
+                "url": "https://www.alignerr.com" + j["applyUrl"] if (j.get("applyUrl") or "").startswith("/") else (j.get("applyUrl") or ""),
+            })
+        if len(jobs) < 120:
+            break
+    first_posted(out, "alignerr", lambda jid: f"https://www.alignerr.com/jobs/{jid}", [_ALIGNERR_CREATED])
+    return out
 
 
 def from_feed(feed, platform):
@@ -284,7 +343,13 @@ def from_feed(feed, platform):
         return from_mercor_market(feed.get("code", ""), platform)
     if t == "micro1_referral":
         return from_micro1_referral(feed["code"], platform)
-    return READERS[t](feed["board"], platform)
+    if t == "alignerr":
+        return from_alignerr(platform)
+    out = READERS[t](feed["board"], platform)
+    if feed.get("all_gigs"):  # boards that only post gig work (e.g. Remotasks, Toloka)
+        for g in out:
+            g["type"] = "gig"
+    return out
 
 
 READERS = {"ashby": from_ashby, "greenhouse": from_greenhouse, "lever": from_lever}
@@ -329,9 +394,11 @@ def main():
             g["countries"] = countries_for(g.get("location"), g.get("title"))
         g.setdefault("exclude", [])
     for g in gigs:
-        if g["id"] in seen or not g["url"] or not g["title"]:
+        # the same role posted several times (Alignerr does this) is shown once
+        same = (g["platform"], g["title"].strip().lower(), g.get("pay", ""), g.get("location", ""), tuple(g.get("countries", [])))
+        if g["id"] in seen or same in seen or not g["url"] or not g["title"]:
             continue
-        seen.add(g["id"]); unique.append(g)
+        seen.add(g["id"]); seen.add(same); unique.append(g)
     # gigs first, then newest first
     unique.sort(key=lambda g: (g["type"] != "gig", g["posted"] == "", "".join(chr(255 - ord(c)) for c in g["posted"])))
     listings = manual + unique[:MAX_LISTINGS]

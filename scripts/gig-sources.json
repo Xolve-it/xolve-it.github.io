@@ -9,32 +9,128 @@
     "telegram": ""
   },
   "platforms": [
-    { "id": "mercor", "name": "Mercor", "site": "https://work.mercor.com", "referral": "https://t.mercor.com/bms5p",
+    {
+      "id": "mercor",
+      "name": "Mercor",
+      "site": "https://work.mercor.com",
+      "referral": "https://t.mercor.com/bms5p",
       "about": "Expert contract work for AI labs across coding, law, medicine, finance and more.",
-      "feeds": [{ "type": "mercor_market", "code": "3e69e7cf-edba-25be-5027-25cc33b23a52" }, { "type": "ashby", "board": "mercor" }] },
-    { "id": "micro1", "name": "micro1", "site": "https://www.micro1.ai", "referral": "https://refer.micro1.ai/referral/jobs?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
+      "feeds": [
+        {
+          "type": "mercor_market",
+          "code": "3e69e7cf-edba-25be-5027-25cc33b23a52"
+        },
+        {
+          "type": "ashby",
+          "board": "mercor"
+        }
+      ]
+    },
+    {
+      "id": "micro1",
+      "name": "micro1",
+      "site": "https://www.micro1.ai",
+      "referral": "https://refer.micro1.ai/referral/jobs?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
       "about": "Vetted experts and engineers for AI training projects.",
-      "feeds": [{ "type": "micro1_referral", "code": "b99257c6-5311-4c29-8b68-b8a22325cb6e" }] },
-    { "id": "turing", "name": "Turing", "site": "https://www.turing.com/jobs", "referral": "",
-      "about": "Remote engineering and AI training roles with leading AI labs.",
-      "feeds": [{ "type": "greenhouse", "board": "turing" }] },
-    { "id": "afterquery", "name": "AfterQuery", "site": "https://www.afterquery.com", "referral": "",
-      "about": "Expert data work for frontier AI research.",
-      "feeds": [{ "type": "ashby", "board": "afterquery" }] },
-    { "id": "outlier", "name": "Outlier", "site": "https://outlier.ai", "referral": "",
-      "about": "Flexible, remote AI training work for subject experts.",
-      "feeds": [] },
-    { "id": "scale", "name": "Scale AI", "site": "https://scale.com/careers", "referral": "",
-      "about": "Roles at one of the largest AI data companies.",
-      "feeds": [{ "type": "greenhouse", "board": "scaleai" }] },
-    { "id": "handshake", "name": "Handshake", "site": "https://joinhandshake.com", "referral": "",
-      "about": "Career network with AI training projects for students and experts.",
-      "feeds": [{ "type": "ashby", "board": "handshake" }] },
-    { "id": "dataannotation", "name": "DataAnnotation", "site": "https://www.dataannotation.tech", "referral": "",
-      "about": "Paid remote work training AI chatbots.",
-      "feeds": [] },
-    { "id": "alignerr", "name": "Alignerr", "site": "https://www.alignerr.com", "referral": "",
+      "feeds": [
+        {
+          "type": "micro1_referral",
+          "code": "b99257c6-5311-4c29-8b68-b8a22325cb6e"
+        }
+      ]
+    },
+    {
+      "id": "alignerr",
+      "name": "Alignerr",
+      "site": "https://www.alignerr.com",
+      "referral": "",
       "about": "AI training work for domain experts.",
-      "feeds": [] }
+      "feeds": [
+        {
+          "type": "alignerr"
+        }
+      ]
+    },
+    {
+      "id": "toloka",
+      "name": "Toloka",
+      "site": "https://toloka.ai",
+      "referral": "",
+      "about": "Freelance AI data, research and engineering roles.",
+      "feeds": [
+        {
+          "type": "greenhouse",
+          "board": "toloka"
+        }
+      ]
+    },
+    {
+      "id": "handshake",
+      "name": "Handshake",
+      "site": "https://joinhandshake.com",
+      "referral": "",
+      "about": "Handshake AI fellowships and jobs at Handshake. Most of its AI projects appear after you sign up.",
+      "feeds": [
+        {
+          "type": "ashby",
+          "board": "handshake"
+        }
+      ]
+    },
+    {
+      "id": "afterquery",
+      "name": "AfterQuery",
+      "site": "https://www.afterquery.com",
+      "referral": "",
+      "about": "Expert data work for frontier AI research. Listed roles are mostly jobs at AfterQuery itself.",
+      "feeds": [
+        {
+          "type": "ashby",
+          "board": "afterquery"
+        }
+      ]
+    },
+    {
+      "id": "scale",
+      "name": "Scale AI",
+      "site": "https://scale.com/careers",
+      "referral": "",
+      "about": "Jobs at Scale AI itself. Its AI training gigs run through Outlier.",
+      "feeds": [
+        {
+          "type": "greenhouse",
+          "board": "scaleai"
+        }
+      ]
+    },
+    {
+      "id": "turing",
+      "name": "Turing",
+      "site": "https://www.turing.com/jobs",
+      "referral": "",
+      "about": "Remote AI training and engineering work. Turing shows its contractor roles only after you sign up; roles listed here are jobs at Turing itself.",
+      "feeds": [
+        {
+          "type": "greenhouse",
+          "board": "turing"
+        }
+      ]
+    },
+    {
+      "id": "outlier",
+      "name": "Outlier",
+      "site": "https://outlier.ai",
+      "referral": "",
+      "about": "Flexible, remote AI training work for subject experts. Roles appear after you sign up.",
+      "feeds": []
+    },
+    {
+      "id": "dataannotation",
+      "name": "DataAnnotation",
+      "site": "https://www.dataannotation.tech",
+      "referral": "",
+      "about": "Paid remote work training AI chatbots. Apply once, then pick projects.",
+      "feeds": []
+    }
   ]
 }
