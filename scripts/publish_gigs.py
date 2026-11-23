@@ -3,7 +3,8 @@
 Some boards (micro1) refuse GitHub's servers, so the GitHub Action alone can't
 keep every platform fresh. The Windows scheduled task "Xolve AI Gigs refresh"
 runs this script from a dedicated copy of the site
-(%LOCALAPPDATA%\\XolveGigs\\repo): it syncs that copy with GitHub, runs
+(Documents\\Cl C\\xolve-gigs-refresh; not under AppData, which the Claude
+app's packaged processes see redirected): it syncs that copy with GitHub, runs
 update_gigs.py for every platform, and pushes gigs/gigs.json if anything changed.
 Cloudflare Pages then republishes the site.
 
