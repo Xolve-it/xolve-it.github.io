@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-23T16:41:50Z",
- "next": "2026-11-24T00:41:50Z",
+ "updated": "2026-11-23T17:35:49Z",
+ "next": "2026-11-24T01:35:49Z",
  "socials": {
   "x": "https://x.com/get_xolutions",
   "instagram": "https://www.instagram.com/get.xolutions/",
@@ -23,6 +23,13 @@
    "site": "https://www.micro1.ai",
    "referral": "https://refer.micro1.ai/referral/jobs?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
    "about": "Vetted experts and engineers for AI training projects."
+  },
+  {
+   "id": "turing",
+   "name": "Turing",
+   "site": "https://www.turing.com/jobs",
+   "referral": "",
+   "about": "Remote AI training and engineering work with leading AI labs. Our Turing links are referral links."
   },
   {
    "id": "alignerr",
@@ -58,13 +65,6 @@
    "site": "https://scale.com/careers",
    "referral": "",
    "about": "Jobs at Scale AI itself. Its AI training gigs run through Outlier."
-  },
-  {
-   "id": "turing",
-   "name": "Turing",
-   "site": "https://www.turing.com/jobs",
-   "referral": "",
-   "about": "Remote AI training and engineering work. Turing shows its contractor roles only after you sign up; roles listed here are jobs at Turing itself."
   },
   {
    "id": "outlier",
@@ -233,6 +233,62 @@
    "posted": "2026-11-23",
    "pay": "$30–$70/hr",
    "url": "https://jobs.micro1.ai/post/aa257e80-a3d6-48a6-9f66-c4cd3c76443d?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-120826",
+   "platform": "turing",
+   "title": "Domain Expert: Python",
+   "team": "Software development",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-11-23",
+   "pay": "",
+   "url": "https://work.turing.com/r/ziDKaWsVbY",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-120772",
+   "platform": "turing",
+   "title": "AI Benchmark Quality Reviewer",
+   "team": "ML/Data Engineering",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-11-23",
+   "pay": "",
+   "url": "https://work.turing.com/r/vK1NTWqPQx",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-120825",
+   "platform": "turing",
+   "title": "Medical Expert – Dermatology",
+   "team": "Healthcare & Medical",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-11-23",
+   "pay": "",
+   "url": "https://work.turing.com/r/i2Q9gDyA5H",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-120796",
+   "platform": "turing",
+   "title": "Biology & LifeSciences Expert",
+   "team": "Science",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-11-23",
+   "pay": "",
+   "url": "https://work.turing.com/r/BJOLbKh2ug",
    "countries": [],
    "exclude": []
   },
@@ -508,6 +564,90 @@
    "exclude": []
   },
   {
+   "id": "turing-120491",
+   "platform": "turing",
+   "title": "Senior Cybersecurity Expert",
+   "team": "Cloud & Infrastructure",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-11-20",
+   "pay": "",
+   "url": "https://work.turing.com/r/p5e7PzSTq6",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-120498",
+   "platform": "turing",
+   "title": "Cybersecurity Expert",
+   "team": "Cloud & Infrastructure",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-11-20",
+   "pay": "",
+   "url": "https://work.turing.com/r/zhv_N2YRY9",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-120760",
+   "platform": "turing",
+   "title": "Philosophical Logic Annotator",
+   "team": "Humanities & Interdisciplinary Studies",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-11-20",
+   "pay": "",
+   "url": "https://work.turing.com/r/o1vY5suv48",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-120706",
+   "platform": "turing",
+   "title": "Biology & LifeSciences Expert - US",
+   "team": "Science",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-11-20",
+   "pay": "",
+   "url": "https://work.turing.com/r/XU7DuSRxEm",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-120551",
+   "platform": "turing",
+   "title": "GoPro Video Contributor – Appliance & Hardware Troubleshooting",
+   "team": "Analyst",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-11-20",
+   "pay": "",
+   "url": "https://work.turing.com/r/kppDuSRcqk",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-120499",
+   "platform": "turing",
+   "title": "Data Engineer + Java",
+   "team": "ML/Data Engineering",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-11-20",
+   "pay": "",
+   "url": "https://work.turing.com/r/cTUeMFVjXV",
+   "countries": [],
+   "exclude": []
+  },
+  {
    "countries": [
     "DE",
     "ES",
@@ -597,6 +737,34 @@
    "countries": [
     "US"
    ],
+   "exclude": []
+  },
+  {
+   "id": "turing-120413",
+   "platform": "turing",
+   "title": "Principal Cybersecurity Expert",
+   "team": "Engineering",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-11-19",
+   "pay": "",
+   "url": "https://work.turing.com/r/RBiEb4sHO-",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-120388",
+   "platform": "turing",
+   "title": "AI Assistant Raters - US Based",
+   "team": "Other",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-11-19",
+   "pay": "",
+   "url": "https://work.turing.com/r/4Kebgzr3RB",
+   "countries": [],
    "exclude": []
   },
   {
@@ -830,6 +998,62 @@
    "posted": "2026-11-18",
    "pay": "$20–$44/hr",
    "url": "https://jobs.micro1.ai/post/9a74b7b0-b1c3-4aae-b673-b821f7731daa?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-120227",
+   "platform": "turing",
+   "title": "Domain Expert – Python",
+   "team": "Software development",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-11-18",
+   "pay": "",
+   "url": "https://work.turing.com/r/vExl8wu1tY",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-120224",
+   "platform": "turing",
+   "title": "Senior Software Engineer - Python and JavaScript",
+   "team": "Software development",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-11-18",
+   "pay": "",
+   "url": "https://work.turing.com/r/4K5Wo-A-tH",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-120265",
+   "platform": "turing",
+   "title": "Video Annotator",
+   "team": "Media & Communication",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-11-18",
+   "pay": "",
+   "url": "https://work.turing.com/r/kwEnzsX54-",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-120297",
+   "platform": "turing",
+   "title": "Freelance Technical Recruiter",
+   "team": "Business",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-11-18",
+   "pay": "",
+   "url": "https://work.turing.com/r/lG1PJhPAE5",
    "countries": [],
    "exclude": []
   },
@@ -1102,6 +1326,104 @@
    "posted": "2026-11-17",
    "pay": "$50–$100/hr",
    "url": "https://jobs.micro1.ai/post/b3a3b6bc-ce14-4231-84c2-94a836311a42?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-120146",
+   "platform": "turing",
+   "title": "Scientific Computing / Research Engineering Expert — Engineering",
+   "team": "Engineering",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-11-17",
+   "pay": "",
+   "url": "https://work.turing.com/r/ReHHCz8zYg",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-120071",
+   "platform": "turing",
+   "title": "Mental Health Experts",
+   "team": "Healthcare & Medical",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-11-17",
+   "pay": "",
+   "url": "https://work.turing.com/r/Vi5TLadZ4v",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-120072",
+   "platform": "turing",
+   "title": "3D Motion Evaluator (Human Motion & Physical Plausibility)",
+   "team": "Engineering",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-11-17",
+   "pay": "",
+   "url": "https://work.turing.com/r/z-GcjhLcih",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-120068",
+   "platform": "turing",
+   "title": "Licensed Mental Health Professional",
+   "team": "Healthcare & Medical",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-11-17",
+   "pay": "",
+   "url": "https://work.turing.com/r/RvFtsGJl5K",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-120118",
+   "platform": "turing",
+   "title": "BA - Generalist (English + Creative data annotation) - II",
+   "team": "Analyst",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-11-17",
+   "pay": "",
+   "url": "https://work.turing.com/r/22Llbc1-1w",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-120074",
+   "platform": "turing",
+   "title": "BA - Generalist (English + Creative data annotation)",
+   "team": "Analyst",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-11-17",
+   "pay": "",
+   "url": "https://work.turing.com/r/b1zFReZ4Wj",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-120050",
+   "platform": "turing",
+   "title": "BA - Generalist (English + Creative data annotation) - III",
+   "team": "Analyst",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-11-17",
+   "pay": "",
+   "url": "https://work.turing.com/r/38L9UgtkxK",
    "countries": [],
    "exclude": []
   },
@@ -2738,6 +3060,90 @@
    "exclude": []
   },
   {
+   "id": "turing-119697",
+   "platform": "turing",
+   "title": "Bioinformatics / Computational Genomics Expert",
+   "team": "Science",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-11-13",
+   "pay": "",
+   "url": "https://work.turing.com/r/n3wyZXtqso",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-119718",
+   "platform": "turing",
+   "title": "Music Annotator",
+   "team": "Humanities & Interdisciplinary Studies",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-11-13",
+   "pay": "",
+   "url": "https://work.turing.com/r/ClZhfeIQn6",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-119705",
+   "platform": "turing",
+   "title": "US Medical Expert – Dermatology",
+   "team": "Healthcare & Medical",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-11-13",
+   "pay": "",
+   "url": "https://work.turing.com/r/GK8VDfirt-",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-119704",
+   "platform": "turing",
+   "title": "Domain Expert: Biology",
+   "team": "Healthcare & Medical",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-11-13",
+   "pay": "",
+   "url": "https://work.turing.com/r/e0LjAbT8Ve",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-119699",
+   "platform": "turing",
+   "title": "DataGen & Evals",
+   "team": "Healthcare & Medical",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-11-13",
+   "pay": "",
+   "url": "https://work.turing.com/r/pLQJoi4hoQ",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-119872",
+   "platform": "turing",
+   "title": "QC Packaging Engineer",
+   "team": "ML/Data Engineering",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-11-13",
+   "pay": "",
+   "url": "https://work.turing.com/r/7zbJcyqIz1",
+   "countries": [],
+   "exclude": []
+  },
+  {
    "id": "alignerr-d8f63140-c532-48a6-8b2a-f6894bc36a86",
    "platform": "alignerr",
    "title": "Data Acquisition Director",
@@ -2846,6 +3252,34 @@
    "posted": "2026-11-12",
    "pay": "$40–$70/hr",
    "url": "https://jobs.micro1.ai/post/9dd55f6b-f862-41a1-8412-4c3012507646?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-119301",
+   "platform": "turing",
+   "title": "Engineering Manager - Software Security",
+   "team": "Cloud & Infrastructure",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-11-12",
+   "pay": "",
+   "url": "https://work.turing.com/r/9VO8icBR1z",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-119338",
+   "platform": "turing",
+   "title": "Domain Experts -Task Executors : Specialist Software Operator",
+   "team": "Cloud & Infrastructure",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-11-12",
+   "pay": "",
+   "url": "https://work.turing.com/r/LvyD2Dw6yT",
    "countries": [],
    "exclude": []
   },
@@ -3058,6 +3492,132 @@
    "posted": "2026-11-11",
    "pay": "$50–$100/hr",
    "url": "https://jobs.micro1.ai/post/03ef0cc7-8c09-466f-9b37-b4d8b3c97de5?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-119196",
+   "platform": "turing",
+   "title": "ML/AI Systems Engineer",
+   "team": "ML/Data Engineering",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-11-11",
+   "pay": "",
+   "url": "https://work.turing.com/r/g4qp5DC-Uf",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-119208",
+   "platform": "turing",
+   "title": "Quickbooks Expert",
+   "team": "Business",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-11-11",
+   "pay": "",
+   "url": "https://work.turing.com/r/otZ7Znl8KL",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-119209",
+   "platform": "turing",
+   "title": "Senior Software Security Engineer – Pod Lead",
+   "team": "Cloud & Infrastructure",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-11-11",
+   "pay": "",
+   "url": "https://work.turing.com/r/mh0EtMFAUj",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-119251",
+   "platform": "turing",
+   "title": "Signal Integrity and Electromagnetic Simulation Engineer",
+   "team": "Engineering",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-11-11",
+   "pay": "",
+   "url": "https://work.turing.com/r/YK2y0R1j7P",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-119207",
+   "platform": "turing",
+   "title": "PCB Thermal Simulation Engineer – Electronics",
+   "team": "Engineering",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-11-11",
+   "pay": "",
+   "url": "https://work.turing.com/r/d_RJnoARUb",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-119201",
+   "platform": "turing",
+   "title": "Senior Software Security Engineer – AI Trainer",
+   "team": "Cloud & Infrastructure",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-11-11",
+   "pay": "",
+   "url": "https://work.turing.com/r/DFmKcPk2R8",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-119197",
+   "platform": "turing",
+   "title": "Senior Software Engineer – DevOps",
+   "team": "Software development",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-11-11",
+   "pay": "",
+   "url": "https://work.turing.com/r/QpcQIkvfY4",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-119170",
+   "platform": "turing",
+   "title": "Engineering Expert",
+   "team": "Engineering",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-11-11",
+   "pay": "",
+   "url": "https://work.turing.com/r/ABJ01hUUS9",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-119163",
+   "platform": "turing",
+   "title": "Life Sciences Subject Matter Expert - Biology",
+   "team": "Science",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-11-11",
+   "pay": "",
+   "url": "https://work.turing.com/r/BxKMuRtAGm",
    "countries": [],
    "exclude": []
   },
@@ -3400,6 +3960,146 @@
    "posted": "2026-11-10",
    "pay": "$150–$180/hr",
    "url": "https://jobs.micro1.ai/post/172b81f5-b398-4f2a-8949-15b2dae8bd5c?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-119121",
+   "platform": "turing",
+   "title": "Code Reviewer - Javascript",
+   "team": "Software development",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-11-10",
+   "pay": "",
+   "url": "https://work.turing.com/r/9nSSg3H9gP",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-119120",
+   "platform": "turing",
+   "title": "Code Reviewer - Python",
+   "team": "Software development",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-11-10",
+   "pay": "",
+   "url": "https://work.turing.com/r/QlKlP7j3A4",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-119117",
+   "platform": "turing",
+   "title": "GenAI Security Evaluation Engineer",
+   "team": "Cloud & Infrastructure",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-11-10",
+   "pay": "",
+   "url": "https://work.turing.com/r/b3UHbACnxr",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-119106",
+   "platform": "turing",
+   "title": "Signal Integrity and Electromagnetic Simulation Engineer (PCB Design)",
+   "team": "Engineering",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-11-10",
+   "pay": "",
+   "url": "https://work.turing.com/r/H4Su71dNKQ",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-119147",
+   "platform": "turing",
+   "title": "SWE Bench Engineer - Rust",
+   "team": "Software development",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-11-10",
+   "pay": "",
+   "url": "https://work.turing.com/r/fHtY-T_dxd",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-119142",
+   "platform": "turing",
+   "title": "SWE Bench Engineer - C#",
+   "team": "Software development",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-11-10",
+   "pay": "",
+   "url": "https://work.turing.com/r/0xG_dDOpFS",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-119124",
+   "platform": "turing",
+   "title": "SWE Bench Engineer - Golang",
+   "team": "Software development",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-11-10",
+   "pay": "",
+   "url": "https://work.turing.com/r/KA7DXoq9eA",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-119122",
+   "platform": "turing",
+   "title": "SWE Bench Engineer - JAVA",
+   "team": "Software development",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-11-10",
+   "pay": "",
+   "url": "https://work.turing.com/r/59psE5WU9X",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-119097",
+   "platform": "turing",
+   "title": "Lead Engineer - Analog IC Design Engineer",
+   "team": "Engineering",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-11-10",
+   "pay": "",
+   "url": "https://work.turing.com/r/W2F_MwG5Xz",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-119091",
+   "platform": "turing",
+   "title": "Professional Writing Human Data Collection",
+   "team": "Design",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-11-10",
+   "pay": "",
+   "url": "https://work.turing.com/r/dxC345OHNu",
    "countries": [],
    "exclude": []
   },
@@ -4908,6 +5608,90 @@
    "exclude": []
   },
   {
+   "id": "turing-118766",
+   "platform": "turing",
+   "title": "Image Editing QA",
+   "team": "Design",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-11-05",
+   "pay": "",
+   "url": "https://work.turing.com/r/PXll8P5jRD",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-118678",
+   "platform": "turing",
+   "title": "ML Engineer - LLM & Agentic Evaluations",
+   "team": "Software development",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-11-05",
+   "pay": "",
+   "url": "https://work.turing.com/r/NJWgA1NWx3",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-118765",
+   "platform": "turing",
+   "title": "Digital Imaging Specialist / Digital Artist",
+   "team": "Design",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-11-05",
+   "pay": "",
+   "url": "https://work.turing.com/r/hdyprBIGV8",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-118751",
+   "platform": "turing",
+   "title": "Senior Software Engineer – C++(LLM Evaluation & Repository Validation)",
+   "team": "Software development",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-11-05",
+   "pay": "",
+   "url": "https://work.turing.com/r/LRlAosgYuU",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-118680",
+   "platform": "turing",
+   "title": "Mathematics Expert",
+   "team": "Science",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-11-05",
+   "pay": "",
+   "url": "https://work.turing.com/r/LNBr6peztl",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-118647",
+   "platform": "turing",
+   "title": "Personal Account Raters (Google Account)",
+   "team": "Other",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-11-05",
+   "pay": "",
+   "url": "https://work.turing.com/r/FLT4zIQiby",
+   "countries": [],
+   "exclude": []
+  },
+  {
    "countries": [
     "US"
    ],
@@ -5234,6 +6018,90 @@
    "exclude": []
   },
   {
+   "id": "turing-118294",
+   "platform": "turing",
+   "title": "Medical Doctors - US",
+   "team": "Healthcare & Medical",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-11-04",
+   "pay": "",
+   "url": "https://work.turing.com/r/YqlYug4gzn",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-118302",
+   "platform": "turing",
+   "title": "Computer Science (STEM)",
+   "team": "Software development",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-11-04",
+   "pay": "",
+   "url": "https://work.turing.com/r/tFDT8UD4p9",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-118288",
+   "platform": "turing",
+   "title": "Personal Account Generalists (Samsung - Android Smartphone Users)",
+   "team": "Other",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-11-04",
+   "pay": "",
+   "url": "https://work.turing.com/r/HxCa9bpcV2",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-118287",
+   "platform": "turing",
+   "title": "Nurse Practitioner / Physician Assistant - US",
+   "team": "Healthcare & Medical",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-11-04",
+   "pay": "",
+   "url": "https://work.turing.com/r/XArZ3hUjZn",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-118286",
+   "platform": "turing",
+   "title": "Nurse Practitioner / Physician Assistant - India",
+   "team": "Healthcare & Medical",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-11-04",
+   "pay": "",
+   "url": "https://work.turing.com/r/HSp819bUFr",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-118285",
+   "platform": "turing",
+   "title": "Medical Doctors - India",
+   "team": "Healthcare & Medical",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-11-04",
+   "pay": "",
+   "url": "https://work.turing.com/r/KWdmEe-SVQ",
+   "countries": [],
+   "exclude": []
+  },
+  {
    "countries": [
     "US"
    ],
@@ -5448,6 +6316,22 @@
    "exclude": []
   },
   {
+   "id": "turing-118064",
+   "platform": "turing",
+   "title": "Audio/Voice/Annotation Trainer - Portuguese (Brazil) Language",
+   "team": "Linguistics",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-11-03",
+   "pay": "",
+   "url": "https://work.turing.com/r/apMkZK_q2y",
+   "countries": [
+    "BR"
+   ],
+   "exclude": []
+  },
+  {
    "countries": [
     "AD",
     "AL",
@@ -5579,6 +6463,48 @@
    "exclude": []
   },
   {
+   "id": "turing-117620",
+   "platform": "turing",
+   "title": "Front End Design Engineer",
+   "team": "Software development",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-11-02",
+   "pay": "",
+   "url": "https://work.turing.com/r/i_1_7tYRR1",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-117709",
+   "platform": "turing",
+   "title": "Business Management Consultant",
+   "team": "Other",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-11-02",
+   "pay": "",
+   "url": "https://work.turing.com/r/qU9wwWpdvC",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-117705",
+   "platform": "turing",
+   "title": "PhD Biology Expert / Life Sciences Expert",
+   "team": "Science",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-11-02",
+   "pay": "",
+   "url": "https://work.turing.com/r/nvD4uf3Jom",
+   "countries": [],
+   "exclude": []
+  },
+  {
    "id": "alignerr-f1e68ec7-e0f2-40b3-a105-0d87f5724969",
    "platform": "alignerr",
    "title": "Talent Acquisition Specialist: Recruiting and Talent Sourcing",
@@ -5603,6 +6529,20 @@
    "posted": "2026-11-01",
    "pay": "$15–$25/hr",
    "url": "https://jobs.micro1.ai/post/b3160bd4-f048-4273-9ad0-066d0f53801c?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-117575",
+   "platform": "turing",
+   "title": "Software Engineer - Code",
+   "team": "Science",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-11-01",
+   "pay": "",
+   "url": "https://work.turing.com/r/CVTxCMw9P-",
    "countries": [],
    "exclude": []
   },
@@ -5955,16 +6895,44 @@
    "exclude": []
   },
   {
-   "id": "micro1-448f7fb3-a4cf-44e8-9a13-de2de0f257a1",
-   "platform": "micro1",
-   "title": "Imagery Analyst —AI/ML Training Data",
-   "team": "Generalist",
+   "id": "turing-117358",
+   "platform": "turing",
+   "title": "Audio/Voice/Annotation Trainer - French Language",
+   "team": "Linguistics",
    "location": "Remote",
    "remote": true,
    "type": "gig",
-   "posted": "2026-10-29",
-   "pay": "$35–$80/hr",
-   "url": "https://jobs.micro1.ai/post/448f7fb3-a4cf-44e8-9a13-de2de0f257a1?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
+   "posted": "2026-10-30",
+   "pay": "",
+   "url": "https://work.turing.com/r/qN9dOdcC8f",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-117375",
+   "platform": "turing",
+   "title": "Domain Expert: Earth Science",
+   "team": "Healthcare & Medical",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-10-30",
+   "pay": "",
+   "url": "https://work.turing.com/r/Ruv11Lqz07",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-117194",
+   "platform": "turing",
+   "title": "Audio Video Annotator",
+   "team": "Analyst",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-10-30",
+   "pay": "",
+   "url": "https://work.turing.com/r/eWIvRPtt4o",
    "countries": [],
    "exclude": []
   },
@@ -6077,6 +7045,34 @@
    "posted": "2026-10-29",
    "pay": "",
    "url": "https://jobs.micro1.ai/post/8c0ddeba-5240-4059-9e61-544dd2c8292f?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-117002",
+   "platform": "turing",
+   "title": "Senior Quality Lead",
+   "team": "Analyst",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-10-29",
+   "pay": "",
+   "url": "https://work.turing.com/r/CqKKUFDPko",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-116990",
+   "platform": "turing",
+   "title": "Hardware Design Engineer – KiCad, PCB Design and Verification Expert",
+   "team": "Engineering",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-10-29",
+   "pay": "",
+   "url": "https://work.turing.com/r/WwgcwKEtA5",
    "countries": [],
    "exclude": []
   },
@@ -6519,6 +7515,146 @@
    "exclude": []
   },
   {
+   "id": "turing-116973",
+   "platform": "turing",
+   "title": "Retail / Consumer Banking Expert",
+   "team": "Finance",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-10-28",
+   "pay": "",
+   "url": "https://work.turing.com/r/Ok-LX4s0iz",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-116972",
+   "platform": "turing",
+   "title": "Personal / Consumer Lending Expert",
+   "team": "Finance",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-10-28",
+   "pay": "",
+   "url": "https://work.turing.com/r/GJUd9rktnA",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-116971",
+   "platform": "turing",
+   "title": "Mortgage & Home Lending Expert",
+   "team": "Finance",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-10-28",
+   "pay": "",
+   "url": "https://work.turing.com/r/EuaJ_r_PNa",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-116970",
+   "platform": "turing",
+   "title": "Corporate Banking Expert",
+   "team": "Finance",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-10-28",
+   "pay": "",
+   "url": "https://work.turing.com/r/k_EEJg4g5H",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-116969",
+   "platform": "turing",
+   "title": "Commercial Banking Expert",
+   "team": "Finance",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-10-28",
+   "pay": "",
+   "url": "https://work.turing.com/r/ClOllH3wcR",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-116917",
+   "platform": "turing",
+   "title": "Clinical & Health Specialist",
+   "team": "Healthcare & Medical",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-10-28",
+   "pay": "",
+   "url": "https://work.turing.com/r/M2tiFt2xK7",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-116967",
+   "platform": "turing",
+   "title": "Context Elicitation & Conversation Evaluation Specialists",
+   "team": "Analyst",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-10-28",
+   "pay": "",
+   "url": "https://work.turing.com/r/qO4cOnTGc5",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-116957",
+   "platform": "turing",
+   "title": "SWE Bench Engineer - C++",
+   "team": "Software development",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-10-28",
+   "pay": "",
+   "url": "https://work.turing.com/r/Ds9-M9Fh09",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-116934",
+   "platform": "turing",
+   "title": "Computational Protein Design Expert",
+   "team": "Science",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-10-28",
+   "pay": "",
+   "url": "https://work.turing.com/r/BreeOD9r0A",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-116914",
+   "platform": "turing",
+   "title": "Senior DevOps Engineer (Cloud Infrastructure, CI/CD, LLMOps)",
+   "team": "Cloud & Infrastructure",
+   "location": "On-site",
+   "remote": false,
+   "type": "gig",
+   "posted": "2026-10-28",
+   "pay": "",
+   "url": "https://work.turing.com/r/a58BiUHNZJ",
+   "countries": [],
+   "exclude": []
+  },
+  {
    "countries": [
     "US"
    ],
@@ -6743,6 +7879,120 @@
    "posted": "2026-10-27",
    "pay": "$50–$70/hr",
    "url": "https://jobs.micro1.ai/post/8e9b3e88-5bdc-4bbd-92bb-09a5a36b4e40?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-116827",
+   "platform": "turing",
+   "title": "Audio/Voice/Annotation Trainer - Japanese Language",
+   "team": "Linguistics",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-10-27",
+   "pay": "",
+   "url": "https://work.turing.com/r/lBvRmliEuS",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-116813",
+   "platform": "turing",
+   "title": "Audio/Voice/Annotation Trainer - Korean Language",
+   "team": "Linguistics",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-10-27",
+   "pay": "",
+   "url": "https://work.turing.com/r/nVIrMNHQ35",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-116842",
+   "platform": "turing",
+   "title": "Audio/Voice/Annotation Trainer - Russian Language",
+   "team": "Linguistics",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-10-27",
+   "pay": "",
+   "url": "https://work.turing.com/r/KdWF1rKsTL",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-116837",
+   "platform": "turing",
+   "title": "Audio/Voice/Annotation Trainer - German Language",
+   "team": "Linguistics",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-10-27",
+   "pay": "",
+   "url": "https://work.turing.com/r/xBzxJ5qtjt",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-116836",
+   "platform": "turing",
+   "title": "Audio/Voice/Annotation Trainer - Italian Language",
+   "team": "Linguistics",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-10-27",
+   "pay": "",
+   "url": "https://work.turing.com/r/cBJec8-EB2",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-116879",
+   "platform": "turing",
+   "title": "Personal Account Generalist Raters (US)",
+   "team": "Other",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-10-27",
+   "pay": "",
+   "url": "https://work.turing.com/r/V46BAeTpdq",
+   "countries": [
+    "US"
+   ],
+   "exclude": []
+  },
+  {
+   "id": "turing-116841",
+   "platform": "turing",
+   "title": "Academic - Subject Matter Expert",
+   "team": "Design",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-10-27",
+   "pay": "",
+   "url": "https://work.turing.com/r/qgRF8jGIqR",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-116814",
+   "platform": "turing",
+   "title": "Gemini App Experts (Education Domain)",
+   "team": "Other",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-10-27",
+   "pay": "",
+   "url": "https://work.turing.com/r/lgJiFRFh0k",
    "countries": [],
    "exclude": []
   },
@@ -7009,6 +8259,104 @@
    "posted": "2026-10-26",
    "pay": "$7–$8/hr",
    "url": "https://jobs.micro1.ai/post/73e0d113-91f0-40f4-94b0-67c02c31a3f1?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-116327",
+   "platform": "turing",
+   "title": "Agentic Life Science Expert",
+   "team": "Science",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-10-26",
+   "pay": "",
+   "url": "https://work.turing.com/r/G2FR9XbjqQ",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-116163",
+   "platform": "turing",
+   "title": "AI Trainer - Data Annotation Specialist (Safety)",
+   "team": "Other",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-10-26",
+   "pay": "",
+   "url": "https://work.turing.com/r/Et7ki3GAxl",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-116357",
+   "platform": "turing",
+   "title": "Senior Accountants & Auditors (APAC/MEA & NA)",
+   "team": "Business",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-10-26",
+   "pay": "",
+   "url": "https://work.turing.com/r/JY_NgUP5sV",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-116360",
+   "platform": "turing",
+   "title": "Political Scientists / Policy Analysts — Senior Expert",
+   "team": "Legal & Law Services",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-10-26",
+   "pay": "",
+   "url": "https://work.turing.com/r/7FdUMw_M9V",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-116349",
+   "platform": "turing",
+   "title": "Marketing, Media & Content Specialist",
+   "team": "Analyst",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-10-26",
+   "pay": "",
+   "url": "https://work.turing.com/r/KhyN30dx1x",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-116350",
+   "platform": "turing",
+   "title": "Merchandising / Category Managers Specialist",
+   "team": "Business",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-10-26",
+   "pay": "",
+   "url": "https://work.turing.com/r/kzQlfqPs85",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-116258",
+   "platform": "turing",
+   "title": "Commercial / Go-to-Market Specialist",
+   "team": "Business",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-10-26",
+   "pay": "",
+   "url": "https://work.turing.com/r/XsZbnDyQE4",
    "countries": [],
    "exclude": []
   },
@@ -7717,6 +9065,20 @@
    "exclude": []
   },
   {
+   "id": "turing-115452",
+   "platform": "turing",
+   "title": "Personal Account Generalist Raters (Android Smartphone Users)",
+   "team": "Other",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-10-21",
+   "pay": "",
+   "url": "https://work.turing.com/r/y95G9NsHVP",
+   "countries": [],
+   "exclude": []
+  },
+  {
    "id": "micro1-345daaa5-4cbe-4af3-af6f-4e27382d6d41",
    "platform": "micro1",
    "title": "Certified Inpatient Coder",
@@ -8019,6 +9381,20 @@
    "posted": "2026-10-16",
    "pay": "$60–$90/hr",
    "url": "https://work.mercor.com/explore?listingId=list_AAABoUX0FsrPqLbZr_lPg4xU&referralCode=3e69e7cf-edba-25be-5027-25cc33b23a52&utm_source=referral&utm_medium=direct&utm_campaign=platform"
+  },
+  {
+   "id": "turing-113843",
+   "platform": "turing",
+   "title": "AI Benchmark & Red-Teaming Specialist",
+   "team": "Science",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-10-16",
+   "pay": "",
+   "url": "https://work.turing.com/r/Gh9GEMwapV",
+   "countries": [],
+   "exclude": []
   },
   {
    "id": "alignerr-8ce1d6e1-f11e-4bab-95ed-6bab6acf6b12",
@@ -8575,6 +9951,20 @@
    "exclude": []
   },
   {
+   "id": "turing-112467",
+   "platform": "turing",
+   "title": "Project Lead - AI Training",
+   "team": "Analyst",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-10-12",
+   "pay": "",
+   "url": "https://work.turing.com/r/40xgQssC7q",
+   "countries": [],
+   "exclude": []
+  },
+  {
    "countries": [
     "US"
    ],
@@ -9008,6 +10398,20 @@
    "url": "https://work.mercor.com/explore?listingId=list_AAABoN2AhG3DPZYg43dGFICd&referralCode=3e69e7cf-edba-25be-5027-25cc33b23a52&utm_source=referral&utm_medium=direct&utm_campaign=platform"
   },
   {
+   "id": "turing-108816",
+   "platform": "turing",
+   "title": "Context Elicitation & Conversation Evaluation Specialists - Latam, Southeastern Europe, Asia, Africa",
+   "team": "Analyst",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-09-25",
+   "pay": "",
+   "url": "https://work.turing.com/r/7O1ttLC5oT",
+   "countries": [],
+   "exclude": []
+  },
+  {
    "id": "toloka-4970161101",
    "platform": "toloka",
    "title": "Freelance Senior DevSecOps Engineer",
@@ -9140,6 +10544,22 @@
    "type": "gig",
    "posted": "2026-09-21",
    "url": "https://jobs.ashbyhq.com/AfterQuery/6f90701a-f9b5-4599-a288-470fcd200640",
+   "countries": [
+    "US"
+   ],
+   "exclude": []
+  },
+  {
+   "id": "turing-107501",
+   "platform": "turing",
+   "title": "Medical Expert – Dermatology (USA)",
+   "team": "Healthcare & Medical",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-09-18",
+   "pay": "",
+   "url": "https://work.turing.com/r/xmD8-woUie",
    "countries": [
     "US"
    ],
@@ -10154,6 +11574,20 @@
    "url": "https://work.mercor.com/explore?listingId=list_AAABoJf7our4yArt1RZFnIec&referralCode=3e69e7cf-edba-25be-5027-25cc33b23a52&utm_source=referral&utm_medium=direct&utm_campaign=platform"
   },
   {
+   "id": "turing-104644",
+   "platform": "turing",
+   "title": "Senior Software Engineer - AI Evaluation / Coding Agents",
+   "team": "Software development",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-09-09",
+   "pay": "$100-150/hr",
+   "url": "https://work.turing.com/r/OMY_l39CJN",
+   "countries": [],
+   "exclude": []
+  },
+  {
    "id": "micro1-c37ac96c-2116-4c5e-92c7-180da9b502db",
    "platform": "micro1",
    "title": "Software Engineer (Electron.js)",
@@ -11066,6 +12500,34 @@
    "url": "https://work.mercor.com/explore?listingId=list_AAABoEpy3lTX4ecyqy9GZ6_u&referralCode=3e69e7cf-edba-25be-5027-25cc33b23a52&utm_source=referral&utm_medium=direct&utm_campaign=platform"
   },
   {
+   "id": "turing-102612",
+   "platform": "turing",
+   "title": "Digital Imaging Specialist/ Digital Artist",
+   "team": "Design",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-08-26",
+   "pay": "",
+   "url": "https://work.turing.com/r/K6Oggk9Tk5",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-102588",
+   "platform": "turing",
+   "title": "Illustrator/Sketcher/Cartoonist",
+   "team": "Design",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-08-26",
+   "pay": "",
+   "url": "https://work.turing.com/r/gIYlzlk_MA",
+   "countries": [],
+   "exclude": []
+  },
+  {
    "countries": [
     "US"
    ],
@@ -11157,6 +12619,20 @@
    "countries": [
     "US"
    ],
+   "exclude": []
+  },
+  {
+   "id": "turing-102276",
+   "platform": "turing",
+   "title": "Web Research Specialist",
+   "team": "Science",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-08-25",
+   "pay": "",
+   "url": "https://work.turing.com/r/ny_7aGN5tm",
+   "countries": [],
    "exclude": []
   },
   {
@@ -11469,6 +12945,20 @@
    "exclude": []
   },
   {
+   "id": "turing-100063",
+   "platform": "turing",
+   "title": "Business Analyst - US Educational Raters - Gemini",
+   "team": "Analyst",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-08-14",
+   "pay": "",
+   "url": "https://work.turing.com/r/ZG0JPGXamX",
+   "countries": [],
+   "exclude": []
+  },
+  {
    "id": "micro1-84921e4c-7944-46ae-bbc2-c49c7d3ab642",
    "platform": "micro1",
    "title": "Vietnamese Bilingual Expert",
@@ -11705,6 +13195,20 @@
    "url": "https://work.mercor.com/explore?listingId=list_AAABn_IzT2flOAEpVdlGZ7p2&referralCode=3e69e7cf-edba-25be-5027-25cc33b23a52&utm_source=referral&utm_medium=direct&utm_campaign=platform"
   },
   {
+   "id": "turing-98883",
+   "platform": "turing",
+   "title": "Music and Audio experts",
+   "team": "Humanities & Interdisciplinary Studies",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-08-11",
+   "pay": "",
+   "url": "https://work.turing.com/r/iTZzuzbCpO",
+   "countries": [],
+   "exclude": []
+  },
+  {
    "id": "micro1-de83ff2f-bdd2-4862-aff9-7158cd327038",
    "platform": "micro1",
    "title": "At-Home Video Recorder (U.S)",
@@ -11845,6 +13349,62 @@
    "url": "https://work.mercor.com/explore?listingId=list_AAABn9FrSs0e5EnJo3xK1Ith&referralCode=3e69e7cf-edba-25be-5027-25cc33b23a52&utm_source=referral&utm_medium=direct&utm_campaign=platform"
   },
   {
+   "id": "turing-97476",
+   "platform": "turing",
+   "title": "Go (Golang) Developer – AI Training & Code Evaluation",
+   "team": "Software development",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-08-05",
+   "pay": "",
+   "url": "https://work.turing.com/r/NLRYMt8_Fb",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-97475",
+   "platform": "turing",
+   "title": "Rust Developer – AI Training & Code Evaluation",
+   "team": "Software development",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-08-05",
+   "pay": "",
+   "url": "https://work.turing.com/r/U_W5vV4tSt",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-97474",
+   "platform": "turing",
+   "title": "Java Developer – AI Training & Code Evaluation",
+   "team": "Software development",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-08-05",
+   "pay": "",
+   "url": "https://work.turing.com/r/_RAZAR_jLj",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-97473",
+   "platform": "turing",
+   "title": "C/C++ Developer – AI Training & Code Evaluation",
+   "team": "Software development",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-08-05",
+   "pay": "",
+   "url": "https://work.turing.com/r/7HViLVOKoa",
+   "countries": [],
+   "exclude": []
+  },
+  {
    "countries": [],
    "exclude": [],
    "id": "mercor-list_AAABn8s_5pBqtFNJEKBJyrdM",
@@ -11857,6 +13417,76 @@
    "posted": "2026-08-04",
    "pay": "$200–$250/hr",
    "url": "https://work.mercor.com/explore?listingId=list_AAABn8s_5pBqtFNJEKBJyrdM&referralCode=3e69e7cf-edba-25be-5027-25cc33b23a52&utm_source=referral&utm_medium=direct&utm_campaign=platform"
+  },
+  {
+   "id": "turing-97278",
+   "platform": "turing",
+   "title": "Domain Expert - TV Show & Movies",
+   "team": "Science",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-08-03",
+   "pay": "",
+   "url": "https://work.turing.com/r/cFRWM-KNVI",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-97253",
+   "platform": "turing",
+   "title": "Domain Expert - Art",
+   "team": "Science",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-08-03",
+   "pay": "",
+   "url": "https://work.turing.com/r/Kcanu7GWLj",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-97288",
+   "platform": "turing",
+   "title": "Domain Expert- Sports",
+   "team": "Analyst",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-08-03",
+   "pay": "",
+   "url": "https://work.turing.com/r/5LYBN93Bc5",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-97279",
+   "platform": "turing",
+   "title": "Domain Expert- Politics",
+   "team": "Analyst",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-08-03",
+   "pay": "",
+   "url": "https://work.turing.com/r/4cFkLhRhUQ",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-97254",
+   "platform": "turing",
+   "title": "Domain Expert- Music",
+   "team": "Analyst",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-08-03",
+   "pay": "",
+   "url": "https://work.turing.com/r/yyABMmIfuB",
+   "countries": [],
+   "exclude": []
   },
   {
    "id": "scale-4720975005",
@@ -12098,6 +13728,20 @@
    "url": "https://work.mercor.com/explore?listingId=list_AAABnzhzhwBMMeMWHlhEWL_h&referralCode=3e69e7cf-edba-25be-5027-25cc33b23a52&utm_source=referral&utm_medium=direct&utm_campaign=platform"
   },
   {
+   "id": "turing-95526",
+   "platform": "turing",
+   "title": "Remote Finance & Research Analyst",
+   "team": "Finance",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-07-02",
+   "pay": "",
+   "url": "https://work.turing.com/r/lcFDBcgXji",
+   "countries": [],
+   "exclude": []
+  },
+  {
    "countries": [
     "US"
    ],
@@ -12112,6 +13756,20 @@
    "posted": "2026-06-29",
    "pay": "$50–$100/hr",
    "url": "https://work.mercor.com/explore?listingId=list_AAABnxIY9_U0wUIMB3JBp7IO&referralCode=3e69e7cf-edba-25be-5027-25cc33b23a52&utm_source=referral&utm_medium=direct&utm_campaign=platform"
+  },
+  {
+   "id": "turing-94814",
+   "platform": "turing",
+   "title": "Azure DevOps Engineer(LangGraph)",
+   "team": "Cloud & Infrastructure",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-06-26",
+   "pay": "",
+   "url": "https://work.turing.com/r/Cz6RqhHBGX",
+   "countries": [],
+   "exclude": []
   },
   {
    "id": "alignerr-8416bbab-71b1-41a6-95ec-25facc5e684a",
@@ -12493,6 +14151,36 @@
    "exclude": []
   },
   {
+   "id": "turing-91017",
+   "platform": "turing",
+   "title": "Software Engineer – AI Code Evaluation & Benchmarking (US candidates only)",
+   "team": "Legal & Law Services",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-06-12",
+   "pay": "",
+   "url": "https://work.turing.com/r/e4oW0_Mco5",
+   "countries": [
+    "US"
+   ],
+   "exclude": []
+  },
+  {
+   "id": "turing-90877",
+   "platform": "turing",
+   "title": "Board Game Reasoning Expert (AI Training & Evaluation)",
+   "team": "Software development",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-06-11",
+   "pay": "",
+   "url": "https://work.turing.com/r/OlwvqhojjJ",
+   "countries": [],
+   "exclude": []
+  },
+  {
    "id": "alignerr-662b7ae8-7dbf-4f1b-8d88-56c3f5d3fe8d",
    "platform": "alignerr",
    "title": "Data Operations Specialist",
@@ -12555,6 +14243,20 @@
     "CA",
     "US"
    ],
+   "exclude": []
+  },
+  {
+   "id": "turing-81757",
+   "platform": "turing",
+   "title": "Senior Accounting & Finance Advisors",
+   "team": "Analyst",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-06-02",
+   "pay": "",
+   "url": "https://work.turing.com/r/coF1RbS3GN",
+   "countries": [],
    "exclude": []
   },
   {
@@ -12667,6 +14369,86 @@
    "posted": "2026-06-01",
    "pay": "$50/hr",
    "url": "https://work.mercor.com/explore?listingId=list_AAABnoQC2bLQ9YaeK3JHzIPK&referralCode=3e69e7cf-edba-25be-5027-25cc33b23a52&utm_source=referral&utm_medium=direct&utm_campaign=platform"
+  },
+  {
+   "id": "turing-81499",
+   "platform": "turing",
+   "title": "Software Engineer – AI Research & Evaluation (US-based)",
+   "team": "Software development",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-06-01",
+   "pay": "",
+   "url": "https://work.turing.com/r/NzZFXMQvoP",
+   "countries": [
+    "US"
+   ],
+   "exclude": []
+  },
+  {
+   "id": "turing-81498",
+   "platform": "turing",
+   "title": "Senior JavaScript/React Engineer – AI Training (US-based)",
+   "team": "Software development",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-06-01",
+   "pay": "",
+   "url": "https://work.turing.com/r/xAa89vAPm1",
+   "countries": [
+    "US"
+   ],
+   "exclude": []
+  },
+  {
+   "id": "turing-81497",
+   "platform": "turing",
+   "title": "Senior Backend Engineer (Python/FastAPI) – AI Evaluation (US-based)",
+   "team": "Software development",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-06-01",
+   "pay": "",
+   "url": "https://work.turing.com/r/CBeoK7FRD-",
+   "countries": [
+    "US"
+   ],
+   "exclude": []
+  },
+  {
+   "id": "turing-81496",
+   "platform": "turing",
+   "title": "Senior Python Engineer – LLM Evaluation (US-based)",
+   "team": "Software development",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-06-01",
+   "pay": "",
+   "url": "https://work.turing.com/r/mx1_00jh0y",
+   "countries": [
+    "US"
+   ],
+   "exclude": []
+  },
+  {
+   "id": "turing-81495",
+   "platform": "turing",
+   "title": "Senior Software Engineer – LLM Evaluation (US-based)",
+   "team": "Software development",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-06-01",
+   "pay": "",
+   "url": "https://work.turing.com/r/wtJQNjl2rV",
+   "countries": [
+    "US"
+   ],
+   "exclude": []
   },
   {
    "id": "alignerr-45c3a04f-6bcc-4064-8988-2c6a303c35de",
@@ -12825,6 +14607,34 @@
    "url": "https://work.mercor.com/explore?listingId=list_AAABnlNc5vKNKKMWYLxGQ7NX&referralCode=3e69e7cf-edba-25be-5027-25cc33b23a52&utm_source=referral&utm_medium=direct&utm_campaign=platform"
   },
   {
+   "id": "turing-80173",
+   "platform": "turing",
+   "title": "CAD & Simulation Consultant | Engineering Design and Simulation – Aerospace / Mechanical / Electrical Engineering",
+   "team": "Engineering",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-05-20",
+   "pay": "",
+   "url": "https://work.turing.com/r/WrJu-NzN0U",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-80064",
+   "platform": "turing",
+   "title": "Small business owners - English Business Document",
+   "team": "Business",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-05-20",
+   "pay": "",
+   "url": "https://work.turing.com/r/v7y_WhFShE",
+   "countries": [],
+   "exclude": []
+  },
+  {
    "id": "micro1-66e153bc-1c52-439e-8fcb-38d35c4eae67",
    "platform": "micro1",
    "title": "E-commerce Data & Catalog Specialist",
@@ -12836,6 +14646,22 @@
    "pay": "$40–$50/hr",
    "url": "https://jobs.micro1.ai/post/66e153bc-1c52-439e-8fcb-38d35c4eae67?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
    "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-79388",
+   "platform": "turing",
+   "title": "AI Quality Analyst - Portuguese (Portugal)",
+   "team": "Other",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-05-13",
+   "pay": "",
+   "url": "https://work.turing.com/r/fPCAqz6Fiz",
+   "countries": [
+    "PT"
+   ],
    "exclude": []
   },
   {
@@ -12873,6 +14699,48 @@
    "exclude": []
   },
   {
+   "id": "turing-78480",
+   "platform": "turing",
+   "title": "Small business owners (AI response evaluation) - Spanish Business Documents",
+   "team": "Business",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-05-06",
+   "pay": "",
+   "url": "https://work.turing.com/r/ZZvv_GUPBx",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-78496",
+   "platform": "turing",
+   "title": "Small business owners (AI response evaluation) - Japanese Business Document",
+   "team": "Business",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-05-06",
+   "pay": "",
+   "url": "https://work.turing.com/r/I_PAbJFgtZ",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-78491",
+   "platform": "turing",
+   "title": "Small business owners (AI response evaluation) - Korean Business Document",
+   "team": "Business",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-05-06",
+   "pay": "",
+   "url": "https://work.turing.com/r/hT4vkjZ_H7",
+   "countries": [],
+   "exclude": []
+  },
+  {
    "id": "toloka-4802651101",
    "platform": "toloka",
    "title": "Freelance Technical Consultant",
@@ -12885,6 +14753,356 @@
    "countries": [
     "US"
    ],
+   "exclude": []
+  },
+  {
+   "id": "turing-75410",
+   "platform": "turing",
+   "title": "Financial Consulting Expert",
+   "team": "Finance",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-04-23",
+   "pay": "",
+   "url": "https://work.turing.com/r/mVsevRXL9n",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-75409",
+   "platform": "turing",
+   "title": "Accounting Expert",
+   "team": "Finance",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-04-23",
+   "pay": "",
+   "url": "https://work.turing.com/r/pSbX-IjwRt",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-75408",
+   "platform": "turing",
+   "title": "Growth Equity Analyst",
+   "team": "Finance",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-04-23",
+   "pay": "",
+   "url": "https://work.turing.com/r/QxyekBnhgD",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-75406",
+   "platform": "turing",
+   "title": "Venture Capital Analyst",
+   "team": "Finance",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-04-23",
+   "pay": "",
+   "url": "https://work.turing.com/r/RS_NVknS4B",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-75405",
+   "platform": "turing",
+   "title": "Private Equity Associate",
+   "team": "Finance",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-04-23",
+   "pay": "",
+   "url": "https://work.turing.com/r/UzB14nZLkZ",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-75404",
+   "platform": "turing",
+   "title": "Investment Banking Analyst",
+   "team": "Finance",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-04-23",
+   "pay": "",
+   "url": "https://work.turing.com/r/-dMK5fqrFa",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-75403",
+   "platform": "turing",
+   "title": "Quantitative Analyst (Finance)",
+   "team": "Finance",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-04-23",
+   "pay": "",
+   "url": "https://work.turing.com/r/99hYmI32G3",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-75402",
+   "platform": "turing",
+   "title": "Financial Trading Specialist",
+   "team": "Finance",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-04-23",
+   "pay": "",
+   "url": "https://work.turing.com/r/mx2YK9Ys0e",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-75401",
+   "platform": "turing",
+   "title": "Equity Research Analyst",
+   "team": "Finance",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-04-23",
+   "pay": "",
+   "url": "https://work.turing.com/r/8hiXk8P_Tb",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-75400",
+   "platform": "turing",
+   "title": "Portfolio Management Expert",
+   "team": "Finance",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-04-23",
+   "pay": "",
+   "url": "https://work.turing.com/r/dOW_37-jTD",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-75399",
+   "platform": "turing",
+   "title": "Capital Markets Expert",
+   "team": "Finance",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-04-23",
+   "pay": "",
+   "url": "https://work.turing.com/r/rizCDL8YQC",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-75211",
+   "platform": "turing",
+   "title": "Privacy & Data Protection Law Expert",
+   "team": "Legal & Law Services",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-04-22",
+   "pay": "",
+   "url": "https://work.turing.com/r/ta66Yww2Ez",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-75210",
+   "platform": "turing",
+   "title": "Real Estate & Property Law Expert",
+   "team": "Legal & Law Services",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-04-22",
+   "pay": "",
+   "url": "https://work.turing.com/r/bbYSyKPxkR",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-75209",
+   "platform": "turing",
+   "title": "Healthcare & FDA Regulatory Law Expert",
+   "team": "Legal & Law Services",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-04-22",
+   "pay": "",
+   "url": "https://work.turing.com/r/JAAFSlqTI7",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-75208",
+   "platform": "turing",
+   "title": "Securities & Financial Regulation Expert",
+   "team": "Legal & Law Services",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-04-22",
+   "pay": "",
+   "url": "https://work.turing.com/r/14MMOLyhA4",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-75205",
+   "platform": "turing",
+   "title": "Contract Law Expert",
+   "team": "Legal & Law Services",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-04-22",
+   "pay": "",
+   "url": "https://work.turing.com/r/OBSHRwVLxV",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-75204",
+   "platform": "turing",
+   "title": "Employment & Labor Law Expert",
+   "team": "Legal & Law Services",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-04-22",
+   "pay": "",
+   "url": "https://work.turing.com/r/1q7jp-cRGv",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-75202",
+   "platform": "turing",
+   "title": "Intellectual Property Law Expert",
+   "team": "Legal & Law Services",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-04-22",
+   "pay": "",
+   "url": "https://work.turing.com/r/xy_bo-u1xJ",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-75201",
+   "platform": "turing",
+   "title": "Litigation & Civil Procedure Expert",
+   "team": "Legal & Law Services",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-04-22",
+   "pay": "",
+   "url": "https://work.turing.com/r/BrizB6q4Hw",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-75200",
+   "platform": "turing",
+   "title": "Corporate Law & M&A Expert",
+   "team": "Legal & Law Services",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-04-22",
+   "pay": "",
+   "url": "https://work.turing.com/r/R3lCj326yD",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-75131",
+   "platform": "turing",
+   "title": "Hematologist/Oncologist",
+   "team": "Healthcare & Medical",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-04-22",
+   "pay": "",
+   "url": "https://work.turing.com/r/i5Uxhqiiz7",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-75129",
+   "platform": "turing",
+   "title": "Gastroenterologist/Hepatologist",
+   "team": "Healthcare & Medical",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-04-22",
+   "pay": "",
+   "url": "https://work.turing.com/r/SFOgI0nYcs",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-75127",
+   "platform": "turing",
+   "title": "Pulmonologist/Intensivist",
+   "team": "Healthcare & Medical",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-04-22",
+   "pay": "",
+   "url": "https://work.turing.com/r/sleGWJmzVp",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-75126",
+   "platform": "turing",
+   "title": "Endocrinologist",
+   "team": "Healthcare & Medical",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-04-22",
+   "pay": "",
+   "url": "https://work.turing.com/r/hmnRwrvNOr",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-75124",
+   "platform": "turing",
+   "title": "Emergency Medicine Physician (MD/DO)",
+   "team": "Healthcare & Medical",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-04-22",
+   "pay": "",
+   "url": "https://work.turing.com/r/Uw5IEK6NtP",
+   "countries": [],
    "exclude": []
   },
   {
@@ -12904,6 +15122,34 @@
    "exclude": []
   },
   {
+   "id": "turing-74567",
+   "platform": "turing",
+   "title": "Audio/Voice/Annotation Trainer - Spanish  Language",
+   "team": "Linguistics",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-04-16",
+   "pay": "",
+   "url": "https://work.turing.com/r/JxWUEwyx1J",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-74561",
+   "platform": "turing",
+   "title": "Audio/Voice/Annotation Trainer - Arabic Language",
+   "team": "Linguistics",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-04-16",
+   "pay": "",
+   "url": "https://work.turing.com/r/vlCckaIzp5",
+   "countries": [],
+   "exclude": []
+  },
+  {
    "id": "micro1-ad04ab64-b3b2-45ba-9d89-508f8e77dc5a",
    "platform": "micro1",
    "title": "E-commerce Simulation Expert",
@@ -12914,6 +15160,104 @@
    "posted": "2026-04-09",
    "pay": "$40–$50/hr",
    "url": "https://jobs.micro1.ai/post/ad04ab64-b3b2-45ba-9d89-508f8e77dc5a?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-73119",
+   "platform": "turing",
+   "title": "Software Engineer",
+   "team": "Software development",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-04-09",
+   "pay": "$200/hr",
+   "url": "https://work.turing.com/r/7dZjo9XVl7",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-73098",
+   "platform": "turing",
+   "title": "Remote Full Stack Engineer",
+   "team": "Software development",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-04-09",
+   "pay": "",
+   "url": "https://work.turing.com/r/A9sOFiSDyB",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-73095",
+   "platform": "turing",
+   "title": "Remote Full Stack Developer",
+   "team": "Software development",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-04-09",
+   "pay": "",
+   "url": "https://work.turing.com/r/cOGSjTgU8t",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-72055",
+   "platform": "turing",
+   "title": "AI Quality Analyst (Personalization) - Dutch",
+   "team": "Other",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-03-26",
+   "pay": "",
+   "url": "https://work.turing.com/r/EfsXGmfnmG",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-72063",
+   "platform": "turing",
+   "title": "AI Quality Analyst (Personalization) - German",
+   "team": "Other",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-03-26",
+   "pay": "",
+   "url": "https://work.turing.com/r/GWBjL5lzUb",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-72054",
+   "platform": "turing",
+   "title": "AI Quality Analyst (Personalization) - Polish",
+   "team": "Other",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-03-26",
+   "pay": "",
+   "url": "https://work.turing.com/r/V3z9WkbeNq",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-64992",
+   "platform": "turing",
+   "title": "Top GitHub Contributors – Agentic Review Project",
+   "team": "Software development",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-03-13",
+   "pay": "",
+   "url": "https://work.turing.com/r/w2SCZhmQZs",
    "countries": [],
    "exclude": []
   },
@@ -13255,6 +15599,216 @@
    "url": "https://work.mercor.com/explore?listingId=list_AAABnHwUEBQJcy230-lMq6-9&referralCode=3e69e7cf-edba-25be-5027-25cc33b23a52&utm_source=referral&utm_medium=direct&utm_campaign=platform"
   },
   {
+   "id": "turing-62130",
+   "platform": "turing",
+   "title": "AI Quality Analyst - English",
+   "team": "Other",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-02-16",
+   "pay": "",
+   "url": "https://work.turing.com/r/KSdLSIeKtD",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-62142",
+   "platform": "turing",
+   "title": "AI Quality Analyst (Personalization) - Russian",
+   "team": "Other",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-02-16",
+   "pay": "",
+   "url": "https://work.turing.com/r/P7z4d3vT4v",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-62139",
+   "platform": "turing",
+   "title": "AI Quality Analyst (Personalization) - Hindi",
+   "team": "Other",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-02-16",
+   "pay": "",
+   "url": "https://work.turing.com/r/oFqTATgN7K",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-62138",
+   "platform": "turing",
+   "title": "AI Quality Analyst (Personalization) - Indonesian",
+   "team": "Other",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-02-16",
+   "pay": "",
+   "url": "https://work.turing.com/r/IMGTRQeKPV",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-62135",
+   "platform": "turing",
+   "title": "AI Quality Analyst (Personalization) - Korean",
+   "team": "Other",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-02-16",
+   "pay": "",
+   "url": "https://work.turing.com/r/SYUbAXWGzV",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-62133",
+   "platform": "turing",
+   "title": "AI Quality Analyst (Personalization) - Spanish",
+   "team": "Other",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-02-16",
+   "pay": "",
+   "url": "https://work.turing.com/r/BwbtWgHY2X",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-62132",
+   "platform": "turing",
+   "title": "AI Quality Analyst (Personalization) - Arabic",
+   "team": "Other",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-02-16",
+   "pay": "",
+   "url": "https://work.turing.com/r/0mKZ7Io2fc",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-62131",
+   "platform": "turing",
+   "title": "AI Quality Analyst (Personalization) - Portuguese",
+   "team": "Other",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-02-16",
+   "pay": "",
+   "url": "https://work.turing.com/r/1sjw1HPe6B",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-62141",
+   "platform": "turing",
+   "title": "AI Quality Analyst (Personalization) - Vietnamese",
+   "team": "Other",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-02-16",
+   "pay": "",
+   "url": "https://work.turing.com/r/09sn7dvxcE",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-62140",
+   "platform": "turing",
+   "title": "AI Quality Analyst (Personalization) - Thai",
+   "team": "Other",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-02-16",
+   "pay": "",
+   "url": "https://work.turing.com/r/FkimZ7wLtC",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-62137",
+   "platform": "turing",
+   "title": "AI Quality Analyst (Personalization) - Turkish",
+   "team": "Other",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-02-16",
+   "pay": "",
+   "url": "https://work.turing.com/r/yD6OIkORxJ",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-62134",
+   "platform": "turing",
+   "title": "AI Quality Analyst (Gemini) - Chinese",
+   "team": "Other",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-02-16",
+   "pay": "",
+   "url": "https://work.turing.com/r/NdOyfBoS40",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-60736",
+   "platform": "turing",
+   "title": "MLE Bench – Data Analyst",
+   "team": "ML/Data Engineering",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-01-27",
+   "pay": "",
+   "url": "https://work.turing.com/r/uzS-Lz9mX9",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-60738",
+   "platform": "turing",
+   "title": "Technical Content Writer",
+   "team": "Other",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-01-27",
+   "pay": "",
+   "url": "https://work.turing.com/r/1mAVevYYay",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-60713",
+   "platform": "turing",
+   "title": "SWE Bench – Data Engineer/Data Scientist",
+   "team": "ML/Data Engineering",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-01-27",
+   "pay": "",
+   "url": "https://work.turing.com/r/a3GqPF19tU",
+   "countries": [],
+   "exclude": []
+  },
+  {
    "countries": [
     "AL",
     "AT",
@@ -13310,6 +15864,585 @@
    "url": "https://work.mercor.com/explore?listingId=list_AAABm9Edxc-X1o57aoNE9Ylz&referralCode=3e69e7cf-edba-25be-5027-25cc33b23a52&utm_source=referral&utm_medium=direct&utm_campaign=platform"
   },
   {
+   "id": "turing-56161",
+   "platform": "turing",
+   "title": "Prompt & Verifier",
+   "team": "Legal & Law Services",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2025-12-12",
+   "pay": "",
+   "url": "https://work.turing.com/r/GpOqcG_4dZ",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-55011",
+   "platform": "turing",
+   "title": "Business Analyst (Bahasa Indonesian Language)",
+   "team": "Other",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2025-12-04",
+   "pay": "",
+   "url": "https://work.turing.com/r/wmsYAXUbJJ",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-55010",
+   "platform": "turing",
+   "title": "Business Analyst (Tagalog Language)",
+   "team": "Other",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2025-12-04",
+   "pay": "",
+   "url": "https://work.turing.com/r/081cZxdc6B",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-54878",
+   "platform": "turing",
+   "title": "Business Analyst (French Language)",
+   "team": "Other",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2025-12-04",
+   "pay": "",
+   "url": "https://work.turing.com/r/8n06rYh-Zm",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-54884",
+   "platform": "turing",
+   "title": "Business Analyst (Japanese Language)",
+   "team": "Other",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2025-12-04",
+   "pay": "",
+   "url": "https://work.turing.com/r/3_zW1tSRi4",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-55001",
+   "platform": "turing",
+   "title": "Business Analyst (Turkish Language)",
+   "team": "Other",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2025-12-04",
+   "pay": "",
+   "url": "https://work.turing.com/r/fnmrUz6Gym",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-55009",
+   "platform": "turing",
+   "title": "Business Analyst (Russian Language)",
+   "team": "Other",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2025-12-04",
+   "pay": "",
+   "url": "https://work.turing.com/r/-s3DTijOiI",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-55008",
+   "platform": "turing",
+   "title": "Business Analyst (Thai Language)",
+   "team": "Other",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2025-12-04",
+   "pay": "",
+   "url": "https://work.turing.com/r/G5ibuur0os",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-55007",
+   "platform": "turing",
+   "title": "Business Analyst (Malay Language)",
+   "team": "Other",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2025-12-04",
+   "pay": "",
+   "url": "https://work.turing.com/r/domMD4H-O5",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-55005",
+   "platform": "turing",
+   "title": "Business Analyst (Hebrew Language)",
+   "team": "Other",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2025-12-04",
+   "pay": "",
+   "url": "https://work.turing.com/r/4gbhCSSZBd",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-55004",
+   "platform": "turing",
+   "title": "Business Analyst (Finnish Language)",
+   "team": "Other",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2025-12-04",
+   "pay": "",
+   "url": "https://work.turing.com/r/CK-vV13nGk",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-54912",
+   "platform": "turing",
+   "title": "Business Analyst (Swedish Language)",
+   "team": "Other",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2025-12-04",
+   "pay": "",
+   "url": "https://work.turing.com/r/WTAf-ER8-V",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-54886",
+   "platform": "turing",
+   "title": "Business Analyst (Danish Language)",
+   "team": "Other",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2025-12-04",
+   "pay": "",
+   "url": "https://work.turing.com/r/p7HGCPhqqf",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-54885",
+   "platform": "turing",
+   "title": "Business Analyst (Korean Language)",
+   "team": "Other",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2025-12-04",
+   "pay": "",
+   "url": "https://work.turing.com/r/VcIDz1vjzz",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-54883",
+   "platform": "turing",
+   "title": "Business Analyst (Dutch Language)",
+   "team": "Other",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2025-12-04",
+   "pay": "",
+   "url": "https://work.turing.com/r/dgvsSBHD2h",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-54882",
+   "platform": "turing",
+   "title": "Business Analyst (Arabic Language)",
+   "team": "Other",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2025-12-04",
+   "pay": "",
+   "url": "https://work.turing.com/r/Odq6XRIdbN",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-54881",
+   "platform": "turing",
+   "title": "Business Analyst (Italian Language)",
+   "team": "Other",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2025-12-04",
+   "pay": "",
+   "url": "https://work.turing.com/r/ugMbw0L1ty",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-54879",
+   "platform": "turing",
+   "title": "Business Analyst (German Language)",
+   "team": "Other",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2025-12-04",
+   "pay": "",
+   "url": "https://work.turing.com/r/KPkRnT2RBV",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-54787",
+   "platform": "turing",
+   "title": "Business Analyst (Chinese Language)",
+   "team": "Other",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2025-12-03",
+   "pay": "",
+   "url": "https://work.turing.com/r/ykTUDxgAzk",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-52974",
+   "platform": "turing",
+   "title": "Image/Video Annotator",
+   "team": "Analyst",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2025-11-25",
+   "pay": "",
+   "url": "https://work.turing.com/r/Fe2YRV9DSc",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-52945",
+   "platform": "turing",
+   "title": "Dockerfile Data Validation Engineer",
+   "team": "Cloud & Infrastructure",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2025-11-24",
+   "pay": "",
+   "url": "https://work.turing.com/r/aE2Ad_IqQC",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-52768",
+   "platform": "turing",
+   "title": "Senior Software Engineer – LLM Evaluation (US/Canada/WEU based)",
+   "team": "Software development",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2025-11-23",
+   "pay": "",
+   "url": "https://work.turing.com/r/cfOiH7oICA",
+   "countries": [
+    "CA",
+    "US"
+   ],
+   "exclude": []
+  },
+  {
+   "id": "turing-50881",
+   "platform": "turing",
+   "title": "Project Manager",
+   "team": "Science",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2025-11-07",
+   "pay": "",
+   "url": "https://work.turing.com/r/HTxC5Xx_PM",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-50858",
+   "platform": "turing",
+   "title": "Real Estate Broker",
+   "team": "Science",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2025-11-07",
+   "pay": "",
+   "url": "https://work.turing.com/r/dUj7KeByeU",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-50857",
+   "platform": "turing",
+   "title": "Real Estate Sales Agent",
+   "team": "Science",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2025-11-07",
+   "pay": "",
+   "url": "https://work.turing.com/r/xtmURz-SPO",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-50786",
+   "platform": "turing",
+   "title": "Community Association Manager (Real Estate)",
+   "team": "Science",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2025-11-06",
+   "pay": "",
+   "url": "https://work.turing.com/r/zXpsHwzPtw",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-50674",
+   "platform": "turing",
+   "title": "Real Estate Concierge Specialist",
+   "team": "Science",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2025-11-06",
+   "pay": "",
+   "url": "https://work.turing.com/r/OQkugrvdJQ",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-47495",
+   "platform": "turing",
+   "title": "Engineering Manager",
+   "team": "Science",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2025-10-02",
+   "pay": "",
+   "url": "https://work.turing.com/r/yHLHwgXhAN",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-46984",
+   "platform": "turing",
+   "title": "Python Machine Learning Engineer",
+   "team": "ML/Data Engineering",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2025-09-29",
+   "pay": "",
+   "url": "https://work.turing.com/r/Me32fu8Dok",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-44942",
+   "platform": "turing",
+   "title": "Spanish Voice Actors (Studio-Grade Recording Experience)",
+   "team": "Linguistics",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2025-09-15",
+   "pay": "",
+   "url": "https://work.turing.com/r/mbeXhiPgBA",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-42463",
+   "platform": "turing",
+   "title": "Finance Expert (US based)",
+   "team": "Finance",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2025-08-29",
+   "pay": "",
+   "url": "https://work.turing.com/r/Oqk22H6JWo",
+   "countries": [
+    "US"
+   ],
+   "exclude": []
+  },
+  {
+   "id": "turing-42012",
+   "platform": "turing",
+   "title": "Resident Medical Specialist (MD/DO)",
+   "team": "Healthcare & Medical",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2025-08-22",
+   "pay": "",
+   "url": "https://work.turing.com/r/c_vd7JWlyr",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-41226",
+   "platform": "turing",
+   "title": "LLM Go Developer",
+   "team": "Software development",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2025-08-14",
+   "pay": "",
+   "url": "https://work.turing.com/r/0wOrHDds3r",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-39521",
+   "platform": "turing",
+   "title": "Ph.D. / Postdoctoral / Master’s Expert",
+   "team": "Science",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2025-07-24",
+   "pay": "",
+   "url": "https://work.turing.com/r/eUX-yn2xEb",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-37595",
+   "platform": "turing",
+   "title": "Senior Software Engineer – Python (LLM Evaluation & Repository Validation)",
+   "team": "Software development",
+   "location": "",
+   "remote": true,
+   "type": "gig",
+   "posted": "2025-07-03",
+   "pay": "",
+   "url": "https://work.turing.com/r/caSkjsWsQ-",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-37602",
+   "platform": "turing",
+   "title": "Senior Software Engineer – C#(LLM Evaluation & Repository Validation)",
+   "team": "Software development",
+   "location": "",
+   "remote": true,
+   "type": "gig",
+   "posted": "2025-07-03",
+   "pay": "",
+   "url": "https://work.turing.com/r/B5D_H5S9I-",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-37601",
+   "platform": "turing",
+   "title": "Senior Software Engineer – Go (LLM Evaluation & Repository Validation)",
+   "team": "Software development",
+   "location": "",
+   "remote": true,
+   "type": "gig",
+   "posted": "2025-07-03",
+   "pay": "",
+   "url": "https://work.turing.com/r/bQmflaCVzq",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-37600",
+   "platform": "turing",
+   "title": "Senior Software Engineer – Ruby (LLM Evaluation & Repository Validation)",
+   "team": "Software development",
+   "location": "",
+   "remote": true,
+   "type": "gig",
+   "posted": "2025-07-03",
+   "pay": "",
+   "url": "https://work.turing.com/r/2l0AFJPaCK",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-37599",
+   "platform": "turing",
+   "title": "Senior Software Engineer – Rust (LLM Evaluation & Repository Validation)",
+   "team": "Software development",
+   "location": "",
+   "remote": true,
+   "type": "gig",
+   "posted": "2025-07-03",
+   "pay": "",
+   "url": "https://work.turing.com/r/9QyozTM7pu",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-37598",
+   "platform": "turing",
+   "title": "Senior Software Engineer – C++ (LLM Evaluation & Repository Validation)",
+   "team": "Software development",
+   "location": "",
+   "remote": true,
+   "type": "gig",
+   "posted": "2025-07-03",
+   "pay": "",
+   "url": "https://work.turing.com/r/4Ur2hKxG1C",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-35501",
+   "platform": "turing",
+   "title": "Senior Software Engineer – LLM Evaluation",
+   "team": "Software development",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2025-06-09",
+   "pay": "",
+   "url": "https://work.turing.com/r/Zny3SlHLP6",
+   "countries": [],
+   "exclude": []
+  },
+  {
    "countries": [],
    "exclude": [],
    "id": "mercor-list_AAABlzI3p6G_LDaGWuNNEa6l",
@@ -13322,6 +16455,258 @@
    "posted": "2025-06-02",
    "pay": "$100–$120/hr",
    "url": "https://work.mercor.com/explore?listingId=list_AAABlzI3p6G_LDaGWuNNEa6l&referralCode=3e69e7cf-edba-25be-5027-25cc33b23a52&utm_source=referral&utm_medium=direct&utm_campaign=platform"
+  },
+  {
+   "id": "turing-34442",
+   "platform": "turing",
+   "title": "Biology Expert (PhD/Master’s)",
+   "team": "Science",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2025-05-20",
+   "pay": "",
+   "url": "https://work.turing.com/r/r6Tv9RbwLN",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-34441",
+   "platform": "turing",
+   "title": "Chemistry Expert (PhD/Master's)",
+   "team": "Science",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2025-05-20",
+   "pay": "",
+   "url": "https://work.turing.com/r/wKY3JsIcDn",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-34440",
+   "platform": "turing",
+   "title": "Physics Expert (PhD/Master's)",
+   "team": "Science",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2025-05-20",
+   "pay": "",
+   "url": "https://work.turing.com/r/AGSJ8qeJ_l",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-34430",
+   "platform": "turing",
+   "title": "Mathematics Expert (Master’s/Ph.D.)",
+   "team": "Science",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2025-05-20",
+   "pay": "",
+   "url": "https://work.turing.com/r/uXIpSrIP8p",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-34123",
+   "platform": "turing",
+   "title": "Senior Software Engineer – LLM Evaluation & Repository Validation",
+   "team": "Software development",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2025-05-14",
+   "pay": "",
+   "url": "https://work.turing.com/r/TDQz23UeAY",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-33806",
+   "platform": "turing",
+   "title": "Business Analyst (Finance)",
+   "team": "Analyst",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2025-05-05",
+   "pay": "",
+   "url": "https://work.turing.com/r/l4ve8_7sfL",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-33805",
+   "platform": "turing",
+   "title": "Medicine Physician (MD/DO/Doctoral study/PhD)",
+   "team": "Healthcare & Medical",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2025-05-05",
+   "pay": "",
+   "url": "https://work.turing.com/r/1OO6xHdTUb",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-33247",
+   "platform": "turing",
+   "title": "Senior LLM Engineer",
+   "team": "Software development",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2025-04-03",
+   "pay": "",
+   "url": "https://work.turing.com/r/8o_BXY79_o",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-31258",
+   "platform": "turing",
+   "title": "Business Analyst (Spanish Language)",
+   "team": "Other",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2025-02-07",
+   "pay": "",
+   "url": "https://work.turing.com/r/hOLaNTwfSB",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-31268",
+   "platform": "turing",
+   "title": "Business Analyst (Norwegian Language)",
+   "team": "Other",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2025-02-07",
+   "pay": "",
+   "url": "https://work.turing.com/r/DYLS-8ai1n",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-30570",
+   "platform": "turing",
+   "title": "LLM C/ C++ Developer",
+   "team": "Software development",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2025-01-24",
+   "pay": "",
+   "url": "https://work.turing.com/r/MJes2s7adI",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-20931",
+   "platform": "turing",
+   "title": "Research Analyst - Advanced Math",
+   "team": "Science",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2024-06-28",
+   "pay": "",
+   "url": "https://work.turing.com/r/a87GkO9eop",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-20930",
+   "platform": "turing",
+   "title": "Content Analyst",
+   "team": "Other",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2024-06-28",
+   "pay": "",
+   "url": "https://work.turing.com/r/e6LTf2ijfo",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-20442",
+   "platform": "turing",
+   "title": "LLM Java Developer",
+   "team": "Software development",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2024-06-17",
+   "pay": "",
+   "url": "https://work.turing.com/r/JoPUNJeOp_",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-20414",
+   "platform": "turing",
+   "title": "JavaScript / TypeScript Full-Stack Developer",
+   "team": "Software development",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2024-06-14",
+   "pay": "",
+   "url": "https://work.turing.com/r/vlhR5JzmaU",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-17852",
+   "platform": "turing",
+   "title": "Senior Python Developer",
+   "team": "Software development",
+   "location": "",
+   "remote": true,
+   "type": "gig",
+   "posted": "2024-01-27",
+   "pay": "",
+   "url": "https://work.turing.com/r/TAkAyw9ldB",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-17853",
+   "platform": "turing",
+   "title": "Python + Full-Stack (JS) Developer",
+   "team": "Software development",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2024-01-27",
+   "pay": "",
+   "url": "https://work.turing.com/r/bs3-jdSBL-",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "turing-17843",
+   "platform": "turing",
+   "title": "Data Scientist/Analyst",
+   "team": "Data Scientist/Analyst",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2024-01-25",
+   "pay": "",
+   "url": "https://work.turing.com/r/DuhXJRJp0n",
+   "countries": [],
+   "exclude": []
   },
   {
    "id": "mercor-9431db0b-904e-4f91-8be7-87fad304db6d",
@@ -13365,6 +16750,21 @@
    "url": "https://jobs.ashbyhq.com/mercor/03662092-4f6b-4c82-8d6d-5e7e839c31d7",
    "countries": [
     "US"
+   ],
+   "exclude": []
+  },
+  {
+   "id": "turing-6266941004",
+   "platform": "turing",
+   "title": "Research Engineer",
+   "team": "",
+   "location": "Bengaluru, Karnataka, India",
+   "remote": false,
+   "type": "job",
+   "posted": "2026-11-20",
+   "url": "https://job-boards.greenhouse.io/turing/jobs/6266941004",
+   "countries": [
+    "IN"
    ],
    "exclude": []
   },
@@ -13470,21 +16870,6 @@
    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4757344005",
    "countries": [
     "US"
-   ],
-   "exclude": []
-  },
-  {
-   "id": "turing-6266941004",
-   "platform": "turing",
-   "title": "Research Engineer",
-   "team": "",
-   "location": "Bengaluru, Karnataka, India",
-   "remote": false,
-   "type": "job",
-   "posted": "2026-11-20",
-   "url": "https://job-boards.greenhouse.io/turing/jobs/6266941004",
-   "countries": [
-    "IN"
    ],
    "exclude": []
   },
@@ -14044,6 +17429,21 @@
    "exclude": []
   },
   {
+   "id": "turing-6255357004",
+   "platform": "turing",
+   "title": "Forward Deployed AI Engineer",
+   "team": "",
+   "location": "Los Angeles, California, United States",
+   "remote": false,
+   "type": "job",
+   "posted": "2026-11-11",
+   "url": "https://job-boards.greenhouse.io/turing/jobs/6255357004",
+   "countries": [
+    "US"
+   ],
+   "exclude": []
+  },
+  {
    "id": "handshake-5033202b-e03a-42e5-a801-93fe8042bbee",
    "platform": "handshake",
    "title": "Software Engineer",
@@ -14068,21 +17468,6 @@
    "type": "job",
    "posted": "2026-11-11",
    "url": "https://jobs.ashbyhq.com/AfterQuery/4098a544-8e4b-4fca-b75f-4bdb7e3f2411",
-   "countries": [
-    "US"
-   ],
-   "exclude": []
-  },
-  {
-   "id": "turing-6255357004",
-   "platform": "turing",
-   "title": "Forward Deployed AI Engineer",
-   "team": "",
-   "location": "Los Angeles, California, United States",
-   "remote": false,
-   "type": "job",
-   "posted": "2026-11-11",
-   "url": "https://job-boards.greenhouse.io/turing/jobs/6255357004",
    "countries": [
     "US"
    ],
@@ -14134,6 +17519,21 @@
    "exclude": []
   },
   {
+   "id": "turing-6241507004",
+   "platform": "turing",
+   "title": "Technical Delivery Lead, Emerging",
+   "team": "",
+   "location": "India - Remote",
+   "remote": true,
+   "type": "job",
+   "posted": "2026-11-10",
+   "url": "https://job-boards.greenhouse.io/turing/jobs/6241507004",
+   "countries": [
+    "IN"
+   ],
+   "exclude": []
+  },
+  {
    "id": "handshake-42aca7f5-2f58-40ef-a6ce-19027d32a12f",
    "platform": "handshake",
    "title": "Machine Learning Engineer",
@@ -14160,21 +17560,6 @@
    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4751149005",
    "countries": [
     "KW"
-   ],
-   "exclude": []
-  },
-  {
-   "id": "turing-6241507004",
-   "platform": "turing",
-   "title": "Technical Delivery Lead, Emerging",
-   "team": "",
-   "location": "India - Remote",
-   "remote": true,
-   "type": "job",
-   "posted": "2026-11-10",
-   "url": "https://job-boards.greenhouse.io/turing/jobs/6241507004",
-   "countries": [
-    "IN"
    ],
    "exclude": []
   },
@@ -14464,6 +17849,21 @@
    "exclude": []
   },
   {
+   "id": "turing-6250466004",
+   "platform": "turing",
+   "title": "Strategic Account Director, Enterprise AI (CPG)",
+   "team": "",
+   "location": "Plano, Texas, United States",
+   "remote": false,
+   "type": "job",
+   "posted": "2026-11-05",
+   "url": "https://job-boards.greenhouse.io/turing/jobs/6250466004",
+   "countries": [
+    "US"
+   ],
+   "exclude": []
+  },
+  {
    "id": "toloka-5009167101",
    "platform": "toloka",
    "title": "Senior Anti-Fraud Engineer (Full-Time)",
@@ -14544,21 +17944,6 @@
    "type": "job",
    "posted": "2026-11-05",
    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4750028005",
-   "countries": [
-    "US"
-   ],
-   "exclude": []
-  },
-  {
-   "id": "turing-6250466004",
-   "platform": "turing",
-   "title": "Strategic Account Director, Enterprise AI (CPG)",
-   "team": "",
-   "location": "Plano, Texas, United States",
-   "remote": false,
-   "type": "job",
-   "posted": "2026-11-05",
-   "url": "https://job-boards.greenhouse.io/turing/jobs/6250466004",
    "countries": [
     "US"
    ],
@@ -14788,6 +18173,21 @@
    "exclude": []
   },
   {
+   "id": "turing-6236593004",
+   "platform": "turing",
+   "title": "Partnerships Lead, Frontier AI",
+   "team": "",
+   "location": "Palo Alto, California, United States; San Francisco, California, United States",
+   "remote": false,
+   "type": "job",
+   "posted": "2026-10-30",
+   "url": "https://job-boards.greenhouse.io/turing/jobs/6236593004",
+   "countries": [
+    "US"
+   ],
+   "exclude": []
+  },
+  {
    "id": "handshake-3a07888c-b383-4153-b2b2-9db418c5b20f",
    "platform": "handshake",
    "title": "Revenue Operations Manager",
@@ -14848,36 +18248,6 @@
    "exclude": []
   },
   {
-   "id": "turing-6236593004",
-   "platform": "turing",
-   "title": "Partnerships Lead, Frontier AI",
-   "team": "",
-   "location": "Palo Alto, California, United States; San Francisco, California, United States",
-   "remote": false,
-   "type": "job",
-   "posted": "2026-10-30",
-   "url": "https://job-boards.greenhouse.io/turing/jobs/6236593004",
-   "countries": [
-    "US"
-   ],
-   "exclude": []
-  },
-  {
-   "id": "handshake-29b78509-10bc-42bd-bc2b-bd6bc3fe9c3f",
-   "platform": "handshake",
-   "title": "Manager, Engineering",
-   "team": "Engineering",
-   "location": "San Francisco, CA",
-   "remote": false,
-   "type": "job",
-   "posted": "2026-10-29",
-   "url": "https://jobs.ashbyhq.com/handshake/29b78509-10bc-42bd-bc2b-bd6bc3fe9c3f",
-   "countries": [
-    "US"
-   ],
-   "exclude": []
-  },
-  {
    "id": "turing-6237369004",
    "platform": "turing",
    "title": "Client Engagement Lead - Pharma & Life Sciences",
@@ -14918,6 +18288,21 @@
    "posted": "2026-10-29",
    "url": "https://job-boards.greenhouse.io/turing/jobs/6218247004",
    "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "handshake-29b78509-10bc-42bd-bc2b-bd6bc3fe9c3f",
+   "platform": "handshake",
+   "title": "Manager, Engineering",
+   "team": "Engineering",
+   "location": "San Francisco, CA",
+   "remote": false,
+   "type": "job",
+   "posted": "2026-10-29",
+   "url": "https://jobs.ashbyhq.com/handshake/29b78509-10bc-42bd-bc2b-bd6bc3fe9c3f",
+   "countries": [
+    "US"
+   ],
    "exclude": []
   },
   {
@@ -15235,21 +18620,6 @@
    "exclude": []
   },
   {
-   "id": "handshake-472c5e06-3fb6-4d71-b346-19a284ad67d0",
-   "platform": "handshake",
-   "title": "Strategic Account Executive",
-   "team": "Employer Revenue",
-   "location": "Remote (USA)",
-   "remote": true,
-   "type": "job",
-   "posted": "2026-10-22",
-   "url": "https://jobs.ashbyhq.com/handshake/472c5e06-3fb6-4d71-b346-19a284ad67d0",
-   "countries": [
-    "US"
-   ],
-   "exclude": []
-  },
-  {
    "id": "turing-6233037004",
    "platform": "turing",
    "title": "Client Director, Financial Services (BFSI)",
@@ -15259,6 +18629,21 @@
    "type": "job",
    "posted": "2026-10-22",
    "url": "https://job-boards.greenhouse.io/turing/jobs/6233037004",
+   "countries": [
+    "US"
+   ],
+   "exclude": []
+  },
+  {
+   "id": "handshake-472c5e06-3fb6-4d71-b346-19a284ad67d0",
+   "platform": "handshake",
+   "title": "Strategic Account Executive",
+   "team": "Employer Revenue",
+   "location": "Remote (USA)",
+   "remote": true,
+   "type": "job",
+   "posted": "2026-10-22",
+   "url": "https://jobs.ashbyhq.com/handshake/472c5e06-3fb6-4d71-b346-19a284ad67d0",
    "countries": [
     "US"
    ],
@@ -15355,6 +18740,21 @@
    "exclude": []
   },
   {
+   "id": "turing-6227623004",
+   "platform": "turing",
+   "title": "Head of Platform Engineering, Enterprise AI",
+   "team": "",
+   "location": "New York, New York, United States",
+   "remote": false,
+   "type": "job",
+   "posted": "2026-10-19",
+   "url": "https://job-boards.greenhouse.io/turing/jobs/6227623004",
+   "countries": [
+    "US"
+   ],
+   "exclude": []
+  },
+  {
    "id": "scale-4745295005",
    "platform": "scale",
    "title": "Contracts Manager",
@@ -15379,21 +18779,6 @@
    "type": "job",
    "posted": "2026-10-19",
    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4735665005",
-   "countries": [
-    "US"
-   ],
-   "exclude": []
-  },
-  {
-   "id": "turing-6227623004",
-   "platform": "turing",
-   "title": "Head of Platform Engineering, Enterprise AI",
-   "team": "",
-   "location": "New York, New York, United States",
-   "remote": false,
-   "type": "job",
-   "posted": "2026-10-19",
-   "url": "https://job-boards.greenhouse.io/turing/jobs/6227623004",
    "countries": [
     "US"
    ],
@@ -15833,6 +19218,22 @@
    "exclude": []
   },
   {
+   "id": "turing-6216854004",
+   "platform": "turing",
+   "title": "Machine Learning / Data Engineer",
+   "team": "",
+   "location": "Colombia, Huila, Colombia; São Paulo, Brazil",
+   "remote": false,
+   "type": "job",
+   "posted": "2026-10-06",
+   "url": "https://job-boards.greenhouse.io/turing/jobs/6216854004",
+   "countries": [
+    "BR",
+    "CO"
+   ],
+   "exclude": []
+  },
+  {
    "id": "handshake-24b8fa12-7c5d-44f8-98f9-8b85d0585f28",
    "platform": "handshake",
    "title": "Manager, GTM Systems",
@@ -15859,22 +19260,6 @@
    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4740975005",
    "countries": [
     "GB"
-   ],
-   "exclude": []
-  },
-  {
-   "id": "turing-6216854004",
-   "platform": "turing",
-   "title": "Machine Learning / Data Engineer",
-   "team": "",
-   "location": "Colombia, Huila, Colombia; São Paulo, Brazil",
-   "remote": false,
-   "type": "job",
-   "posted": "2026-10-06",
-   "url": "https://job-boards.greenhouse.io/turing/jobs/6216854004",
-   "countries": [
-    "BR",
-    "CO"
    ],
    "exclude": []
   },
@@ -15999,6 +19384,21 @@
    "exclude": []
   },
   {
+   "id": "turing-6208738004",
+   "platform": "turing",
+   "title": "Sr. Director, AI Ecosystem Partnerships",
+   "team": "",
+   "location": "United States",
+   "remote": false,
+   "type": "job",
+   "posted": "2026-09-30",
+   "url": "https://job-boards.greenhouse.io/turing/jobs/6208738004",
+   "countries": [
+    "US"
+   ],
+   "exclude": []
+  },
+  {
    "id": "toloka-4989372101",
    "platform": "toloka",
    "title": "Program Director — Enterprise Fine-Tuning",
@@ -16070,17 +19470,18 @@
    "exclude": []
   },
   {
-   "id": "turing-6208738004",
+   "id": "turing-6209679004",
    "platform": "turing",
-   "title": "Sr. Director, AI Ecosystem Partnerships",
+   "title": "Engineering Manager",
    "team": "",
-   "location": "United States",
+   "location": "Colombia, Huila, Colombia; São Paulo, Brazil",
    "remote": false,
    "type": "job",
-   "posted": "2026-09-30",
-   "url": "https://job-boards.greenhouse.io/turing/jobs/6208738004",
+   "posted": "2026-09-29",
+   "url": "https://job-boards.greenhouse.io/turing/jobs/6209679004",
    "countries": [
-    "US"
+    "BR",
+    "CO"
    ],
    "exclude": []
   },
@@ -16096,22 +19497,6 @@
    "url": "https://jobs.ashbyhq.com/handshake/ca392442-69eb-46f5-b367-37e43c832094",
    "countries": [
     "US"
-   ],
-   "exclude": []
-  },
-  {
-   "id": "turing-6209679004",
-   "platform": "turing",
-   "title": "Engineering Manager",
-   "team": "",
-   "location": "Colombia, Huila, Colombia; São Paulo, Brazil",
-   "remote": false,
-   "type": "job",
-   "posted": "2026-09-29",
-   "url": "https://job-boards.greenhouse.io/turing/jobs/6209679004",
-   "countries": [
-    "BR",
-    "CO"
    ],
    "exclude": []
   },
@@ -16191,36 +19576,6 @@
    "exclude": []
   },
   {
-   "id": "handshake-2b768024-51a1-4014-8980-603f61ce3709",
-   "platform": "handshake",
-   "title": "Senior Product Marketing Manager, Enterprise AI",
-   "team": "Marketing",
-   "location": "San Francisco, CA",
-   "remote": false,
-   "type": "job",
-   "posted": "2026-09-24",
-   "url": "https://jobs.ashbyhq.com/handshake/2b768024-51a1-4014-8980-603f61ce3709",
-   "countries": [
-    "US"
-   ],
-   "exclude": []
-  },
-  {
-   "id": "scale-4735360005",
-   "platform": "scale",
-   "title": "Staff Product Designer, Enterprise",
-   "team": "",
-   "location": "London, UK",
-   "remote": false,
-   "type": "job",
-   "posted": "2026-09-24",
-   "url": "https://job-boards.greenhouse.io/scaleai/jobs/4735360005",
-   "countries": [
-    "GB"
-   ],
-   "exclude": []
-  },
-  {
    "id": "turing-6192729004",
    "platform": "turing",
    "title": "Forward-Deployed AI Engineer",
@@ -16292,6 +19647,36 @@
    "url": "https://job-boards.greenhouse.io/turing/jobs/6198594004",
    "countries": [
     "US"
+   ],
+   "exclude": []
+  },
+  {
+   "id": "handshake-2b768024-51a1-4014-8980-603f61ce3709",
+   "platform": "handshake",
+   "title": "Senior Product Marketing Manager, Enterprise AI",
+   "team": "Marketing",
+   "location": "San Francisco, CA",
+   "remote": false,
+   "type": "job",
+   "posted": "2026-09-24",
+   "url": "https://jobs.ashbyhq.com/handshake/2b768024-51a1-4014-8980-603f61ce3709",
+   "countries": [
+    "US"
+   ],
+   "exclude": []
+  },
+  {
+   "id": "scale-4735360005",
+   "platform": "scale",
+   "title": "Staff Product Designer, Enterprise",
+   "team": "",
+   "location": "London, UK",
+   "remote": false,
+   "type": "job",
+   "posted": "2026-09-24",
+   "url": "https://job-boards.greenhouse.io/scaleai/jobs/4735360005",
+   "countries": [
+    "GB"
    ],
    "exclude": []
   },
@@ -16401,21 +19786,6 @@
    "exclude": []
   },
   {
-   "id": "scale-4735208005",
-   "platform": "scale",
-   "title": "Technical Program Lead, Public Sector",
-   "team": "",
-   "location": "Washington, DC",
-   "remote": false,
-   "type": "job",
-   "posted": "2026-09-17",
-   "url": "https://job-boards.greenhouse.io/scaleai/jobs/4735208005",
-   "countries": [
-    "US"
-   ],
-   "exclude": []
-  },
-  {
    "id": "turing-6192730004",
    "platform": "turing",
    "title": "Forward Deployed AI Engineer",
@@ -16425,6 +19795,21 @@
    "type": "job",
    "posted": "2026-09-17",
    "url": "https://job-boards.greenhouse.io/turing/jobs/6192730004",
+   "countries": [
+    "US"
+   ],
+   "exclude": []
+  },
+  {
+   "id": "scale-4735208005",
+   "platform": "scale",
+   "title": "Technical Program Lead, Public Sector",
+   "team": "",
+   "location": "Washington, DC",
+   "remote": false,
+   "type": "job",
+   "posted": "2026-09-17",
+   "url": "https://job-boards.greenhouse.io/scaleai/jobs/4735208005",
    "countries": [
     "US"
    ],
@@ -16491,6 +19876,21 @@
    "exclude": []
   },
   {
+   "id": "turing-6186761004",
+   "platform": "turing",
+   "title": "Engagement Manager",
+   "team": "",
+   "location": "New York, New York, United States",
+   "remote": false,
+   "type": "job",
+   "posted": "2026-09-15",
+   "url": "https://job-boards.greenhouse.io/turing/jobs/6186761004",
+   "countries": [
+    "US"
+   ],
+   "exclude": []
+  },
+  {
    "id": "afterquery-68053d93-6d15-4b4a-8a04-65aa5646feb2",
    "platform": "afterquery",
    "title": "Research Scholar",
@@ -16530,21 +19930,6 @@
    "type": "job",
    "posted": "2026-09-15",
    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4733702005",
-   "countries": [
-    "US"
-   ],
-   "exclude": []
-  },
-  {
-   "id": "turing-6186761004",
-   "platform": "turing",
-   "title": "Engagement Manager",
-   "team": "",
-   "location": "New York, New York, United States",
-   "remote": false,
-   "type": "job",
-   "posted": "2026-09-15",
-   "url": "https://job-boards.greenhouse.io/turing/jobs/6186761004",
    "countries": [
     "US"
    ],
@@ -17106,21 +20491,6 @@
    "exclude": []
   },
   {
-   "id": "scale-4728014005",
-   "platform": "scale",
-   "title": "Machine Learning Research Scientist, Evaluations",
-   "team": "",
-   "location": "San Francisco, CA; Seattle, WA; New York, NY",
-   "remote": false,
-   "type": "job",
-   "posted": "2026-08-26",
-   "url": "https://job-boards.greenhouse.io/scaleai/jobs/4728014005",
-   "countries": [
-    "US"
-   ],
-   "exclude": []
-  },
-  {
    "id": "turing-6142224004",
    "platform": "turing",
    "title": "Strategic Project Lead - Code",
@@ -17132,6 +20502,21 @@
    "url": "https://job-boards.greenhouse.io/turing/jobs/6142224004",
    "countries": [
     "IN"
+   ],
+   "exclude": []
+  },
+  {
+   "id": "scale-4728014005",
+   "platform": "scale",
+   "title": "Machine Learning Research Scientist, Evaluations",
+   "team": "",
+   "location": "San Francisco, CA; Seattle, WA; New York, NY",
+   "remote": false,
+   "type": "job",
+   "posted": "2026-08-26",
+   "url": "https://job-boards.greenhouse.io/scaleai/jobs/4728014005",
+   "countries": [
+    "US"
    ],
    "exclude": []
   },
@@ -19200,414 +22585,6 @@
    "type": "internship",
    "posted": "2025-11-17",
    "url": "https://jobs.ashbyhq.com/AfterQuery/83ca470d-b1f7-41d6-935f-c1f2b8243e4b",
-   "countries": [
-    "US"
-   ],
-   "exclude": []
-  },
-  {
-   "id": "turing-5703799004",
-   "platform": "turing",
-   "title": "Staff Research Engineer, Enterprise Knowledge",
-   "team": "",
-   "location": "United States",
-   "remote": false,
-   "type": "job",
-   "posted": "2025-11-11",
-   "url": "https://job-boards.greenhouse.io/turing/jobs/5703799004",
-   "countries": [
-    "US"
-   ],
-   "exclude": []
-  },
-  {
-   "id": "turing-5703798004",
-   "platform": "turing",
-   "title": "Senior Research Engineer, SWE",
-   "team": "",
-   "location": "United States",
-   "remote": false,
-   "type": "job",
-   "posted": "2025-11-10",
-   "url": "https://job-boards.greenhouse.io/turing/jobs/5703798004",
-   "countries": [
-    "US"
-   ],
-   "exclude": []
-  },
-  {
-   "id": "afterquery-cddded26-a2ce-4840-a8d8-17b1ac0e3831",
-   "platform": "afterquery",
-   "title": "Growth Associate",
-   "team": "Growth",
-   "location": "San Francisco",
-   "remote": false,
-   "type": "job",
-   "posted": "2025-11-05",
-   "url": "https://jobs.ashbyhq.com/AfterQuery/cddded26-a2ce-4840-a8d8-17b1ac0e3831",
-   "countries": [
-    "US"
-   ],
-   "exclude": []
-  },
-  {
-   "id": "afterquery-c2a727df-cac9-4e56-8531-18d1e94dec74",
-   "platform": "afterquery",
-   "title": "Strategic Projects Lead",
-   "team": "Operations",
-   "location": "San Francisco",
-   "remote": false,
-   "type": "job",
-   "posted": "2025-11-04",
-   "url": "https://jobs.ashbyhq.com/AfterQuery/c2a727df-cac9-4e56-8531-18d1e94dec74",
-   "countries": [
-    "US"
-   ],
-   "exclude": []
-  },
-  {
-   "id": "scale-4612403005",
-   "platform": "scale",
-   "title": "Staff Product Manager, Agentic Platform",
-   "team": "",
-   "location": "New York, NY; San Francisco, CA; Washington, DC",
-   "remote": false,
-   "type": "job",
-   "posted": "2025-10-14",
-   "url": "https://job-boards.greenhouse.io/scaleai/jobs/4612403005",
-   "countries": [
-    "US"
-   ],
-   "exclude": []
-  },
-  {
-   "id": "scale-4618046005",
-   "platform": "scale",
-   "title": "Tech Lead Manager- MLRE, ML Systems",
-   "team": "",
-   "location": "San Francisco, CA; New York, NY",
-   "remote": false,
-   "type": "job",
-   "posted": "2025-10-10",
-   "url": "https://job-boards.greenhouse.io/scaleai/jobs/4618046005",
-   "countries": [
-    "US"
-   ],
-   "exclude": []
-  },
-  {
-   "id": "scale-4565834005",
-   "platform": "scale",
-   "title": "Legal Fellow - Human Frontier Collective (US, UK, & Canada)",
-   "team": "",
-   "location": "United States",
-   "remote": false,
-   "type": "job",
-   "posted": "2025-10-09",
-   "url": "https://job-boards.greenhouse.io/scaleai/jobs/4565834005",
-   "countries": [
-    "US"
-   ],
-   "exclude": []
-  },
-  {
-   "id": "mercor-4f4fc8c3-4056-47bb-9e00-1db6e5dd958f",
-   "platform": "mercor",
-   "title": "Software Engineer, Agents",
-   "team": "Engineering",
-   "location": "San Francisco",
-   "remote": false,
-   "type": "job",
-   "posted": "2025-09-18",
-   "url": "https://jobs.ashbyhq.com/mercor/4f4fc8c3-4056-47bb-9e00-1db6e5dd958f",
-   "countries": [
-    "US"
-   ],
-   "exclude": []
-  },
-  {
-   "id": "scale-4609736005",
-   "platform": "scale",
-   "title": "AI Product Manager (Coding/Multimodal)",
-   "team": "",
-   "location": "San Francisco, CA",
-   "remote": false,
-   "type": "job",
-   "posted": "2025-09-18",
-   "url": "https://job-boards.greenhouse.io/scaleai/jobs/4609736005",
-   "countries": [
-    "US"
-   ],
-   "exclude": []
-  },
-  {
-   "id": "scale-4607930005",
-   "platform": "scale",
-   "title": "Strategist, Qatar",
-   "team": "",
-   "location": "Doha, Qatar ",
-   "remote": false,
-   "type": "job",
-   "posted": "2025-09-16",
-   "url": "https://job-boards.greenhouse.io/scaleai/jobs/4607930005",
-   "countries": [
-    "QA"
-   ],
-   "exclude": []
-  },
-  {
-   "id": "scale-4589749005",
-   "platform": "scale",
-   "title": "Product Manager of AI Applications, Global Public Sector",
-   "team": "",
-   "location": "Doha, Qatar ; Dubai, UAE",
-   "remote": false,
-   "type": "job",
-   "posted": "2025-09-03",
-   "url": "https://job-boards.greenhouse.io/scaleai/jobs/4589749005",
-   "countries": [
-    "AE",
-    "QA"
-   ],
-   "exclude": []
-  },
-  {
-   "id": "scale-4599202005",
-   "platform": "scale",
-   "title": "Principal Architect",
-   "team": "",
-   "location": "Washington, DC",
-   "remote": false,
-   "type": "job",
-   "posted": "2025-08-22",
-   "url": "https://job-boards.greenhouse.io/scaleai/jobs/4599202005",
-   "countries": [
-    "US"
-   ],
-   "exclude": []
-  },
-  {
-   "id": "scale-4594879005",
-   "platform": "scale",
-   "title": "Software Engineer, Platform",
-   "team": "",
-   "location": "San Francisco, CA; New York, NY",
-   "remote": false,
-   "type": "job",
-   "posted": "2025-08-21",
-   "url": "https://job-boards.greenhouse.io/scaleai/jobs/4594879005",
-   "countries": [
-    "US"
-   ],
-   "exclude": []
-  },
-  {
-   "id": "scale-4599700005",
-   "platform": "scale",
-   "title": "Senior Infrastructure Software Engineer, Enterprise AI",
-   "team": "",
-   "location": "New York, NY; San Francisco, CA",
-   "remote": false,
-   "type": "job",
-   "posted": "2025-08-20",
-   "url": "https://job-boards.greenhouse.io/scaleai/jobs/4599700005",
-   "countries": [
-    "US"
-   ],
-   "exclude": []
-  },
-  {
-   "id": "scale-4565768005",
-   "platform": "scale",
-   "title": "Staff Product Designer, Global Public Sector",
-   "team": "",
-   "location": "Doha, Qatar ; Dubai, UAE; London, UK",
-   "remote": false,
-   "type": "job",
-   "posted": "2025-08-06",
-   "url": "https://job-boards.greenhouse.io/scaleai/jobs/4565768005",
-   "countries": [
-    "AE",
-    "GB",
-    "QA"
-   ],
-   "exclude": []
-  },
-  {
-   "id": "scale-4591782005",
-   "platform": "scale",
-   "title": "Medical Fellow - Human Frontier Collective (US, UK, & Canada)",
-   "team": "",
-   "location": "United States",
-   "remote": false,
-   "type": "job",
-   "posted": "2025-07-30",
-   "url": "https://job-boards.greenhouse.io/scaleai/jobs/4591782005",
-   "countries": [
-    "US"
-   ],
-   "exclude": []
-  },
-  {
-   "id": "scale-4574113005",
-   "platform": "scale",
-   "title": "STEM Fellow - Human Frontier Collective (US, UK, & Canada)",
-   "team": "",
-   "location": "United States",
-   "remote": false,
-   "type": "job",
-   "posted": "2025-06-06",
-   "url": "https://job-boards.greenhouse.io/scaleai/jobs/4574113005",
-   "countries": [
-    "US"
-   ],
-   "exclude": []
-  },
-  {
-   "id": "scale-4569678005",
-   "platform": "scale",
-   "title": "Staff Software Engineer, Enterprise GenAI",
-   "team": "",
-   "location": "San Francisco, CA; New York, NY",
-   "remote": false,
-   "type": "job",
-   "posted": "2025-05-27",
-   "url": "https://job-boards.greenhouse.io/scaleai/jobs/4569678005",
-   "countries": [
-    "US"
-   ],
-   "exclude": []
-  },
-  {
-   "id": "scale-4565836005",
-   "platform": "scale",
-   "title": "Finance Fellow - Human Frontier Collective (US, UK, & Canada)",
-   "team": "",
-   "location": "United States",
-   "remote": false,
-   "type": "job",
-   "posted": "2025-05-17",
-   "url": "https://job-boards.greenhouse.io/scaleai/jobs/4565836005",
-   "countries": [
-    "US"
-   ],
-   "exclude": []
-  },
-  {
-   "id": "scale-4554440005",
-   "platform": "scale",
-   "title": "Solutions Architect, Enterprise",
-   "team": "",
-   "location": "San Francisco, CA; New York, NY",
-   "remote": false,
-   "type": "job",
-   "posted": "2025-04-22",
-   "url": "https://job-boards.greenhouse.io/scaleai/jobs/4554440005",
-   "countries": [
-    "US"
-   ],
-   "exclude": []
-  },
-  {
-   "id": "scale-4534631005",
-   "platform": "scale",
-   "title": "ML Research Engineer, ML Systems",
-   "team": "",
-   "location": "San Francisco, CA; Seattle, WA; New York, NY",
-   "remote": false,
-   "type": "job",
-   "posted": "2025-03-10",
-   "url": "https://job-boards.greenhouse.io/scaleai/jobs/4534631005",
-   "countries": [
-    "US"
-   ],
-   "exclude": []
-  },
-  {
-   "id": "scale-4528009005",
-   "platform": "scale",
-   "title": "Machine Learning Research Scientist, Post-Training",
-   "team": "",
-   "location": "San Francisco, CA; Seattle, WA; New York, NY",
-   "remote": false,
-   "type": "job",
-   "posted": "2025-02-11",
-   "url": "https://job-boards.greenhouse.io/scaleai/jobs/4528009005",
-   "countries": [
-    "US"
-   ],
-   "exclude": []
-  },
-  {
-   "id": "scale-4513943005",
-   "platform": "scale",
-   "title": "Software Engineer, Enterprise AI",
-   "team": "",
-   "location": "New York, NY; San Francisco, CA",
-   "remote": false,
-   "type": "job",
-   "posted": "2025-01-07",
-   "url": "https://job-boards.greenhouse.io/scaleai/jobs/4513943005",
-   "countries": [
-    "US"
-   ],
-   "exclude": []
-  },
-  {
-   "id": "scale-4488520005",
-   "platform": "scale",
-   "title": "Senior / Staff Machine Learning Research Scientist, Agents",
-   "team": "",
-   "location": "San Francisco, CA; Seattle, WA; New York, NY",
-   "remote": false,
-   "type": "job",
-   "posted": "2024-10-25",
-   "url": "https://job-boards.greenhouse.io/scaleai/jobs/4488520005",
-   "countries": [
-    "US"
-   ],
-   "exclude": []
-  },
-  {
-   "id": "scale-4481921005",
-   "platform": "scale",
-   "title": "Forward Deployed Software Engineer, Public Sector",
-   "team": "",
-   "location": "Austin, TX; Colorado Springs, CO; Honolulu, HI; Omaha, NE; St. Louis, MO; Washington, DC",
-   "remote": false,
-   "type": "job",
-   "posted": "2024-10-09",
-   "url": "https://job-boards.greenhouse.io/scaleai/jobs/4481921005",
-   "countries": [
-    "US"
-   ],
-   "exclude": []
-  },
-  {
-   "id": "scale-4363623005",
-   "platform": "scale",
-   "title": "Software Engineer, Frontier AI Infrastructure",
-   "team": "",
-   "location": "San Francisco, CA; St. Louis, MO; New York, NY; Washington, DC",
-   "remote": false,
-   "type": "job",
-   "posted": "2024-02-15",
-   "url": "https://job-boards.greenhouse.io/scaleai/jobs/4363623005",
-   "countries": [
-    "US"
-   ],
-   "exclude": []
-  },
-  {
-   "id": "scale-4282118005",
-   "platform": "scale",
-   "title": "Strategic Projects Lead, Generative AI",
-   "team": "",
-   "location": "San Francisco, CA; New York, NY",
-   "remote": false,
-   "type": "job",
-   "posted": "2023-06-13",
-   "url": "https://job-boards.greenhouse.io/scaleai/jobs/4282118005",
    "countries": [
     "US"
    ],

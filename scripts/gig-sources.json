@@ -40,6 +40,22 @@
       ]
     },
     {
+      "id": "turing",
+      "name": "Turing",
+      "site": "https://www.turing.com/jobs",
+      "referral": "",
+      "about": "Remote AI training and engineering work with leading AI labs. Our Turing links are referral links.",
+      "feeds": [
+        {
+          "type": "turing_snapshot"
+        },
+        {
+          "type": "greenhouse",
+          "board": "turing"
+        }
+      ]
+    },
+    {
       "id": "alignerr",
       "name": "Alignerr",
       "site": "https://www.alignerr.com",
@@ -100,19 +116,6 @@
         {
           "type": "greenhouse",
           "board": "scaleai"
-        }
-      ]
-    },
-    {
-      "id": "turing",
-      "name": "Turing",
-      "site": "https://www.turing.com/jobs",
-      "referral": "",
-      "about": "Remote AI training and engineering work. Turing shows its contractor roles only after you sign up; roles listed here are jobs at Turing itself.",
-      "feeds": [
-        {
-          "type": "greenhouse",
-          "board": "turing"
         }
       ]
     },

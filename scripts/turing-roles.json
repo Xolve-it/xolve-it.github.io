@@ -1,0 +1,2175 @@
+{
+ "captured": "2026-11-23T17:35:00Z",
+ "source": "Xolve's signed-in Turing account (work.turing.com/jobs), one referral link per role",
+ "roles": [
+  {
+   "id": 104644,
+   "title": "Senior Software Engineer - AI Evaluation / Coding Agents ($100-150/hr)",
+   "roleGroup": "Software development",
+   "locationType": "remote",
+   "createdDate": "2026-09-09",
+   "pay": "",
+   "link": "https://work.turing.com/r/OMY_l39CJN"
+  },
+  {
+   "id": 113843,
+   "title": "AI Benchmark & Red-Teaming Specialist",
+   "roleGroup": "Science",
+   "locationType": "remote",
+   "createdDate": "2026-10-16",
+   "pay": "",
+   "link": "https://work.turing.com/r/Gh9GEMwapV"
+  },
+  {
+   "id": 120491,
+   "title": "Senior Cybersecurity Expert",
+   "roleGroup": "Cloud & Infrastructure",
+   "locationType": "remote",
+   "createdDate": "2026-11-20",
+   "pay": "",
+   "link": "https://work.turing.com/r/p5e7PzSTq6"
+  },
+  {
+   "id": 120498,
+   "title": "Cybersecurity Expert",
+   "roleGroup": "Cloud & Infrastructure",
+   "locationType": "remote",
+   "createdDate": "2026-11-20",
+   "pay": "",
+   "link": "https://work.turing.com/r/zhv_N2YRY9"
+  },
+  {
+   "id": 120413,
+   "title": "Principal Cybersecurity Expert",
+   "roleGroup": "Engineering",
+   "locationType": "remote",
+   "createdDate": "2026-11-19",
+   "pay": "",
+   "link": "https://work.turing.com/r/RBiEb4sHO-"
+  },
+  {
+   "id": 118766,
+   "title": "Image Editing QA",
+   "roleGroup": "Design",
+   "locationType": "remote",
+   "createdDate": "2026-11-05",
+   "pay": "",
+   "link": "https://work.turing.com/r/PXll8P5jRD"
+  },
+  {
+   "id": 115452,
+   "title": "Personal Account Generalist Raters (Android Smartphone Users)",
+   "roleGroup": "Other",
+   "locationType": "remote",
+   "createdDate": "2026-10-21",
+   "pay": "",
+   "link": "https://work.turing.com/r/y95G9NsHVP"
+  },
+  {
+   "id": 107501,
+   "title": "Medical Expert – Dermatology (USA)",
+   "roleGroup": "Healthcare & Medical",
+   "locationType": "remote",
+   "createdDate": "2026-09-18",
+   "pay": "",
+   "link": "https://work.turing.com/r/xmD8-woUie"
+  },
+  {
+   "id": 102612,
+   "title": "Digital Imaging Specialist/ Digital Artist",
+   "roleGroup": "Design",
+   "locationType": "remote",
+   "createdDate": "2026-08-26",
+   "pay": "",
+   "link": "https://work.turing.com/r/K6Oggk9Tk5"
+  },
+  {
+   "id": 102588,
+   "title": "Illustrator/Sketcher/Cartoonist",
+   "roleGroup": "Design",
+   "locationType": "remote",
+   "createdDate": "2026-08-26",
+   "pay": "",
+   "link": "https://work.turing.com/r/gIYlzlk_MA"
+  },
+  {
+   "id": 100063,
+   "title": "Business Analyst - US Educational Raters - Gemini",
+   "roleGroup": "Analyst",
+   "locationType": "remote",
+   "createdDate": "2026-08-14",
+   "pay": "",
+   "link": "https://work.turing.com/r/ZG0JPGXamX"
+  },
+  {
+   "id": 35501,
+   "title": "Senior Software Engineer – LLM Evaluation",
+   "roleGroup": "Software development",
+   "locationType": "remote",
+   "createdDate": "2025-06-09",
+   "pay": "",
+   "link": "https://work.turing.com/r/Zny3SlHLP6"
+  },
+  {
+   "id": 37595,
+   "title": "Senior Software Engineer – Python (LLM Evaluation & Repository Validation)",
+   "roleGroup": "Software development",
+   "locationType": "",
+   "createdDate": "2025-07-03",
+   "pay": "",
+   "link": "https://work.turing.com/r/caSkjsWsQ-"
+  },
+  {
+   "id": 17852,
+   "title": "Senior Python Developer",
+   "roleGroup": "Software development",
+   "locationType": "",
+   "createdDate": "2024-01-27",
+   "pay": "",
+   "link": "https://work.turing.com/r/TAkAyw9ldB"
+  },
+  {
+   "id": 17853,
+   "title": "Python + Full-Stack (JS) Developer",
+   "roleGroup": "Software development",
+   "locationType": "remote",
+   "createdDate": "2024-01-27",
+   "pay": "",
+   "link": "https://work.turing.com/r/bs3-jdSBL-"
+  },
+  {
+   "id": 91017,
+   "title": "Software Engineer – AI Code Evaluation & Benchmarking (US candidates only)",
+   "roleGroup": "Legal & Law Services",
+   "locationType": "remote",
+   "createdDate": "2026-06-12",
+   "pay": "",
+   "link": "https://work.turing.com/r/e4oW0_Mco5"
+  },
+  {
+   "id": 60736,
+   "title": "MLE Bench – Data Analyst",
+   "roleGroup": "ML/Data Engineering",
+   "locationType": "remote",
+   "createdDate": "2026-01-27",
+   "pay": "",
+   "link": "https://work.turing.com/r/uzS-Lz9mX9"
+  },
+  {
+   "id": 33247,
+   "title": "Senior LLM Engineer",
+   "roleGroup": "Software development",
+   "locationType": "remote",
+   "createdDate": "2025-04-03",
+   "pay": "",
+   "link": "https://work.turing.com/r/8o_BXY79_o"
+  },
+  {
+   "id": 102276,
+   "title": "Web Research Specialist",
+   "roleGroup": "Science",
+   "locationType": "remote",
+   "createdDate": "2026-08-25",
+   "pay": "",
+   "link": "https://work.turing.com/r/ny_7aGN5tm"
+  },
+  {
+   "id": 60738,
+   "title": "Technical Content Writer",
+   "roleGroup": "Other",
+   "locationType": "remote",
+   "createdDate": "2026-01-27",
+   "pay": "",
+   "link": "https://work.turing.com/r/1mAVevYYay"
+  },
+  {
+   "id": 20414,
+   "title": "JavaScript / TypeScript Full-Stack Developer",
+   "roleGroup": "Software development",
+   "locationType": "remote",
+   "createdDate": "2024-06-14",
+   "pay": "",
+   "link": "https://work.turing.com/r/vlhR5JzmaU"
+  },
+  {
+   "id": 17843,
+   "title": "Data Scientist/Analyst",
+   "roleGroup": "Data Scientist/Analyst",
+   "locationType": "remote",
+   "createdDate": "2024-01-25",
+   "pay": "",
+   "link": "https://work.turing.com/r/DuhXJRJp0n"
+  },
+  {
+   "id": 97476,
+   "title": "Go (Golang) Developer – AI Training & Code Evaluation",
+   "roleGroup": "Software development",
+   "locationType": "remote",
+   "createdDate": "2026-08-05",
+   "pay": "",
+   "link": "https://work.turing.com/r/NLRYMt8_Fb"
+  },
+  {
+   "id": 97475,
+   "title": "Rust Developer – AI Training & Code Evaluation",
+   "roleGroup": "Software development",
+   "locationType": "remote",
+   "createdDate": "2026-08-05",
+   "pay": "",
+   "link": "https://work.turing.com/r/U_W5vV4tSt"
+  },
+  {
+   "id": 97474,
+   "title": "Java Developer – AI Training & Code Evaluation",
+   "roleGroup": "Software development",
+   "locationType": "remote",
+   "createdDate": "2026-08-05",
+   "pay": "",
+   "link": "https://work.turing.com/r/_RAZAR_jLj"
+  },
+  {
+   "id": 97473,
+   "title": "C/C++ Developer – AI Training & Code Evaluation",
+   "roleGroup": "Software development",
+   "locationType": "remote",
+   "createdDate": "2026-08-05",
+   "pay": "",
+   "link": "https://work.turing.com/r/7HViLVOKoa"
+  },
+  {
+   "id": 81499,
+   "title": "Software Engineer – AI Research & Evaluation (US-based)",
+   "roleGroup": "Software development",
+   "locationType": "remote",
+   "createdDate": "2026-06-01",
+   "pay": "",
+   "link": "https://work.turing.com/r/NzZFXMQvoP"
+  },
+  {
+   "id": 81498,
+   "title": "Senior JavaScript/React Engineer – AI Training (US-based)",
+   "roleGroup": "Software development",
+   "locationType": "remote",
+   "createdDate": "2026-06-01",
+   "pay": "",
+   "link": "https://work.turing.com/r/xAa89vAPm1"
+  },
+  {
+   "id": 81497,
+   "title": "Senior Backend Engineer (Python/FastAPI) – AI Evaluation (US-based)",
+   "roleGroup": "Software development",
+   "locationType": "remote",
+   "createdDate": "2026-06-01",
+   "pay": "",
+   "link": "https://work.turing.com/r/CBeoK7FRD-"
+  },
+  {
+   "id": 81496,
+   "title": "Senior Python Engineer – LLM Evaluation (US-based)",
+   "roleGroup": "Software development",
+   "locationType": "remote",
+   "createdDate": "2026-06-01",
+   "pay": "",
+   "link": "https://work.turing.com/r/mx1_00jh0y"
+  },
+  {
+   "id": 81495,
+   "title": "Senior Software Engineer – LLM Evaluation (US-based)",
+   "roleGroup": "Software development",
+   "locationType": "remote",
+   "createdDate": "2026-06-01",
+   "pay": "",
+   "link": "https://work.turing.com/r/wtJQNjl2rV"
+  },
+  {
+   "id": 73119,
+   "title": "Software Engineer – ($200/hr)",
+   "roleGroup": "Software development",
+   "locationType": "remote",
+   "createdDate": "2026-04-09",
+   "pay": "",
+   "link": "https://work.turing.com/r/7dZjo9XVl7"
+  },
+  {
+   "id": 73098,
+   "title": "Remote Full Stack Engineer",
+   "roleGroup": "Software development",
+   "locationType": "remote",
+   "createdDate": "2026-04-09",
+   "pay": "",
+   "link": "https://work.turing.com/r/A9sOFiSDyB"
+  },
+  {
+   "id": 73095,
+   "title": "Remote Full Stack Developer",
+   "roleGroup": "Software development",
+   "locationType": "remote",
+   "createdDate": "2026-04-09",
+   "pay": "",
+   "link": "https://work.turing.com/r/cOGSjTgU8t"
+  },
+  {
+   "id": 52768,
+   "title": "Senior Software Engineer – LLM Evaluation (US/Canada/WEU based)",
+   "roleGroup": "Software development",
+   "locationType": "remote",
+   "createdDate": "2025-11-23",
+   "pay": "",
+   "link": "https://work.turing.com/r/cfOiH7oICA"
+  },
+  {
+   "id": 46984,
+   "title": "Python Machine Learning Engineer",
+   "roleGroup": "ML/Data Engineering",
+   "locationType": "remote",
+   "createdDate": "2025-09-29",
+   "pay": "",
+   "link": "https://work.turing.com/r/Me32fu8Dok"
+  },
+  {
+   "id": 33806,
+   "title": "Business Analyst (Finance)",
+   "roleGroup": "Analyst",
+   "locationType": "remote",
+   "createdDate": "2025-05-05",
+   "pay": "",
+   "link": "https://work.turing.com/r/l4ve8_7sfL"
+  },
+  {
+   "id": 81757,
+   "title": "Senior Accounting & Finance Advisors",
+   "roleGroup": "Analyst",
+   "locationType": "remote",
+   "createdDate": "2026-06-02",
+   "pay": "",
+   "link": "https://work.turing.com/r/coF1RbS3GN"
+  },
+  {
+   "id": 80173,
+   "title": "CAD & Simulation Consultant | Engineering Design and Simulation – Aerospace / Mechanical / Electrical Engineering",
+   "roleGroup": "Engineering",
+   "locationType": "remote",
+   "createdDate": "2026-05-20",
+   "pay": "",
+   "link": "https://work.turing.com/r/WrJu-NzN0U"
+  },
+  {
+   "id": 39521,
+   "title": "Ph.D. / Postdoctoral / Master’s Expert",
+   "roleGroup": "Science",
+   "locationType": "remote",
+   "createdDate": "2025-07-24",
+   "pay": "",
+   "link": "https://work.turing.com/r/eUX-yn2xEb"
+  },
+  {
+   "id": 34123,
+   "title": "Senior Software Engineer – LLM Evaluation & Repository Validation",
+   "roleGroup": "Software development",
+   "locationType": "remote",
+   "createdDate": "2025-05-14",
+   "pay": "",
+   "link": "https://work.turing.com/r/TDQz23UeAY"
+  },
+  {
+   "id": 20931,
+   "title": "Research Analyst - Advanced Math",
+   "roleGroup": "Science",
+   "locationType": "remote",
+   "createdDate": "2024-06-28",
+   "pay": "",
+   "link": "https://work.turing.com/r/a87GkO9eop"
+  },
+  {
+   "id": 52945,
+   "title": "Dockerfile Data Validation Engineer",
+   "roleGroup": "Cloud & Infrastructure",
+   "locationType": "remote",
+   "createdDate": "2025-11-24",
+   "pay": "",
+   "link": "https://work.turing.com/r/aE2Ad_IqQC"
+  },
+  {
+   "id": 74567,
+   "title": "Audio/Voice/Annotation Trainer - Spanish  Language",
+   "roleGroup": "Linguistics",
+   "locationType": "remote",
+   "createdDate": "2026-04-16",
+   "pay": "",
+   "link": "https://work.turing.com/r/JxWUEwyx1J"
+  },
+  {
+   "id": 117358,
+   "title": "Audio/Voice/Annotation Trainer - French Language",
+   "roleGroup": "Linguistics",
+   "locationType": "remote",
+   "createdDate": "2026-10-30",
+   "pay": "",
+   "link": "https://work.turing.com/r/qN9dOdcC8f"
+  },
+  {
+   "id": 74561,
+   "title": "Audio/Voice/Annotation Trainer - Arabic Language",
+   "roleGroup": "Linguistics",
+   "locationType": "remote",
+   "createdDate": "2026-04-16",
+   "pay": "",
+   "link": "https://work.turing.com/r/vlCckaIzp5"
+  },
+  {
+   "id": 116827,
+   "title": "Audio/Voice/Annotation Trainer - Japanese Language",
+   "roleGroup": "Linguistics",
+   "locationType": "remote",
+   "createdDate": "2026-10-27",
+   "pay": "",
+   "link": "https://work.turing.com/r/lBvRmliEuS"
+  },
+  {
+   "id": 116813,
+   "title": "Audio/Voice/Annotation Trainer - Korean Language",
+   "roleGroup": "Linguistics",
+   "locationType": "remote",
+   "createdDate": "2026-10-27",
+   "pay": "",
+   "link": "https://work.turing.com/r/nVIrMNHQ35"
+  },
+  {
+   "id": 62130,
+   "title": "AI Quality Analyst - English",
+   "roleGroup": "Other",
+   "locationType": "remote",
+   "createdDate": "2026-02-16",
+   "pay": "",
+   "link": "https://work.turing.com/r/KSdLSIeKtD"
+  },
+  {
+   "id": 98883,
+   "title": "Music and Audio experts",
+   "roleGroup": "Humanities & Interdisciplinary Studies",
+   "locationType": "remote",
+   "createdDate": "2026-08-11",
+   "pay": "",
+   "link": "https://work.turing.com/r/iTZzuzbCpO"
+  },
+  {
+   "id": 44942,
+   "title": "Spanish Voice Actors (Studio-Grade Recording Experience)",
+   "roleGroup": "Linguistics",
+   "locationType": "remote",
+   "createdDate": "2025-09-15",
+   "pay": "",
+   "link": "https://work.turing.com/r/mbeXhiPgBA"
+  },
+  {
+   "id": 60713,
+   "title": "SWE Bench – Data Engineer/Data Scientist",
+   "roleGroup": "ML/Data Engineering",
+   "locationType": "remote",
+   "createdDate": "2026-01-27",
+   "pay": "",
+   "link": "https://work.turing.com/r/a3GqPF19tU"
+  },
+  {
+   "id": 62142,
+   "title": "AI Quality Analyst (Personalization) - Russian",
+   "roleGroup": "Other",
+   "locationType": "remote",
+   "createdDate": "2026-02-16",
+   "pay": "",
+   "link": "https://work.turing.com/r/P7z4d3vT4v"
+  },
+  {
+   "id": 62139,
+   "title": "AI Quality Analyst (Personalization) - Hindi",
+   "roleGroup": "Other",
+   "locationType": "remote",
+   "createdDate": "2026-02-16",
+   "pay": "",
+   "link": "https://work.turing.com/r/oFqTATgN7K"
+  },
+  {
+   "id": 62138,
+   "title": "AI Quality Analyst (Personalization) - Indonesian",
+   "roleGroup": "Other",
+   "locationType": "remote",
+   "createdDate": "2026-02-16",
+   "pay": "",
+   "link": "https://work.turing.com/r/IMGTRQeKPV"
+  },
+  {
+   "id": 62135,
+   "title": "AI Quality Analyst (Personalization) - Korean",
+   "roleGroup": "Other",
+   "locationType": "remote",
+   "createdDate": "2026-02-16",
+   "pay": "",
+   "link": "https://work.turing.com/r/SYUbAXWGzV"
+  },
+  {
+   "id": 62133,
+   "title": "AI Quality Analyst (Personalization) - Spanish",
+   "roleGroup": "Other",
+   "locationType": "remote",
+   "createdDate": "2026-02-16",
+   "pay": "",
+   "link": "https://work.turing.com/r/BwbtWgHY2X"
+  },
+  {
+   "id": 62132,
+   "title": "AI Quality Analyst (Personalization) - Arabic",
+   "roleGroup": "Other",
+   "locationType": "remote",
+   "createdDate": "2026-02-16",
+   "pay": "",
+   "link": "https://work.turing.com/r/0mKZ7Io2fc"
+  },
+  {
+   "id": 62131,
+   "title": "AI Quality Analyst (Personalization) - Portuguese",
+   "roleGroup": "Other",
+   "locationType": "remote",
+   "createdDate": "2026-02-16",
+   "pay": "",
+   "link": "https://work.turing.com/r/1sjw1HPe6B"
+  },
+  {
+   "id": 119697,
+   "title": "Bioinformatics / Computational Genomics Expert",
+   "roleGroup": "Science",
+   "locationType": "remote",
+   "createdDate": "2026-11-13",
+   "pay": "",
+   "link": "https://work.turing.com/r/n3wyZXtqso"
+  },
+  {
+   "id": 72055,
+   "title": "AI Quality Analyst (Personalization) - Dutch",
+   "roleGroup": "Other",
+   "locationType": "remote",
+   "createdDate": "2026-03-26",
+   "pay": "",
+   "link": "https://work.turing.com/r/EfsXGmfnmG"
+  },
+  {
+   "id": 55011,
+   "title": "Business Analyst (Bahasa Indonesian Language)",
+   "roleGroup": "Other",
+   "locationType": "remote",
+   "createdDate": "2025-12-04",
+   "pay": "",
+   "link": "https://work.turing.com/r/wmsYAXUbJJ"
+  },
+  {
+   "id": 55010,
+   "title": "Business Analyst (Tagalog Language)",
+   "roleGroup": "Other",
+   "locationType": "remote",
+   "createdDate": "2025-12-04",
+   "pay": "",
+   "link": "https://work.turing.com/r/081cZxdc6B"
+  },
+  {
+   "id": 54878,
+   "title": "Business Analyst (French Language)",
+   "roleGroup": "Other",
+   "locationType": "remote",
+   "createdDate": "2025-12-04",
+   "pay": "",
+   "link": "https://work.turing.com/r/8n06rYh-Zm"
+  },
+  {
+   "id": 31258,
+   "title": "Business Analyst (Spanish Language)",
+   "roleGroup": "Other",
+   "locationType": "remote",
+   "createdDate": "2025-02-07",
+   "pay": "",
+   "link": "https://work.turing.com/r/hOLaNTwfSB"
+  },
+  {
+   "id": 78480,
+   "title": "Small business owners (AI response evaluation) - Spanish Business Documents",
+   "roleGroup": "Business",
+   "locationType": "remote",
+   "createdDate": "2026-05-06",
+   "pay": "",
+   "link": "https://work.turing.com/r/ZZvv_GUPBx"
+  },
+  {
+   "id": 42463,
+   "title": "Finance Expert (US based)",
+   "roleGroup": "Finance",
+   "locationType": "remote",
+   "createdDate": "2025-08-29",
+   "pay": "",
+   "link": "https://work.turing.com/r/Oqk22H6JWo"
+  },
+  {
+   "id": 42012,
+   "title": "Resident Medical Specialist (MD/DO)",
+   "roleGroup": "Healthcare & Medical",
+   "locationType": "remote",
+   "createdDate": "2025-08-22",
+   "pay": "",
+   "link": "https://work.turing.com/r/c_vd7JWlyr"
+  },
+  {
+   "id": 34442,
+   "title": "Biology Expert (PhD/Master’s)",
+   "roleGroup": "Science",
+   "locationType": "remote",
+   "createdDate": "2025-05-20",
+   "pay": "",
+   "link": "https://work.turing.com/r/r6Tv9RbwLN"
+  },
+  {
+   "id": 34441,
+   "title": "Chemistry Expert (PhD/Master's)",
+   "roleGroup": "Science",
+   "locationType": "remote",
+   "createdDate": "2025-05-20",
+   "pay": "",
+   "link": "https://work.turing.com/r/wKY3JsIcDn"
+  },
+  {
+   "id": 34440,
+   "title": "Physics Expert (PhD/Master's)",
+   "roleGroup": "Science",
+   "locationType": "remote",
+   "createdDate": "2025-05-20",
+   "pay": "",
+   "link": "https://work.turing.com/r/AGSJ8qeJ_l"
+  },
+  {
+   "id": 34430,
+   "title": "Mathematics Expert (Master’s/Ph.D.)",
+   "roleGroup": "Science",
+   "locationType": "remote",
+   "createdDate": "2025-05-20",
+   "pay": "",
+   "link": "https://work.turing.com/r/uXIpSrIP8p"
+  },
+  {
+   "id": 33805,
+   "title": "Medicine Physician (MD/DO/Doctoral study/PhD)",
+   "roleGroup": "Healthcare & Medical",
+   "locationType": "remote",
+   "createdDate": "2025-05-05",
+   "pay": "",
+   "link": "https://work.turing.com/r/1OO6xHdTUb"
+  },
+  {
+   "id": 90877,
+   "title": "Board Game Reasoning Expert (AI Training & Evaluation)",
+   "roleGroup": "Software development",
+   "locationType": "remote",
+   "createdDate": "2026-06-11",
+   "pay": "",
+   "link": "https://work.turing.com/r/OlwvqhojjJ"
+  },
+  {
+   "id": 54884,
+   "title": "Business Analyst (Japanese Language)",
+   "roleGroup": "Other",
+   "locationType": "remote",
+   "createdDate": "2025-12-04",
+   "pay": "",
+   "link": "https://work.turing.com/r/3_zW1tSRi4"
+  },
+  {
+   "id": 47495,
+   "title": "Engineering Manager",
+   "roleGroup": "Science",
+   "locationType": "remote",
+   "createdDate": "2025-10-02",
+   "pay": "",
+   "link": "https://work.turing.com/r/yHLHwgXhAN"
+  },
+  {
+   "id": 50786,
+   "title": "Community Association Manager (Real Estate)",
+   "roleGroup": "Science",
+   "locationType": "remote",
+   "createdDate": "2025-11-06",
+   "pay": "",
+   "link": "https://work.turing.com/r/zXpsHwzPtw"
+  },
+  {
+   "id": 50674,
+   "title": "Real Estate Concierge Specialist",
+   "roleGroup": "Science",
+   "locationType": "remote",
+   "createdDate": "2025-11-06",
+   "pay": "",
+   "link": "https://work.turing.com/r/OQkugrvdJQ"
+  },
+  {
+   "id": 55001,
+   "title": "Business Analyst (Turkish Language)",
+   "roleGroup": "Other",
+   "locationType": "remote",
+   "createdDate": "2025-12-04",
+   "pay": "",
+   "link": "https://work.turing.com/r/fnmrUz6Gym"
+  },
+  {
+   "id": 31268,
+   "title": "Business Analyst (Norwegian Language)",
+   "roleGroup": "Other",
+   "locationType": "remote",
+   "createdDate": "2025-02-07",
+   "pay": "",
+   "link": "https://work.turing.com/r/DYLS-8ai1n"
+  },
+  {
+   "id": 37602,
+   "title": "Senior Software Engineer – C#(LLM Evaluation & Repository Validation)",
+   "roleGroup": "Software development",
+   "locationType": "",
+   "createdDate": "2025-07-03",
+   "pay": "",
+   "link": "https://work.turing.com/r/B5D_H5S9I-"
+  },
+  {
+   "id": 37601,
+   "title": "Senior Software Engineer – Go (LLM Evaluation & Repository Validation)",
+   "roleGroup": "Software development",
+   "locationType": "",
+   "createdDate": "2025-07-03",
+   "pay": "",
+   "link": "https://work.turing.com/r/bQmflaCVzq"
+  },
+  {
+   "id": 37600,
+   "title": "Senior Software Engineer – Ruby (LLM Evaluation & Repository Validation)",
+   "roleGroup": "Software development",
+   "locationType": "",
+   "createdDate": "2025-07-03",
+   "pay": "",
+   "link": "https://work.turing.com/r/2l0AFJPaCK"
+  },
+  {
+   "id": 37599,
+   "title": "Senior Software Engineer – Rust (LLM Evaluation & Repository Validation)",
+   "roleGroup": "Software development",
+   "locationType": "",
+   "createdDate": "2025-07-03",
+   "pay": "",
+   "link": "https://work.turing.com/r/9QyozTM7pu"
+  },
+  {
+   "id": 37598,
+   "title": "Senior Software Engineer – C++ (LLM Evaluation & Repository Validation)",
+   "roleGroup": "Software development",
+   "locationType": "",
+   "createdDate": "2025-07-03",
+   "pay": "",
+   "link": "https://work.turing.com/r/4Ur2hKxG1C"
+  },
+  {
+   "id": 20930,
+   "title": "Content Analyst",
+   "roleGroup": "Other",
+   "locationType": "remote",
+   "createdDate": "2024-06-28",
+   "pay": "",
+   "link": "https://work.turing.com/r/e6LTf2ijfo"
+  },
+  {
+   "id": 97278,
+   "title": "Domain Expert - TV Show & Movies",
+   "roleGroup": "Science",
+   "locationType": "remote",
+   "createdDate": "2026-08-03",
+   "pay": "",
+   "link": "https://work.turing.com/r/cFRWM-KNVI"
+  },
+  {
+   "id": 97253,
+   "title": "Domain Expert - Art",
+   "roleGroup": "Science",
+   "locationType": "remote",
+   "createdDate": "2026-08-03",
+   "pay": "",
+   "link": "https://work.turing.com/r/Kcanu7GWLj"
+  },
+  {
+   "id": 116973,
+   "title": "Retail / Consumer Banking Expert",
+   "roleGroup": "Finance",
+   "locationType": "remote",
+   "createdDate": "2026-10-28",
+   "pay": "",
+   "link": "https://work.turing.com/r/Ok-LX4s0iz"
+  },
+  {
+   "id": 116972,
+   "title": "Personal / Consumer Lending Expert",
+   "roleGroup": "Finance",
+   "locationType": "remote",
+   "createdDate": "2026-10-28",
+   "pay": "",
+   "link": "https://work.turing.com/r/GJUd9rktnA"
+  },
+  {
+   "id": 116971,
+   "title": "Mortgage & Home Lending Expert",
+   "roleGroup": "Finance",
+   "locationType": "remote",
+   "createdDate": "2026-10-28",
+   "pay": "",
+   "link": "https://work.turing.com/r/EuaJ_r_PNa"
+  },
+  {
+   "id": 116970,
+   "title": "Corporate Banking Expert",
+   "roleGroup": "Finance",
+   "locationType": "remote",
+   "createdDate": "2026-10-28",
+   "pay": "",
+   "link": "https://work.turing.com/r/k_EEJg4g5H"
+  },
+  {
+   "id": 116969,
+   "title": "Commercial Banking Expert",
+   "roleGroup": "Finance",
+   "locationType": "remote",
+   "createdDate": "2026-10-28",
+   "pay": "",
+   "link": "https://work.turing.com/r/ClOllH3wcR"
+  },
+  {
+   "id": 112467,
+   "title": "Project Lead - AI Training",
+   "roleGroup": "Analyst",
+   "locationType": "remote",
+   "createdDate": "2026-10-12",
+   "pay": "",
+   "link": "https://work.turing.com/r/40xgQssC7q"
+  },
+  {
+   "id": 108816,
+   "title": "Context Elicitation & Conversation Evaluation Specialists - Latam, Southeastern Europe, Asia, Africa",
+   "roleGroup": "Analyst",
+   "locationType": "remote",
+   "createdDate": "2026-09-25",
+   "pay": "",
+   "link": "https://work.turing.com/r/7O1ttLC5oT"
+  },
+  {
+   "id": 116327,
+   "title": "Agentic Life Science Expert",
+   "roleGroup": "Science",
+   "locationType": "remote",
+   "createdDate": "2026-10-26",
+   "pay": "",
+   "link": "https://work.turing.com/r/G2FR9XbjqQ"
+  },
+  {
+   "id": 97288,
+   "title": "Domain Expert- Sports",
+   "roleGroup": "Analyst",
+   "locationType": "remote",
+   "createdDate": "2026-08-03",
+   "pay": "",
+   "link": "https://work.turing.com/r/5LYBN93Bc5"
+  },
+  {
+   "id": 97279,
+   "title": "Domain Expert- Politics",
+   "roleGroup": "Analyst",
+   "locationType": "remote",
+   "createdDate": "2026-08-03",
+   "pay": "",
+   "link": "https://work.turing.com/r/4cFkLhRhUQ"
+  },
+  {
+   "id": 97254,
+   "title": "Domain Expert- Music",
+   "roleGroup": "Analyst",
+   "locationType": "remote",
+   "createdDate": "2026-08-03",
+   "pay": "",
+   "link": "https://work.turing.com/r/yyABMmIfuB"
+  },
+  {
+   "id": 95526,
+   "title": "Remote Finance & Research Analyst",
+   "roleGroup": "Finance",
+   "locationType": "remote",
+   "createdDate": "2026-07-02",
+   "pay": "",
+   "link": "https://work.turing.com/r/lcFDBcgXji"
+  },
+  {
+   "id": 94814,
+   "title": "Azure DevOps Engineer(LangGraph)",
+   "roleGroup": "Cloud & Infrastructure",
+   "locationType": "remote",
+   "createdDate": "2026-06-26",
+   "pay": "",
+   "link": "https://work.turing.com/r/Cz6RqhHBGX"
+  },
+  {
+   "id": 80064,
+   "title": "Small business owners - English Business Document",
+   "roleGroup": "Business",
+   "locationType": "remote",
+   "createdDate": "2026-05-20",
+   "pay": "",
+   "link": "https://work.turing.com/r/v7y_WhFShE"
+  },
+  {
+   "id": 79388,
+   "title": "AI Quality Analyst - Portuguese (Portugal)",
+   "roleGroup": "Other",
+   "locationType": "remote",
+   "createdDate": "2026-05-13",
+   "pay": "",
+   "link": "https://work.turing.com/r/fPCAqz6Fiz"
+  },
+  {
+   "id": 78496,
+   "title": "Small business owners (AI response evaluation) - Japanese Business Document",
+   "roleGroup": "Business",
+   "locationType": "remote",
+   "createdDate": "2026-05-06",
+   "pay": "",
+   "link": "https://work.turing.com/r/I_PAbJFgtZ"
+  },
+  {
+   "id": 78491,
+   "title": "Small business owners (AI response evaluation) - Korean Business Document",
+   "roleGroup": "Business",
+   "locationType": "remote",
+   "createdDate": "2026-05-06",
+   "pay": "",
+   "link": "https://work.turing.com/r/hT4vkjZ_H7"
+  },
+  {
+   "id": 75410,
+   "title": "Financial Consulting Expert",
+   "roleGroup": "Finance",
+   "locationType": "remote",
+   "createdDate": "2026-04-23",
+   "pay": "",
+   "link": "https://work.turing.com/r/mVsevRXL9n"
+  },
+  {
+   "id": 75409,
+   "title": "Accounting Expert",
+   "roleGroup": "Finance",
+   "locationType": "remote",
+   "createdDate": "2026-04-23",
+   "pay": "",
+   "link": "https://work.turing.com/r/pSbX-IjwRt"
+  },
+  {
+   "id": 75408,
+   "title": "Growth Equity Analyst",
+   "roleGroup": "Finance",
+   "locationType": "remote",
+   "createdDate": "2026-04-23",
+   "pay": "",
+   "link": "https://work.turing.com/r/QxyekBnhgD"
+  },
+  {
+   "id": 75406,
+   "title": "Venture Capital Analyst",
+   "roleGroup": "Finance",
+   "locationType": "remote",
+   "createdDate": "2026-04-23",
+   "pay": "",
+   "link": "https://work.turing.com/r/RS_NVknS4B"
+  },
+  {
+   "id": 75405,
+   "title": "Private Equity Associate",
+   "roleGroup": "Finance",
+   "locationType": "remote",
+   "createdDate": "2026-04-23",
+   "pay": "",
+   "link": "https://work.turing.com/r/UzB14nZLkZ"
+  },
+  {
+   "id": 75404,
+   "title": "Investment Banking Analyst",
+   "roleGroup": "Finance",
+   "locationType": "remote",
+   "createdDate": "2026-04-23",
+   "pay": "",
+   "link": "https://work.turing.com/r/-dMK5fqrFa"
+  },
+  {
+   "id": 75403,
+   "title": "Quantitative Analyst (Finance)",
+   "roleGroup": "Finance",
+   "locationType": "remote",
+   "createdDate": "2026-04-23",
+   "pay": "",
+   "link": "https://work.turing.com/r/99hYmI32G3"
+  },
+  {
+   "id": 75402,
+   "title": "Financial Trading Specialist",
+   "roleGroup": "Finance",
+   "locationType": "remote",
+   "createdDate": "2026-04-23",
+   "pay": "",
+   "link": "https://work.turing.com/r/mx2YK9Ys0e"
+  },
+  {
+   "id": 75401,
+   "title": "Equity Research Analyst",
+   "roleGroup": "Finance",
+   "locationType": "remote",
+   "createdDate": "2026-04-23",
+   "pay": "",
+   "link": "https://work.turing.com/r/8hiXk8P_Tb"
+  },
+  {
+   "id": 75400,
+   "title": "Portfolio Management Expert",
+   "roleGroup": "Finance",
+   "locationType": "remote",
+   "createdDate": "2026-04-23",
+   "pay": "",
+   "link": "https://work.turing.com/r/dOW_37-jTD"
+  },
+  {
+   "id": 75399,
+   "title": "Capital Markets Expert",
+   "roleGroup": "Finance",
+   "locationType": "remote",
+   "createdDate": "2026-04-23",
+   "pay": "",
+   "link": "https://work.turing.com/r/rizCDL8YQC"
+  },
+  {
+   "id": 75211,
+   "title": "Privacy & Data Protection Law Expert",
+   "roleGroup": "Legal & Law Services",
+   "locationType": "remote",
+   "createdDate": "2026-04-22",
+   "pay": "",
+   "link": "https://work.turing.com/r/ta66Yww2Ez"
+  },
+  {
+   "id": 75210,
+   "title": "Real Estate & Property Law Expert",
+   "roleGroup": "Legal & Law Services",
+   "locationType": "remote",
+   "createdDate": "2026-04-22",
+   "pay": "",
+   "link": "https://work.turing.com/r/bbYSyKPxkR"
+  },
+  {
+   "id": 75209,
+   "title": "Healthcare & FDA Regulatory Law Expert",
+   "roleGroup": "Legal & Law Services",
+   "locationType": "remote",
+   "createdDate": "2026-04-22",
+   "pay": "",
+   "link": "https://work.turing.com/r/JAAFSlqTI7"
+  },
+  {
+   "id": 75208,
+   "title": "Securities & Financial Regulation Expert",
+   "roleGroup": "Legal & Law Services",
+   "locationType": "remote",
+   "createdDate": "2026-04-22",
+   "pay": "",
+   "link": "https://work.turing.com/r/14MMOLyhA4"
+  },
+  {
+   "id": 75205,
+   "title": "Contract Law Expert",
+   "roleGroup": "Legal & Law Services",
+   "locationType": "remote",
+   "createdDate": "2026-04-22",
+   "pay": "",
+   "link": "https://work.turing.com/r/OBSHRwVLxV"
+  },
+  {
+   "id": 75204,
+   "title": "Employment & Labor Law Expert",
+   "roleGroup": "Legal & Law Services",
+   "locationType": "remote",
+   "createdDate": "2026-04-22",
+   "pay": "",
+   "link": "https://work.turing.com/r/1q7jp-cRGv"
+  },
+  {
+   "id": 75202,
+   "title": "Intellectual Property Law Expert",
+   "roleGroup": "Legal & Law Services",
+   "locationType": "remote",
+   "createdDate": "2026-04-22",
+   "pay": "",
+   "link": "https://work.turing.com/r/xy_bo-u1xJ"
+  },
+  {
+   "id": 75201,
+   "title": "Litigation & Civil Procedure Expert",
+   "roleGroup": "Legal & Law Services",
+   "locationType": "remote",
+   "createdDate": "2026-04-22",
+   "pay": "",
+   "link": "https://work.turing.com/r/BrizB6q4Hw"
+  },
+  {
+   "id": 75200,
+   "title": "Corporate Law & M&A Expert",
+   "roleGroup": "Legal & Law Services",
+   "locationType": "remote",
+   "createdDate": "2026-04-22",
+   "pay": "",
+   "link": "https://work.turing.com/r/R3lCj326yD"
+  },
+  {
+   "id": 75131,
+   "title": "Hematologist/Oncologist",
+   "roleGroup": "Healthcare & Medical",
+   "locationType": "remote",
+   "createdDate": "2026-04-22",
+   "pay": "",
+   "link": "https://work.turing.com/r/i5Uxhqiiz7"
+  },
+  {
+   "id": 75129,
+   "title": "Gastroenterologist/Hepatologist",
+   "roleGroup": "Healthcare & Medical",
+   "locationType": "remote",
+   "createdDate": "2026-04-22",
+   "pay": "",
+   "link": "https://work.turing.com/r/SFOgI0nYcs"
+  },
+  {
+   "id": 75127,
+   "title": "Pulmonologist/Intensivist",
+   "roleGroup": "Healthcare & Medical",
+   "locationType": "remote",
+   "createdDate": "2026-04-22",
+   "pay": "",
+   "link": "https://work.turing.com/r/sleGWJmzVp"
+  },
+  {
+   "id": 75126,
+   "title": "Endocrinologist",
+   "roleGroup": "Healthcare & Medical",
+   "locationType": "remote",
+   "createdDate": "2026-04-22",
+   "pay": "",
+   "link": "https://work.turing.com/r/hmnRwrvNOr"
+  },
+  {
+   "id": 75124,
+   "title": "Emergency Medicine Physician (MD/DO)",
+   "roleGroup": "Healthcare & Medical",
+   "locationType": "remote",
+   "createdDate": "2026-04-22",
+   "pay": "",
+   "link": "https://work.turing.com/r/Uw5IEK6NtP"
+  },
+  {
+   "id": 72063,
+   "title": "AI Quality Analyst (Personalization) - German",
+   "roleGroup": "Other",
+   "locationType": "remote",
+   "createdDate": "2026-03-26",
+   "pay": "",
+   "link": "https://work.turing.com/r/GWBjL5lzUb"
+  },
+  {
+   "id": 72054,
+   "title": "AI Quality Analyst (Personalization) - Polish",
+   "roleGroup": "Other",
+   "locationType": "remote",
+   "createdDate": "2026-03-26",
+   "pay": "",
+   "link": "https://work.turing.com/r/V3z9WkbeNq"
+  },
+  {
+   "id": 64992,
+   "title": "Top GitHub Contributors – Agentic Review Project",
+   "roleGroup": "Software development",
+   "locationType": "remote",
+   "createdDate": "2026-03-13",
+   "pay": "",
+   "link": "https://work.turing.com/r/w2SCZhmQZs"
+  },
+  {
+   "id": 62141,
+   "title": "AI Quality Analyst (Personalization) - Vietnamese",
+   "roleGroup": "Other",
+   "locationType": "remote",
+   "createdDate": "2026-02-16",
+   "pay": "",
+   "link": "https://work.turing.com/r/09sn7dvxcE"
+  },
+  {
+   "id": 62140,
+   "title": "AI Quality Analyst (Personalization) - Thai",
+   "roleGroup": "Other",
+   "locationType": "remote",
+   "createdDate": "2026-02-16",
+   "pay": "",
+   "link": "https://work.turing.com/r/FkimZ7wLtC"
+  },
+  {
+   "id": 62137,
+   "title": "AI Quality Analyst (Personalization) - Turkish",
+   "roleGroup": "Other",
+   "locationType": "remote",
+   "createdDate": "2026-02-16",
+   "pay": "",
+   "link": "https://work.turing.com/r/yD6OIkORxJ"
+  },
+  {
+   "id": 62134,
+   "title": "AI Quality Analyst (Gemini) - Chinese",
+   "roleGroup": "Other",
+   "locationType": "remote",
+   "createdDate": "2026-02-16",
+   "pay": "",
+   "link": "https://work.turing.com/r/NdOyfBoS40"
+  },
+  {
+   "id": 56161,
+   "title": "Prompt & Verifier",
+   "roleGroup": "Legal & Law Services",
+   "locationType": "remote",
+   "createdDate": "2025-12-12",
+   "pay": "",
+   "link": "https://work.turing.com/r/GpOqcG_4dZ"
+  },
+  {
+   "id": 55009,
+   "title": "Business Analyst (Russian Language)",
+   "roleGroup": "Other",
+   "locationType": "remote",
+   "createdDate": "2025-12-04",
+   "pay": "",
+   "link": "https://work.turing.com/r/-s3DTijOiI"
+  },
+  {
+   "id": 55008,
+   "title": "Business Analyst (Thai Language)",
+   "roleGroup": "Other",
+   "locationType": "remote",
+   "createdDate": "2025-12-04",
+   "pay": "",
+   "link": "https://work.turing.com/r/G5ibuur0os"
+  },
+  {
+   "id": 55007,
+   "title": "Business Analyst (Malay Language)",
+   "roleGroup": "Other",
+   "locationType": "remote",
+   "createdDate": "2025-12-04",
+   "pay": "",
+   "link": "https://work.turing.com/r/domMD4H-O5"
+  },
+  {
+   "id": 55005,
+   "title": "Business Analyst (Hebrew Language)",
+   "roleGroup": "Other",
+   "locationType": "remote",
+   "createdDate": "2025-12-04",
+   "pay": "",
+   "link": "https://work.turing.com/r/4gbhCSSZBd"
+  },
+  {
+   "id": 55004,
+   "title": "Business Analyst (Finnish Language)",
+   "roleGroup": "Other",
+   "locationType": "remote",
+   "createdDate": "2025-12-04",
+   "pay": "",
+   "link": "https://work.turing.com/r/CK-vV13nGk"
+  },
+  {
+   "id": 54912,
+   "title": "Business Analyst (Swedish Language)",
+   "roleGroup": "Other",
+   "locationType": "remote",
+   "createdDate": "2025-12-04",
+   "pay": "",
+   "link": "https://work.turing.com/r/WTAf-ER8-V"
+  },
+  {
+   "id": 54886,
+   "title": "Business Analyst (Danish Language)",
+   "roleGroup": "Other",
+   "locationType": "remote",
+   "createdDate": "2025-12-04",
+   "pay": "",
+   "link": "https://work.turing.com/r/p7HGCPhqqf"
+  },
+  {
+   "id": 54885,
+   "title": "Business Analyst (Korean Language)",
+   "roleGroup": "Other",
+   "locationType": "remote",
+   "createdDate": "2025-12-04",
+   "pay": "",
+   "link": "https://work.turing.com/r/VcIDz1vjzz"
+  },
+  {
+   "id": 54883,
+   "title": "Business Analyst (Dutch Language)",
+   "roleGroup": "Other",
+   "locationType": "remote",
+   "createdDate": "2025-12-04",
+   "pay": "",
+   "link": "https://work.turing.com/r/dgvsSBHD2h"
+  },
+  {
+   "id": 54882,
+   "title": "Business Analyst (Arabic Language)",
+   "roleGroup": "Other",
+   "locationType": "remote",
+   "createdDate": "2025-12-04",
+   "pay": "",
+   "link": "https://work.turing.com/r/Odq6XRIdbN"
+  },
+  {
+   "id": 54881,
+   "title": "Business Analyst (Italian Language)",
+   "roleGroup": "Other",
+   "locationType": "remote",
+   "createdDate": "2025-12-04",
+   "pay": "",
+   "link": "https://work.turing.com/r/ugMbw0L1ty"
+  },
+  {
+   "id": 54879,
+   "title": "Business Analyst (German Language)",
+   "roleGroup": "Other",
+   "locationType": "remote",
+   "createdDate": "2025-12-04",
+   "pay": "",
+   "link": "https://work.turing.com/r/KPkRnT2RBV"
+  },
+  {
+   "id": 54787,
+   "title": "Business Analyst (Chinese Language)",
+   "roleGroup": "Other",
+   "locationType": "remote",
+   "createdDate": "2025-12-03",
+   "pay": "",
+   "link": "https://work.turing.com/r/ykTUDxgAzk"
+  },
+  {
+   "id": 52974,
+   "title": "Image/Video Annotator",
+   "roleGroup": "Analyst",
+   "locationType": "remote",
+   "createdDate": "2025-11-25",
+   "pay": "",
+   "link": "https://work.turing.com/r/Fe2YRV9DSc"
+  },
+  {
+   "id": 50881,
+   "title": "Project Manager",
+   "roleGroup": "Science",
+   "locationType": "remote",
+   "createdDate": "2025-11-07",
+   "pay": "",
+   "link": "https://work.turing.com/r/HTxC5Xx_PM"
+  },
+  {
+   "id": 50858,
+   "title": "Real Estate Broker",
+   "roleGroup": "Science",
+   "locationType": "remote",
+   "createdDate": "2025-11-07",
+   "pay": "",
+   "link": "https://work.turing.com/r/dUj7KeByeU"
+  },
+  {
+   "id": 50857,
+   "title": "Real Estate Sales Agent",
+   "roleGroup": "Science",
+   "locationType": "remote",
+   "createdDate": "2025-11-07",
+   "pay": "",
+   "link": "https://work.turing.com/r/xtmURz-SPO"
+  },
+  {
+   "id": 30570,
+   "title": "LLM C/ C++ Developer",
+   "roleGroup": "Software development",
+   "locationType": "remote",
+   "createdDate": "2025-01-24",
+   "pay": "",
+   "link": "https://work.turing.com/r/MJes2s7adI"
+  },
+  {
+   "id": 20442,
+   "title": "LLM Java Developer",
+   "roleGroup": "Software development",
+   "locationType": "remote",
+   "createdDate": "2024-06-17",
+   "pay": "",
+   "link": "https://work.turing.com/r/JoPUNJeOp_"
+  },
+  {
+   "id": 41226,
+   "title": "LLM Go Developer",
+   "roleGroup": "Software development",
+   "locationType": "remote",
+   "createdDate": "2025-08-14",
+   "pay": "",
+   "link": "https://work.turing.com/r/0wOrHDds3r"
+  },
+  {
+   "id": 118678,
+   "title": "ML Engineer - LLM & Agentic Evaluations",
+   "roleGroup": "Software development",
+   "locationType": "remote",
+   "createdDate": "2026-11-05",
+   "pay": "",
+   "link": "https://work.turing.com/r/NJWgA1NWx3"
+  },
+  {
+   "id": 120826,
+   "title": "Domain Expert: Python",
+   "roleGroup": "Software development",
+   "locationType": "remote",
+   "createdDate": "2026-11-23",
+   "pay": "",
+   "link": "https://work.turing.com/r/ziDKaWsVbY"
+  },
+  {
+   "id": 120227,
+   "title": "Domain Expert – Python",
+   "roleGroup": "Software development",
+   "locationType": "remote",
+   "createdDate": "2026-11-18",
+   "pay": "",
+   "link": "https://work.turing.com/r/vExl8wu1tY"
+  },
+  {
+   "id": 120224,
+   "title": "Senior Software Engineer - Python and JavaScript",
+   "roleGroup": "Software development",
+   "locationType": "remote",
+   "createdDate": "2026-11-18",
+   "pay": "",
+   "link": "https://work.turing.com/r/4K5Wo-A-tH"
+  },
+  {
+   "id": 119196,
+   "title": "ML/AI Systems Engineer",
+   "roleGroup": "ML/Data Engineering",
+   "locationType": "remote",
+   "createdDate": "2026-11-11",
+   "pay": "",
+   "link": "https://work.turing.com/r/g4qp5DC-Uf"
+  },
+  {
+   "id": 119121,
+   "title": "Code Reviewer - Javascript",
+   "roleGroup": "Software development",
+   "locationType": "remote",
+   "createdDate": "2026-11-10",
+   "pay": "",
+   "link": "https://work.turing.com/r/9nSSg3H9gP"
+  },
+  {
+   "id": 119120,
+   "title": "Code Reviewer - Python",
+   "roleGroup": "Software development",
+   "locationType": "remote",
+   "createdDate": "2026-11-10",
+   "pay": "",
+   "link": "https://work.turing.com/r/QlKlP7j3A4"
+  },
+  {
+   "id": 117575,
+   "title": "Software Engineer - Code",
+   "roleGroup": "Science",
+   "locationType": "remote",
+   "createdDate": "2026-11-01",
+   "pay": "",
+   "link": "https://work.turing.com/r/CVTxCMw9P-"
+  },
+  {
+   "id": 116163,
+   "title": "AI Trainer - Data Annotation Specialist (Safety)",
+   "roleGroup": "Other",
+   "locationType": "remote",
+   "createdDate": "2026-10-26",
+   "pay": "",
+   "link": "https://work.turing.com/r/Et7ki3GAxl"
+  },
+  {
+   "id": 116357,
+   "title": "Senior Accountants & Auditors (APAC/MEA & NA)",
+   "roleGroup": "Business",
+   "locationType": "remote",
+   "createdDate": "2026-10-26",
+   "pay": "",
+   "link": "https://work.turing.com/r/JY_NgUP5sV"
+  },
+  {
+   "id": 120146,
+   "title": "Scientific Computing / Research Engineering Expert — Engineering",
+   "roleGroup": "Engineering",
+   "locationType": "remote",
+   "createdDate": "2026-11-17",
+   "pay": "",
+   "link": "https://work.turing.com/r/ReHHCz8zYg"
+  },
+  {
+   "id": 119208,
+   "title": "Quickbooks Expert",
+   "roleGroup": "Business",
+   "locationType": "remote",
+   "createdDate": "2026-11-11",
+   "pay": "",
+   "link": "https://work.turing.com/r/otZ7Znl8KL"
+  },
+  {
+   "id": 117620,
+   "title": "Front End Design Engineer",
+   "roleGroup": "Software development",
+   "locationType": "remote",
+   "createdDate": "2026-11-02",
+   "pay": "",
+   "link": "https://work.turing.com/r/i_1_7tYRR1"
+  },
+  {
+   "id": 119117,
+   "title": "GenAI Security Evaluation Engineer",
+   "roleGroup": "Cloud & Infrastructure",
+   "locationType": "remote",
+   "createdDate": "2026-11-10",
+   "pay": "",
+   "link": "https://work.turing.com/r/b3UHbACnxr"
+  },
+  {
+   "id": 120265,
+   "title": "Video Annotator",
+   "roleGroup": "Media & Communication",
+   "locationType": "remote",
+   "createdDate": "2026-11-18",
+   "pay": "",
+   "link": "https://work.turing.com/r/kwEnzsX54-"
+  },
+  {
+   "id": 118064,
+   "title": "Audio/Voice/Annotation Trainer - Portuguese (Brazil) Language",
+   "roleGroup": "Linguistics",
+   "locationType": "remote",
+   "createdDate": "2026-11-03",
+   "pay": "",
+   "link": "https://work.turing.com/r/apMkZK_q2y"
+  },
+  {
+   "id": 116842,
+   "title": "Audio/Voice/Annotation Trainer - Russian Language",
+   "roleGroup": "Linguistics",
+   "locationType": "remote",
+   "createdDate": "2026-10-27",
+   "pay": "",
+   "link": "https://work.turing.com/r/KdWF1rKsTL"
+  },
+  {
+   "id": 116837,
+   "title": "Audio/Voice/Annotation Trainer - German Language",
+   "roleGroup": "Linguistics",
+   "locationType": "remote",
+   "createdDate": "2026-10-27",
+   "pay": "",
+   "link": "https://work.turing.com/r/xBzxJ5qtjt"
+  },
+  {
+   "id": 116836,
+   "title": "Audio/Voice/Annotation Trainer - Italian Language",
+   "roleGroup": "Linguistics",
+   "locationType": "remote",
+   "createdDate": "2026-10-27",
+   "pay": "",
+   "link": "https://work.turing.com/r/cBJec8-EB2"
+  },
+  {
+   "id": 117002,
+   "title": "Senior Quality Lead",
+   "roleGroup": "Analyst",
+   "locationType": "remote",
+   "createdDate": "2026-10-29",
+   "pay": "",
+   "link": "https://work.turing.com/r/CqKKUFDPko"
+  },
+  {
+   "id": 119209,
+   "title": "Senior Software Security Engineer – Pod Lead",
+   "roleGroup": "Cloud & Infrastructure",
+   "locationType": "remote",
+   "createdDate": "2026-11-11",
+   "pay": "",
+   "link": "https://work.turing.com/r/mh0EtMFAUj"
+  },
+  {
+   "id": 120071,
+   "title": "Mental Health Experts",
+   "roleGroup": "Healthcare & Medical",
+   "locationType": "remote",
+   "createdDate": "2026-11-17",
+   "pay": "",
+   "link": "https://work.turing.com/r/Vi5TLadZ4v"
+  },
+  {
+   "id": 118294,
+   "title": "Medical Doctors - US",
+   "roleGroup": "Healthcare & Medical",
+   "locationType": "remote",
+   "createdDate": "2026-11-04",
+   "pay": "",
+   "link": "https://work.turing.com/r/YqlYug4gzn"
+  },
+  {
+   "id": 116917,
+   "title": "Clinical & Health Specialist",
+   "roleGroup": "Healthcare & Medical",
+   "locationType": "remote",
+   "createdDate": "2026-10-28",
+   "pay": "",
+   "link": "https://work.turing.com/r/M2tiFt2xK7"
+  },
+  {
+   "id": 116360,
+   "title": "Political Scientists / Policy Analysts — Senior Expert",
+   "roleGroup": "Legal & Law Services",
+   "locationType": "remote",
+   "createdDate": "2026-10-26",
+   "pay": "",
+   "link": "https://work.turing.com/r/7FdUMw_M9V"
+  },
+  {
+   "id": 120297,
+   "title": "Freelance Technical Recruiter",
+   "roleGroup": "Business",
+   "locationType": "remote",
+   "createdDate": "2026-11-18",
+   "pay": "",
+   "link": "https://work.turing.com/r/lG1PJhPAE5"
+  },
+  {
+   "id": 120072,
+   "title": "3D Motion Evaluator (Human Motion & Physical Plausibility)",
+   "roleGroup": "Engineering",
+   "locationType": "remote",
+   "createdDate": "2026-11-17",
+   "pay": "",
+   "link": "https://work.turing.com/r/z-GcjhLcih"
+  },
+  {
+   "id": 116349,
+   "title": "Marketing, Media & Content Specialist",
+   "roleGroup": "Analyst",
+   "locationType": "remote",
+   "createdDate": "2026-10-26",
+   "pay": "",
+   "link": "https://work.turing.com/r/KhyN30dx1x"
+  },
+  {
+   "id": 120772,
+   "title": "AI Benchmark Quality Reviewer",
+   "roleGroup": "ML/Data Engineering",
+   "locationType": "remote",
+   "createdDate": "2026-11-23",
+   "pay": "",
+   "link": "https://work.turing.com/r/vK1NTWqPQx"
+  },
+  {
+   "id": 120068,
+   "title": "Licensed Mental Health Professional",
+   "roleGroup": "Healthcare & Medical",
+   "locationType": "remote",
+   "createdDate": "2026-11-17",
+   "pay": "",
+   "link": "https://work.turing.com/r/RvFtsGJl5K"
+  },
+  {
+   "id": 119301,
+   "title": "Engineering Manager - Software Security",
+   "roleGroup": "Cloud & Infrastructure",
+   "locationType": "remote",
+   "createdDate": "2026-11-12",
+   "pay": "",
+   "link": "https://work.turing.com/r/9VO8icBR1z"
+  },
+  {
+   "id": 118302,
+   "title": "Computer Science (STEM)",
+   "roleGroup": "Software development",
+   "locationType": "remote",
+   "createdDate": "2026-11-04",
+   "pay": "",
+   "link": "https://work.turing.com/r/tFDT8UD4p9"
+  },
+  {
+   "id": 116990,
+   "title": "Hardware Design Engineer – KiCad, PCB Design and Verification Expert",
+   "roleGroup": "Engineering",
+   "locationType": "remote",
+   "createdDate": "2026-10-29",
+   "pay": "",
+   "link": "https://work.turing.com/r/WwgcwKEtA5"
+  },
+  {
+   "id": 119718,
+   "title": "Music Annotator",
+   "roleGroup": "Humanities & Interdisciplinary Studies",
+   "locationType": "remote",
+   "createdDate": "2026-11-13",
+   "pay": "",
+   "link": "https://work.turing.com/r/ClZhfeIQn6"
+  },
+  {
+   "id": 119705,
+   "title": "US Medical Expert – Dermatology",
+   "roleGroup": "Healthcare & Medical",
+   "locationType": "remote",
+   "createdDate": "2026-11-13",
+   "pay": "",
+   "link": "https://work.turing.com/r/GK8VDfirt-"
+  },
+  {
+   "id": 119704,
+   "title": "Domain Expert: Biology",
+   "roleGroup": "Healthcare & Medical",
+   "locationType": "remote",
+   "createdDate": "2026-11-13",
+   "pay": "",
+   "link": "https://work.turing.com/r/e0LjAbT8Ve"
+  },
+  {
+   "id": 119699,
+   "title": "DataGen & Evals",
+   "roleGroup": "Healthcare & Medical",
+   "locationType": "remote",
+   "createdDate": "2026-11-13",
+   "pay": "",
+   "link": "https://work.turing.com/r/pLQJoi4hoQ"
+  },
+  {
+   "id": 119251,
+   "title": "Signal Integrity and Electromagnetic Simulation Engineer",
+   "roleGroup": "Engineering",
+   "locationType": "remote",
+   "createdDate": "2026-11-11",
+   "pay": "",
+   "link": "https://work.turing.com/r/YK2y0R1j7P"
+  },
+  {
+   "id": 119207,
+   "title": "PCB Thermal Simulation Engineer – Electronics",
+   "roleGroup": "Engineering",
+   "locationType": "remote",
+   "createdDate": "2026-11-11",
+   "pay": "",
+   "link": "https://work.turing.com/r/d_RJnoARUb"
+  },
+  {
+   "id": 119106,
+   "title": "Signal Integrity and Electromagnetic Simulation Engineer (PCB Design)",
+   "roleGroup": "Engineering",
+   "locationType": "remote",
+   "createdDate": "2026-11-10",
+   "pay": "",
+   "link": "https://work.turing.com/r/H4Su71dNKQ"
+  },
+  {
+   "id": 116350,
+   "title": "Merchandising / Category Managers Specialist",
+   "roleGroup": "Business",
+   "locationType": "remote",
+   "createdDate": "2026-10-26",
+   "pay": "",
+   "link": "https://work.turing.com/r/kzQlfqPs85"
+  },
+  {
+   "id": 116258,
+   "title": "Commercial / Go-to-Market Specialist",
+   "roleGroup": "Business",
+   "locationType": "remote",
+   "createdDate": "2026-10-26",
+   "pay": "",
+   "link": "https://work.turing.com/r/XsZbnDyQE4"
+  },
+  {
+   "id": 120825,
+   "title": "Medical Expert – Dermatology",
+   "roleGroup": "Healthcare & Medical",
+   "locationType": "remote",
+   "createdDate": "2026-11-23",
+   "pay": "",
+   "link": "https://work.turing.com/r/i2Q9gDyA5H"
+  },
+  {
+   "id": 120796,
+   "title": "Biology & LifeSciences Expert",
+   "roleGroup": "Science",
+   "locationType": "remote",
+   "createdDate": "2026-11-23",
+   "pay": "",
+   "link": "https://work.turing.com/r/BJOLbKh2ug"
+  },
+  {
+   "id": 120760,
+   "title": "Philosophical Logic Annotator",
+   "roleGroup": "Humanities & Interdisciplinary Studies",
+   "locationType": "remote",
+   "createdDate": "2026-11-20",
+   "pay": "",
+   "link": "https://work.turing.com/r/o1vY5suv48"
+  },
+  {
+   "id": 120706,
+   "title": "Biology & LifeSciences Expert - US",
+   "roleGroup": "Science",
+   "locationType": "remote",
+   "createdDate": "2026-11-20",
+   "pay": "",
+   "link": "https://work.turing.com/r/XU7DuSRxEm"
+  },
+  {
+   "id": 120551,
+   "title": "GoPro Video Contributor – Appliance & Hardware Troubleshooting",
+   "roleGroup": "Analyst",
+   "locationType": "remote",
+   "createdDate": "2026-11-20",
+   "pay": "",
+   "link": "https://work.turing.com/r/kppDuSRcqk"
+  },
+  {
+   "id": 120499,
+   "title": "Data Engineer + Java",
+   "roleGroup": "ML/Data Engineering",
+   "locationType": "remote",
+   "createdDate": "2026-11-20",
+   "pay": "",
+   "link": "https://work.turing.com/r/cTUeMFVjXV"
+  },
+  {
+   "id": 120388,
+   "title": "AI Assistant Raters - US Based",
+   "roleGroup": "Other",
+   "locationType": "remote",
+   "createdDate": "2026-11-19",
+   "pay": "",
+   "link": "https://work.turing.com/r/4Kebgzr3RB"
+  },
+  {
+   "id": 120118,
+   "title": "BA - Generalist (English + Creative data annotation) - II",
+   "roleGroup": "Analyst",
+   "locationType": "remote",
+   "createdDate": "2026-11-17",
+   "pay": "",
+   "link": "https://work.turing.com/r/22Llbc1-1w"
+  },
+  {
+   "id": 120074,
+   "title": "BA - Generalist (English + Creative data annotation)",
+   "roleGroup": "Analyst",
+   "locationType": "remote",
+   "createdDate": "2026-11-17",
+   "pay": "",
+   "link": "https://work.turing.com/r/b1zFReZ4Wj"
+  },
+  {
+   "id": 120050,
+   "title": "BA - Generalist (English + Creative data annotation) - III",
+   "roleGroup": "Analyst",
+   "locationType": "remote",
+   "createdDate": "2026-11-17",
+   "pay": "",
+   "link": "https://work.turing.com/r/38L9UgtkxK"
+  },
+  {
+   "id": 119872,
+   "title": "QC Packaging Engineer",
+   "roleGroup": "ML/Data Engineering",
+   "locationType": "remote",
+   "createdDate": "2026-11-13",
+   "pay": "",
+   "link": "https://work.turing.com/r/7zbJcyqIz1"
+  },
+  {
+   "id": 119338,
+   "title": "Domain Experts -Task Executors : Specialist Software Operator",
+   "roleGroup": "Cloud & Infrastructure",
+   "locationType": "remote",
+   "createdDate": "2026-11-12",
+   "pay": "",
+   "link": "https://work.turing.com/r/LvyD2Dw6yT"
+  },
+  {
+   "id": 119201,
+   "title": "Senior Software Security Engineer – AI Trainer",
+   "roleGroup": "Cloud & Infrastructure",
+   "locationType": "remote",
+   "createdDate": "2026-11-11",
+   "pay": "",
+   "link": "https://work.turing.com/r/DFmKcPk2R8"
+  },
+  {
+   "id": 119197,
+   "title": "Senior Software Engineer – DevOps",
+   "roleGroup": "Software development",
+   "locationType": "remote",
+   "createdDate": "2026-11-11",
+   "pay": "",
+   "link": "https://work.turing.com/r/QpcQIkvfY4"
+  },
+  {
+   "id": 119170,
+   "title": "Engineering Expert",
+   "roleGroup": "Engineering",
+   "locationType": "remote",
+   "createdDate": "2026-11-11",
+   "pay": "",
+   "link": "https://work.turing.com/r/ABJ01hUUS9"
+  },
+  {
+   "id": 119163,
+   "title": "Life Sciences Subject Matter Expert - Biology",
+   "roleGroup": "Science",
+   "locationType": "remote",
+   "createdDate": "2026-11-11",
+   "pay": "",
+   "link": "https://work.turing.com/r/BxKMuRtAGm"
+  },
+  {
+   "id": 119147,
+   "title": "SWE Bench Engineer - Rust",
+   "roleGroup": "Software development",
+   "locationType": "remote",
+   "createdDate": "2026-11-10",
+   "pay": "",
+   "link": "https://work.turing.com/r/fHtY-T_dxd"
+  },
+  {
+   "id": 119142,
+   "title": "SWE Bench Engineer - C#",
+   "roleGroup": "Software development",
+   "locationType": "remote",
+   "createdDate": "2026-11-10",
+   "pay": "",
+   "link": "https://work.turing.com/r/0xG_dDOpFS"
+  },
+  {
+   "id": 119124,
+   "title": "SWE Bench Engineer - Golang",
+   "roleGroup": "Software development",
+   "locationType": "remote",
+   "createdDate": "2026-11-10",
+   "pay": "",
+   "link": "https://work.turing.com/r/KA7DXoq9eA"
+  },
+  {
+   "id": 119122,
+   "title": "SWE Bench Engineer - JAVA",
+   "roleGroup": "Software development",
+   "locationType": "remote",
+   "createdDate": "2026-11-10",
+   "pay": "",
+   "link": "https://work.turing.com/r/59psE5WU9X"
+  },
+  {
+   "id": 119097,
+   "title": "Lead Engineer - Analog IC Design Engineer",
+   "roleGroup": "Engineering",
+   "locationType": "remote",
+   "createdDate": "2026-11-10",
+   "pay": "",
+   "link": "https://work.turing.com/r/W2F_MwG5Xz"
+  },
+  {
+   "id": 119091,
+   "title": "Professional Writing Human Data Collection",
+   "roleGroup": "Design",
+   "locationType": "remote",
+   "createdDate": "2026-11-10",
+   "pay": "",
+   "link": "https://work.turing.com/r/dxC345OHNu"
+  },
+  {
+   "id": 118765,
+   "title": "Digital Imaging Specialist / Digital Artist",
+   "roleGroup": "Design",
+   "locationType": "remote",
+   "createdDate": "2026-11-05",
+   "pay": "",
+   "link": "https://work.turing.com/r/hdyprBIGV8"
+  },
+  {
+   "id": 118751,
+   "title": "Senior Software Engineer – C++(LLM Evaluation & Repository Validation)",
+   "roleGroup": "Software development",
+   "locationType": "remote",
+   "createdDate": "2026-11-05",
+   "pay": "",
+   "link": "https://work.turing.com/r/LRlAosgYuU"
+  },
+  {
+   "id": 118680,
+   "title": "Mathematics Expert",
+   "roleGroup": "Science",
+   "locationType": "remote",
+   "createdDate": "2026-11-05",
+   "pay": "",
+   "link": "https://work.turing.com/r/LNBr6peztl"
+  },
+  {
+   "id": 118647,
+   "title": "Personal Account Raters (Google Account)",
+   "roleGroup": "Other",
+   "locationType": "remote",
+   "createdDate": "2026-11-05",
+   "pay": "",
+   "link": "https://work.turing.com/r/FLT4zIQiby"
+  },
+  {
+   "id": 118288,
+   "title": "Personal Account Generalists (Samsung - Android Smartphone Users)",
+   "roleGroup": "Other",
+   "locationType": "remote",
+   "createdDate": "2026-11-04",
+   "pay": "",
+   "link": "https://work.turing.com/r/HxCa9bpcV2"
+  },
+  {
+   "id": 118287,
+   "title": "Nurse Practitioner / Physician Assistant - US",
+   "roleGroup": "Healthcare & Medical",
+   "locationType": "remote",
+   "createdDate": "2026-11-04",
+   "pay": "",
+   "link": "https://work.turing.com/r/XArZ3hUjZn"
+  },
+  {
+   "id": 118286,
+   "title": "Nurse Practitioner / Physician Assistant - India",
+   "roleGroup": "Healthcare & Medical",
+   "locationType": "remote",
+   "createdDate": "2026-11-04",
+   "pay": "",
+   "link": "https://work.turing.com/r/HSp819bUFr"
+  },
+  {
+   "id": 118285,
+   "title": "Medical Doctors - India",
+   "roleGroup": "Healthcare & Medical",
+   "locationType": "remote",
+   "createdDate": "2026-11-04",
+   "pay": "",
+   "link": "https://work.turing.com/r/KWdmEe-SVQ"
+  },
+  {
+   "id": 117709,
+   "title": "Business Management Consultant",
+   "roleGroup": "Other",
+   "locationType": "remote",
+   "createdDate": "2026-11-02",
+   "pay": "",
+   "link": "https://work.turing.com/r/qU9wwWpdvC"
+  },
+  {
+   "id": 117705,
+   "title": "PhD Biology Expert / Life Sciences Expert",
+   "roleGroup": "Science",
+   "locationType": "remote",
+   "createdDate": "2026-11-02",
+   "pay": "",
+   "link": "https://work.turing.com/r/nvD4uf3Jom"
+  },
+  {
+   "id": 117375,
+   "title": "Domain Expert: Earth Science",
+   "roleGroup": "Healthcare & Medical",
+   "locationType": "remote",
+   "createdDate": "2026-10-30",
+   "pay": "",
+   "link": "https://work.turing.com/r/Ruv11Lqz07"
+  },
+  {
+   "id": 117194,
+   "title": "Audio Video Annotator",
+   "roleGroup": "Analyst",
+   "locationType": "remote",
+   "createdDate": "2026-10-30",
+   "pay": "",
+   "link": "https://work.turing.com/r/eWIvRPtt4o"
+  },
+  {
+   "id": 116967,
+   "title": "Context Elicitation & Conversation Evaluation Specialists",
+   "roleGroup": "Analyst",
+   "locationType": "remote",
+   "createdDate": "2026-10-28",
+   "pay": "",
+   "link": "https://work.turing.com/r/qO4cOnTGc5"
+  },
+  {
+   "id": 116957,
+   "title": "SWE Bench Engineer - C++",
+   "roleGroup": "Software development",
+   "locationType": "remote",
+   "createdDate": "2026-10-28",
+   "pay": "",
+   "link": "https://work.turing.com/r/Ds9-M9Fh09"
+  },
+  {
+   "id": 116934,
+   "title": "Computational Protein Design Expert",
+   "roleGroup": "Science",
+   "locationType": "remote",
+   "createdDate": "2026-10-28",
+   "pay": "",
+   "link": "https://work.turing.com/r/BreeOD9r0A"
+  },
+  {
+   "id": 116914,
+   "title": "Senior DevOps Engineer (Cloud Infrastructure, CI/CD, LLMOps)",
+   "roleGroup": "Cloud & Infrastructure",
+   "locationType": "on-site",
+   "createdDate": "2026-10-28",
+   "pay": "",
+   "link": "https://work.turing.com/r/a58BiUHNZJ"
+  },
+  {
+   "id": 116879,
+   "title": "Personal Account Generalist Raters (US)",
+   "roleGroup": "Other",
+   "locationType": "remote",
+   "createdDate": "2026-10-27",
+   "pay": "",
+   "link": "https://work.turing.com/r/V46BAeTpdq"
+  },
+  {
+   "id": 116841,
+   "title": "Academic - Subject Matter Expert",
+   "roleGroup": "Design",
+   "locationType": "remote",
+   "createdDate": "2026-10-27",
+   "pay": "",
+   "link": "https://work.turing.com/r/qgRF8jGIqR"
+  },
+  {
+   "id": 116814,
+   "title": "Gemini App Experts (Education Domain)",
+   "roleGroup": "Other",
+   "locationType": "remote",
+   "createdDate": "2026-10-27",
+   "pay": "",
+   "link": "https://work.turing.com/r/lgJiFRFh0k"
+  }
+ ]
+}

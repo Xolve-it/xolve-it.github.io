@@ -337,8 +337,49 @@ def from_alignerr(platform):
     return out
 
 
+TURING_ROLES = ROOT / "scripts" / "turing-roles.json"
+TURING_MAX_AGE_DAYS = 14  # a snapshot older than this is dropped rather than shown as current
+_PAY_IN_TITLE = re.compile(r"\(\s*(\$[\d,.]+\s*(?:[-–]\s*\$?[\d,.]+)?\s*/\s*(?:hr|hour|wk|week|mo|month))\s*\)", re.I)
+
+
+def from_turing_snapshot(platform):
+    """Turing shows contractor roles only to signed-in members, so there is no public feed.
+
+    scripts/turing-roles.json is a snapshot of the roles in Xolve's Turing account, each with
+    its own referral link (work.turing.com/r/...), captured from the signed-in jobs page."""
+    snap = json.loads(TURING_ROLES.read_text(encoding="utf-8"))
+    captured = dt.date.fromisoformat(snap["captured"][:10])
+    if (dt.date.today() - captured).days > TURING_MAX_AGE_DAYS:
+        # returning nothing (not raising) so main() doesn't fall back to the previous, stale listings
+        print(f"  ! Turing snapshot from {captured} is older than {TURING_MAX_AGE_DAYS} days; Turing roles left out")
+        return []
+    out = []
+    for j in snap["roles"]:
+        title = j["title"].strip()
+        m = _PAY_IN_TITLE.search(title)
+        pay = j.get("pay") or (m.group(1).replace(" ", "").replace("–", "-").replace("hour", "hr") if m else "")
+        if m:
+            title = (title[:m.start()] + title[m.end():]).strip(" -–")
+        loc = {"remote": "Remote", "on-site": "On-site"}.get(j.get("locationType") or "", "")
+        out.append({
+            "id": f"{platform}-{j['id']}",
+            "platform": platform,
+            "title": title,
+            "team": j.get("roleGroup") or "",
+            "location": loc,
+            "remote": j.get("locationType") != "on-site",
+            "type": "gig",
+            "posted": (j.get("createdDate") or "")[:10],
+            "pay": pay,
+            "url": j["link"],
+        })
+    return out
+
+
 def from_feed(feed, platform):
     t = feed["type"]
+    if t == "turing_snapshot":
+        return from_turing_snapshot(platform)
     if t == "mercor_market":
         return from_mercor_market(feed.get("code", ""), platform)
     if t == "micro1_referral":
