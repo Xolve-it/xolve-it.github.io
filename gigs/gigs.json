@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-23T17:35:49Z",
- "next": "2026-11-24T01:35:49Z",
+ "updated": "2026-11-23T19:00:29Z",
+ "next": "2026-11-24T03:00:29Z",
  "socials": {
   "x": "https://x.com/get_xolutions",
   "instagram": "https://www.instagram.com/get.xolutions/",
@@ -5760,7 +5760,7 @@
    "remote": true,
    "type": "gig",
    "posted": "2026-11-04",
-   "pay": "$70–$120/hr",
+   "pay": "$80–$170/hr",
    "url": "https://jobs.micro1.ai/post/8ce00a2e-b05d-4644-9409-c944724a8ac3?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
    "countries": [],
    "exclude": []
@@ -5774,7 +5774,7 @@
    "remote": true,
    "type": "gig",
    "posted": "2026-11-04",
-   "pay": "$70–$120/hr",
+   "pay": "$80–$170/hr",
    "url": "https://jobs.micro1.ai/post/e01098f5-a33d-4706-bc91-3ba4863d9572?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
    "countries": [],
    "exclude": []
@@ -5788,7 +5788,7 @@
    "remote": true,
    "type": "gig",
    "posted": "2026-11-04",
-   "pay": "$70–$140/hr",
+   "pay": "$80–$150/hr",
    "url": "https://jobs.micro1.ai/post/6928f6ef-24cf-4227-99a2-1eb722ac6b79?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
    "countries": [],
    "exclude": []
@@ -8852,6 +8852,62 @@
    "url": "https://work.mercor.com/explore?listingId=list_AAABoWa5lPEq7jlqhxZNLqEJ&referralCode=3e69e7cf-edba-25be-5027-25cc33b23a52&utm_source=referral&utm_medium=direct&utm_campaign=platform"
   },
   {
+   "id": "micro1-6ea926f9-3711-40d7-ba08-6b53367ebbb5",
+   "platform": "micro1",
+   "title": "Humanitarian Aid Representative",
+   "team": "Humanities",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-10-23",
+   "pay": "$80–$150/hr",
+   "url": "https://jobs.micro1.ai/post/6ea926f9-3711-40d7-ba08-6b53367ebbb5?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "micro1-36174963-012b-4a8d-b955-12d48aac7b6f",
+   "platform": "micro1",
+   "title": "Human Intelligence Collector (HUMINT)",
+   "team": "Other",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-10-23",
+   "pay": "$80–$170/hr",
+   "url": "https://jobs.micro1.ai/post/36174963-012b-4a8d-b955-12d48aac7b6f?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "micro1-21bb587d-cd06-407b-95eb-44a44a5dc803",
+   "platform": "micro1",
+   "title": "Military Legal Advisor",
+   "team": "Law",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-10-23",
+   "pay": "$80–$170/hr",
+   "url": "https://jobs.micro1.ai/post/21bb587d-cd06-407b-95eb-44a44a5dc803?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "micro1-e9f8e23d-b13f-46d1-9e7c-01f56a2c0450",
+   "platform": "micro1",
+   "title": "Intelligence Analyst",
+   "team": "Other",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-10-23",
+   "pay": "$80–$170/hr",
+   "url": "https://jobs.micro1.ai/post/e9f8e23d-b13f-46d1-9e7c-01f56a2c0450?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
+   "countries": [],
+   "exclude": []
+  },
+  {
    "id": "alignerr-432d6a9f-da3c-4fe3-b0bf-cf17eb4fca90",
    "platform": "alignerr",
    "title": "Especialista en Adquisición de Talento – Reclutamiento y Sourcing (Contrato Remoto)",
@@ -9007,6 +9063,20 @@
    "posted": "2026-10-22",
    "pay": "$70–$110/hr",
    "url": "https://work.mercor.com/explore?listingId=list_AAABoWTgIFc6PljFQHhBDpYR&referralCode=3e69e7cf-edba-25be-5027-25cc33b23a52&utm_source=referral&utm_medium=direct&utm_campaign=platform"
+  },
+  {
+   "id": "micro1-a287e691-92ad-4e86-bacc-322b0e92aeec",
+   "platform": "micro1",
+   "title": "Combat Arms & Targeting SME",
+   "team": "Other",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-10-22",
+   "pay": "$70–$130/hr",
+   "url": "https://jobs.micro1.ai/post/a287e691-92ad-4e86-bacc-322b0e92aeec?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
+   "countries": [],
+   "exclude": []
   },
   {
    "id": "micro1-fb90c558-6459-4695-aea3-9a5959526f67",
@@ -12648,86 +12718,6 @@
    "posted": "2026-08-22",
    "pay": "$200/hr",
    "url": "https://work.mercor.com/explore?listingId=list_AAABoCl905TW9jWTfs9Oh44S&referralCode=3e69e7cf-edba-25be-5027-25cc33b23a52&utm_source=referral&utm_medium=direct&utm_campaign=platform"
-  },
-  {
-   "countries": [
-    "US"
-   ],
-   "exclude": [],
-   "id": "mercor-list_AAABoCWZLgyS_XMeXVxE9pIU",
-   "platform": "mercor",
-   "title": "Clinicians",
-   "team": "Medicine",
-   "location": "Remote",
-   "remote": true,
-   "type": "gig",
-   "posted": "2026-08-21",
-   "pay": "$120–$150/hr",
-   "url": "https://work.mercor.com/explore?listingId=list_AAABoCWZLgyS_XMeXVxE9pIU&referralCode=3e69e7cf-edba-25be-5027-25cc33b23a52&utm_source=referral&utm_medium=direct&utm_campaign=platform"
-  },
-  {
-   "countries": [
-    "US"
-   ],
-   "exclude": [],
-   "id": "mercor-list_AAABoCWVcMofSHRAcwdM2LBU",
-   "platform": "mercor",
-   "title": "Sales Representatives, Wholesale and Manufacturing, Except Technical and Scientific Products",
-   "team": "Business Operations",
-   "location": "Remote",
-   "remote": true,
-   "type": "gig",
-   "posted": "2026-08-21",
-   "pay": "$70–$110/hr",
-   "url": "https://work.mercor.com/explore?listingId=list_AAABoCWVcMofSHRAcwdM2LBU&referralCode=3e69e7cf-edba-25be-5027-25cc33b23a52&utm_source=referral&utm_medium=direct&utm_campaign=platform"
-  },
-  {
-   "countries": [
-    "US"
-   ],
-   "exclude": [],
-   "id": "mercor-list_AAABoCWSTbhgejc0oLZDmbSP",
-   "platform": "mercor",
-   "title": "Financial Managers",
-   "team": "Finance",
-   "location": "Remote",
-   "remote": true,
-   "type": "gig",
-   "posted": "2026-08-21",
-   "pay": "$70–$110/hr",
-   "url": "https://work.mercor.com/explore?listingId=list_AAABoCWSTbhgejc0oLZDmbSP&referralCode=3e69e7cf-edba-25be-5027-25cc33b23a52&utm_source=referral&utm_medium=direct&utm_campaign=platform"
-  },
-  {
-   "countries": [
-    "US"
-   ],
-   "exclude": [],
-   "id": "mercor-list_AAABoCV6ZKL0cmUT7-BExqtw",
-   "platform": "mercor",
-   "title": "Project Management Specialists",
-   "team": "Business Operations",
-   "location": "Remote",
-   "remote": true,
-   "type": "gig",
-   "posted": "2026-08-21",
-   "pay": "$70–$110/hr",
-   "url": "https://work.mercor.com/explore?listingId=list_AAABoCV6ZKL0cmUT7-BExqtw&referralCode=3e69e7cf-edba-25be-5027-25cc33b23a52&utm_source=referral&utm_medium=direct&utm_campaign=platform"
-  },
-  {
-   "countries": [
-    "US"
-   ],
-   "exclude": [],
-   "id": "mercor-list_AAABoCVpVbx3Il0MJIpLTKHA",
-   "platform": "mercor",
-   "title": "Sales Representatives, Wholesale and Manufacturing, Technical and Scientific Products",
-   "team": "Business Operations",
-   "location": "Remote",
-   "remote": true,
-   "type": "gig",
-   "posted": "2026-08-21",
-   "pay": "$70–$110/hr",
-   "url": "https://work.mercor.com/explore?listingId=list_AAABoCVpVbx3Il0MJIpLTKHA&referralCode=3e69e7cf-edba-25be-5027-25cc33b23a52&utm_source=referral&utm_medium=direct&utm_campaign=platform"
   },
   {
    "id": "micro1-8944ed79-063d-43e2-a244-bd3185fbfb43",
@@ -18291,21 +18281,6 @@
    "exclude": []
   },
   {
-   "id": "handshake-29b78509-10bc-42bd-bc2b-bd6bc3fe9c3f",
-   "platform": "handshake",
-   "title": "Manager, Engineering",
-   "team": "Engineering",
-   "location": "San Francisco, CA",
-   "remote": false,
-   "type": "job",
-   "posted": "2026-10-29",
-   "url": "https://jobs.ashbyhq.com/handshake/29b78509-10bc-42bd-bc2b-bd6bc3fe9c3f",
-   "countries": [
-    "US"
-   ],
-   "exclude": []
-  },
-  {
    "id": "mercor-58d4f15f-1351-49b9-a771-c2d3b9bf70b5",
    "platform": "mercor",
    "title": "ProcOps Specialist",
@@ -18757,7 +18732,7 @@
   {
    "id": "scale-4745295005",
    "platform": "scale",
-   "title": "Contracts Manager",
+   "title": "Contracts Lead",
    "team": "",
    "location": "Washington, DC",
    "remote": false,
@@ -19576,21 +19551,6 @@
    "exclude": []
   },
   {
-   "id": "turing-6192729004",
-   "platform": "turing",
-   "title": "Forward-Deployed AI Engineer",
-   "team": "",
-   "location": "Hyderabad, Telangana, India",
-   "remote": false,
-   "type": "job",
-   "posted": "2026-09-24",
-   "url": "https://job-boards.greenhouse.io/turing/jobs/6192729004",
-   "countries": [
-    "IN"
-   ],
-   "exclude": []
-  },
-  {
    "id": "turing-6192725004",
    "platform": "turing",
    "title": "Forward-Deployed AI Engineer",
@@ -19600,6 +19560,21 @@
    "type": "job",
    "posted": "2026-09-24",
    "url": "https://job-boards.greenhouse.io/turing/jobs/6192725004",
+   "countries": [
+    "IN"
+   ],
+   "exclude": []
+  },
+  {
+   "id": "turing-6192729004",
+   "platform": "turing",
+   "title": "Forward-Deployed AI Engineer",
+   "team": "",
+   "location": "Hyderabad, Telangana, India",
+   "remote": false,
+   "type": "job",
+   "posted": "2026-09-24",
+   "url": "https://job-boards.greenhouse.io/turing/jobs/6192729004",
    "countries": [
     "IN"
    ],
@@ -19773,15 +19748,15 @@
   {
    "id": "scale-4734728005",
    "platform": "scale",
-   "title": "US Payroll Manager",
+   "title": "US Payroll Senior Analyst",
    "team": "",
-   "location": "Mexico City, MX",
+   "location": "New York, NY; San Francisco, CA; St. Louis, MO; Washington, DC",
    "remote": false,
    "type": "job",
    "posted": "2026-09-18",
    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4734728005",
    "countries": [
-    "MX"
+    "US"
    ],
    "exclude": []
   },
@@ -20487,21 +20462,6 @@
    "url": "https://jobs.ashbyhq.com/AfterQuery/7f03dc4a-748f-4611-ac21-ee02e0ded837",
    "countries": [
     "US"
-   ],
-   "exclude": []
-  },
-  {
-   "id": "turing-6142224004",
-   "platform": "turing",
-   "title": "Strategic Project Lead - Code",
-   "team": "",
-   "location": "India - Remote",
-   "remote": true,
-   "type": "job",
-   "posted": "2026-08-26",
-   "url": "https://job-boards.greenhouse.io/turing/jobs/6142224004",
-   "countries": [
-    "IN"
    ],
    "exclude": []
   },
@@ -22585,6 +22545,36 @@
    "type": "internship",
    "posted": "2025-11-17",
    "url": "https://jobs.ashbyhq.com/AfterQuery/83ca470d-b1f7-41d6-935f-c1f2b8243e4b",
+   "countries": [
+    "US"
+   ],
+   "exclude": []
+  },
+  {
+   "id": "turing-5703799004",
+   "platform": "turing",
+   "title": "Staff Research Engineer, Enterprise Knowledge",
+   "team": "",
+   "location": "United States",
+   "remote": false,
+   "type": "job",
+   "posted": "2025-11-11",
+   "url": "https://job-boards.greenhouse.io/turing/jobs/5703799004",
+   "countries": [
+    "US"
+   ],
+   "exclude": []
+  },
+  {
+   "id": "turing-5703798004",
+   "platform": "turing",
+   "title": "Senior Research Engineer, SWE",
+   "team": "",
+   "location": "United States",
+   "remote": false,
+   "type": "job",
+   "posted": "2025-11-10",
+   "url": "https://job-boards.greenhouse.io/turing/jobs/5703798004",
    "countries": [
     "US"
    ],
