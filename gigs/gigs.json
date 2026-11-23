@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-23T07:38:08Z",
- "next": "2026-11-23T15:38:08Z",
+ "updated": "2026-11-23T16:07:49Z",
+ "next": "2026-11-24T00:07:49Z",
  "socials": {
   "x": "https://x.com/get_xolutions",
   "instagram": "https://www.instagram.com/get.xolutions/",
@@ -76,9 +76,178 @@
  ],
  "gigs": [
   {
+   "id": "micro1-e9a15fd6-42e8-4a5f-9a70-1c4744ae95ff",
+   "platform": "micro1",
+   "title": "Licensed Mental Health Clinician",
+   "team": "Medicine",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-11-23",
+   "pay": "$50–$70/hr",
+   "url": "https://jobs.micro1.ai/post/e9a15fd6-42e8-4a5f-9a70-1c4744ae95ff?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "micro1-b19269e4-c4b6-4bf2-9c66-6176053020e0",
+   "platform": "micro1",
+   "title": "Clinical Psychologist",
+   "team": "Medicine",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-11-23",
+   "pay": "$50–$70/hr",
+   "url": "https://jobs.micro1.ai/post/b19269e4-c4b6-4bf2-9c66-6176053020e0?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "micro1-bdeb1240-b3ea-46b8-b190-423e1390333e",
+   "platform": "micro1",
+   "title": "Psychiatrist",
+   "team": "Medicine",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-11-23",
+   "pay": "$80–$120/hr",
+   "url": "https://jobs.micro1.ai/post/bdeb1240-b3ea-46b8-b190-423e1390333e?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "micro1-433a031d-e683-4547-8695-738f1a43871d",
+   "platform": "micro1",
+   "title": "Tax Expert (EA/CPA)",
+   "team": "Law",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-11-23",
+   "pay": "$30–$60/hr",
+   "url": "https://jobs.micro1.ai/post/433a031d-e683-4547-8695-738f1a43871d?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "micro1-7bb29087-0c94-4f52-a89f-a8932e4894eb",
+   "platform": "micro1",
+   "title": "Math Programmer (Lean 4)",
+   "team": "Software Engineering",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-11-23",
+   "pay": "$60–$120/hr",
+   "url": "https://jobs.micro1.ai/post/7bb29087-0c94-4f52-a89f-a8932e4894eb?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "micro1-210d9d7c-bf43-466a-a401-56a4675bb2b2",
+   "platform": "micro1",
+   "title": "Lean 4 Developer",
+   "team": "Software Engineering",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-11-23",
+   "pay": "$60–$120/hr",
+   "url": "https://jobs.micro1.ai/post/210d9d7c-bf43-466a-a401-56a4675bb2b2?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "micro1-16a30c0f-7cb0-4587-82e1-0de5c2762cd7",
+   "platform": "micro1",
+   "title": "Mathlib Contributor",
+   "team": "Software Engineering",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-11-23",
+   "pay": "$60–$120/hr",
+   "url": "https://jobs.micro1.ai/post/16a30c0f-7cb0-4587-82e1-0de5c2762cd7?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "micro1-ba5bbe54-fe56-43e7-adc6-915f2886c887",
+   "platform": "micro1",
+   "title": "Psychiatrist",
+   "team": "Medicine",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-11-23",
+   "pay": "$120–$140/hr",
+   "url": "https://jobs.micro1.ai/post/ba5bbe54-fe56-43e7-adc6-915f2886c887?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "micro1-92b854f4-4b4f-4480-9a27-0070d1e87bc3",
+   "platform": "micro1",
+   "title": "Psychology PhD",
+   "team": "Medicine",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-11-23",
+   "pay": "$80–$90/hr",
+   "url": "https://jobs.micro1.ai/post/92b854f4-4b4f-4480-9a27-0070d1e87bc3?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "micro1-aa257e80-a3d6-48a6-9f66-c4cd3c76443d",
+   "platform": "micro1",
+   "title": "Inpatient facility coder",
+   "team": "Medicine",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-11-23",
+   "pay": "$30–$70/hr",
+   "url": "https://jobs.micro1.ai/post/aa257e80-a3d6-48a6-9f66-c4cd3c76443d?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "handshake-fbb20e50-434b-4ffd-82b5-33e4c92d7aec",
+   "platform": "handshake",
+   "title": "Recruiting Coordinator (Contract)",
+   "team": "General & Administrative",
+   "location": "India",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-11-23",
+   "url": "https://jobs.ashbyhq.com/handshake/fbb20e50-434b-4ffd-82b5-33e4c92d7aec",
+   "countries": [
+    "IN"
+   ],
+   "exclude": []
+  },
+  {
+   "id": "micro1-184ab02e-aa21-49dc-b8de-65ba59d06327",
+   "platform": "micro1",
+   "title": "Talent Support Specialist",
+   "team": "Business Operations",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-11-22",
+   "pay": "$15–$20/hr",
+   "url": "https://jobs.micro1.ai/post/184ab02e-aa21-49dc-b8de-65ba59d06327?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
+   "countries": [],
+   "exclude": []
+  },
+  {
    "id": "micro1-b9160cd0-6896-4788-9935-596c225594b7",
    "platform": "micro1",
-   "title": "Robotics Data Collection Specialist",
+   "title": "Robotics Data Collection Specialist (U.S Based)",
    "team": "Robotics",
    "location": "Remote",
    "remote": true,
@@ -226,7 +395,7 @@
    "remote": true,
    "type": "gig",
    "posted": "2026-11-20",
-   "pay": "$110/hr",
+   "pay": "$140/hr",
    "url": "https://jobs.micro1.ai/post/a8c0d211-1f48-46aa-b552-fd1e3fb6c8ba?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
    "countries": [
     "MX"
@@ -6198,21 +6367,6 @@
    "url": "https://work.mercor.com/explore?listingId=list_AAABoXlvyUH1tzlT-IpJg6wm&referralCode=3e69e7cf-edba-25be-5027-25cc33b23a52&utm_source=referral&utm_medium=direct&utm_campaign=platform"
   },
   {
-   "id": "handshake-ce0e36f5-66b1-4ffe-8a89-47cd6ccc2c95",
-   "platform": "handshake",
-   "title": "Workplace Experience Coordinator, India (Contract)",
-   "team": "General & Administrative",
-   "location": "India",
-   "remote": false,
-   "type": "gig",
-   "posted": "2026-10-26",
-   "url": "https://jobs.ashbyhq.com/handshake/ce0e36f5-66b1-4ffe-8a89-47cd6ccc2c95",
-   "countries": [
-    "IN"
-   ],
-   "exclude": []
-  },
-  {
    "id": "micro1-6009f546-2ac3-4072-9f5a-1bd8094154ef",
    "platform": "micro1",
    "title": "Hospitality Worker (Toast POS User)",
@@ -6266,6 +6420,21 @@
    "pay": "$7–$8/hr",
    "url": "https://jobs.micro1.ai/post/73e0d113-91f0-40f4-94b0-67c02c31a3f1?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
    "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "handshake-ce0e36f5-66b1-4ffe-8a89-47cd6ccc2c95",
+   "platform": "handshake",
+   "title": "Workplace Experience Coordinator, India (Contract)",
+   "team": "General & Administrative",
+   "location": "India",
+   "remote": false,
+   "type": "gig",
+   "posted": "2026-10-26",
+   "url": "https://jobs.ashbyhq.com/handshake/ce0e36f5-66b1-4ffe-8a89-47cd6ccc2c95",
+   "countries": [
+    "IN"
+   ],
    "exclude": []
   },
   {
@@ -6507,6 +6676,20 @@
    "url": "https://work.mercor.com/explore?listingId=list_AAABoWtv330pzH8496dGyKTt&referralCode=3e69e7cf-edba-25be-5027-25cc33b23a52&utm_source=referral&utm_medium=direct&utm_campaign=platform"
   },
   {
+   "id": "micro1-00ad74df-491a-4327-a38c-5dc7d484ad77",
+   "platform": "micro1",
+   "title": "Finance & Accounting Expert",
+   "team": "Finance",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-10-24",
+   "pay": "$40–$90/hr",
+   "url": "https://jobs.micro1.ai/post/00ad74df-491a-4327-a38c-5dc7d484ad77?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
+   "countries": [],
+   "exclude": []
+  },
+  {
    "id": "micro1-7feee246-52db-48df-880c-58a87bbc9c65",
    "platform": "micro1",
    "title": "Defense Analyst",
@@ -6517,174 +6700,6 @@
    "posted": "2026-10-24",
    "pay": "$80–$170/hr",
    "url": "https://jobs.micro1.ai/post/7feee246-52db-48df-880c-58a87bbc9c65?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
-   "countries": [],
-   "exclude": []
-  },
-  {
-   "id": "micro1-0e5cfd61-fe27-4955-ad5c-952e6e5d8198",
-   "platform": "micro1",
-   "title": "Member of Technical Staff, Data Engineering",
-   "team": "Software Engineering",
-   "location": "Remote",
-   "remote": true,
-   "type": "gig",
-   "posted": "2026-10-24",
-   "pay": "$7–$8/hr",
-   "url": "https://jobs.micro1.ai/post/0e5cfd61-fe27-4955-ad5c-952e6e5d8198?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
-   "countries": [],
-   "exclude": []
-  },
-  {
-   "id": "micro1-a46ebe3b-f159-4e54-b892-89fe86b2554b",
-   "platform": "micro1",
-   "title": "Member of Technical Staff, Quality Engineering",
-   "team": "Software Engineering",
-   "location": "Remote",
-   "remote": true,
-   "type": "gig",
-   "posted": "2026-10-24",
-   "pay": "$7–$8/hr",
-   "url": "https://jobs.micro1.ai/post/a46ebe3b-f159-4e54-b892-89fe86b2554b?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
-   "countries": [],
-   "exclude": []
-  },
-  {
-   "id": "micro1-c4d9c64f-c30e-44fe-a32b-8ee6569b47b8",
-   "platform": "micro1",
-   "title": "Member of Technical Staff, Infrastructure",
-   "team": "Software Engineering",
-   "location": "Remote",
-   "remote": true,
-   "type": "gig",
-   "posted": "2026-10-24",
-   "pay": "$7–$8/hr",
-   "url": "https://jobs.micro1.ai/post/c4d9c64f-c30e-44fe-a32b-8ee6569b47b8?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
-   "countries": [],
-   "exclude": []
-  },
-  {
-   "id": "micro1-b41b55bc-97ef-473f-ad12-f7434a652fda",
-   "platform": "micro1",
-   "title": "Army Combat Operations Expert",
-   "team": "Other",
-   "location": "Remote",
-   "remote": true,
-   "type": "gig",
-   "posted": "2026-10-24",
-   "pay": "$90–$170/hr",
-   "url": "https://jobs.micro1.ai/post/b41b55bc-97ef-473f-ad12-f7434a652fda?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
-   "countries": [],
-   "exclude": []
-  },
-  {
-   "id": "micro1-badffe8c-c9c5-475e-bf6a-3f718a8b6a0b",
-   "platform": "micro1",
-   "title": "Military Operations Expert",
-   "team": "Other",
-   "location": "Remote",
-   "remote": true,
-   "type": "gig",
-   "posted": "2026-10-24",
-   "pay": "$90–$170/hr",
-   "url": "https://jobs.micro1.ai/post/badffe8c-c9c5-475e-bf6a-3f718a8b6a0b?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
-   "countries": [],
-   "exclude": []
-  },
-  {
-   "id": "micro1-fdc2913f-8c00-4a0e-b4dc-9cd9c500dd05",
-   "platform": "micro1",
-   "title": "Weapons Systems Operator",
-   "team": "Other",
-   "location": "Remote",
-   "remote": true,
-   "type": "gig",
-   "posted": "2026-10-24",
-   "pay": "$80–$170/hr",
-   "url": "https://jobs.micro1.ai/post/fdc2913f-8c00-4a0e-b4dc-9cd9c500dd05?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
-   "countries": [],
-   "exclude": []
-  },
-  {
-   "id": "micro1-3afa60e3-4c33-4a5c-b6af-ca18270cc5b7",
-   "platform": "micro1",
-   "title": "Special Forces Operator",
-   "team": "Other",
-   "location": "Remote",
-   "remote": true,
-   "type": "gig",
-   "posted": "2026-10-24",
-   "pay": "$80–$170/hr",
-   "url": "https://jobs.micro1.ai/post/3afa60e3-4c33-4a5c-b6af-ca18270cc5b7?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
-   "countries": [],
-   "exclude": []
-  },
-  {
-   "id": "micro1-761ff1a6-68bf-4e45-8047-41f475c66823",
-   "platform": "micro1",
-   "title": "Fighter Pilot",
-   "team": "Other",
-   "location": "Remote",
-   "remote": true,
-   "type": "gig",
-   "posted": "2026-10-24",
-   "pay": "$80–$170/hr",
-   "url": "https://jobs.micro1.ai/post/761ff1a6-68bf-4e45-8047-41f475c66823?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
-   "countries": [],
-   "exclude": []
-  },
-  {
-   "id": "micro1-6f83d131-cbf2-4817-a66f-99e05104eb47",
-   "platform": "micro1",
-   "title": "Rust Architect / Backend Developer",
-   "team": "Software Engineering",
-   "location": "Remote",
-   "remote": true,
-   "type": "gig",
-   "posted": "2026-10-24",
-   "pay": "",
-   "url": "https://jobs.micro1.ai/post/6f83d131-cbf2-4817-a66f-99e05104eb47?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
-   "countries": [],
-   "exclude": []
-  },
-  {
-   "id": "micro1-f08acc61-44ab-45a4-a6dd-85aaadb7cc24",
-   "platform": "micro1",
-   "title": "Sales / Revenue / CS Operations Expert",
-   "team": "Business Operations",
-   "location": "Remote",
-   "remote": true,
-   "type": "gig",
-   "posted": "2026-10-24",
-   "pay": "$40–$85/hr",
-   "url": "https://jobs.micro1.ai/post/f08acc61-44ab-45a4-a6dd-85aaadb7cc24?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
-   "countries": [],
-   "exclude": []
-  },
-  {
-   "id": "micro1-2bfad9ec-1ea5-4de1-a40c-6daf7d8869b5",
-   "platform": "micro1",
-   "title": "Revenue Operations Specialist (SaaS)",
-   "team": "Business Operations",
-   "location": "Remote",
-   "remote": true,
-   "type": "gig",
-   "posted": "2026-10-24",
-   "pay": "$50–$100/hr",
-   "url": "https://jobs.micro1.ai/post/2bfad9ec-1ea5-4de1-a40c-6daf7d8869b5?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
-   "countries": [],
-   "exclude": []
-  },
-  {
-   "id": "micro1-82ba10ad-8dbd-49ce-bc11-a83b9bb2169f",
-   "platform": "micro1",
-   "title": "AI Agent Tester -  Real-World Tasks",
-   "team": "Generalist",
-   "location": "Remote",
-   "remote": true,
-   "type": "gig",
-   "posted": "2026-10-24",
-   "pay": "$25–$45/hr",
-   "url": "https://jobs.micro1.ai/post/82ba10ad-8dbd-49ce-bc11-a83b9bb2169f?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
    "countries": [],
    "exclude": []
   },
@@ -6958,6 +6973,62 @@
    "exclude": []
   },
   {
+   "id": "micro1-55901470-d138-47d9-a2b2-cc5566df2cea",
+   "platform": "micro1",
+   "title": "Inpatient Medical Coder",
+   "team": "Other",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-10-21",
+   "pay": "$50–$70/hr",
+   "url": "https://jobs.micro1.ai/post/55901470-d138-47d9-a2b2-cc5566df2cea?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "micro1-345daaa5-4cbe-4af3-af6f-4e27382d6d41",
+   "platform": "micro1",
+   "title": "Certified Inpatient Coder",
+   "team": "Medicine",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-10-20",
+   "pay": "$50–$70/hr",
+   "url": "https://jobs.micro1.ai/post/345daaa5-4cbe-4af3-af6f-4e27382d6d41?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "micro1-a0417769-16cd-43a1-a5c7-1226f2b10932",
+   "platform": "micro1",
+   "title": "Inpatient Coder (CCS)",
+   "team": "Medicine",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-10-20",
+   "pay": "$50–$70/hr",
+   "url": "https://jobs.micro1.ai/post/a0417769-16cd-43a1-a5c7-1226f2b10932?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "micro1-6fe1b365-e42d-4a8f-a474-89801118311e",
+   "platform": "micro1",
+   "title": "Inpatient Care Physician (MD/DO)",
+   "team": "Medicine",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-10-20",
+   "pay": "$100–$115/hr",
+   "url": "https://jobs.micro1.ai/post/6fe1b365-e42d-4a8f-a474-89801118311e?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
+   "countries": [],
+   "exclude": []
+  },
+  {
    "countries": [],
    "exclude": [],
    "id": "mercor-list_AAABoVXp4Fza5Tp6BWFOiZkF",
@@ -6970,22 +7041,6 @@
    "posted": "2026-10-19",
    "pay": "$200/hr",
    "url": "https://work.mercor.com/explore?listingId=list_AAABoVXp4Fza5Tp6BWFOiZkF&referralCode=3e69e7cf-edba-25be-5027-25cc33b23a52&utm_source=referral&utm_medium=direct&utm_campaign=platform"
-  },
-  {
-   "countries": [
-    "IN"
-   ],
-   "exclude": [],
-   "id": "mercor-list_AAABoVRd9P1zaUo4VyVMfZES",
-   "platform": "mercor",
-   "title": "Customer Experience Operations (India)",
-   "team": "Business Operations",
-   "location": "India",
-   "remote": true,
-   "type": "gig",
-   "posted": "2026-10-19",
-   "pay": "$35,000–$50,000/yr",
-   "url": "https://work.mercor.com/explore?listingId=list_AAABoVRd9P1zaUo4VyVMfZES&referralCode=3e69e7cf-edba-25be-5027-25cc33b23a52&utm_source=referral&utm_medium=direct&utm_campaign=platform"
   },
   {
    "id": "mercor-c34c84d9-b7f8-436e-ae8d-a9a9120cecac",
@@ -7561,6 +7616,62 @@
    "url": "https://work.mercor.com/explore?listingId=list_AAABoRnCSK6MhF7a8UVK85GA&referralCode=3e69e7cf-edba-25be-5027-25cc33b23a52&utm_source=referral&utm_medium=direct&utm_campaign=platform"
   },
   {
+   "id": "micro1-c25ab1f0-c287-4061-b30b-e13c32372fc2",
+   "platform": "micro1",
+   "title": "Registered Nurse",
+   "team": "Medicine",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-10-08",
+   "pay": "$60–$70/hr",
+   "url": "https://jobs.micro1.ai/post/c25ab1f0-c287-4061-b30b-e13c32372fc2?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "micro1-9461932b-7cfe-41c8-b7db-4d0b0d599187",
+   "platform": "micro1",
+   "title": "Medical Coder (CCS / CIC)",
+   "team": "Medicine",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-10-08",
+   "pay": "$50–$70/hr",
+   "url": "https://jobs.micro1.ai/post/9461932b-7cfe-41c8-b7db-4d0b0d599187?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "micro1-40652c88-e755-454c-b41b-d50f8bc34198",
+   "platform": "micro1",
+   "title": "Hospitalist Physician",
+   "team": "Medicine",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-10-08",
+   "pay": "$100–$120/hr",
+   "url": "https://jobs.micro1.ai/post/40652c88-e755-454c-b41b-d50f8bc34198?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "micro1-dd0fdcbd-a2f8-4f74-8a93-8e7cf04f2dbe",
+   "platform": "micro1",
+   "title": "Family Medicine Physician (MD)",
+   "team": "Medicine",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-10-08",
+   "pay": "$100–$120/hr",
+   "url": "https://jobs.micro1.ai/post/dd0fdcbd-a2f8-4f74-8a93-8e7cf04f2dbe?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
+   "countries": [],
+   "exclude": []
+  },
+  {
    "id": "micro1-0c6952e3-b783-407c-a451-b92996992038",
    "platform": "micro1",
    "title": "Litigation Attorney",
@@ -7587,6 +7698,20 @@
    "posted": "2026-10-07",
    "pay": "$200/hr",
    "url": "https://work.mercor.com/explore?listingId=list_AAABoRePE1qiY1-aJqFLRrSi&referralCode=3e69e7cf-edba-25be-5027-25cc33b23a52&utm_source=referral&utm_medium=direct&utm_campaign=platform"
+  },
+  {
+   "id": "micro1-865bada5-304f-4f28-aa8d-5b0331975b16",
+   "platform": "micro1",
+   "title": "Medical Coder",
+   "team": "Medicine",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-10-07",
+   "pay": "$50–$70/hr",
+   "url": "https://jobs.micro1.ai/post/865bada5-304f-4f28-aa8d-5b0331975b16?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
+   "countries": [],
+   "exclude": []
   },
   {
    "id": "micro1-479e1aa8-2d92-42b7-a77c-aa83369cece8",
@@ -7965,6 +8090,48 @@
    "posted": "2026-09-17",
    "pay": "$100–$140/hr",
    "url": "https://work.mercor.com/explore?listingId=list_AAABoLA_3WENxZ1c_rpCtI2L&referralCode=3e69e7cf-edba-25be-5027-25cc33b23a52&utm_source=referral&utm_medium=direct&utm_campaign=platform"
+  },
+  {
+   "id": "micro1-f7ff5f2a-cbff-4e3d-ad83-1019155c246a",
+   "platform": "micro1",
+   "title": "Statistician",
+   "team": "Sciences Research",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-09-16",
+   "pay": "$60–$120/hr",
+   "url": "https://jobs.micro1.ai/post/f7ff5f2a-cbff-4e3d-ad83-1019155c246a?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "micro1-1826f264-38a0-48c0-9c12-ad50a7433051",
+   "platform": "micro1",
+   "title": "Mechanical Engineer",
+   "team": "Applied Engineering",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-09-16",
+   "pay": "$55–$100/hr",
+   "url": "https://jobs.micro1.ai/post/1826f264-38a0-48c0-9c12-ad50a7433051?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "micro1-6edb7bba-063e-423e-bc2d-40758b70092f",
+   "platform": "micro1",
+   "title": "Life Sciences Research Assistant",
+   "team": "Sciences Research",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-09-16",
+   "pay": "$30–$50/hr",
+   "url": "https://jobs.micro1.ai/post/6edb7bba-063e-423e-bc2d-40758b70092f?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
+   "countries": [],
+   "exclude": []
   },
   {
    "countries": [],
@@ -11800,7 +11967,7 @@
   {
    "id": "scale-4752556005",
    "platform": "scale",
-   "title": "US Executive Branch Policy & International Engagement Lead",
+   "title": "US Policy and International Engagement Lead",
    "team": "",
    "location": "Washington, DC",
    "remote": false,
@@ -13373,190 +13540,7 @@
     "CO"
    ],
    "exclude": []
-  },
-  {
-   "id": "handshake-ca392442-69eb-46f5-b367-37e43c832094",
-   "platform": "handshake",
-   "title": "Member of Technical Staff, Evals",
-   "team": "HAI Research",
-   "location": "San Francisco, CA",
-   "remote": false,
-   "type": "job",
-   "posted": "2026-09-29",
-   "url": "https://jobs.ashbyhq.com/handshake/ca392442-69eb-46f5-b367-37e43c832094",
-   "countries": [
-    "US"
-   ],
-   "exclude": []
-  },
-  {
-   "id": "afterquery-3e8161e3-52f1-403d-8742-a687fe1c1df8",
-   "platform": "afterquery",
-   "title": "Product Manager",
-   "team": "Engineering",
-   "location": "San Francisco",
-   "remote": false,
-   "type": "job",
-   "posted": "2026-09-28",
-   "url": "https://jobs.ashbyhq.com/AfterQuery/3e8161e3-52f1-403d-8742-a687fe1c1df8",
-   "countries": [
-    "US"
-   ],
-   "exclude": []
-  },
-  {
-   "id": "handshake-08651bf1-c977-49d4-9a82-e8a770bb9970",
-   "platform": "handshake",
-   "title": "Member of Technical Staff, AI Engineering",
-   "team": "HAI Research",
-   "location": "San Francisco, CA",
-   "remote": false,
-   "type": "job",
-   "posted": "2026-09-28",
-   "url": "https://jobs.ashbyhq.com/handshake/08651bf1-c977-49d4-9a82-e8a770bb9970",
-   "countries": [
-    "US"
-   ],
-   "exclude": []
-  },
-  {
-   "id": "handshake-a94b9f88-8916-4dc4-967f-33b08e33bf3a",
-   "platform": "handshake",
-   "title": "Enterprise Account Manager",
-   "team": "Employer Revenue",
-   "location": "San Francisco, CA",
-   "remote": true,
-   "type": "job",
-   "posted": "2026-09-28",
-   "url": "https://jobs.ashbyhq.com/handshake/a94b9f88-8916-4dc4-967f-33b08e33bf3a",
-   "countries": [
-    "US"
-   ],
-   "exclude": []
-  },
-  {
-   "id": "handshake-b884c592-8834-4776-a0cd-6718da9b54cc",
-   "platform": "handshake",
-   "title": "Mid-Market Customer Success Manager",
-   "team": "Employer Revenue",
-   "location": "New York, NY",
-   "remote": true,
-   "type": "job",
-   "posted": "2026-09-25",
-   "url": "https://jobs.ashbyhq.com/handshake/b884c592-8834-4776-a0cd-6718da9b54cc",
-   "countries": [
-    "US"
-   ],
-   "exclude": []
-  },
-  {
-   "id": "mercor-374cd009-516f-4a1f-abbf-bcca5287daae",
-   "platform": "mercor",
-   "title": "Software Engineer, Applied AI - Environments Platform",
-   "team": "Engineering",
-   "location": "San Francisco",
-   "remote": false,
-   "type": "job",
-   "posted": "2026-09-24",
-   "url": "https://jobs.ashbyhq.com/mercor/374cd009-516f-4a1f-abbf-bcca5287daae",
-   "countries": [
-    "US"
-   ],
-   "exclude": []
-  },
-  {
-   "id": "turing-6192729004",
-   "platform": "turing",
-   "title": "Forward-Deployed AI Engineer",
-   "team": "",
-   "location": "Hyderabad, Telangana, India",
-   "remote": false,
-   "type": "job",
-   "posted": "2026-09-24",
-   "url": "https://job-boards.greenhouse.io/turing/jobs/6192729004",
-   "countries": [
-    "IN"
-   ],
-   "exclude": []
-  },
-  {
-   "id": "turing-6192725004",
-   "platform": "turing",
-   "title": "Forward-Deployed AI Engineer",
-   "team": "",
-   "location": "Bengaluru, Karnataka, India",
-   "remote": false,
-   "type": "job",
-   "posted": "2026-09-24",
-   "url": "https://job-boards.greenhouse.io/turing/jobs/6192725004",
-   "countries": [
-    "IN"
-   ],
-   "exclude": []
-  },
-  {
-   "id": "turing-6207732004",
-   "platform": "turing",
-   "title": "Senior Research Engineer",
-   "team": "",
-   "location": "United States",
-   "remote": false,
-   "type": "job",
-   "posted": "2026-09-24",
-   "url": "https://job-boards.greenhouse.io/turing/jobs/6207732004",
-   "countries": [
-    "US"
-   ],
-   "exclude": []
-  },
-  {
-   "id": "turing-6198595004",
-   "platform": "turing",
-   "title": "Senior Research Engineer, Frontier Data",
-   "team": "",
-   "location": "United States",
-   "remote": false,
-   "type": "job",
-   "posted": "2026-09-24",
-   "url": "https://job-boards.greenhouse.io/turing/jobs/6198595004",
-   "countries": [
-    "US"
-   ],
-   "exclude": []
-  },
-  {
-   "id": "turing-6198594004",
-   "platform": "turing",
-   "title": "Staff Research Engineer, Frontier Data",
-   "team": "",
-   "location": "United States",
-   "remote": false,
-   "type": "job",
-   "posted": "2026-09-24",
-   "url": "https://job-boards.greenhouse.io/turing/jobs/6198594004",
-   "countries": [
-    "US"
-   ],
-   "exclude": []
-  },
-  {
-   "id": "scale-4735360005",
-   "platform": "scale",
-   "title": "Staff Product Designer, Enterprise",
-   "team": "",
-   "location": "London, UK",
-   "remote": false,
-   "type": "job",
-   "posted": "2026-09-24",
-   "url": "https://job-boards.greenhouse.io/scaleai/jobs/4735360005",
-   "countries": [
-    "GB"
-   ],
-   "exclude": []
   }
  ],
- "errors": [
-  "micro1 (micro1_referral:referral): HTTP Error 403: Forbidden",
-  "kept 347 listings from the last good run for: micro1"
- ]
+ "errors": []
 }
