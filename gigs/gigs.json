@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-22T16:17:26Z",
- "next": "2026-11-23T00:17:26Z",
+ "updated": "2026-11-23T07:38:08Z",
+ "next": "2026-11-23T15:38:08Z",
  "socials": {
   "x": "https://x.com/get_xolutions",
   "instagram": "https://www.instagram.com/get.xolutions/",
@@ -6198,6 +6198,21 @@
    "url": "https://work.mercor.com/explore?listingId=list_AAABoXlvyUH1tzlT-IpJg6wm&referralCode=3e69e7cf-edba-25be-5027-25cc33b23a52&utm_source=referral&utm_medium=direct&utm_campaign=platform"
   },
   {
+   "id": "handshake-ce0e36f5-66b1-4ffe-8a89-47cd6ccc2c95",
+   "platform": "handshake",
+   "title": "Workplace Experience Coordinator, India (Contract)",
+   "team": "General & Administrative",
+   "location": "India",
+   "remote": false,
+   "type": "gig",
+   "posted": "2026-10-26",
+   "url": "https://jobs.ashbyhq.com/handshake/ce0e36f5-66b1-4ffe-8a89-47cd6ccc2c95",
+   "countries": [
+    "IN"
+   ],
+   "exclude": []
+  },
+  {
    "id": "micro1-6009f546-2ac3-4072-9f5a-1bd8094154ef",
    "platform": "micro1",
    "title": "Hospitality Worker (Toast POS User)",
@@ -6251,21 +6266,6 @@
    "pay": "$7–$8/hr",
    "url": "https://jobs.micro1.ai/post/73e0d113-91f0-40f4-94b0-67c02c31a3f1?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
    "countries": [],
-   "exclude": []
-  },
-  {
-   "id": "handshake-ce0e36f5-66b1-4ffe-8a89-47cd6ccc2c95",
-   "platform": "handshake",
-   "title": "Workplace Experience Coordinator, India (Contract)",
-   "team": "General & Administrative",
-   "location": "India",
-   "remote": false,
-   "type": "gig",
-   "posted": "2026-10-26",
-   "url": "https://jobs.ashbyhq.com/handshake/ce0e36f5-66b1-4ffe-8a89-47cd6ccc2c95",
-   "countries": [
-    "IN"
-   ],
    "exclude": []
   },
   {
@@ -13555,5 +13555,8 @@
    "exclude": []
   }
  ],
- "errors": []
+ "errors": [
+  "micro1 (micro1_referral:referral): HTTP Error 403: Forbidden",
+  "kept 347 listings from the last good run for: micro1"
+ ]
 }
