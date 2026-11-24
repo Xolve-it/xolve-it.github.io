@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-24T09:53:54Z",
- "next": "2026-11-24T17:53:54Z",
+ "updated": "2026-11-24T14:25:21Z",
+ "next": "2026-11-24T22:25:21Z",
  "socials": {
   "x": "https://x.com/get_xolutions",
   "instagram": "https://www.instagram.com/get.xolutions/",
@@ -1527,6 +1527,20 @@
    "posted": "2026-11-16",
    "pay": "$60–$85/hr",
    "url": "https://work.mercor.com/explore?listingId=list_AAABoeaZZ5aPp9cXNF9DVrUb&referralCode=3e69e7cf-edba-25be-5027-25cc33b23a52&utm_source=referral&utm_medium=direct&utm_campaign=platform"
+  },
+  {
+   "countries": [],
+   "exclude": [],
+   "id": "mercor-list_AAABoeIksoinQkS__UxOZ7G1",
+   "platform": "mercor",
+   "title": "AI Evaluation Rubric Reviewer",
+   "team": "Data Analysis",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-11-16",
+   "pay": "$40–$75/hr",
+   "url": "https://work.mercor.com/explore?listingId=list_AAABoeIksoinQkS__UxOZ7G1&referralCode=3e69e7cf-edba-25be-5027-25cc33b23a52&utm_source=referral&utm_medium=direct&utm_campaign=platform"
   },
   {
    "id": "toloka-5035830101",
@@ -11972,7 +11986,63 @@
    "exclude": []
   },
   {
-   "id": "alignerr-fa94dbd8-c34f-46c1-b250-340f66b95e8a",
+   "id": "alignerr-5a719a49-a392-4225-a3ef-b8311d74946c",
+   "platform": "alignerr",
+   "title": "German Audio Transcript Editor (AI Training) – Remote",
+   "team": "Audio",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-08-31",
+   "pay": "$10-35/hr",
+   "url": "https://www.alignerr.com/jobs/5a719a49-a392-4225-a3ef-b8311d74946c",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "alignerr-28a0b9da-e9cb-4776-9418-fb337f1faab5",
+   "platform": "alignerr",
+   "title": "German Audio Transcript Editor – Zurich (AI Training)",
+   "team": "Audio",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-08-31",
+   "pay": "$10-35/hr",
+   "url": "https://www.alignerr.com/jobs/28a0b9da-e9cb-4776-9418-fb337f1faab5",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "alignerr-909e02df-f655-489b-a56c-6bcc139ba412",
+   "platform": "alignerr",
+   "title": "German Audio Transcript Editor – Vienna (AI Training)",
+   "team": "Audio",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-08-31",
+   "pay": "$10-35/hr",
+   "url": "https://www.alignerr.com/jobs/909e02df-f655-489b-a56c-6bcc139ba412",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "alignerr-3e897788-587c-4cab-92dc-d493cb452b6f",
+   "platform": "alignerr",
+   "title": "German Audio Transcript Editor (AI Training)",
+   "team": "Audio",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-08-31",
+   "pay": "$10-35/hr",
+   "url": "https://www.alignerr.com/jobs/3e897788-587c-4cab-92dc-d493cb452b6f",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "alignerr-5ceb6438-0337-4e24-92c5-2d409cb2d97c",
    "platform": "alignerr",
    "title": "French Audio Transcript Editor (AI Training)",
    "team": "Audio",
@@ -11981,7 +12051,7 @@
    "type": "gig",
    "posted": "2026-08-31",
    "pay": "$10-35/hr",
-   "url": "https://www.alignerr.com/jobs/fa94dbd8-c34f-46c1-b250-340f66b95e8a",
+   "url": "https://www.alignerr.com/jobs/5ceb6438-0337-4e24-92c5-2d409cb2d97c",
    "countries": [],
    "exclude": []
   },
@@ -12440,6 +12510,22 @@
     "US"
    ],
    "exclude": []
+  },
+  {
+   "countries": [
+    "US"
+   ],
+   "exclude": [],
+   "id": "mercor-list_AAABoDT_548oyfsZk-FIq7-W",
+   "platform": "mercor",
+   "title": "Computer and Information Systems Managers",
+   "team": "Business Operations",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-08-24",
+   "pay": "$70–$110/hr",
+   "url": "https://work.mercor.com/explore?listingId=list_AAABoDT_548oyfsZk-FIq7-W&referralCode=3e69e7cf-edba-25be-5027-25cc33b23a52&utm_source=referral&utm_medium=direct&utm_campaign=platform"
   },
   {
    "countries": [],
@@ -17823,64 +17909,6 @@
    "exclude": []
   },
   {
-   "id": "toloka-5025755101",
-   "platform": "toloka",
-   "title": "Director of Strategy & Operations",
-   "team": "",
-   "location": "Europe",
-   "remote": false,
-   "type": "job",
-   "posted": "2026-11-03",
-   "url": "https://toloka.ai/careers/info?jid=5025755101&gh_jid=5025755101",
-   "countries": [
-    "AD",
-    "AL",
-    "AT",
-    "BA",
-    "BE",
-    "BG",
-    "BY",
-    "CH",
-    "CY",
-    "CZ",
-    "DE",
-    "DK",
-    "EE",
-    "ES",
-    "FI",
-    "FR",
-    "GB",
-    "GR",
-    "HR",
-    "HU",
-    "IE",
-    "IS",
-    "IT",
-    "LI",
-    "LT",
-    "LU",
-    "LV",
-    "MC",
-    "MD",
-    "ME",
-    "MK",
-    "MT",
-    "NL",
-    "NO",
-    "PL",
-    "PT",
-    "RO",
-    "RS",
-    "SE",
-    "SI",
-    "SK",
-    "SM",
-    "UA",
-    "XK"
-   ],
-   "exclude": []
-  },
-  {
    "id": "scale-4749989005",
    "platform": "scale",
    "title": "Growth Program Manager",
@@ -19687,21 +19715,6 @@
    "exclude": []
   },
   {
-   "id": "scale-4730851005",
-   "platform": "scale",
-   "title": "Software Engineer - New Grad",
-   "team": "",
-   "location": "Doha, Qatar ",
-   "remote": false,
-   "type": "job",
-   "posted": "2026-09-14",
-   "url": "https://job-boards.greenhouse.io/scaleai/jobs/4730851005",
-   "countries": [
-    "QA"
-   ],
-   "exclude": []
-  },
-  {
    "id": "scale-4730862005",
    "platform": "scale",
    "title": "Software Engineer - New Grad",
@@ -19713,6 +19726,21 @@
    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4730862005",
    "countries": [
     "GB"
+   ],
+   "exclude": []
+  },
+  {
+   "id": "scale-4730851005",
+   "platform": "scale",
+   "title": "Software Engineer - New Grad",
+   "team": "",
+   "location": "Doha, Qatar ",
+   "remote": false,
+   "type": "job",
+   "posted": "2026-09-14",
+   "url": "https://job-boards.greenhouse.io/scaleai/jobs/4730851005",
+   "countries": [
+    "QA"
    ],
    "exclude": []
   },
@@ -22514,83 +22542,6 @@
    "type": "job",
    "posted": "2025-05-27",
    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4569678005",
-   "countries": [
-    "US"
-   ],
-   "exclude": []
-  },
-  {
-   "id": "scale-4565836005",
-   "platform": "scale",
-   "title": "Finance Fellow - Human Frontier Collective",
-   "team": "",
-   "location": "Canada; United Kingdom; United States",
-   "remote": false,
-   "type": "job",
-   "posted": "2025-05-17",
-   "url": "https://job-boards.greenhouse.io/scaleai/jobs/4565836005",
-   "countries": [
-    "CA",
-    "GB",
-    "US"
-   ],
-   "exclude": []
-  },
-  {
-   "id": "scale-4554440005",
-   "platform": "scale",
-   "title": "Solutions Architect, Enterprise",
-   "team": "",
-   "location": "San Francisco, CA; New York, NY",
-   "remote": false,
-   "type": "job",
-   "posted": "2025-04-22",
-   "url": "https://job-boards.greenhouse.io/scaleai/jobs/4554440005",
-   "countries": [
-    "US"
-   ],
-   "exclude": []
-  },
-  {
-   "id": "scale-4534631005",
-   "platform": "scale",
-   "title": "ML Research Engineer, ML Systems",
-   "team": "",
-   "location": "San Francisco, CA; Seattle, WA; New York, NY",
-   "remote": false,
-   "type": "job",
-   "posted": "2025-03-10",
-   "url": "https://job-boards.greenhouse.io/scaleai/jobs/4534631005",
-   "countries": [
-    "US"
-   ],
-   "exclude": []
-  },
-  {
-   "id": "scale-4528009005",
-   "platform": "scale",
-   "title": "Machine Learning Research Scientist, Post-Training",
-   "team": "",
-   "location": "San Francisco, CA; Seattle, WA; New York, NY",
-   "remote": false,
-   "type": "job",
-   "posted": "2025-02-11",
-   "url": "https://job-boards.greenhouse.io/scaleai/jobs/4528009005",
-   "countries": [
-    "US"
-   ],
-   "exclude": []
-  },
-  {
-   "id": "scale-4513943005",
-   "platform": "scale",
-   "title": "Software Engineer, Enterprise AI",
-   "team": "",
-   "location": "New York, NY; San Francisco, CA",
-   "remote": false,
-   "type": "job",
-   "posted": "2025-01-07",
-   "url": "https://job-boards.greenhouse.io/scaleai/jobs/4513943005",
    "countries": [
     "US"
    ],
