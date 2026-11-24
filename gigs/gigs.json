@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-24T15:00:42Z",
- "next": "2026-11-24T23:00:42Z",
+ "updated": "2026-11-24T19:01:04Z",
+ "next": "2026-11-25T03:01:04Z",
  "socials": {
   "x": "https://x.com/get_xolutions",
   "instagram": "https://www.instagram.com/get.xolutions/",
@@ -364,6 +364,20 @@
    "url": "https://jobs.micro1.ai/post/184ab02e-aa21-49dc-b8de-65ba59d06327?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
    "countries": [],
    "exclude": []
+  },
+  {
+   "countries": [],
+   "exclude": [],
+   "id": "mercor-list_AAABofvfl94SAaye36JOwo-t",
+   "platform": "mercor",
+   "title": "Higher Education Experts",
+   "team": "Business Operations",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-11-21",
+   "pay": "$130/hr",
+   "url": "https://work.mercor.com/explore?listingId=list_AAABofvfl94SAaye36JOwo-t&referralCode=3e69e7cf-edba-25be-5027-25cc33b23a52&utm_source=referral&utm_medium=direct&utm_campaign=platform"
   },
   {
    "id": "micro1-b9160cd0-6896-4788-9935-596c225594b7",
@@ -2136,20 +2150,6 @@
    "posted": "2026-11-14",
    "pay": "$100–$125/hr",
    "url": "https://work.mercor.com/explore?listingId=list_AAABodjkhcin__KeNFZHg54O&referralCode=3e69e7cf-edba-25be-5027-25cc33b23a52&utm_source=referral&utm_medium=direct&utm_campaign=platform"
-  },
-  {
-   "countries": [],
-   "exclude": [],
-   "id": "mercor-list_AAABoddaxN8U-VxGZ5BD-Y_n",
-   "platform": "mercor",
-   "title": "FP&A Expert",
-   "team": "",
-   "location": "Remote (US preferred, open worldwide)",
-   "remote": true,
-   "type": "gig",
-   "posted": "2026-11-14",
-   "pay": "$100/hr",
-   "url": "https://work.mercor.com/explore?listingId=list_AAABoddaxN8U-VxGZ5BD-Y_n&referralCode=3e69e7cf-edba-25be-5027-25cc33b23a52&utm_source=referral&utm_medium=direct&utm_campaign=platform"
   },
   {
    "id": "micro1-6051f146-9e74-44ba-bd0e-6558aab95afa",
@@ -4606,22 +4606,6 @@
     "US"
    ],
    "exclude": [],
-   "id": "mercor-list_AAABocIgpgg_Jh7V5E5AiJx-",
-   "platform": "mercor",
-   "title": "DevOps / Infrastructure Engineer",
-   "team": "Software Engineering",
-   "location": "United States",
-   "remote": true,
-   "type": "gig",
-   "posted": "2026-11-09",
-   "pay": "$80–$120/hr",
-   "url": "https://work.mercor.com/explore?listingId=list_AAABocIgpgg_Jh7V5E5AiJx-&referralCode=3e69e7cf-edba-25be-5027-25cc33b23a52&utm_source=referral&utm_medium=direct&utm_campaign=platform"
-  },
-  {
-   "countries": [
-    "US"
-   ],
-   "exclude": [],
    "id": "mercor-list_AAABocIgpV2Ws9LcFgtFJ6u9",
    "platform": "mercor",
    "title": "Responsible AI / Security Specialist",
@@ -4632,6 +4616,22 @@
    "posted": "2026-11-09",
    "pay": "$90–$140/hr",
    "url": "https://work.mercor.com/explore?listingId=list_AAABocIgpV2Ws9LcFgtFJ6u9&referralCode=3e69e7cf-edba-25be-5027-25cc33b23a52&utm_source=referral&utm_medium=direct&utm_campaign=platform"
+  },
+  {
+   "countries": [
+    "US"
+   ],
+   "exclude": [],
+   "id": "mercor-list_AAABocIgpgg_Jh7V5E5AiJx-",
+   "platform": "mercor",
+   "title": "DevOps / Infrastructure Engineer",
+   "team": "Software Engineering",
+   "location": "United States",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-11-09",
+   "pay": "$80–$120/hr",
+   "url": "https://work.mercor.com/explore?listingId=list_AAABocIgpgg_Jh7V5E5AiJx-&referralCode=3e69e7cf-edba-25be-5027-25cc33b23a52&utm_source=referral&utm_medium=direct&utm_campaign=platform"
   },
   {
    "countries": [
@@ -8518,6 +8518,244 @@
    "exclude": []
   },
   {
+   "countries": [],
+   "exclude": [],
+   "id": "mercor-list_AAABoWtwzY78zzncm-FELrjZ",
+   "platform": "mercor",
+   "title": "Radiologist",
+   "team": "Medicine",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-10-24",
+   "pay": "$350/hr",
+   "url": "https://work.mercor.com/explore?listingId=list_AAABoWtwzY78zzncm-FELrjZ&referralCode=3e69e7cf-edba-25be-5027-25cc33b23a52&utm_source=referral&utm_medium=direct&utm_campaign=platform"
+  },
+  {
+   "countries": [],
+   "exclude": [],
+   "id": "mercor-list_AAABoWtwvCp5G7Swt0JDu7wl",
+   "platform": "mercor",
+   "title": "Cardiologist",
+   "team": "Medicine",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-10-24",
+   "pay": "$350/hr",
+   "url": "https://work.mercor.com/explore?listingId=list_AAABoWtwvCp5G7Swt0JDu7wl&referralCode=3e69e7cf-edba-25be-5027-25cc33b23a52&utm_source=referral&utm_medium=direct&utm_campaign=platform"
+  },
+  {
+   "countries": [],
+   "exclude": [],
+   "id": "mercor-list_AAABoWtwpFEaRuHYqcNK6KyX",
+   "platform": "mercor",
+   "title": "Anesthesiologist",
+   "team": "Medicine",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-10-24",
+   "pay": "$350/hr",
+   "url": "https://work.mercor.com/explore?listingId=list_AAABoWtwpFEaRuHYqcNK6KyX&referralCode=3e69e7cf-edba-25be-5027-25cc33b23a52&utm_source=referral&utm_medium=direct&utm_campaign=platform"
+  },
+  {
+   "countries": [],
+   "exclude": [],
+   "id": "mercor-list_AAABoWtwmMBbLnGYAPFKNLAQ",
+   "platform": "mercor",
+   "title": "Orthopedic Surgeon",
+   "team": "Medicine",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-10-24",
+   "pay": "$350/hr",
+   "url": "https://work.mercor.com/explore?listingId=list_AAABoWtwmMBbLnGYAPFKNLAQ&referralCode=3e69e7cf-edba-25be-5027-25cc33b23a52&utm_source=referral&utm_medium=direct&utm_campaign=platform"
+  },
+  {
+   "countries": [],
+   "exclude": [],
+   "id": "mercor-list_AAABoWtwjZ8YPP1X8zpPf7U3",
+   "platform": "mercor",
+   "title": "Dermatologist",
+   "team": "Medicine",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-10-24",
+   "pay": "$275/hr",
+   "url": "https://work.mercor.com/explore?listingId=list_AAABoWtwjZ8YPP1X8zpPf7U3&referralCode=3e69e7cf-edba-25be-5027-25cc33b23a52&utm_source=referral&utm_medium=direct&utm_campaign=platform"
+  },
+  {
+   "countries": [],
+   "exclude": [],
+   "id": "mercor-list_AAABoWtwgexs-u2gvjVJi7wH",
+   "platform": "mercor",
+   "title": "General Surgeon",
+   "team": "Medicine",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-10-24",
+   "pay": "$200/hr",
+   "url": "https://work.mercor.com/explore?listingId=list_AAABoWtwgexs-u2gvjVJi7wH&referralCode=3e69e7cf-edba-25be-5027-25cc33b23a52&utm_source=referral&utm_medium=direct&utm_campaign=platform"
+  },
+  {
+   "countries": [],
+   "exclude": [],
+   "id": "mercor-list_AAABoWtwdnkg16LT79ZPDawT",
+   "platform": "mercor",
+   "title": "Critical Care Physician",
+   "team": "Medicine",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-10-24",
+   "pay": "$200/hr",
+   "url": "https://work.mercor.com/explore?listingId=list_AAABoWtwdnkg16LT79ZPDawT&referralCode=3e69e7cf-edba-25be-5027-25cc33b23a52&utm_source=referral&utm_medium=direct&utm_campaign=platform"
+  },
+  {
+   "countries": [],
+   "exclude": [],
+   "id": "mercor-list_AAABoWtwYkSInwja94FDHa0o",
+   "platform": "mercor",
+   "title": "Obstetrician-Gynecologist (OB/GYN)",
+   "team": "Medicine",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-10-24",
+   "pay": "$200/hr",
+   "url": "https://work.mercor.com/explore?listingId=list_AAABoWtwYkSInwja94FDHa0o&referralCode=3e69e7cf-edba-25be-5027-25cc33b23a52&utm_source=referral&utm_medium=direct&utm_campaign=platform"
+  },
+  {
+   "countries": [],
+   "exclude": [],
+   "id": "mercor-list_AAABoWtwVok0kLHc4h5Gp7qo",
+   "platform": "mercor",
+   "title": "Neurologist",
+   "team": "",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-10-24",
+   "pay": "$200/hr",
+   "url": "https://work.mercor.com/explore?listingId=list_AAABoWtwVok0kLHc4h5Gp7qo&referralCode=3e69e7cf-edba-25be-5027-25cc33b23a52&utm_source=referral&utm_medium=direct&utm_campaign=platform"
+  },
+  {
+   "countries": [],
+   "exclude": [],
+   "id": "mercor-list_AAABoWtwTAuXPK49ZE5BY6j1",
+   "platform": "mercor",
+   "title": "Rheumatologist",
+   "team": "Medicine",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-10-24",
+   "pay": "$200/hr",
+   "url": "https://work.mercor.com/explore?listingId=list_AAABoWtwTAuXPK49ZE5BY6j1&referralCode=3e69e7cf-edba-25be-5027-25cc33b23a52&utm_source=referral&utm_medium=direct&utm_campaign=platform"
+  },
+  {
+   "countries": [],
+   "exclude": [],
+   "id": "mercor-list_AAABoWtwOLHV8_xCHd5M26Cl",
+   "platform": "mercor",
+   "title": "Nephrologist",
+   "team": "Medicine",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-10-24",
+   "pay": "$200/hr",
+   "url": "https://work.mercor.com/explore?listingId=list_AAABoWtwOLHV8_xCHd5M26Cl&referralCode=3e69e7cf-edba-25be-5027-25cc33b23a52&utm_source=referral&utm_medium=direct&utm_campaign=platform"
+  },
+  {
+   "countries": [],
+   "exclude": [],
+   "id": "mercor-list_AAABoWtwJGwIgnnW9BdOwaZX",
+   "platform": "mercor",
+   "title": "Infectious Disease Physician",
+   "team": "Medicine",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-10-24",
+   "pay": "$200/hr",
+   "url": "https://work.mercor.com/explore?listingId=list_AAABoWtwJGwIgnnW9BdOwaZX&referralCode=3e69e7cf-edba-25be-5027-25cc33b23a52&utm_source=referral&utm_medium=direct&utm_campaign=platform"
+  },
+  {
+   "countries": [],
+   "exclude": [],
+   "id": "mercor-list_AAABoWtwGWHBJHEIwBFOP4OG",
+   "platform": "mercor",
+   "title": "Endocrinologist",
+   "team": "Medicine",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-10-24",
+   "pay": "$200/hr",
+   "url": "https://work.mercor.com/explore?listingId=list_AAABoWtwGWHBJHEIwBFOP4OG&referralCode=3e69e7cf-edba-25be-5027-25cc33b23a52&utm_source=referral&utm_medium=direct&utm_campaign=platform"
+  },
+  {
+   "countries": [],
+   "exclude": [],
+   "id": "mercor-list_AAABoWtwCj4E5CDOjQ1KxL5m",
+   "platform": "mercor",
+   "title": "Ophthalmologist",
+   "team": "Medicine",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-10-24",
+   "pay": "$175/hr",
+   "url": "https://work.mercor.com/explore?listingId=list_AAABoWtwCj4E5CDOjQ1KxL5m&referralCode=3e69e7cf-edba-25be-5027-25cc33b23a52&utm_source=referral&utm_medium=direct&utm_campaign=platform"
+  },
+  {
+   "countries": [],
+   "exclude": [],
+   "id": "mercor-list_AAABoWtv9pI6MJtsV35ELp_E",
+   "platform": "mercor",
+   "title": "Otolaryngologist (ENT)",
+   "team": "Medicine",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-10-24",
+   "pay": "$150/hr",
+   "url": "https://work.mercor.com/explore?listingId=list_AAABoWtv9pI6MJtsV35ELp_E&referralCode=3e69e7cf-edba-25be-5027-25cc33b23a52&utm_source=referral&utm_medium=direct&utm_campaign=platform"
+  },
+  {
+   "countries": [],
+   "exclude": [],
+   "id": "mercor-list_AAABoWtv69DhD_Gd84dDAocK",
+   "platform": "mercor",
+   "title": "Geriatrician",
+   "team": "Medicine",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-10-24",
+   "pay": "$150/hr",
+   "url": "https://work.mercor.com/explore?listingId=list_AAABoWtv69DhD_Gd84dDAocK&referralCode=3e69e7cf-edba-25be-5027-25cc33b23a52&utm_source=referral&utm_medium=direct&utm_campaign=platform"
+  },
+  {
+   "countries": [],
+   "exclude": [],
+   "id": "mercor-list_AAABoWtv330pzH8496dGyKTt",
+   "platform": "mercor",
+   "title": "Psychiatrist",
+   "team": "Medicine",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-10-24",
+   "pay": "$150/hr",
+   "url": "https://work.mercor.com/explore?listingId=list_AAABoWtv330pzH8496dGyKTt&referralCode=3e69e7cf-edba-25be-5027-25cc33b23a52&utm_source=referral&utm_medium=direct&utm_campaign=platform"
+  },
+  {
    "id": "micro1-00ad74df-491a-4327-a38c-5dc7d484ad77",
    "platform": "micro1",
    "title": "Finance & Accounting Expert",
@@ -8544,6 +8782,22 @@
    "url": "https://jobs.micro1.ai/post/7feee246-52db-48df-880c-58a87bbc9c65?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
    "countries": [],
    "exclude": []
+  },
+  {
+   "countries": [
+    "US"
+   ],
+   "exclude": [],
+   "id": "mercor-list_AAABoWsjEohggV1F8gdLEoVO",
+   "platform": "mercor",
+   "title": "Retail Trader",
+   "team": "Finance",
+   "location": "United States (remote)",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-10-23",
+   "pay": "$400/hr",
+   "url": "https://work.mercor.com/explore?listingId=list_AAABoWsjEohggV1F8gdLEoVO&referralCode=3e69e7cf-edba-25be-5027-25cc33b23a52&utm_source=referral&utm_medium=direct&utm_campaign=platform"
   },
   {
    "countries": [
@@ -9899,6 +10153,20 @@
    "exclude": []
   },
   {
+   "countries": [],
+   "exclude": [],
+   "id": "mercor-list_AAABoRnCSK6MhF7a8UVK85GA",
+   "platform": "mercor",
+   "title": "General Physician",
+   "team": "Medicine",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-10-08",
+   "pay": "$150/hr",
+   "url": "https://work.mercor.com/explore?listingId=list_AAABoRnCSK6MhF7a8UVK85GA&referralCode=3e69e7cf-edba-25be-5027-25cc33b23a52&utm_source=referral&utm_medium=direct&utm_campaign=platform"
+  },
+  {
    "id": "micro1-c25ab1f0-c287-4061-b30b-e13c32372fc2",
    "platform": "micro1",
    "title": "Registered Nurse",
@@ -10347,22 +10615,6 @@
    "posted": "2026-09-24",
    "pay": "$50–$100/hr",
    "url": "https://work.mercor.com/explore?listingId=list_AAABoNLsLfvO46zBcIpE4ZlF&referralCode=3e69e7cf-edba-25be-5027-25cc33b23a52&utm_source=referral&utm_medium=direct&utm_campaign=platform"
-  },
-  {
-   "countries": [
-    "US"
-   ],
-   "exclude": [],
-   "id": "mercor-list_AAABoNEASAHvBkQQfdJC0ar3",
-   "platform": "mercor",
-   "title": "Securities, Commodities, and Financial Services Sales Agents",
-   "team": "Finance",
-   "location": "Remote",
-   "remote": true,
-   "type": "gig",
-   "posted": "2026-09-24",
-   "pay": "$70–$110/hr",
-   "url": "https://work.mercor.com/explore?listingId=list_AAABoNEASAHvBkQQfdJC0ar3&referralCode=3e69e7cf-edba-25be-5027-25cc33b23a52&utm_source=referral&utm_medium=direct&utm_campaign=platform"
   },
   {
    "id": "toloka-4982861101",
@@ -12512,22 +12764,6 @@
    "exclude": []
   },
   {
-   "countries": [
-    "US"
-   ],
-   "exclude": [],
-   "id": "mercor-list_AAABoDT_548oyfsZk-FIq7-W",
-   "platform": "mercor",
-   "title": "Computer and Information Systems Managers",
-   "team": "Business Operations",
-   "location": "Remote",
-   "remote": true,
-   "type": "gig",
-   "posted": "2026-08-24",
-   "pay": "$70–$110/hr",
-   "url": "https://work.mercor.com/explore?listingId=list_AAABoDT_548oyfsZk-FIq7-W&referralCode=3e69e7cf-edba-25be-5027-25cc33b23a52&utm_source=referral&utm_medium=direct&utm_campaign=platform"
-  },
-  {
    "countries": [],
    "exclude": [],
    "id": "mercor-list_AAABoCl905TW9jWTfs9Oh44S",
@@ -12540,22 +12776,6 @@
    "posted": "2026-08-22",
    "pay": "$200/hr",
    "url": "https://work.mercor.com/explore?listingId=list_AAABoCl905TW9jWTfs9Oh44S&referralCode=3e69e7cf-edba-25be-5027-25cc33b23a52&utm_source=referral&utm_medium=direct&utm_campaign=platform"
-  },
-  {
-   "countries": [
-    "US"
-   ],
-   "exclude": [],
-   "id": "mercor-list_AAABoCWaT-Nn5YtIt9tNC7Hh",
-   "platform": "mercor",
-   "title": "Medical and Health Services Managers",
-   "team": "Business Operations",
-   "location": "Remote",
-   "remote": true,
-   "type": "gig",
-   "posted": "2026-08-21",
-   "pay": "$100–$120/hr",
-   "url": "https://work.mercor.com/explore?listingId=list_AAABoCWaT-Nn5YtIt9tNC7Hh&referralCode=3e69e7cf-edba-25be-5027-25cc33b23a52&utm_source=referral&utm_medium=direct&utm_campaign=platform"
   },
   {
    "id": "micro1-8944ed79-063d-43e2-a244-bd3185fbfb43",
@@ -13393,22 +13613,6 @@
    "posted": "2026-07-30",
    "pay": "$50–$150/hr",
    "url": "https://work.mercor.com/explore?listingId=list_AAABn7QFFl-KZetwbZ5BB6R1&referralCode=3e69e7cf-edba-25be-5027-25cc33b23a52&utm_source=referral&utm_medium=direct&utm_campaign=platform"
-  },
-  {
-   "countries": [
-    "AU"
-   ],
-   "exclude": [],
-   "id": "mercor-list_AAABn7QE-IGAlH7zJwpKN6uM",
-   "platform": "mercor",
-   "title": "Voice Actor: CX Agent Voice Cloning (Australian English)",
-   "team": "Language and Audio",
-   "location": "Remote",
-   "remote": true,
-   "type": "gig",
-   "posted": "2026-07-30",
-   "pay": "$50–$100/hr",
-   "url": "https://work.mercor.com/explore?listingId=list_AAABn7QE-IGAlH7zJwpKN6uM&referralCode=3e69e7cf-edba-25be-5027-25cc33b23a52&utm_source=referral&utm_medium=direct&utm_campaign=platform"
   },
   {
    "countries": [],
@@ -14270,20 +14474,6 @@
    "exclude": []
   },
   {
-   "id": "alignerr-9da9585a-2a11-4cc4-aba3-c7533e233d5f",
-   "platform": "alignerr",
-   "title": "Software Engineer (AI Training)",
-   "team": "Coding",
-   "location": "Remote",
-   "remote": true,
-   "type": "gig",
-   "posted": "2026-05-29",
-   "pay": "$20-100/hr",
-   "url": "https://www.alignerr.com/jobs/9da9585a-2a11-4cc4-aba3-c7533e233d5f",
-   "countries": [],
-   "exclude": []
-  },
-  {
    "id": "alignerr-30babce4-fe63-4119-9db1-3e2a42009355",
    "platform": "alignerr",
    "title": "Ingénieur Logiciel (Entraînement IA)",
@@ -14308,6 +14498,20 @@
    "posted": "2026-05-29",
    "pay": "$20-100/hr",
    "url": "https://www.alignerr.com/jobs/22ac0abd-6dc4-46f1-9f48-7c5d238478ae",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "alignerr-41cc2a81-532e-4bce-a50b-2a01436b2951",
+   "platform": "alignerr",
+   "title": "Software Engineer (AI Training)",
+   "team": "Coding",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-05-29",
+   "pay": "$20-100/hr",
+   "url": "https://www.alignerr.com/jobs/41cc2a81-532e-4bce-a50b-2a01436b2951",
    "countries": [],
    "exclude": []
   },
@@ -15009,22 +15213,6 @@
    "url": "https://work.turing.com/r/V3z9WkbeNq",
    "countries": [],
    "exclude": []
-  },
-  {
-   "countries": [
-    "US"
-   ],
-   "exclude": [],
-   "id": "mercor-list_AAABnQw10KNPyjduO8lAFo-e",
-   "platform": "mercor",
-   "title": "Voice Actor: CX Agent Voice Cloning (USA)",
-   "team": "Language and Audio",
-   "location": "Remote",
-   "remote": true,
-   "type": "gig",
-   "posted": "2026-03-20",
-   "pay": "$50–$200/hr",
-   "url": "https://work.mercor.com/explore?listingId=list_AAABnQw10KNPyjduO8lAFo-e&referralCode=3e69e7cf-edba-25be-5027-25cc33b23a52&utm_source=referral&utm_medium=direct&utm_campaign=platform"
   },
   {
    "id": "turing-64992",
@@ -16488,6 +16676,21 @@
    "exclude": []
   },
   {
+   "id": "mercor-3980cf73-8af5-4bf7-a192-19d9aeb7e8bb",
+   "platform": "mercor",
+   "title": "Business Operations",
+   "team": "Finance ",
+   "location": "Mercor HQ, 181 Fremont Street",
+   "remote": false,
+   "type": "job",
+   "posted": "2026-11-24",
+   "url": "https://jobs.ashbyhq.com/mercor/3980cf73-8af5-4bf7-a192-19d9aeb7e8bb",
+   "countries": [
+    "US"
+   ],
+   "exclude": []
+  },
+  {
    "id": "mercor-0ff1a380-a976-411f-ab3d-9bf8cb2ef383",
    "platform": "mercor",
    "title": "Production Engineer, Infrastructure",
@@ -16497,6 +16700,21 @@
    "type": "job",
    "posted": "2026-11-24",
    "url": "https://jobs.ashbyhq.com/mercor/0ff1a380-a976-411f-ab3d-9bf8cb2ef383",
+   "countries": [
+    "US"
+   ],
+   "exclude": []
+  },
+  {
+   "id": "handshake-9f946d08-5483-4ed7-9c29-27406ad4492f",
+   "platform": "handshake",
+   "title": "Strategic Projects Lead, Safety",
+   "team": "HAI Delivery Ops",
+   "location": "Seattle, WA",
+   "remote": false,
+   "type": "job",
+   "posted": "2026-11-24",
+   "url": "https://jobs.ashbyhq.com/handshake/9f946d08-5483-4ed7-9c29-27406ad4492f",
    "countries": [
     "US"
    ],
@@ -16752,21 +16970,6 @@
    "type": "job",
    "posted": "2026-11-19",
    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4756303005",
-   "countries": [
-    "US"
-   ],
-   "exclude": []
-  },
-  {
-   "id": "mercor-3980cf73-8af5-4bf7-a192-19d9aeb7e8bb",
-   "platform": "mercor",
-   "title": "Business Operations",
-   "team": "Finance ",
-   "location": "Mercor HQ, 181 Fremont Street",
-   "remote": false,
-   "type": "job",
-   "posted": "2026-11-18",
-   "url": "https://jobs.ashbyhq.com/mercor/3980cf73-8af5-4bf7-a192-19d9aeb7e8bb",
    "countries": [
     "US"
    ],
@@ -17903,6 +18106,21 @@
    "type": "job",
    "posted": "2026-11-03",
    "url": "https://jobs.ashbyhq.com/mercor/54d73070-12c7-4c3a-be53-1ef6b0652a7a",
+   "countries": [
+    "US"
+   ],
+   "exclude": []
+  },
+  {
+   "id": "toloka-5025749101",
+   "platform": "toloka",
+   "title": "Director of Strategy & Operations",
+   "team": "",
+   "location": "United States",
+   "remote": false,
+   "type": "job",
+   "posted": "2026-11-03",
+   "url": "https://toloka.ai/careers/info?jid=5025749101&gh_jid=5025749101",
    "countries": [
     "US"
    ],
@@ -19284,7 +19502,7 @@
    "platform": "handshake",
    "title": "Enterprise Account Manager",
    "team": "Employer Revenue",
-   "location": "San Francisco, CA",
+   "location": "New York, NY",
    "remote": true,
    "type": "job",
    "posted": "2026-09-28",
@@ -19580,21 +19798,6 @@
    "exclude": []
   },
   {
-   "id": "handshake-ab520a1e-0afc-42c8-854d-781917a30427",
-   "platform": "handshake",
-   "title": "Strategic Projects Associate, Safety",
-   "team": "HAI Delivery Ops",
-   "location": "Seattle, WA",
-   "remote": false,
-   "type": "job",
-   "posted": "2026-09-16",
-   "url": "https://jobs.ashbyhq.com/handshake/ab520a1e-0afc-42c8-854d-781917a30427",
-   "countries": [
-    "US"
-   ],
-   "exclude": []
-  },
-  {
    "id": "handshake-3fd38766-ddc7-4de8-b800-d72dec77a684",
    "platform": "handshake",
    "title": "Strategic Projects Lead, Safety",
@@ -19715,21 +19918,6 @@
    "exclude": []
   },
   {
-   "id": "scale-4730862005",
-   "platform": "scale",
-   "title": "Software Engineer - New Grad",
-   "team": "",
-   "location": "London, UK",
-   "remote": false,
-   "type": "job",
-   "posted": "2026-09-14",
-   "url": "https://job-boards.greenhouse.io/scaleai/jobs/4730862005",
-   "countries": [
-    "GB"
-   ],
-   "exclude": []
-  },
-  {
    "id": "scale-4730851005",
    "platform": "scale",
    "title": "Software Engineer - New Grad",
@@ -19741,6 +19929,21 @@
    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4730851005",
    "countries": [
     "QA"
+   ],
+   "exclude": []
+  },
+  {
+   "id": "scale-4730862005",
+   "platform": "scale",
+   "title": "Software Engineer - New Grad",
+   "team": "",
+   "location": "London, UK",
+   "remote": false,
+   "type": "job",
+   "posted": "2026-09-14",
+   "url": "https://job-boards.greenhouse.io/scaleai/jobs/4730862005",
+   "countries": [
+    "GB"
    ],
    "exclude": []
   },
@@ -20465,21 +20668,6 @@
    "exclude": []
   },
   {
-   "id": "mercor-35e1923b-3c1c-4bb4-94d6-ef3a529ef871",
-   "platform": "mercor",
-   "title": "Member of Technical Staff, Enterprise Evals Platform",
-   "team": "Engineering",
-   "location": "San Francisco",
-   "remote": false,
-   "type": "job",
-   "posted": "2026-08-15",
-   "url": "https://jobs.ashbyhq.com/mercor/35e1923b-3c1c-4bb4-94d6-ef3a529ef871",
-   "countries": [
-    "US"
-   ],
-   "exclude": []
-  },
-  {
    "id": "scale-4724276005",
    "platform": "scale",
    "title": "Staff Product Designer",
@@ -20911,21 +21099,6 @@
    "url": "https://jobs.ashbyhq.com/handshake/c57961b2-fdfa-4537-84b0-6416c42de9e4",
    "countries": [
     "IN"
-   ],
-   "exclude": []
-  },
-  {
-   "id": "scale-4717642005",
-   "platform": "scale",
-   "title": "Executive Assistant",
-   "team": "",
-   "location": "San Francisco, CA",
-   "remote": false,
-   "type": "job",
-   "posted": "2026-07-23",
-   "url": "https://job-boards.greenhouse.io/scaleai/jobs/4717642005",
-   "countries": [
-    "US"
    ],
    "exclude": []
   },
@@ -22338,210 +22511,6 @@
    "type": "job",
    "posted": "2025-11-04",
    "url": "https://jobs.ashbyhq.com/AfterQuery/c2a727df-cac9-4e56-8531-18d1e94dec74",
-   "countries": [
-    "US"
-   ],
-   "exclude": []
-  },
-  {
-   "id": "scale-4612403005",
-   "platform": "scale",
-   "title": "Staff Product Manager, Agentic Platform",
-   "team": "",
-   "location": "New York, NY; San Francisco, CA; Washington, DC",
-   "remote": false,
-   "type": "job",
-   "posted": "2025-10-14",
-   "url": "https://job-boards.greenhouse.io/scaleai/jobs/4612403005",
-   "countries": [
-    "US"
-   ],
-   "exclude": []
-  },
-  {
-   "id": "scale-4618046005",
-   "platform": "scale",
-   "title": "Tech Lead Manager- MLRE, ML Systems",
-   "team": "",
-   "location": "San Francisco, CA; New York, NY",
-   "remote": false,
-   "type": "job",
-   "posted": "2025-10-10",
-   "url": "https://job-boards.greenhouse.io/scaleai/jobs/4618046005",
-   "countries": [
-    "US"
-   ],
-   "exclude": []
-  },
-  {
-   "id": "scale-4565834005",
-   "platform": "scale",
-   "title": "Legal Fellow - Human Frontier Collective",
-   "team": "",
-   "location": "Canada; United Kingdom; United States",
-   "remote": false,
-   "type": "job",
-   "posted": "2025-10-09",
-   "url": "https://job-boards.greenhouse.io/scaleai/jobs/4565834005",
-   "countries": [
-    "CA",
-    "GB",
-    "US"
-   ],
-   "exclude": []
-  },
-  {
-   "id": "mercor-4f4fc8c3-4056-47bb-9e00-1db6e5dd958f",
-   "platform": "mercor",
-   "title": "Software Engineer, Agents",
-   "team": "Engineering",
-   "location": "San Francisco",
-   "remote": false,
-   "type": "job",
-   "posted": "2025-09-18",
-   "url": "https://jobs.ashbyhq.com/mercor/4f4fc8c3-4056-47bb-9e00-1db6e5dd958f",
-   "countries": [
-    "US"
-   ],
-   "exclude": []
-  },
-  {
-   "id": "scale-4609736005",
-   "platform": "scale",
-   "title": "AI Product Manager (Coding/Multimodal)",
-   "team": "",
-   "location": "San Francisco, CA",
-   "remote": false,
-   "type": "job",
-   "posted": "2025-09-18",
-   "url": "https://job-boards.greenhouse.io/scaleai/jobs/4609736005",
-   "countries": [
-    "US"
-   ],
-   "exclude": []
-  },
-  {
-   "id": "scale-4607930005",
-   "platform": "scale",
-   "title": "Strategist, Qatar",
-   "team": "",
-   "location": "Doha, Qatar ",
-   "remote": false,
-   "type": "job",
-   "posted": "2025-09-16",
-   "url": "https://job-boards.greenhouse.io/scaleai/jobs/4607930005",
-   "countries": [
-    "QA"
-   ],
-   "exclude": []
-  },
-  {
-   "id": "scale-4589749005",
-   "platform": "scale",
-   "title": "Product Manager of AI Applications, Global Public Sector",
-   "team": "",
-   "location": "Doha, Qatar ; Dubai, UAE",
-   "remote": false,
-   "type": "job",
-   "posted": "2025-09-03",
-   "url": "https://job-boards.greenhouse.io/scaleai/jobs/4589749005",
-   "countries": [
-    "AE",
-    "QA"
-   ],
-   "exclude": []
-  },
-  {
-   "id": "scale-4599202005",
-   "platform": "scale",
-   "title": "Principal Architect",
-   "team": "",
-   "location": "Washington, DC",
-   "remote": false,
-   "type": "job",
-   "posted": "2025-08-22",
-   "url": "https://job-boards.greenhouse.io/scaleai/jobs/4599202005",
-   "countries": [
-    "US"
-   ],
-   "exclude": []
-  },
-  {
-   "id": "scale-4599700005",
-   "platform": "scale",
-   "title": "Senior Infrastructure Software Engineer, Enterprise AI",
-   "team": "",
-   "location": "New York, NY; San Francisco, CA",
-   "remote": false,
-   "type": "job",
-   "posted": "2025-08-20",
-   "url": "https://job-boards.greenhouse.io/scaleai/jobs/4599700005",
-   "countries": [
-    "US"
-   ],
-   "exclude": []
-  },
-  {
-   "id": "scale-4565768005",
-   "platform": "scale",
-   "title": "Staff Product Designer, Global Public Sector",
-   "team": "",
-   "location": "Doha, Qatar ; Dubai, UAE; London, UK",
-   "remote": false,
-   "type": "job",
-   "posted": "2025-08-06",
-   "url": "https://job-boards.greenhouse.io/scaleai/jobs/4565768005",
-   "countries": [
-    "AE",
-    "GB",
-    "QA"
-   ],
-   "exclude": []
-  },
-  {
-   "id": "scale-4591782005",
-   "platform": "scale",
-   "title": "Medical Fellow - Human Frontier Collective",
-   "team": "",
-   "location": "Canada; United Kingdom; United States",
-   "remote": false,
-   "type": "job",
-   "posted": "2025-07-30",
-   "url": "https://job-boards.greenhouse.io/scaleai/jobs/4591782005",
-   "countries": [
-    "CA",
-    "GB",
-    "US"
-   ],
-   "exclude": []
-  },
-  {
-   "id": "scale-4574113005",
-   "platform": "scale",
-   "title": "STEM Fellow - Human Frontier Collective",
-   "team": "",
-   "location": "Canada; United Kingdom; United States",
-   "remote": false,
-   "type": "job",
-   "posted": "2025-06-06",
-   "url": "https://job-boards.greenhouse.io/scaleai/jobs/4574113005",
-   "countries": [
-    "CA",
-    "GB",
-    "US"
-   ],
-   "exclude": []
-  },
-  {
-   "id": "scale-4569678005",
-   "platform": "scale",
-   "title": "Staff Software Engineer, Enterprise GenAI",
-   "team": "",
-   "location": "San Francisco, CA; New York, NY",
-   "remote": false,
-   "type": "job",
-   "posted": "2025-05-27",
-   "url": "https://job-boards.greenhouse.io/scaleai/jobs/4569678005",
    "countries": [
     "US"
    ],
