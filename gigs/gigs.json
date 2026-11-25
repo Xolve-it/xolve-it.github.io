@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-25T09:40:57Z",
- "next": "2026-11-25T17:40:57Z",
+ "updated": "2026-11-25T15:18:15Z",
+ "next": "2026-11-25T23:18:15Z",
  "socials": {
   "x": "https://x.com/get_xolutions",
   "instagram": "https://www.instagram.com/get.xolutions/",
@@ -82,6 +82,90 @@
   }
  ],
  "gigs": [
+  {
+   "id": "micro1-b7a0623b-f333-4183-a744-9879576aa933",
+   "platform": "micro1",
+   "title": "Mechanical Design Engineer — Robotics CNC Parts (Remote)",
+   "team": "Applied Engineering",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-11-25",
+   "pay": "$90–$155/hr",
+   "url": "https://jobs.micro1.ai/post/b7a0623b-f333-4183-a744-9879576aa933?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "micro1-0e974b30-6b11-4670-b70d-b18075b08793",
+   "platform": "micro1",
+   "title": "Optomechanical Design Engineer — Precision CNC Parts (Remote)",
+   "team": "Applied Engineering",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-11-25",
+   "pay": "$90–$155/hr",
+   "url": "https://jobs.micro1.ai/post/0e974b30-6b11-4670-b70d-b18075b08793?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "micro1-02be2f29-8914-413c-ac06-201f1b5b8909",
+   "platform": "micro1",
+   "title": "Mechanical Design Engineer — Semiconductor & Vacuum Hardware",
+   "team": "Applied Engineering",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-11-25",
+   "pay": "$90–$155/hr",
+   "url": "https://jobs.micro1.ai/post/02be2f29-8914-413c-ac06-201f1b5b8909?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "micro1-19dd49c8-27c4-4fd7-a171-6f7626c17de1",
+   "platform": "micro1",
+   "title": "Research Scientist - Computer Science & Computational Physics",
+   "team": "Sciences Research",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-11-25",
+   "pay": "$100–$400/hr",
+   "url": "https://jobs.micro1.ai/post/19dd49c8-27c4-4fd7-a171-6f7626c17de1?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "micro1-10d08059-db58-47b3-8456-be749e353a08",
+   "platform": "micro1",
+   "title": "Principal Research Scientist (Computer Science / Computational Physics)",
+   "team": "Sciences Research",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-11-25",
+   "pay": "$100–$400/hr",
+   "url": "https://jobs.micro1.ai/post/10d08059-db58-47b3-8456-be749e353a08?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
+   "countries": [],
+   "exclude": []
+  },
+  {
+   "id": "micro1-53b35cc0-377e-4c11-b23f-289b0cf02a72",
+   "platform": "micro1",
+   "title": "Engineering Education Practitioner – Learning & Assessment Specialist",
+   "team": "Education",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-11-25",
+   "pay": "$90–$130/hr",
+   "url": "https://jobs.micro1.ai/post/53b35cc0-377e-4c11-b23f-289b0cf02a72?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
+   "countries": [],
+   "exclude": []
+  },
   {
    "id": "micro1-f51e0ad4-f68e-4a27-ad74-d950ba30a3ac",
    "platform": "micro1",
@@ -539,7 +623,7 @@
    "remote": true,
    "type": "gig",
    "posted": "2026-11-25",
-   "pay": "$50–$70/hr",
+   "pay": "$50–$75/hr",
    "url": "https://jobs.micro1.ai/post/391aaea1-d889-414d-9407-0b54c6fba720?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
    "countries": [],
    "exclude": []
@@ -11612,6 +11696,20 @@
    "url": "https://work.mercor.com/explore?listingId=list_AAABoKG68a2Ye1PiakdPq7FS&referralCode=3e69e7cf-edba-25be-5027-25cc33b23a52&utm_source=referral&utm_medium=direct&utm_campaign=platform"
   },
   {
+   "id": "micro1-44668e06-3191-4b5f-a41c-b19e05f46eb7",
+   "platform": "micro1",
+   "title": "Forward Deployed Engineer",
+   "team": "Ai Machine Learning",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-09-14",
+   "pay": "$250,000–$400,000/hr",
+   "url": "https://jobs.micro1.ai/post/44668e06-3191-4b5f-a41c-b19e05f46eb7?referralCode=b99257c6-5311-4c29-8b68-b8a22325cb6e&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
+   "countries": [],
+   "exclude": []
+  },
+  {
    "id": "micro1-b1316606-46fb-4c3d-a4f9-5a2368e88d70",
    "platform": "micro1",
    "title": "Associate Forward Deployed Engineer (aFDE)",
@@ -18487,21 +18585,6 @@
    "exclude": []
   },
   {
-   "id": "toloka-5025749101",
-   "platform": "toloka",
-   "title": "Director of Strategy & Operations",
-   "team": "",
-   "location": "United States",
-   "remote": false,
-   "type": "job",
-   "posted": "2026-11-03",
-   "url": "https://toloka.ai/careers/info?jid=5025749101&gh_jid=5025749101",
-   "countries": [
-    "US"
-   ],
-   "exclude": []
-  },
-  {
    "id": "scale-4749989005",
    "platform": "scale",
    "title": "Growth Program Manager",
@@ -22080,7 +22163,7 @@
   {
    "id": "scale-4684808005",
    "platform": "scale",
-   "title": "SME, Support Systems Specialist",
+   "title": "Support Systems Specialist (Zendesk, Routing & Analytics)",
    "team": "",
    "location": "India",
    "remote": false,
@@ -22389,96 +22472,6 @@
    "type": "job",
    "posted": "2026-03-20",
    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4675684005",
-   "countries": [
-    "US"
-   ],
-   "exclude": []
-  },
-  {
-   "id": "scale-4674863005",
-   "platform": "scale",
-   "title": "DevOps Engineer, Infrastructure & Security",
-   "team": "",
-   "location": "Washington, DC",
-   "remote": false,
-   "type": "job",
-   "posted": "2026-03-18",
-   "url": "https://job-boards.greenhouse.io/scaleai/jobs/4674863005",
-   "countries": [
-    "US"
-   ],
-   "exclude": []
-  },
-  {
-   "id": "scale-4673771005",
-   "platform": "scale",
-   "title": "Software Engineer, ARC Team",
-   "team": "",
-   "location": "San Francisco, CA; St. Louis, MO; New York, NY; Washington, DC",
-   "remote": false,
-   "type": "job",
-   "posted": "2026-03-16",
-   "url": "https://job-boards.greenhouse.io/scaleai/jobs/4673771005",
-   "countries": [
-    "US"
-   ],
-   "exclude": []
-  },
-  {
-   "id": "scale-4673051005",
-   "platform": "scale",
-   "title": "Forward Deployed Product Manager, Enterprise",
-   "team": "",
-   "location": "New York, NY",
-   "remote": false,
-   "type": "job",
-   "posted": "2026-03-13",
-   "url": "https://job-boards.greenhouse.io/scaleai/jobs/4673051005",
-   "countries": [
-    "US"
-   ],
-   "exclude": []
-  },
-  {
-   "id": "turing-5822280004",
-   "platform": "turing",
-   "title": "Staff Research Engineer",
-   "team": "",
-   "location": "United States",
-   "remote": false,
-   "type": "job",
-   "posted": "2026-03-09",
-   "url": "https://job-boards.greenhouse.io/turing/jobs/5822280004",
-   "countries": [
-    "US"
-   ],
-   "exclude": []
-  },
-  {
-   "id": "afterquery-c33f01ac-783a-4ab3-9efe-d29a060c4524",
-   "platform": "afterquery",
-   "title": "Software Engineer - Platform Infrastructure",
-   "team": "Engineering",
-   "location": "San Francisco",
-   "remote": false,
-   "type": "job",
-   "posted": "2026-03-08",
-   "url": "https://jobs.ashbyhq.com/AfterQuery/c33f01ac-783a-4ab3-9efe-d29a060c4524",
-   "countries": [
-    "US"
-   ],
-   "exclude": []
-  },
-  {
-   "id": "mercor-9c546843-035f-4400-9d0d-d5de5f7205ff",
-   "platform": "mercor",
-   "title": "Research Program Manager",
-   "team": "Research",
-   "location": "San Francisco",
-   "remote": false,
-   "type": "job",
-   "posted": "2026-03-07",
-   "url": "https://jobs.ashbyhq.com/mercor/9c546843-035f-4400-9d0d-d5de5f7205ff",
    "countries": [
     "US"
    ],
