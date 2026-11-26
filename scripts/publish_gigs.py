@@ -16,6 +16,7 @@ import datetime as dt
 import os
 import subprocess
 import sys
+import time
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -44,7 +45,12 @@ def main():
     if not (ROOT / ".gigs-bot").exists():
         log(f"refused: {ROOT} is not the gigs bot copy (no .gigs-bot file)")
         return 2
-    for attempt in range(1, 4):
+    # The office connection (VPN over a phone hotspot) drops out for a minute or two at a time,
+    # so spread the attempts over ~10 minutes instead of retrying within the same second.
+    waits = [0, 60, 120, 180, 240]
+    for attempt, wait in enumerate(waits, start=1):
+        if wait:
+            time.sleep(wait)
         try:
             run("git", "fetch", "-q", "origin", "main")
             run("git", "reset", "-q", "--hard", "origin/main")
