@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-28T00:02:31Z",
- "next": "2026-11-28T08:02:31Z",
+ "updated": "2026-11-28T07:47:55Z",
+ "next": "2026-11-28T15:47:55Z",
  "socials": {
   "x": "https://x.com/get_xolutions",
   "instagram": "https://www.instagram.com/get.xolutions/",
@@ -82,6 +82,76 @@
   }
  ],
  "gigs": [
+  {
+   "countries": [],
+   "exclude": [],
+   "id": "mercor-list_AAABoh_5Qv09iivLH2lAzYaF",
+   "platform": "mercor",
+   "title": "Rubrics Expert - Technology & Software",
+   "team": "Software Engineering",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-11-28",
+   "pay": "$80–$120/hr",
+   "url": "https://work.mercor.com/explore?listingId=list_AAABoh_5Qv09iivLH2lAzYaF&referralCode=3e69e7cf-edba-25be-5027-25cc33b23a52&utm_source=referral&utm_medium=direct&utm_campaign=platform"
+  },
+  {
+   "countries": [],
+   "exclude": [],
+   "id": "mercor-list_AAABoh_5IzK-FjrYsTBDUpmc",
+   "platform": "mercor",
+   "title": "Rubrics Expert - Generalist",
+   "team": "Miscellaneous",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-11-28",
+   "pay": "$85–$110/hr",
+   "url": "https://work.mercor.com/explore?listingId=list_AAABoh_5IzK-FjrYsTBDUpmc&referralCode=3e69e7cf-edba-25be-5027-25cc33b23a52&utm_source=referral&utm_medium=direct&utm_campaign=platform"
+  },
+  {
+   "countries": [],
+   "exclude": [],
+   "id": "mercor-list_AAABoh_4zcXSVbrFJSFOmKTv",
+   "platform": "mercor",
+   "title": "Rubrics Expert - Legal",
+   "team": "Law",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-11-28",
+   "pay": "$100–$140/hr",
+   "url": "https://work.mercor.com/explore?listingId=list_AAABoh_4zcXSVbrFJSFOmKTv&referralCode=3e69e7cf-edba-25be-5027-25cc33b23a52&utm_source=referral&utm_medium=direct&utm_campaign=platform"
+  },
+  {
+   "countries": [],
+   "exclude": [],
+   "id": "mercor-list_AAABoh_4fP6K-S6bZ1lJTrc3",
+   "platform": "mercor",
+   "title": "Rubrics Expert - Financial Services",
+   "team": "Finance",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-11-28",
+   "pay": "$90–$120/hr",
+   "url": "https://work.mercor.com/explore?listingId=list_AAABoh_4fP6K-S6bZ1lJTrc3&referralCode=3e69e7cf-edba-25be-5027-25cc33b23a52&utm_source=referral&utm_medium=direct&utm_campaign=platform"
+  },
+  {
+   "countries": [],
+   "exclude": [],
+   "id": "mercor-list_AAABoh_4WjDD4dn2ePFCorY-",
+   "platform": "mercor",
+   "title": "Rubrics Expert - Healthcare",
+   "team": "Medicine",
+   "location": "Remote",
+   "remote": true,
+   "type": "gig",
+   "posted": "2026-11-28",
+   "pay": "$115–$180/hr",
+   "url": "https://work.mercor.com/explore?listingId=list_AAABoh_4WjDD4dn2ePFCorY-&referralCode=3e69e7cf-edba-25be-5027-25cc33b23a52&utm_source=referral&utm_medium=direct&utm_campaign=platform"
+  },
   {
    "countries": [],
    "exclude": [],
@@ -22811,83 +22881,6 @@
    "type": "job",
    "posted": "2025-11-05",
    "url": "https://jobs.ashbyhq.com/AfterQuery/cddded26-a2ce-4840-a8d8-17b1ac0e3831",
-   "countries": [
-    "US"
-   ],
-   "exclude": []
-  },
-  {
-   "id": "afterquery-c2a727df-cac9-4e56-8531-18d1e94dec74",
-   "platform": "afterquery",
-   "title": "Strategic Projects Lead",
-   "team": "Operations",
-   "location": "San Francisco",
-   "remote": false,
-   "type": "job",
-   "posted": "2025-11-04",
-   "url": "https://jobs.ashbyhq.com/AfterQuery/c2a727df-cac9-4e56-8531-18d1e94dec74",
-   "countries": [
-    "US"
-   ],
-   "exclude": []
-  },
-  {
-   "id": "scale-4612403005",
-   "platform": "scale",
-   "title": "Staff Product Manager, Agentic Platform",
-   "team": "",
-   "location": "New York, NY; San Francisco, CA; Washington, DC",
-   "remote": false,
-   "type": "job",
-   "posted": "2025-10-14",
-   "url": "https://job-boards.greenhouse.io/scaleai/jobs/4612403005",
-   "countries": [
-    "US"
-   ],
-   "exclude": []
-  },
-  {
-   "id": "scale-4618046005",
-   "platform": "scale",
-   "title": "Tech Lead Manager- MLRE, ML Systems",
-   "team": "",
-   "location": "San Francisco, CA; New York, NY",
-   "remote": false,
-   "type": "job",
-   "posted": "2025-10-10",
-   "url": "https://job-boards.greenhouse.io/scaleai/jobs/4618046005",
-   "countries": [
-    "US"
-   ],
-   "exclude": []
-  },
-  {
-   "id": "scale-4565834005",
-   "platform": "scale",
-   "title": "Legal Fellow - Human Frontier Collective",
-   "team": "",
-   "location": "Canada; United Kingdom; United States",
-   "remote": false,
-   "type": "job",
-   "posted": "2025-10-09",
-   "url": "https://job-boards.greenhouse.io/scaleai/jobs/4565834005",
-   "countries": [
-    "CA",
-    "GB",
-    "US"
-   ],
-   "exclude": []
-  },
-  {
-   "id": "mercor-4f4fc8c3-4056-47bb-9e00-1db6e5dd958f",
-   "platform": "mercor",
-   "title": "Software Engineer, Agents",
-   "team": "Engineering",
-   "location": "San Francisco",
-   "remote": false,
-   "type": "job",
-   "posted": "2025-09-18",
-   "url": "https://jobs.ashbyhq.com/mercor/4f4fc8c3-4056-47bb-9e00-1db6e5dd958f",
    "countries": [
     "US"
    ],
